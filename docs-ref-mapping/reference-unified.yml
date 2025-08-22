@@ -1030,7 +1030,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: DNS
+  - name: Dns
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1353,7 +1353,7 @@
     landingPageType: Service
     items:
     - name: Health Deidentification
-      href: ~/docs-ref-services/{moniker}/azure-health-deidentification-readme.md
+      href: ~/docs-ref-services/{moniker}/health-deidentification-rest-readme.md
       children:
       - '@azure-rest/health-deidentification'
   - name: Healthcare APIs
@@ -1694,6 +1694,10 @@
       href: ~/docs-ref-services/{moniker}/load-testing-rest-readme.md
       children:
       - '@azure-rest/load-testing'
+    - name: Playwright
+      href: ~/docs-ref-services/{moniker}/playwright-readme.md
+      children:
+      - '@azure/playwright'
     - name: Management
       items:
       - name: Resource Management - Load Testing
@@ -2014,10 +2018,18 @@
       href: ~/docs-ref-services/{moniker}/monitor-opentelemetry-exporter-readme.md
       children:
       - '@azure/monitor-opentelemetry-exporter'
-    - name: Monitor Query
+    - name: Monitor Query (deprecated)
       href: ~/docs-ref-services/{moniker}/monitor-query-readme.md
       children:
       - '@azure/monitor-query'
+    - name: Monitor Query Logs
+      href: ~/docs-ref-services/{moniker}/monitor-query-logs-readme.md
+      children:
+      - '@azure/monitor-query-logs'
+    - name: Monitor Query Metrics
+      href: ~/docs-ref-services/{moniker}/monitor-query-metrics-readme.md
+      children:
+      - '@azure/monitor-query-metrics'
     - name: Management
       items:
       - name: Resource Management - Monitor
@@ -2346,6 +2358,16 @@
         href: ~/docs-ref-services/{moniker}/arm-privatedns-readme.md
         children:
         - '@azure/arm-privatedns'
+  - name: Purestorageblock
+    href: ~/docs-ref-services/{moniker}/purestorageblock.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Purestorageblock
+        href: ~/docs-ref-services/{moniker}/arm-purestorageblock-readme.md
+        children:
+        - '@azure/arm-purestorageblock'
   - name: Purview
     href: ~/docs-ref-services/{moniker}/purview.md
     landingPageType: Service
