@@ -20404,6 +20404,242 @@
       no-loc:
         - Query
       items: []
+- name: '@azure/mixed-reality-remote-rendering'
+  no-loc:
+    - '@azure/mixed-reality-remote-rendering'
+  items:
+    - name: Overview
+      uid: '@azure/mixed-reality-remote-rendering'
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversion'
+      name: AssetConversion
+      no-loc:
+        - AssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionBase'
+      name: AssetConversionBase
+      no-loc:
+        - AssetConversionBase
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionInputSettings'
+      name: AssetConversionInputSettings
+      no-loc:
+        - AssetConversionInputSettings
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionOperationState'
+      name: AssetConversionOperationState
+      no-loc:
+        - AssetConversionOperationState
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionOutput'
+      name: AssetConversionOutput
+      no-loc:
+        - AssetConversionOutput
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionOutputSettings'
+      name: AssetConversionOutputSettings
+      no-loc:
+        - AssetConversionOutputSettings
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionPollerLike'
+      name: AssetConversionPollerLike
+      no-loc:
+        - AssetConversionPollerLike
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionPollerOptions'
+      name: AssetConversionPollerOptions
+      no-loc:
+        - AssetConversionPollerOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionSettings'
+      name: AssetConversionSettings
+      no-loc:
+        - AssetConversionSettings
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.AssetConversionStatus'
+      name: AssetConversionStatus
+      no-loc:
+        - AssetConversionStatus
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.BeginConversionOptions'
+      name: BeginConversionOptions
+      no-loc:
+        - BeginConversionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.BeginSessionOptions'
+      name: BeginSessionOptions
+      no-loc:
+        - BeginSessionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.CancelledAssetConversion'
+      name: CancelledAssetConversion
+      no-loc:
+        - CancelledAssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.EndSessionOptions'
+      name: EndSessionOptions
+      no-loc:
+        - EndSessionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ErrorRenderingSession'
+      name: ErrorRenderingSession
+      no-loc:
+        - ErrorRenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ExpiredRenderingSession'
+      name: ExpiredRenderingSession
+      no-loc:
+        - ExpiredRenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.FailedAssetConversion'
+      name: FailedAssetConversion
+      no-loc:
+        - FailedAssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.GetConversionOptions'
+      name: GetConversionOptions
+      no-loc:
+        - GetConversionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.GetSessionOptions'
+      name: GetSessionOptions
+      no-loc:
+        - GetSessionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.KnownAssetConversionStatus'
+      name: KnownAssetConversionStatus
+      no-loc:
+        - KnownAssetConversionStatus
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.KnownRenderingServerSize'
+      name: KnownRenderingServerSize
+      no-loc:
+        - KnownRenderingServerSize
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.KnownRenderingSessionStatus'
+      name: KnownRenderingSessionStatus
+      no-loc:
+        - KnownRenderingSessionStatus
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ListConversionsOptions'
+      name: ListConversionsOptions
+      no-loc:
+        - ListConversionsOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ListSessionsOptions'
+      name: ListSessionsOptions
+      no-loc:
+        - ListSessionsOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.NonStartedAssetConversion'
+      name: NonStartedAssetConversion
+      no-loc:
+        - NonStartedAssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.PartialRenderingSessionProperties'
+      name: PartialRenderingSessionProperties
+      no-loc:
+        - PartialRenderingSessionProperties
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ReadyRenderingSession'
+      name: ReadyRenderingSession
+      no-loc:
+        - ReadyRenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RemoteRenderingClient'
+      name: RemoteRenderingClient
+      no-loc:
+        - RemoteRenderingClient
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RemoteRenderingClientOptions'
+      name: RemoteRenderingClientOptions
+      no-loc:
+        - RemoteRenderingClientOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RemoteRenderingServiceError'
+      name: RemoteRenderingServiceError
+      no-loc:
+        - RemoteRenderingServiceError
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingServerSize'
+      name: RenderingServerSize
+      no-loc:
+        - RenderingServerSize
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSession'
+      name: RenderingSession
+      no-loc:
+        - RenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionBase'
+      name: RenderingSessionBase
+      no-loc:
+        - RenderingSessionBase
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionOperationState'
+      name: RenderingSessionOperationState
+      no-loc:
+        - RenderingSessionOperationState
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionPollerLike'
+      name: RenderingSessionPollerLike
+      no-loc:
+        - RenderingSessionPollerLike
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionPollerOptions'
+      name: RenderingSessionPollerOptions
+      no-loc:
+        - RenderingSessionPollerOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionProperties'
+      name: RenderingSessionProperties
+      no-loc:
+        - RenderingSessionProperties
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RenderingSessionSettings'
+      name: RenderingSessionSettings
+      no-loc:
+        - RenderingSessionSettings
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ResumeBeginConversionOptions'
+      name: ResumeBeginConversionOptions
+      no-loc:
+        - ResumeBeginConversionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.ResumeBeginSessionOptions'
+      name: ResumeBeginSessionOptions
+      no-loc:
+        - ResumeBeginSessionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.RunningAssetConversion'
+      name: RunningAssetConversion
+      no-loc:
+        - RunningAssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.StartingRenderingSession'
+      name: StartingRenderingSession
+      no-loc:
+        - StartingRenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.StoppedRenderingSession'
+      name: StoppedRenderingSession
+      no-loc:
+        - StoppedRenderingSession
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.SucceededAssetConversion'
+      name: SucceededAssetConversion
+      no-loc:
+        - SucceededAssetConversion
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.UpdateSessionOptions'
+      name: UpdateSessionOptions
+      no-loc:
+        - UpdateSessionOptions
+      items: []
+    - uid: '@azure/mixed-reality-remote-rendering.UpdateSessionSettings'
+      name: UpdateSessionSettings
+      no-loc:
+        - UpdateSessionSettings
+      items: []
 - name: '@azure/monitor-query'
   no-loc:
     - '@azure/monitor-query'
