@@ -494,6 +494,10 @@
       href: ~/docs-ref-services/{moniker}/cognitiveservices-qnamaker-runtime-readme.md
       children:
       - '@azure/cognitiveservices-qnamaker-runtime'
+    - name: Speech
+      href: ~/docs-ref-services/{moniker}/microsoft-cognitiveservices-speech-sdk-readme.md
+      children:
+      - microsoft-cognitiveservices-speech-sdk
     - name: Spell Check
       href: ~/docs-ref-services/{moniker}/cognitiveservices-spellcheck-readme.md
       children:
@@ -652,6 +656,16 @@
         href: ~/docs-ref-services/{moniker}/arm-computeschedule-readme.md
         children:
         - '@azure/arm-computeschedule'
+  - name: Computerecommender
+    href: ~/docs-ref-services/{moniker}/computerecommender.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computerecommender
+        href: ~/docs-ref-services/{moniker}/arm-computerecommender-readme.md
+        children:
+        - '@azure/arm-computerecommender'
   - name: Confidential Ledger
     href: ~/docs-ref-services/{moniker}/confidential-ledger.md
     landingPageType: Service
@@ -1978,7 +1992,7 @@
       href: ~/docs-ref-services/{moniker}/mixed-reality-authentication-readme.md
       children:
       - '@azure/mixed-reality-authentication'
-    - name: Azure Remote Rendering
+    - name: Azure Remote Rendering (deprecated)
       href: ~/docs-ref-services/{moniker}/mixed-reality-remote-rendering-readme.md
       children:
       - '@azure/mixed-reality-remote-rendering'
@@ -2934,6 +2948,16 @@
         href: ~/docs-ref-services/{moniker}/arm-storageimportexport-readme.md
         children:
         - azure-arm-storageimportexport
+  - name: Storagediscovery
+    href: ~/docs-ref-services/{moniker}/storagediscovery.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Storagediscovery
+        href: ~/docs-ref-services/{moniker}/arm-storagediscovery-readme.md
+        children:
+        - '@azure/arm-storagediscovery'
   - name: StorSimple 1200 series
     href: ~/docs-ref-services/{moniker}/storsimple-1200-series.md
     landingPageType: Service
