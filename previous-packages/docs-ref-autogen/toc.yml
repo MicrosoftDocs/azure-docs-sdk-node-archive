@@ -8841,6 +8841,1837 @@
       no-loc:
         - WarUploadedUserSourceInfo
       items: []
+- name: '@azure/arm-hdinsightcontainers'
+  no-loc:
+    - '@azure/arm-hdinsightcontainers'
+  items:
+    - name: Overview
+      uid: '@azure/arm-hdinsightcontainers'
+    - uid: '@azure/arm-hdinsightcontainers.Action'
+      name: Action
+      no-loc:
+        - Action
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AksClusterProfile'
+      name: AksClusterProfile
+      no-loc:
+        - AksClusterProfile
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AksClusterProfileAksClusterAgentPoolIdentityProfile
+      name: AksClusterProfileAksClusterAgentPoolIdentityProfile
+      no-loc:
+        - AksClusterProfileAksClusterAgentPoolIdentityProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AuthorizationProfile'
+      name: AuthorizationProfile
+      no-loc:
+        - AuthorizationProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AutoscaleProfile'
+      name: AutoscaleProfile
+      no-loc:
+        - AutoscaleProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AutoscaleType'
+      name: AutoscaleType
+      no-loc:
+        - AutoscaleType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AvailableClusterPoolVersions'
+      name: AvailableClusterPoolVersions
+      no-loc:
+        - AvailableClusterPoolVersions
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterPoolVersionsListByLocationNextOptionalParams
+      name: AvailableClusterPoolVersionsListByLocationNextOptionalParams
+      no-loc:
+        - AvailableClusterPoolVersionsListByLocationNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterPoolVersionsListByLocationNextResponse
+      name: AvailableClusterPoolVersionsListByLocationNextResponse
+      no-loc:
+        - AvailableClusterPoolVersionsListByLocationNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterPoolVersionsListByLocationOptionalParams
+      name: AvailableClusterPoolVersionsListByLocationOptionalParams
+      no-loc:
+        - AvailableClusterPoolVersionsListByLocationOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterPoolVersionsListByLocationResponse
+      name: AvailableClusterPoolVersionsListByLocationResponse
+      no-loc:
+        - AvailableClusterPoolVersionsListByLocationResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.AvailableClusterVersions'
+      name: AvailableClusterVersions
+      no-loc:
+        - AvailableClusterVersions
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterVersionsListByLocationNextOptionalParams
+      name: AvailableClusterVersionsListByLocationNextOptionalParams
+      no-loc:
+        - AvailableClusterVersionsListByLocationNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterVersionsListByLocationNextResponse
+      name: AvailableClusterVersionsListByLocationNextResponse
+      no-loc:
+        - AvailableClusterVersionsListByLocationNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterVersionsListByLocationOptionalParams
+      name: AvailableClusterVersionsListByLocationOptionalParams
+      no-loc:
+        - AvailableClusterVersionsListByLocationOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.AvailableClusterVersionsListByLocationResponse
+      name: AvailableClusterVersionsListByLocationResponse
+      no-loc:
+        - AvailableClusterVersionsListByLocationResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.CatalogOptions'
+      name: CatalogOptions
+      no-loc:
+        - CatalogOptions
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Category'
+      name: Category
+      no-loc:
+        - Category
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Cluster'
+      name: Cluster
+      no-loc:
+        - Cluster
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAccessProfile'
+      name: ClusterAccessProfile
+      no-loc:
+        - ClusterAccessProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAksPatchUpgradeHistoryProperties'
+      name: ClusterAksPatchUpgradeHistoryProperties
+      no-loc:
+        - ClusterAksPatchUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAKSPatchVersionUpgradeProperties'
+      name: ClusterAKSPatchVersionUpgradeProperties
+      no-loc:
+        - ClusterAKSPatchVersionUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableInPlaceUpgradeProperties'
+      name: ClusterAvailableInPlaceUpgradeProperties
+      no-loc:
+        - ClusterAvailableInPlaceUpgradeProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableInPlaceUpgradePropertiesUnion
+      name: ClusterAvailableInPlaceUpgradePropertiesUnion
+      no-loc:
+        - ClusterAvailableInPlaceUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgrade'
+      name: ClusterAvailableUpgrade
+      no-loc:
+        - ClusterAvailableUpgrade
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableUpgradeAksPatchUpgradeProperties
+      name: ClusterAvailableUpgradeAksPatchUpgradeProperties
+      no-loc:
+        - ClusterAvailableUpgradeAksPatchUpgradeProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableUpgradeHotfixUpgradeProperties
+      name: ClusterAvailableUpgradeHotfixUpgradeProperties
+      no-loc:
+        - ClusterAvailableUpgradeHotfixUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradeList'
+      name: ClusterAvailableUpgradeList
+      no-loc:
+        - ClusterAvailableUpgradeList
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableUpgradePatchVersionUpgradeProperties
+      name: ClusterAvailableUpgradePatchVersionUpgradeProperties
+      no-loc:
+        - ClusterAvailableUpgradePatchVersionUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradeProperties'
+      name: ClusterAvailableUpgradeProperties
+      no-loc:
+        - ClusterAvailableUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradePropertiesUnion'
+      name: ClusterAvailableUpgradePropertiesUnion
+      no-loc:
+        - ClusterAvailableUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgrades'
+      name: ClusterAvailableUpgrades
+      no-loc:
+        - ClusterAvailableUpgrades
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableUpgradesListNextOptionalParams
+      name: ClusterAvailableUpgradesListNextOptionalParams
+      no-loc:
+        - ClusterAvailableUpgradesListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradesListNextResponse'
+      name: ClusterAvailableUpgradesListNextResponse
+      no-loc:
+        - ClusterAvailableUpgradesListNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterAvailableUpgradesListOptionalParams
+      name: ClusterAvailableUpgradesListOptionalParams
+      no-loc:
+        - ClusterAvailableUpgradesListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradesListResponse'
+      name: ClusterAvailableUpgradesListResponse
+      no-loc:
+        - ClusterAvailableUpgradesListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterAvailableUpgradeType'
+      name: ClusterAvailableUpgradeType
+      no-loc:
+        - ClusterAvailableUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterComponentsItem'
+      name: ClusterComponentsItem
+      no-loc:
+        - ClusterComponentsItem
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterConfigFile'
+      name: ClusterConfigFile
+      no-loc:
+        - ClusterConfigFile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterHotfixUpgradeHistoryProperties'
+      name: ClusterHotfixUpgradeHistoryProperties
+      no-loc:
+        - ClusterHotfixUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterHotfixUpgradeProperties'
+      name: ClusterHotfixUpgradeProperties
+      no-loc:
+        - ClusterHotfixUpgradeProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterHotfixUpgradeRollbackHistoryProperties
+      name: ClusterHotfixUpgradeRollbackHistoryProperties
+      no-loc:
+        - ClusterHotfixUpgradeRollbackHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInPlaceUpgradeHistoryProperties'
+      name: ClusterInPlaceUpgradeHistoryProperties
+      no-loc:
+        - ClusterInPlaceUpgradeHistoryProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterInPlaceUpgradeHistoryPropertiesUnion
+      name: ClusterInPlaceUpgradeHistoryPropertiesUnion
+      no-loc:
+        - ClusterInPlaceUpgradeHistoryPropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInPlaceUpgradeProperties'
+      name: ClusterInPlaceUpgradeProperties
+      no-loc:
+        - ClusterInPlaceUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInPlaceUpgradePropertiesUnion'
+      name: ClusterInPlaceUpgradePropertiesUnion
+      no-loc:
+        - ClusterInPlaceUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewProperties'
+      name: ClusterInstanceViewProperties
+      no-loc:
+        - ClusterInstanceViewProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewPropertiesStatus'
+      name: ClusterInstanceViewPropertiesStatus
+      no-loc:
+        - ClusterInstanceViewPropertiesStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewResult'
+      name: ClusterInstanceViewResult
+      no-loc:
+        - ClusterInstanceViewResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewResultProperties'
+      name: ClusterInstanceViewResultProperties
+      no-loc:
+        - ClusterInstanceViewResultProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewsResult'
+      name: ClusterInstanceViewsResult
+      no-loc:
+        - ClusterInstanceViewsResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewStatus'
+      name: ClusterInstanceViewStatus
+      no-loc:
+        - ClusterInstanceViewStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJob'
+      name: ClusterJob
+      no-loc:
+        - ClusterJob
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobList'
+      name: ClusterJobList
+      no-loc:
+        - ClusterJobList
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobProperties'
+      name: ClusterJobProperties
+      no-loc:
+        - ClusterJobProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobPropertiesUnion'
+      name: ClusterJobPropertiesUnion
+      no-loc:
+        - ClusterJobPropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobs'
+      name: ClusterJobs
+      no-loc:
+        - ClusterJobs
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsListNextOptionalParams'
+      name: ClusterJobsListNextOptionalParams
+      no-loc:
+        - ClusterJobsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsListNextResponse'
+      name: ClusterJobsListNextResponse
+      no-loc:
+        - ClusterJobsListNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsListOptionalParams'
+      name: ClusterJobsListOptionalParams
+      no-loc:
+        - ClusterJobsListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsListResponse'
+      name: ClusterJobsListResponse
+      no-loc:
+        - ClusterJobsListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsRunJobHeaders'
+      name: ClusterJobsRunJobHeaders
+      no-loc:
+        - ClusterJobsRunJobHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsRunJobOptionalParams'
+      name: ClusterJobsRunJobOptionalParams
+      no-loc:
+        - ClusterJobsRunJobOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterJobsRunJobResponse'
+      name: ClusterJobsRunJobResponse
+      no-loc:
+        - ClusterJobsRunJobResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibraries'
+      name: ClusterLibraries
+      no-loc:
+        - ClusterLibraries
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesListNextOptionalParams'
+      name: ClusterLibrariesListNextOptionalParams
+      no-loc:
+        - ClusterLibrariesListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesListNextResponse'
+      name: ClusterLibrariesListNextResponse
+      no-loc:
+        - ClusterLibrariesListNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesListOptionalParams'
+      name: ClusterLibrariesListOptionalParams
+      no-loc:
+        - ClusterLibrariesListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesListResponse'
+      name: ClusterLibrariesListResponse
+      no-loc:
+        - ClusterLibrariesListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesManageLibrariesHeaders'
+      name: ClusterLibrariesManageLibrariesHeaders
+      no-loc:
+        - ClusterLibrariesManageLibrariesHeaders
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterLibrariesManageLibrariesOptionalParams
+      name: ClusterLibrariesManageLibrariesOptionalParams
+      no-loc:
+        - ClusterLibrariesManageLibrariesOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrariesManageLibrariesResponse'
+      name: ClusterLibrariesManageLibrariesResponse
+      no-loc:
+        - ClusterLibrariesManageLibrariesResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibrary'
+      name: ClusterLibrary
+      no-loc:
+        - ClusterLibrary
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibraryList'
+      name: ClusterLibraryList
+      no-loc:
+        - ClusterLibraryList
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibraryManagementOperation'
+      name: ClusterLibraryManagementOperation
+      no-loc:
+        - ClusterLibraryManagementOperation
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterLibraryManagementOperationProperties
+      name: ClusterLibraryManagementOperationProperties
+      no-loc:
+        - ClusterLibraryManagementOperationProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibraryProperties'
+      name: ClusterLibraryProperties
+      no-loc:
+        - ClusterLibraryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLibraryPropertiesUnion'
+      name: ClusterLibraryPropertiesUnion
+      no-loc:
+        - ClusterLibraryPropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterListResult'
+      name: ClusterListResult
+      no-loc:
+        - ClusterListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLogAnalyticsApplicationLogs'
+      name: ClusterLogAnalyticsApplicationLogs
+      no-loc:
+        - ClusterLogAnalyticsApplicationLogs
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterLogAnalyticsProfile'
+      name: ClusterLogAnalyticsProfile
+      no-loc:
+        - ClusterLogAnalyticsProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPatch'
+      name: ClusterPatch
+      no-loc:
+        - ClusterPatch
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPatchProperties'
+      name: ClusterPatchProperties
+      no-loc:
+        - ClusterPatchProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPatchVersionUpgradeHistoryProperties
+      name: ClusterPatchVersionUpgradeHistoryProperties
+      no-loc:
+        - ClusterPatchVersionUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPatchVersionUpgradeProperties'
+      name: ClusterPatchVersionUpgradeProperties
+      no-loc:
+        - ClusterPatchVersionUpgradeProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPatchVersionUpgradeRollbackHistoryProperties
+      name: ClusterPatchVersionUpgradeRollbackHistoryProperties
+      no-loc:
+        - ClusterPatchVersionUpgradeRollbackHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPool'
+      name: ClusterPool
+      no-loc:
+        - ClusterPool
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAksPatchUpgradeHistoryProperties
+      name: ClusterPoolAksPatchUpgradeHistoryProperties
+      no-loc:
+        - ClusterPoolAksPatchUpgradeHistoryProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAKSPatchVersionUpgradeProperties
+      name: ClusterPoolAKSPatchVersionUpgradeProperties
+      no-loc:
+        - ClusterPoolAKSPatchVersionUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgrade'
+      name: ClusterPoolAvailableUpgrade
+      no-loc:
+        - ClusterPoolAvailableUpgrade
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+      name: ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+      no-loc:
+        - ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradeList'
+      name: ClusterPoolAvailableUpgradeList
+      no-loc:
+        - ClusterPoolAvailableUpgradeList
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+      name: ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+      no-loc:
+        - ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradeProperties'
+      name: ClusterPoolAvailableUpgradeProperties
+      no-loc:
+        - ClusterPoolAvailableUpgradeProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradePropertiesUnion
+      name: ClusterPoolAvailableUpgradePropertiesUnion
+      no-loc:
+        - ClusterPoolAvailableUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgrades'
+      name: ClusterPoolAvailableUpgrades
+      no-loc:
+        - ClusterPoolAvailableUpgrades
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradesListNextOptionalParams
+      name: ClusterPoolAvailableUpgradesListNextOptionalParams
+      no-loc:
+        - ClusterPoolAvailableUpgradesListNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradesListNextResponse
+      name: ClusterPoolAvailableUpgradesListNextResponse
+      no-loc:
+        - ClusterPoolAvailableUpgradesListNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradesListOptionalParams
+      name: ClusterPoolAvailableUpgradesListOptionalParams
+      no-loc:
+        - ClusterPoolAvailableUpgradesListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradesListResponse'
+      name: ClusterPoolAvailableUpgradesListResponse
+      no-loc:
+        - ClusterPoolAvailableUpgradesListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolAvailableUpgradeType'
+      name: ClusterPoolAvailableUpgradeType
+      no-loc:
+        - ClusterPoolAvailableUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolComputeProfile'
+      name: ClusterPoolComputeProfile
+      no-loc:
+        - ClusterPoolComputeProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolListResult'
+      name: ClusterPoolListResult
+      no-loc:
+        - ClusterPoolListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolLogAnalyticsProfile'
+      name: ClusterPoolLogAnalyticsProfile
+      no-loc:
+        - ClusterPoolLogAnalyticsProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolNetworkProfile'
+      name: ClusterPoolNetworkProfile
+      no-loc:
+        - ClusterPoolNetworkProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolNodeOsImageUpdateProperties'
+      name: ClusterPoolNodeOsImageUpdateProperties
+      no-loc:
+        - ClusterPoolNodeOsImageUpdateProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolNodeOsUpgradeHistoryProperties'
+      name: ClusterPoolNodeOsUpgradeHistoryProperties
+      no-loc:
+        - ClusterPoolNodeOsUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolProfile'
+      name: ClusterPoolProfile
+      no-loc:
+        - ClusterPoolProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolResourceProperties'
+      name: ClusterPoolResourceProperties
+      no-loc:
+        - ClusterPoolResourceProperties
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolResourcePropertiesAksClusterProfile
+      name: ClusterPoolResourcePropertiesAksClusterProfile
+      no-loc:
+        - ClusterPoolResourcePropertiesAksClusterProfile
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolResourcePropertiesClusterPoolProfile
+      name: ClusterPoolResourcePropertiesClusterPoolProfile
+      no-loc:
+        - ClusterPoolResourcePropertiesClusterPoolProfile
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolResourcePropertiesComputeProfile
+      name: ClusterPoolResourcePropertiesComputeProfile
+      no-loc:
+        - ClusterPoolResourcePropertiesComputeProfile
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolResourcePropertiesLogAnalyticsProfile
+      name: ClusterPoolResourcePropertiesLogAnalyticsProfile
+      no-loc:
+        - ClusterPoolResourcePropertiesLogAnalyticsProfile
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolResourcePropertiesNetworkProfile
+      name: ClusterPoolResourcePropertiesNetworkProfile
+      no-loc:
+        - ClusterPoolResourcePropertiesNetworkProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPools'
+      name: ClusterPools
+      no-loc:
+        - ClusterPools
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsCreateOrUpdateOptionalParams'
+      name: ClusterPoolsCreateOrUpdateOptionalParams
+      no-loc:
+        - ClusterPoolsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsCreateOrUpdateResponse'
+      name: ClusterPoolsCreateOrUpdateResponse
+      no-loc:
+        - ClusterPoolsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsDeleteHeaders'
+      name: ClusterPoolsDeleteHeaders
+      no-loc:
+        - ClusterPoolsDeleteHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsDeleteOptionalParams'
+      name: ClusterPoolsDeleteOptionalParams
+      no-loc:
+        - ClusterPoolsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsGetOptionalParams'
+      name: ClusterPoolsGetOptionalParams
+      no-loc:
+        - ClusterPoolsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsGetResponse'
+      name: ClusterPoolsGetResponse
+      no-loc:
+        - ClusterPoolsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListByResourceGroupNextOptionalParams
+      name: ClusterPoolsListByResourceGroupNextOptionalParams
+      no-loc:
+        - ClusterPoolsListByResourceGroupNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListByResourceGroupNextResponse
+      name: ClusterPoolsListByResourceGroupNextResponse
+      no-loc:
+        - ClusterPoolsListByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListByResourceGroupOptionalParams
+      name: ClusterPoolsListByResourceGroupOptionalParams
+      no-loc:
+        - ClusterPoolsListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsListByResourceGroupResponse'
+      name: ClusterPoolsListByResourceGroupResponse
+      no-loc:
+        - ClusterPoolsListByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListBySubscriptionNextOptionalParams
+      name: ClusterPoolsListBySubscriptionNextOptionalParams
+      no-loc:
+        - ClusterPoolsListBySubscriptionNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListBySubscriptionNextResponse
+      name: ClusterPoolsListBySubscriptionNextResponse
+      no-loc:
+        - ClusterPoolsListBySubscriptionNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolsListBySubscriptionOptionalParams
+      name: ClusterPoolsListBySubscriptionOptionalParams
+      no-loc:
+        - ClusterPoolsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsListBySubscriptionResponse'
+      name: ClusterPoolsListBySubscriptionResponse
+      no-loc:
+        - ClusterPoolsListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpdateTagsHeaders'
+      name: ClusterPoolsUpdateTagsHeaders
+      no-loc:
+        - ClusterPoolsUpdateTagsHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpdateTagsOptionalParams'
+      name: ClusterPoolsUpdateTagsOptionalParams
+      no-loc:
+        - ClusterPoolsUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpdateTagsResponse'
+      name: ClusterPoolsUpdateTagsResponse
+      no-loc:
+        - ClusterPoolsUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpgradeHeaders'
+      name: ClusterPoolsUpgradeHeaders
+      no-loc:
+        - ClusterPoolsUpgradeHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpgradeOptionalParams'
+      name: ClusterPoolsUpgradeOptionalParams
+      no-loc:
+        - ClusterPoolsUpgradeOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolsUpgradeResponse'
+      name: ClusterPoolsUpgradeResponse
+      no-loc:
+        - ClusterPoolsUpgradeResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgrade'
+      name: ClusterPoolUpgrade
+      no-loc:
+        - ClusterPoolUpgrade
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistories'
+      name: ClusterPoolUpgradeHistories
+      no-loc:
+        - ClusterPoolUpgradeHistories
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoriesListNextOptionalParams
+      name: ClusterPoolUpgradeHistoriesListNextOptionalParams
+      no-loc:
+        - ClusterPoolUpgradeHistoriesListNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoriesListNextResponse
+      name: ClusterPoolUpgradeHistoriesListNextResponse
+      no-loc:
+        - ClusterPoolUpgradeHistoriesListNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoriesListOptionalParams
+      name: ClusterPoolUpgradeHistoriesListOptionalParams
+      no-loc:
+        - ClusterPoolUpgradeHistoriesListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoriesListResponse'
+      name: ClusterPoolUpgradeHistoriesListResponse
+      no-loc:
+        - ClusterPoolUpgradeHistoriesListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistory'
+      name: ClusterPoolUpgradeHistory
+      no-loc:
+        - ClusterPoolUpgradeHistory
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoryListResult'
+      name: ClusterPoolUpgradeHistoryListResult
+      no-loc:
+        - ClusterPoolUpgradeHistoryListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoryProperties'
+      name: ClusterPoolUpgradeHistoryProperties
+      no-loc:
+        - ClusterPoolUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoryPropertiesUnion'
+      name: ClusterPoolUpgradeHistoryPropertiesUnion
+      no-loc:
+        - ClusterPoolUpgradeHistoryPropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoryType'
+      name: ClusterPoolUpgradeHistoryType
+      no-loc:
+        - ClusterPoolUpgradeHistoryType
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterPoolUpgradeHistoryUpgradeResultType
+      name: ClusterPoolUpgradeHistoryUpgradeResultType
+      no-loc:
+        - ClusterPoolUpgradeHistoryUpgradeResultType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeProperties'
+      name: ClusterPoolUpgradeProperties
+      no-loc:
+        - ClusterPoolUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradePropertiesUnion'
+      name: ClusterPoolUpgradePropertiesUnion
+      no-loc:
+        - ClusterPoolUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolUpgradeType'
+      name: ClusterPoolUpgradeType
+      no-loc:
+        - ClusterPoolUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolVersion'
+      name: ClusterPoolVersion
+      no-loc:
+        - ClusterPoolVersion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolVersionProperties'
+      name: ClusterPoolVersionProperties
+      no-loc:
+        - ClusterPoolVersionProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPoolVersionsListResult'
+      name: ClusterPoolVersionsListResult
+      no-loc:
+        - ClusterPoolVersionsListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterProfile'
+      name: ClusterProfile
+      no-loc:
+        - ClusterProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterPrometheusProfile'
+      name: ClusterPrometheusProfile
+      no-loc:
+        - ClusterPrometheusProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterRangerPluginProfile'
+      name: ClusterRangerPluginProfile
+      no-loc:
+        - ClusterRangerPluginProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterResizeData'
+      name: ClusterResizeData
+      no-loc:
+        - ClusterResizeData
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterResizeProperties'
+      name: ClusterResizeProperties
+      no-loc:
+        - ClusterResizeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterResourceProperties'
+      name: ClusterResourceProperties
+      no-loc:
+        - ClusterResourceProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Clusters'
+      name: Clusters
+      no-loc:
+        - Clusters
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersCreateOptionalParams'
+      name: ClustersCreateOptionalParams
+      no-loc:
+        - ClustersCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersCreateResponse'
+      name: ClustersCreateResponse
+      no-loc:
+        - ClustersCreateResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersDeleteHeaders'
+      name: ClustersDeleteHeaders
+      no-loc:
+        - ClustersDeleteHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersDeleteOptionalParams'
+      name: ClustersDeleteOptionalParams
+      no-loc:
+        - ClustersDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterServiceConfig'
+      name: ClusterServiceConfig
+      no-loc:
+        - ClusterServiceConfig
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterServiceConfigsProfile'
+      name: ClusterServiceConfigsProfile
+      no-loc:
+        - ClusterServiceConfigsProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersGetInstanceViewOptionalParams'
+      name: ClustersGetInstanceViewOptionalParams
+      no-loc:
+        - ClustersGetInstanceViewOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersGetInstanceViewResponse'
+      name: ClustersGetInstanceViewResponse
+      no-loc:
+        - ClustersGetInstanceViewResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersGetOptionalParams'
+      name: ClustersGetOptionalParams
+      no-loc:
+        - ClustersGetOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersGetResponse'
+      name: ClustersGetResponse
+      no-loc:
+        - ClustersGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClustersListByClusterPoolNameNextOptionalParams
+      name: ClustersListByClusterPoolNameNextOptionalParams
+      no-loc:
+        - ClustersListByClusterPoolNameNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListByClusterPoolNameNextResponse'
+      name: ClustersListByClusterPoolNameNextResponse
+      no-loc:
+        - ClustersListByClusterPoolNameNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClustersListByClusterPoolNameOptionalParams
+      name: ClustersListByClusterPoolNameOptionalParams
+      no-loc:
+        - ClustersListByClusterPoolNameOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListByClusterPoolNameResponse'
+      name: ClustersListByClusterPoolNameResponse
+      no-loc:
+        - ClustersListByClusterPoolNameResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClustersListInstanceViewsNextOptionalParams
+      name: ClustersListInstanceViewsNextOptionalParams
+      no-loc:
+        - ClustersListInstanceViewsNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListInstanceViewsNextResponse'
+      name: ClustersListInstanceViewsNextResponse
+      no-loc:
+        - ClustersListInstanceViewsNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListInstanceViewsOptionalParams'
+      name: ClustersListInstanceViewsOptionalParams
+      no-loc:
+        - ClustersListInstanceViewsOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListInstanceViewsResponse'
+      name: ClustersListInstanceViewsResponse
+      no-loc:
+        - ClustersListInstanceViewsResponse
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClustersListServiceConfigsNextOptionalParams
+      name: ClustersListServiceConfigsNextOptionalParams
+      no-loc:
+        - ClustersListServiceConfigsNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListServiceConfigsNextResponse'
+      name: ClustersListServiceConfigsNextResponse
+      no-loc:
+        - ClustersListServiceConfigsNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListServiceConfigsOptionalParams'
+      name: ClustersListServiceConfigsOptionalParams
+      no-loc:
+        - ClustersListServiceConfigsOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersListServiceConfigsResponse'
+      name: ClustersListServiceConfigsResponse
+      no-loc:
+        - ClustersListServiceConfigsResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersResizeHeaders'
+      name: ClustersResizeHeaders
+      no-loc:
+        - ClustersResizeHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersResizeOptionalParams'
+      name: ClustersResizeOptionalParams
+      no-loc:
+        - ClustersResizeOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersResizeResponse'
+      name: ClustersResizeResponse
+      no-loc:
+        - ClustersResizeResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpdateHeaders'
+      name: ClustersUpdateHeaders
+      no-loc:
+        - ClustersUpdateHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpdateOptionalParams'
+      name: ClustersUpdateOptionalParams
+      no-loc:
+        - ClustersUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpdateResponse'
+      name: ClustersUpdateResponse
+      no-loc:
+        - ClustersUpdateResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpgradeHeaders'
+      name: ClustersUpgradeHeaders
+      no-loc:
+        - ClustersUpgradeHeaders
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpgradeManualRollbackHeaders'
+      name: ClustersUpgradeManualRollbackHeaders
+      no-loc:
+        - ClustersUpgradeManualRollbackHeaders
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClustersUpgradeManualRollbackOptionalParams
+      name: ClustersUpgradeManualRollbackOptionalParams
+      no-loc:
+        - ClustersUpgradeManualRollbackOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpgradeManualRollbackResponse'
+      name: ClustersUpgradeManualRollbackResponse
+      no-loc:
+        - ClustersUpgradeManualRollbackResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpgradeOptionalParams'
+      name: ClustersUpgradeOptionalParams
+      no-loc:
+        - ClustersUpgradeOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClustersUpgradeResponse'
+      name: ClustersUpgradeResponse
+      no-loc:
+        - ClustersUpgradeResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgrade'
+      name: ClusterUpgrade
+      no-loc:
+        - ClusterUpgrade
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistories'
+      name: ClusterUpgradeHistories
+      no-loc:
+        - ClusterUpgradeHistories
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.ClusterUpgradeHistoriesListNextOptionalParams
+      name: ClusterUpgradeHistoriesListNextOptionalParams
+      no-loc:
+        - ClusterUpgradeHistoriesListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoriesListNextResponse'
+      name: ClusterUpgradeHistoriesListNextResponse
+      no-loc:
+        - ClusterUpgradeHistoriesListNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoriesListOptionalParams'
+      name: ClusterUpgradeHistoriesListOptionalParams
+      no-loc:
+        - ClusterUpgradeHistoriesListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoriesListResponse'
+      name: ClusterUpgradeHistoriesListResponse
+      no-loc:
+        - ClusterUpgradeHistoriesListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistory'
+      name: ClusterUpgradeHistory
+      no-loc:
+        - ClusterUpgradeHistory
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoryListResult'
+      name: ClusterUpgradeHistoryListResult
+      no-loc:
+        - ClusterUpgradeHistoryListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoryProperties'
+      name: ClusterUpgradeHistoryProperties
+      no-loc:
+        - ClusterUpgradeHistoryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoryPropertiesUnion'
+      name: ClusterUpgradeHistoryPropertiesUnion
+      no-loc:
+        - ClusterUpgradeHistoryPropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistorySeverityType'
+      name: ClusterUpgradeHistorySeverityType
+      no-loc:
+        - ClusterUpgradeHistorySeverityType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoryType'
+      name: ClusterUpgradeHistoryType
+      no-loc:
+        - ClusterUpgradeHistoryType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeHistoryUpgradeResultType'
+      name: ClusterUpgradeHistoryUpgradeResultType
+      no-loc:
+        - ClusterUpgradeHistoryUpgradeResultType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeProperties'
+      name: ClusterUpgradeProperties
+      no-loc:
+        - ClusterUpgradeProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradePropertiesUnion'
+      name: ClusterUpgradePropertiesUnion
+      no-loc:
+        - ClusterUpgradePropertiesUnion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeRollback'
+      name: ClusterUpgradeRollback
+      no-loc:
+        - ClusterUpgradeRollback
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeRollbackProperties'
+      name: ClusterUpgradeRollbackProperties
+      no-loc:
+        - ClusterUpgradeRollbackProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterUpgradeType'
+      name: ClusterUpgradeType
+      no-loc:
+        - ClusterUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterVersion'
+      name: ClusterVersion
+      no-loc:
+        - ClusterVersion
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterVersionProperties'
+      name: ClusterVersionProperties
+      no-loc:
+        - ClusterVersionProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ClusterVersionsListResult'
+      name: ClusterVersionsListResult
+      no-loc:
+        - ClusterVersionsListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ComparisonOperator'
+      name: ComparisonOperator
+      no-loc:
+        - ComparisonOperator
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ComparisonRule'
+      name: ComparisonRule
+      no-loc:
+        - ComparisonRule
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ComputeProfile'
+      name: ComputeProfile
+      no-loc:
+        - ComputeProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ComputeResourceDefinition'
+      name: ComputeResourceDefinition
+      no-loc:
+        - ComputeResourceDefinition
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ConnectivityProfile'
+      name: ConnectivityProfile
+      no-loc:
+        - ConnectivityProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ConnectivityProfileWeb'
+      name: ConnectivityProfileWeb
+      no-loc:
+        - ConnectivityProfileWeb
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ContentEncoding'
+      name: ContentEncoding
+      no-loc:
+        - ContentEncoding
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.CurrentClusterAksVersionStatus'
+      name: CurrentClusterAksVersionStatus
+      no-loc:
+        - CurrentClusterAksVersionStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.CurrentClusterPoolAksVersionStatus'
+      name: CurrentClusterPoolAksVersionStatus
+      no-loc:
+        - CurrentClusterPoolAksVersionStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.DataDiskType'
+      name: DataDiskType
+      no-loc:
+        - DataDiskType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.DbConnectionAuthenticationMode'
+      name: DbConnectionAuthenticationMode
+      no-loc:
+        - DbConnectionAuthenticationMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.DeploymentMode'
+      name: DeploymentMode
+      no-loc:
+        - DeploymentMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.DiskStorageProfile'
+      name: DiskStorageProfile
+      no-loc:
+        - DiskStorageProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkCatalogOptions'
+      name: FlinkCatalogOptions
+      no-loc:
+        - FlinkCatalogOptions
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkHiveCatalogOption'
+      name: FlinkHiveCatalogOption
+      no-loc:
+        - FlinkHiveCatalogOption
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkJobProfile'
+      name: FlinkJobProfile
+      no-loc:
+        - FlinkJobProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkJobProperties'
+      name: FlinkJobProperties
+      no-loc:
+        - FlinkJobProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkProfile'
+      name: FlinkProfile
+      no-loc:
+        - FlinkProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.FlinkStorageProfile'
+      name: FlinkStorageProfile
+      no-loc:
+        - FlinkStorageProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.HDInsightContainersManagementClient'
+      name: HDInsightContainersManagementClient
+      no-loc:
+        - HDInsightContainersManagementClient
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.HDInsightContainersManagementClientOptionalParams
+      name: HDInsightContainersManagementClientOptionalParams
+      no-loc:
+        - HDInsightContainersManagementClientOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.HiveCatalogOption'
+      name: HiveCatalogOption
+      no-loc:
+        - HiveCatalogOption
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.IdentityProfile'
+      name: IdentityProfile
+      no-loc:
+        - IdentityProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.IpTag'
+      name: IpTag
+      no-loc:
+        - IpTag
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.JobType'
+      name: JobType
+      no-loc:
+        - JobType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KafkaConnectivityEndpoints'
+      name: KafkaConnectivityEndpoints
+      no-loc:
+        - KafkaConnectivityEndpoints
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KafkaProfile'
+      name: KafkaProfile
+      no-loc:
+        - KafkaProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KeyVaultObjectType'
+      name: KeyVaultObjectType
+      no-loc:
+        - KeyVaultObjectType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownAction'
+      name: KnownAction
+      no-loc:
+        - KnownAction
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownAutoscaleType'
+      name: KnownAutoscaleType
+      no-loc:
+        - KnownAutoscaleType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownCategory'
+      name: KnownCategory
+      no-loc:
+        - KnownCategory
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterAvailableUpgradeType'
+      name: KnownClusterAvailableUpgradeType
+      no-loc:
+        - KnownClusterAvailableUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterPoolAvailableUpgradeType'
+      name: KnownClusterPoolAvailableUpgradeType
+      no-loc:
+        - KnownClusterPoolAvailableUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterPoolUpgradeHistoryType'
+      name: KnownClusterPoolUpgradeHistoryType
+      no-loc:
+        - KnownClusterPoolUpgradeHistoryType
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.KnownClusterPoolUpgradeHistoryUpgradeResultType
+      name: KnownClusterPoolUpgradeHistoryUpgradeResultType
+      no-loc:
+        - KnownClusterPoolUpgradeHistoryUpgradeResultType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterPoolUpgradeType'
+      name: KnownClusterPoolUpgradeType
+      no-loc:
+        - KnownClusterPoolUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterUpgradeHistorySeverityType'
+      name: KnownClusterUpgradeHistorySeverityType
+      no-loc:
+        - KnownClusterUpgradeHistorySeverityType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterUpgradeHistoryType'
+      name: KnownClusterUpgradeHistoryType
+      no-loc:
+        - KnownClusterUpgradeHistoryType
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.KnownClusterUpgradeHistoryUpgradeResultType
+      name: KnownClusterUpgradeHistoryUpgradeResultType
+      no-loc:
+        - KnownClusterUpgradeHistoryUpgradeResultType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownClusterUpgradeType'
+      name: KnownClusterUpgradeType
+      no-loc:
+        - KnownClusterUpgradeType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownComparisonOperator'
+      name: KnownComparisonOperator
+      no-loc:
+        - KnownComparisonOperator
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownContentEncoding'
+      name: KnownContentEncoding
+      no-loc:
+        - KnownContentEncoding
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownCurrentClusterAksVersionStatus'
+      name: KnownCurrentClusterAksVersionStatus
+      no-loc:
+        - KnownCurrentClusterAksVersionStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownCurrentClusterPoolAksVersionStatus'
+      name: KnownCurrentClusterPoolAksVersionStatus
+      no-loc:
+        - KnownCurrentClusterPoolAksVersionStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownDataDiskType'
+      name: KnownDataDiskType
+      no-loc:
+        - KnownDataDiskType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownDbConnectionAuthenticationMode'
+      name: KnownDbConnectionAuthenticationMode
+      no-loc:
+        - KnownDbConnectionAuthenticationMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownDeploymentMode'
+      name: KnownDeploymentMode
+      no-loc:
+        - KnownDeploymentMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownJobType'
+      name: KnownJobType
+      no-loc:
+        - KnownJobType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownKeyVaultObjectType'
+      name: KnownKeyVaultObjectType
+      no-loc:
+        - KnownKeyVaultObjectType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownLibraryManagementAction'
+      name: KnownLibraryManagementAction
+      no-loc:
+        - KnownLibraryManagementAction
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownManagedIdentityType'
+      name: KnownManagedIdentityType
+      no-loc:
+        - KnownManagedIdentityType
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.KnownMetastoreDbConnectionAuthenticationMode
+      name: KnownMetastoreDbConnectionAuthenticationMode
+      no-loc:
+        - KnownMetastoreDbConnectionAuthenticationMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownOutboundType'
+      name: KnownOutboundType
+      no-loc:
+        - KnownOutboundType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownProvisioningStatus'
+      name: KnownProvisioningStatus
+      no-loc:
+        - KnownProvisioningStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownRangerUsersyncMode'
+      name: KnownRangerUsersyncMode
+      no-loc:
+        - KnownRangerUsersyncMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownScaleActionType'
+      name: KnownScaleActionType
+      no-loc:
+        - KnownScaleActionType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownScheduleDay'
+      name: KnownScheduleDay
+      no-loc:
+        - KnownScheduleDay
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownSeverity'
+      name: KnownSeverity
+      no-loc:
+        - KnownSeverity
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownStatus'
+      name: KnownStatus
+      no-loc:
+        - KnownStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownType'
+      name: KnownType
+      no-loc:
+        - KnownType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.KnownUpgradeMode'
+      name: KnownUpgradeMode
+      no-loc:
+        - KnownUpgradeMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.LibraryManagementAction'
+      name: LibraryManagementAction
+      no-loc:
+        - LibraryManagementAction
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.LoadBasedConfig'
+      name: LoadBasedConfig
+      no-loc:
+        - LoadBasedConfig
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Locations'
+      name: Locations
+      no-loc:
+        - Locations
+      items: []
+    - uid: >-
+        @azure/arm-hdinsightcontainers.LocationsCheckNameAvailabilityOptionalParams
+      name: LocationsCheckNameAvailabilityOptionalParams
+      no-loc:
+        - LocationsCheckNameAvailabilityOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.LocationsCheckNameAvailabilityResponse'
+      name: LocationsCheckNameAvailabilityResponse
+      no-loc:
+        - LocationsCheckNameAvailabilityResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ManagedIdentityProfile'
+      name: ManagedIdentityProfile
+      no-loc:
+        - ManagedIdentityProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ManagedIdentitySpec'
+      name: ManagedIdentitySpec
+      no-loc:
+        - ManagedIdentitySpec
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ManagedIdentityType'
+      name: ManagedIdentityType
+      no-loc:
+        - ManagedIdentityType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.MavenLibraryProperties'
+      name: MavenLibraryProperties
+      no-loc:
+        - MavenLibraryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.MetastoreDbConnectionAuthenticationMode'
+      name: MetastoreDbConnectionAuthenticationMode
+      no-loc:
+        - MetastoreDbConnectionAuthenticationMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.NameAvailabilityParameters'
+      name: NameAvailabilityParameters
+      no-loc:
+        - NameAvailabilityParameters
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.NameAvailabilityResult'
+      name: NameAvailabilityResult
+      no-loc:
+        - NameAvailabilityResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.NodeProfile'
+      name: NodeProfile
+      no-loc:
+        - NodeProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationListResult'
+      name: OperationListResult
+      no-loc:
+        - OperationListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Operations'
+      name: Operations
+      no-loc:
+        - Operations
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
+      no-loc:
+        - OperationsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      no-loc:
+        - OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OperationsListResponse'
+      name: OperationsListResponse
+      no-loc:
+        - OperationsListResponse
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.OutboundType'
+      name: OutboundType
+      no-loc:
+        - OutboundType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ProvisioningStatus'
+      name: ProvisioningStatus
+      no-loc:
+        - ProvisioningStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ProxyResource'
+      name: ProxyResource
+      no-loc:
+        - ProxyResource
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.PyPiLibraryProperties'
+      name: PyPiLibraryProperties
+      no-loc:
+        - PyPiLibraryProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerAdminSpec'
+      name: RangerAdminSpec
+      no-loc:
+        - RangerAdminSpec
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerAdminSpecDatabase'
+      name: RangerAdminSpecDatabase
+      no-loc:
+        - RangerAdminSpecDatabase
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerAuditSpec'
+      name: RangerAuditSpec
+      no-loc:
+        - RangerAuditSpec
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerProfile'
+      name: RangerProfile
+      no-loc:
+        - RangerProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerUsersyncMode'
+      name: RangerUsersyncMode
+      no-loc:
+        - RangerUsersyncMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.RangerUsersyncSpec'
+      name: RangerUsersyncSpec
+      no-loc:
+        - RangerUsersyncSpec
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ScaleActionType'
+      name: ScaleActionType
+      no-loc:
+        - ScaleActionType
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ScalingRule'
+      name: ScalingRule
+      no-loc:
+        - ScalingRule
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Schedule'
+      name: Schedule
+      no-loc:
+        - Schedule
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ScheduleBasedConfig'
+      name: ScheduleBasedConfig
+      no-loc:
+        - ScheduleBasedConfig
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ScheduleDay'
+      name: ScheduleDay
+      no-loc:
+        - ScheduleDay
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ScriptActionProfile'
+      name: ScriptActionProfile
+      no-loc:
+        - ScriptActionProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SecretReference'
+      name: SecretReference
+      no-loc:
+        - SecretReference
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SecretsProfile'
+      name: SecretsProfile
+      no-loc:
+        - SecretsProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceConfigListResult'
+      name: ServiceConfigListResult
+      no-loc:
+        - ServiceConfigListResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceConfigListResultProperties'
+      name: ServiceConfigListResultProperties
+      no-loc:
+        - ServiceConfigListResultProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceConfigListResultValueEntity'
+      name: ServiceConfigListResultValueEntity
+      no-loc:
+        - ServiceConfigListResultValueEntity
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceConfigResult'
+      name: ServiceConfigResult
+      no-loc:
+        - ServiceConfigResult
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceConfigResultProperties'
+      name: ServiceConfigResultProperties
+      no-loc:
+        - ServiceConfigResultProperties
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.ServiceStatus'
+      name: ServiceStatus
+      no-loc:
+        - ServiceStatus
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Severity'
+      name: Severity
+      no-loc:
+        - Severity
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SparkMetastoreSpec'
+      name: SparkMetastoreSpec
+      no-loc:
+        - SparkMetastoreSpec
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SparkProfile'
+      name: SparkProfile
+      no-loc:
+        - SparkProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SparkUserPlugin'
+      name: SparkUserPlugin
+      no-loc:
+        - SparkUserPlugin
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SparkUserPlugins'
+      name: SparkUserPlugins
+      no-loc:
+        - SparkUserPlugins
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SshConnectivityEndpoint'
+      name: SshConnectivityEndpoint
+      no-loc:
+        - SshConnectivityEndpoint
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SshProfile'
+      name: SshProfile
+      no-loc:
+        - SshProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Status'
+      name: Status
+      no-loc:
+        - Status
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TagsObject'
+      name: TagsObject
+      no-loc:
+        - TagsObject
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoCoordinator'
+      name: TrinoCoordinator
+      no-loc:
+        - TrinoCoordinator
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoDebugConfig'
+      name: TrinoDebugConfig
+      no-loc:
+        - TrinoDebugConfig
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoProfile'
+      name: TrinoProfile
+      no-loc:
+        - TrinoProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoTelemetryConfig'
+      name: TrinoTelemetryConfig
+      no-loc:
+        - TrinoTelemetryConfig
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoUserPlugin'
+      name: TrinoUserPlugin
+      no-loc:
+        - TrinoUserPlugin
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoUserPlugins'
+      name: TrinoUserPlugins
+      no-loc:
+        - TrinoUserPlugins
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoUserTelemetry'
+      name: TrinoUserTelemetry
+      no-loc:
+        - TrinoUserTelemetry
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.TrinoWorker'
+      name: TrinoWorker
+      no-loc:
+        - TrinoWorker
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.Type'
+      name: Type
+      no-loc:
+        - Type
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.UpdatableClusterProfile'
+      name: UpdatableClusterProfile
+      no-loc:
+        - UpdatableClusterProfile
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.UpgradeMode'
+      name: UpgradeMode
+      no-loc:
+        - UpgradeMode
+      items: []
+    - uid: '@azure/arm-hdinsightcontainers.WebConnectivityEndpoint'
+      name: WebConnectivityEndpoint
+      no-loc:
+        - WebConnectivityEndpoint
+      items: []
 - name: '@azure/arm-iotspaces'
   no-loc:
     - '@azure/arm-iotspaces'

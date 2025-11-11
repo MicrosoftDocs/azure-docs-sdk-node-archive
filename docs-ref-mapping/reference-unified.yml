@@ -1060,7 +1060,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1354,7 +1354,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - HDInsight Containers
+      - name: Resource Management - HDInsight Containers (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-hdinsightcontainers-readme.md
         children:
         - '@azure/arm-hdinsightcontainers'

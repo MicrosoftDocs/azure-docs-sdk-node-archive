@@ -90,6 +90,16 @@
       children:
       - durable-functions
       landingPageType: Service
+  - name: HDInsight Containers
+    href: ~/docs-ref-services/legacy/hdinsight-containers.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - HDInsight Containers (deprecated)
+        href: ~/docs-ref-services/legacy/arm-hdinsightcontainers-readme.md
+        children:
+        - '@azure/arm-hdinsightcontainers'
   - name: Key Vault
     href: ~/docs-ref-services/legacy/key-vault.md
     landingPageType: Service
