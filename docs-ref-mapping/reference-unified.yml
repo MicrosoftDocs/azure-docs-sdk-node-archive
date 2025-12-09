@@ -358,6 +358,16 @@
         href: ~/docs-ref-services/{moniker}/arm-carbonoptimization-readme.md
         children:
         - '@azure/arm-carbonoptimization'
+  - name: Certificateregistration
+    href: ~/docs-ref-services/{moniker}/certificateregistration.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Certificateregistration
+        href: ~/docs-ref-services/{moniker}/arm-certificateregistration-readme.md
+        children:
+        - '@azure/arm-certificateregistration'
   - name: Change Analysis
     href: ~/docs-ref-services/{moniker}/change-analysis.md
     landingPageType: Service
@@ -656,6 +666,16 @@
         href: ~/docs-ref-services/{moniker}/arm-computeschedule-readme.md
         children:
         - '@azure/arm-computeschedule'
+  - name: Computelimit
+    href: ~/docs-ref-services/{moniker}/computelimit.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computelimit
+        href: ~/docs-ref-services/{moniker}/arm-computelimit-readme.md
+        children:
+        - '@azure/arm-computelimit'
   - name: Computerecommender
     href: ~/docs-ref-services/{moniker}/computerecommender.md
     landingPageType: Service
@@ -1060,7 +1080,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: DNS
+  - name: Dns
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1094,6 +1114,16 @@
         href: ~/docs-ref-services/{moniker}/arm-domainservices-readme.md
         children:
         - '@azure/arm-domainservices'
+  - name: Domainregistration
+    href: ~/docs-ref-services/{moniker}/domainregistration.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Domainregistration
+        href: ~/docs-ref-services/{moniker}/arm-domainregistration-readme.md
+        children:
+        - '@azure/arm-domainregistration'
   - name: Durable Task
     href: ~/docs-ref-services/{moniker}/durable-task.md
     landingPageType: Service
@@ -2008,7 +2038,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Mobile Network
+      - name: Resource Management - Mobile Network (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-mobilenetwork-readme.md
         children:
         - '@azure/arm-mobilenetwork'
@@ -3104,6 +3134,10 @@
       href: ~/docs-ref-services/{moniker}/onlineexperimentation-rest-readme.md
       children:
       - '@azure-rest/onlineexperimentation'
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
+      children:
+      - '@azure/ai-voicelive'
     - name: unknown
       href: ~/docs-ref-services/{moniker}/storage-common-readme.md
       children:
