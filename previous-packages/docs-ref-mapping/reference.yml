@@ -146,6 +146,16 @@
       href: ~/docs-ref-services/legacy/mixed-reality-remote-rendering-readme.md
       children:
       - '@azure/mixed-reality-remote-rendering'
+  - name: Mobile Network
+    href: ~/docs-ref-services/legacy/mobile-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mobile Network (deprecated)
+        children:
+        - '@azure/arm-mobilenetwork'
+        landingPageType: Service
   - name: Monitor
     href: ~/docs-ref-services/legacy/monitor.md
     landingPageType: Service

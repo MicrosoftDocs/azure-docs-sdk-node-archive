@@ -13895,6 +13895,2073 @@
       no-loc:
         - Visibility
       items: []
+- name: '@azure/arm-mobilenetwork'
+  no-loc:
+    - '@azure/arm-mobilenetwork'
+  items:
+    - name: Overview
+      uid: '@azure/arm-mobilenetwork'
+    - uid: '@azure/arm-mobilenetwork.Ambr'
+      name: Ambr
+      no-loc:
+        - Ambr
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Arp'
+      name: Arp
+      no-loc:
+        - Arp
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AsyncOperationId'
+      name: AsyncOperationId
+      no-loc:
+        - AsyncOperationId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AsyncOperationStatus'
+      name: AsyncOperationStatus
+      no-loc:
+        - AsyncOperationStatus
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetwork'
+      name: AttachedDataNetwork
+      no-loc:
+        - AttachedDataNetwork
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworkListResult'
+      name: AttachedDataNetworkListResult
+      no-loc:
+        - AttachedDataNetworkListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworkResourceId'
+      name: AttachedDataNetworkResourceId
+      no-loc:
+        - AttachedDataNetworkResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworks'
+      name: AttachedDataNetworks
+      no-loc:
+        - AttachedDataNetworks
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.AttachedDataNetworksCreateOrUpdateOptionalParams
+      name: AttachedDataNetworksCreateOrUpdateOptionalParams
+      no-loc:
+        - AttachedDataNetworksCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksCreateOrUpdateResponse'
+      name: AttachedDataNetworksCreateOrUpdateResponse
+      no-loc:
+        - AttachedDataNetworksCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksDeleteOptionalParams'
+      name: AttachedDataNetworksDeleteOptionalParams
+      no-loc:
+        - AttachedDataNetworksDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksGetOptionalParams'
+      name: AttachedDataNetworksGetOptionalParams
+      no-loc:
+        - AttachedDataNetworksGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksGetResponse'
+      name: AttachedDataNetworksGetResponse
+      no-loc:
+        - AttachedDataNetworksGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.AttachedDataNetworksListByPacketCoreDataPlaneNextOptionalParams
+      name: AttachedDataNetworksListByPacketCoreDataPlaneNextOptionalParams
+      no-loc:
+        - AttachedDataNetworksListByPacketCoreDataPlaneNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.AttachedDataNetworksListByPacketCoreDataPlaneNextResponse
+      name: AttachedDataNetworksListByPacketCoreDataPlaneNextResponse
+      no-loc:
+        - AttachedDataNetworksListByPacketCoreDataPlaneNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.AttachedDataNetworksListByPacketCoreDataPlaneOptionalParams
+      name: AttachedDataNetworksListByPacketCoreDataPlaneOptionalParams
+      no-loc:
+        - AttachedDataNetworksListByPacketCoreDataPlaneOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.AttachedDataNetworksListByPacketCoreDataPlaneResponse
+      name: AttachedDataNetworksListByPacketCoreDataPlaneResponse
+      no-loc:
+        - AttachedDataNetworksListByPacketCoreDataPlaneResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksUpdateTagsOptionalParams'
+      name: AttachedDataNetworksUpdateTagsOptionalParams
+      no-loc:
+        - AttachedDataNetworksUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AttachedDataNetworksUpdateTagsResponse'
+      name: AttachedDataNetworksUpdateTagsResponse
+      no-loc:
+        - AttachedDataNetworksUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AuthenticationType'
+      name: AuthenticationType
+      no-loc:
+        - AuthenticationType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AzureStackEdgeDeviceResourceId'
+      name: AzureStackEdgeDeviceResourceId
+      no-loc:
+        - AzureStackEdgeDeviceResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.AzureStackHCIClusterResourceId'
+      name: AzureStackHCIClusterResourceId
+      no-loc:
+        - AzureStackHCIClusterResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.BillingSku'
+      name: BillingSku
+      no-loc:
+        - BillingSku
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CertificateProvisioning'
+      name: CertificateProvisioning
+      no-loc:
+        - CertificateProvisioning
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CertificateProvisioningState'
+      name: CertificateProvisioningState
+      no-loc:
+        - CertificateProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CommonSimPropertiesFormat'
+      name: CommonSimPropertiesFormat
+      no-loc:
+        - CommonSimPropertiesFormat
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ConnectedClusterResourceId'
+      name: ConnectedClusterResourceId
+      no-loc:
+        - ConnectedClusterResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CoreNetworkType'
+      name: CoreNetworkType
+      no-loc:
+        - CoreNetworkType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.CustomLocationResourceId'
+      name: CustomLocationResourceId
+      no-loc:
+        - CustomLocationResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetwork'
+      name: DataNetwork
+      no-loc:
+        - DataNetwork
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworkConfiguration'
+      name: DataNetworkConfiguration
+      no-loc:
+        - DataNetworkConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworkListResult'
+      name: DataNetworkListResult
+      no-loc:
+        - DataNetworkListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworkResourceId'
+      name: DataNetworkResourceId
+      no-loc:
+        - DataNetworkResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworks'
+      name: DataNetworks
+      no-loc:
+        - DataNetworks
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksCreateOrUpdateOptionalParams'
+      name: DataNetworksCreateOrUpdateOptionalParams
+      no-loc:
+        - DataNetworksCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksCreateOrUpdateResponse'
+      name: DataNetworksCreateOrUpdateResponse
+      no-loc:
+        - DataNetworksCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksDeleteOptionalParams'
+      name: DataNetworksDeleteOptionalParams
+      no-loc:
+        - DataNetworksDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksGetOptionalParams'
+      name: DataNetworksGetOptionalParams
+      no-loc:
+        - DataNetworksGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksGetResponse'
+      name: DataNetworksGetResponse
+      no-loc:
+        - DataNetworksGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.DataNetworksListByMobileNetworkNextOptionalParams
+      name: DataNetworksListByMobileNetworkNextOptionalParams
+      no-loc:
+        - DataNetworksListByMobileNetworkNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksListByMobileNetworkNextResponse'
+      name: DataNetworksListByMobileNetworkNextResponse
+      no-loc:
+        - DataNetworksListByMobileNetworkNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksListByMobileNetworkOptionalParams'
+      name: DataNetworksListByMobileNetworkOptionalParams
+      no-loc:
+        - DataNetworksListByMobileNetworkOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksListByMobileNetworkResponse'
+      name: DataNetworksListByMobileNetworkResponse
+      no-loc:
+        - DataNetworksListByMobileNetworkResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksUpdateTagsOptionalParams'
+      name: DataNetworksUpdateTagsOptionalParams
+      no-loc:
+        - DataNetworksUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DataNetworksUpdateTagsResponse'
+      name: DataNetworksUpdateTagsResponse
+      no-loc:
+        - DataNetworksUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DesiredInstallationState'
+      name: DesiredInstallationState
+      no-loc:
+        - DesiredInstallationState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackage'
+      name: DiagnosticsPackage
+      no-loc:
+        - DiagnosticsPackage
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackageListResult'
+      name: DiagnosticsPackageListResult
+      no-loc:
+        - DiagnosticsPackageListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackages'
+      name: DiagnosticsPackages
+      no-loc:
+        - DiagnosticsPackages
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackagesCreateOrUpdateOptionalParams'
+      name: DiagnosticsPackagesCreateOrUpdateOptionalParams
+      no-loc:
+        - DiagnosticsPackagesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackagesCreateOrUpdateResponse'
+      name: DiagnosticsPackagesCreateOrUpdateResponse
+      no-loc:
+        - DiagnosticsPackagesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackagesDeleteOptionalParams'
+      name: DiagnosticsPackagesDeleteOptionalParams
+      no-loc:
+        - DiagnosticsPackagesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackagesGetOptionalParams'
+      name: DiagnosticsPackagesGetOptionalParams
+      no-loc:
+        - DiagnosticsPackagesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackagesGetResponse'
+      name: DiagnosticsPackagesGetResponse
+      no-loc:
+        - DiagnosticsPackagesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.DiagnosticsPackagesListByPacketCoreControlPlaneNextOptionalParams
+      name: DiagnosticsPackagesListByPacketCoreControlPlaneNextOptionalParams
+      no-loc:
+        - DiagnosticsPackagesListByPacketCoreControlPlaneNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.DiagnosticsPackagesListByPacketCoreControlPlaneNextResponse
+      name: DiagnosticsPackagesListByPacketCoreControlPlaneNextResponse
+      no-loc:
+        - DiagnosticsPackagesListByPacketCoreControlPlaneNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.DiagnosticsPackagesListByPacketCoreControlPlaneOptionalParams
+      name: DiagnosticsPackagesListByPacketCoreControlPlaneOptionalParams
+      no-loc:
+        - DiagnosticsPackagesListByPacketCoreControlPlaneOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.DiagnosticsPackagesListByPacketCoreControlPlaneResponse
+      name: DiagnosticsPackagesListByPacketCoreControlPlaneResponse
+      no-loc:
+        - DiagnosticsPackagesListByPacketCoreControlPlaneResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsPackageStatus'
+      name: DiagnosticsPackageStatus
+      no-loc:
+        - DiagnosticsPackageStatus
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DiagnosticsUploadConfiguration'
+      name: DiagnosticsUploadConfiguration
+      no-loc:
+        - DiagnosticsUploadConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.DnnIpPair'
+      name: DnnIpPair
+      no-loc:
+        - DnnIpPair
+      items: []
+    - uid: '@azure/arm-mobilenetwork.EncryptedSimPropertiesFormat'
+      name: EncryptedSimPropertiesFormat
+      no-loc:
+        - EncryptedSimPropertiesFormat
+      items: []
+    - uid: '@azure/arm-mobilenetwork.EncryptedSimUploadList'
+      name: EncryptedSimUploadList
+      no-loc:
+        - EncryptedSimUploadList
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.EventHubConfiguration'
+      name: EventHubConfiguration
+      no-loc:
+        - EventHubConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInfo'
+      name: ExtendedUeInfo
+      no-loc:
+        - ExtendedUeInfo
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInfoProperties'
+      name: ExtendedUeInfoProperties
+      no-loc:
+        - ExtendedUeInfoProperties
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInfoPropertiesUnion'
+      name: ExtendedUeInfoPropertiesUnion
+      no-loc:
+        - ExtendedUeInfoPropertiesUnion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInformation'
+      name: ExtendedUeInformation
+      no-loc:
+        - ExtendedUeInformation
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInformationGetOptionalParams'
+      name: ExtendedUeInformationGetOptionalParams
+      no-loc:
+        - ExtendedUeInformationGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ExtendedUeInformationGetResponse'
+      name: ExtendedUeInformationGetResponse
+      no-loc:
+        - ExtendedUeInformationGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.HomeNetworkPrivateKeysProvisioning'
+      name: HomeNetworkPrivateKeysProvisioning
+      no-loc:
+        - HomeNetworkPrivateKeysProvisioning
+      items: []
+    - uid: '@azure/arm-mobilenetwork.HomeNetworkPrivateKeysProvisioningState'
+      name: HomeNetworkPrivateKeysProvisioningState
+      no-loc:
+        - HomeNetworkPrivateKeysProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.HomeNetworkPublicKey'
+      name: HomeNetworkPublicKey
+      no-loc:
+        - HomeNetworkPublicKey
+      items: []
+    - uid: '@azure/arm-mobilenetwork.HttpsServerCertificate'
+      name: HttpsServerCertificate
+      no-loc:
+        - HttpsServerCertificate
+      items: []
+    - uid: '@azure/arm-mobilenetwork.IdentityAndTagsObject'
+      name: IdentityAndTagsObject
+      no-loc:
+        - IdentityAndTagsObject
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Installation'
+      name: Installation
+      no-loc:
+        - Installation
+      items: []
+    - uid: '@azure/arm-mobilenetwork.InstallationReason'
+      name: InstallationReason
+      no-loc:
+        - InstallationReason
+      items: []
+    - uid: '@azure/arm-mobilenetwork.InstallationState'
+      name: InstallationState
+      no-loc:
+        - InstallationState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.InterfaceProperties'
+      name: InterfaceProperties
+      no-loc:
+        - InterfaceProperties
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Ipv4Route'
+      name: Ipv4Route
+      no-loc:
+        - Ipv4Route
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Ipv4RouteNextHop'
+      name: Ipv4RouteNextHop
+      no-loc:
+        - Ipv4RouteNextHop
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KeyVaultKey'
+      name: KeyVaultKey
+      no-loc:
+        - KeyVaultKey
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownAuthenticationType'
+      name: KnownAuthenticationType
+      no-loc:
+        - KnownAuthenticationType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownBillingSku'
+      name: KnownBillingSku
+      no-loc:
+        - KnownBillingSku
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownCertificateProvisioningState'
+      name: KnownCertificateProvisioningState
+      no-loc:
+        - KnownCertificateProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownDesiredInstallationState'
+      name: KnownDesiredInstallationState
+      no-loc:
+        - KnownDesiredInstallationState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownDiagnosticsPackageStatus'
+      name: KnownDiagnosticsPackageStatus
+      no-loc:
+        - KnownDiagnosticsPackageStatus
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownHomeNetworkPrivateKeysProvisioningState'
+      name: KnownHomeNetworkPrivateKeysProvisioningState
+      no-loc:
+        - KnownHomeNetworkPrivateKeysProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownInstallationReason'
+      name: KnownInstallationReason
+      no-loc:
+        - KnownInstallationReason
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownInstallationState'
+      name: KnownInstallationState
+      no-loc:
+        - KnownInstallationState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownManagedServiceIdentityType'
+      name: KnownManagedServiceIdentityType
+      no-loc:
+        - KnownManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownNaptEnabled'
+      name: KnownNaptEnabled
+      no-loc:
+        - KnownNaptEnabled
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownNasEncryptionType'
+      name: KnownNasEncryptionType
+      no-loc:
+        - KnownNasEncryptionType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownObsoleteVersion'
+      name: KnownObsoleteVersion
+      no-loc:
+        - KnownObsoleteVersion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPacketCaptureStatus'
+      name: KnownPacketCaptureStatus
+      no-loc:
+        - KnownPacketCaptureStatus
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPdnType'
+      name: KnownPdnType
+      no-loc:
+        - KnownPdnType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPduSessionType'
+      name: KnownPduSessionType
+      no-loc:
+        - KnownPduSessionType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPlatformType'
+      name: KnownPlatformType
+      no-loc:
+        - KnownPlatformType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPreemptionCapability'
+      name: KnownPreemptionCapability
+      no-loc:
+        - KnownPreemptionCapability
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownPreemptionVulnerability'
+      name: KnownPreemptionVulnerability
+      no-loc:
+        - KnownPreemptionVulnerability
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownProvisioningState'
+      name: KnownProvisioningState
+      no-loc:
+        - KnownProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownRatType'
+      name: KnownRatType
+      no-loc:
+        - KnownRatType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownRecommendedVersion'
+      name: KnownRecommendedVersion
+      no-loc:
+        - KnownRecommendedVersion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownReinstallRequired'
+      name: KnownReinstallRequired
+      no-loc:
+        - KnownReinstallRequired
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownRrcEstablishmentCause'
+      name: KnownRrcEstablishmentCause
+      no-loc:
+        - KnownRrcEstablishmentCause
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownSdfDirection'
+      name: KnownSdfDirection
+      no-loc:
+        - KnownSdfDirection
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownSimState'
+      name: KnownSimState
+      no-loc:
+        - KnownSimState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownSiteProvisioningState'
+      name: KnownSiteProvisioningState
+      no-loc:
+        - KnownSiteProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownTrafficControlPermission'
+      name: KnownTrafficControlPermission
+      no-loc:
+        - KnownTrafficControlPermission
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownUeState'
+      name: KnownUeState
+      no-loc:
+        - KnownUeState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownUeUsageSetting'
+      name: KnownUeUsageSetting
+      no-loc:
+        - KnownUeUsageSetting
+      items: []
+    - uid: '@azure/arm-mobilenetwork.KnownVersionState'
+      name: KnownVersionState
+      no-loc:
+        - KnownVersionState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.LocalDiagnosticsAccessConfiguration'
+      name: LocalDiagnosticsAccessConfiguration
+      no-loc:
+        - LocalDiagnosticsAccessConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ManagedServiceIdentity'
+      name: ManagedServiceIdentity
+      no-loc:
+        - ManagedServiceIdentity
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ManagedServiceIdentityType'
+      name: ManagedServiceIdentityType
+      no-loc:
+        - ManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetwork'
+      name: MobileNetwork
+      no-loc:
+        - MobileNetwork
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworkListResult'
+      name: MobileNetworkListResult
+      no-loc:
+        - MobileNetworkListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworkManagementClient'
+      name: MobileNetworkManagementClient
+      no-loc:
+        - MobileNetworkManagementClient
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworkManagementClientOptionalParams'
+      name: MobileNetworkManagementClientOptionalParams
+      no-loc:
+        - MobileNetworkManagementClientOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworkResourceId'
+      name: MobileNetworkResourceId
+      no-loc:
+        - MobileNetworkResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworks'
+      name: MobileNetworks
+      no-loc:
+        - MobileNetworks
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksCreateOrUpdateOptionalParams'
+      name: MobileNetworksCreateOrUpdateOptionalParams
+      no-loc:
+        - MobileNetworksCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksCreateOrUpdateResponse'
+      name: MobileNetworksCreateOrUpdateResponse
+      no-loc:
+        - MobileNetworksCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksDeleteOptionalParams'
+      name: MobileNetworksDeleteOptionalParams
+      no-loc:
+        - MobileNetworksDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksGetOptionalParams'
+      name: MobileNetworksGetOptionalParams
+      no-loc:
+        - MobileNetworksGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksGetResponse'
+      name: MobileNetworksGetResponse
+      no-loc:
+        - MobileNetworksGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.MobileNetworksListByResourceGroupNextOptionalParams
+      name: MobileNetworksListByResourceGroupNextOptionalParams
+      no-loc:
+        - MobileNetworksListByResourceGroupNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListByResourceGroupNextResponse'
+      name: MobileNetworksListByResourceGroupNextResponse
+      no-loc:
+        - MobileNetworksListByResourceGroupNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListByResourceGroupOptionalParams'
+      name: MobileNetworksListByResourceGroupOptionalParams
+      no-loc:
+        - MobileNetworksListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListByResourceGroupResponse'
+      name: MobileNetworksListByResourceGroupResponse
+      no-loc:
+        - MobileNetworksListByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.MobileNetworksListBySubscriptionNextOptionalParams
+      name: MobileNetworksListBySubscriptionNextOptionalParams
+      no-loc:
+        - MobileNetworksListBySubscriptionNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListBySubscriptionNextResponse'
+      name: MobileNetworksListBySubscriptionNextResponse
+      no-loc:
+        - MobileNetworksListBySubscriptionNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListBySubscriptionOptionalParams'
+      name: MobileNetworksListBySubscriptionOptionalParams
+      no-loc:
+        - MobileNetworksListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListBySubscriptionResponse'
+      name: MobileNetworksListBySubscriptionResponse
+      no-loc:
+        - MobileNetworksListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListSimGroupsNextOptionalParams'
+      name: MobileNetworksListSimGroupsNextOptionalParams
+      no-loc:
+        - MobileNetworksListSimGroupsNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListSimGroupsNextResponse'
+      name: MobileNetworksListSimGroupsNextResponse
+      no-loc:
+        - MobileNetworksListSimGroupsNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListSimGroupsOptionalParams'
+      name: MobileNetworksListSimGroupsOptionalParams
+      no-loc:
+        - MobileNetworksListSimGroupsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksListSimGroupsResponse'
+      name: MobileNetworksListSimGroupsResponse
+      no-loc:
+        - MobileNetworksListSimGroupsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksUpdateTagsOptionalParams'
+      name: MobileNetworksUpdateTagsOptionalParams
+      no-loc:
+        - MobileNetworksUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.MobileNetworksUpdateTagsResponse'
+      name: MobileNetworksUpdateTagsResponse
+      no-loc:
+        - MobileNetworksUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.NaptConfiguration'
+      name: NaptConfiguration
+      no-loc:
+        - NaptConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.NaptEnabled'
+      name: NaptEnabled
+      no-loc:
+        - NaptEnabled
+      items: []
+    - uid: '@azure/arm-mobilenetwork.NasEncryptionType'
+      name: NasEncryptionType
+      no-loc:
+        - NasEncryptionType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.NASRerouteConfiguration'
+      name: NASRerouteConfiguration
+      no-loc:
+        - NASRerouteConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ObsoleteVersion'
+      name: ObsoleteVersion
+      no-loc:
+        - ObsoleteVersion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationList'
+      name: OperationList
+      no-loc:
+        - OperationList
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Operations'
+      name: Operations
+      no-loc:
+        - Operations
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
+      no-loc:
+        - OperationsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      no-loc:
+        - OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.OperationsListResponse'
+      name: OperationsListResponse
+      no-loc:
+        - OperationsListResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapture'
+      name: PacketCapture
+      no-loc:
+        - PacketCapture
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCaptureListResult'
+      name: PacketCaptureListResult
+      no-loc:
+        - PacketCaptureListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCaptures'
+      name: PacketCaptures
+      no-loc:
+        - PacketCaptures
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesCreateOrUpdateOptionalParams'
+      name: PacketCapturesCreateOrUpdateOptionalParams
+      no-loc:
+        - PacketCapturesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesCreateOrUpdateResponse'
+      name: PacketCapturesCreateOrUpdateResponse
+      no-loc:
+        - PacketCapturesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesDeleteOptionalParams'
+      name: PacketCapturesDeleteOptionalParams
+      no-loc:
+        - PacketCapturesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesGetOptionalParams'
+      name: PacketCapturesGetOptionalParams
+      no-loc:
+        - PacketCapturesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesGetResponse'
+      name: PacketCapturesGetResponse
+      no-loc:
+        - PacketCapturesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCapturesListByPacketCoreControlPlaneNextOptionalParams
+      name: PacketCapturesListByPacketCoreControlPlaneNextOptionalParams
+      no-loc:
+        - PacketCapturesListByPacketCoreControlPlaneNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCapturesListByPacketCoreControlPlaneNextResponse
+      name: PacketCapturesListByPacketCoreControlPlaneNextResponse
+      no-loc:
+        - PacketCapturesListByPacketCoreControlPlaneNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCapturesListByPacketCoreControlPlaneOptionalParams
+      name: PacketCapturesListByPacketCoreControlPlaneOptionalParams
+      no-loc:
+        - PacketCapturesListByPacketCoreControlPlaneOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCapturesListByPacketCoreControlPlaneResponse
+      name: PacketCapturesListByPacketCoreControlPlaneResponse
+      no-loc:
+        - PacketCapturesListByPacketCoreControlPlaneResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesStopOptionalParams'
+      name: PacketCapturesStopOptionalParams
+      no-loc:
+        - PacketCapturesStopOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCapturesStopResponse'
+      name: PacketCapturesStopResponse
+      no-loc:
+        - PacketCapturesStopResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCaptureStatus'
+      name: PacketCaptureStatus
+      no-loc:
+        - PacketCaptureStatus
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlane'
+      name: PacketCoreControlPlane
+      no-loc:
+        - PacketCoreControlPlane
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneCollectDiagnosticsPackage'
+      name: PacketCoreControlPlaneCollectDiagnosticsPackage
+      no-loc:
+        - PacketCoreControlPlaneCollectDiagnosticsPackage
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneListResult'
+      name: PacketCoreControlPlaneListResult
+      no-loc:
+        - PacketCoreControlPlaneListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneResourceId'
+      name: PacketCoreControlPlaneResourceId
+      no-loc:
+        - PacketCoreControlPlaneResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanes'
+      name: PacketCoreControlPlanes
+      no-loc:
+        - PacketCoreControlPlanes
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesCollectDiagnosticsPackageOptionalParams
+      name: PacketCoreControlPlanesCollectDiagnosticsPackageOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesCollectDiagnosticsPackageOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesCollectDiagnosticsPackageResponse
+      name: PacketCoreControlPlanesCollectDiagnosticsPackageResponse
+      no-loc:
+        - PacketCoreControlPlanesCollectDiagnosticsPackageResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesCreateOrUpdateOptionalParams
+      name: PacketCoreControlPlanesCreateOrUpdateOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesCreateOrUpdateResponse'
+      name: PacketCoreControlPlanesCreateOrUpdateResponse
+      no-loc:
+        - PacketCoreControlPlanesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesDeleteOptionalParams'
+      name: PacketCoreControlPlanesDeleteOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesGetOptionalParams'
+      name: PacketCoreControlPlanesGetOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesGetResponse'
+      name: PacketCoreControlPlanesGetResponse
+      no-loc:
+        - PacketCoreControlPlanesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListByResourceGroupNextOptionalParams
+      name: PacketCoreControlPlanesListByResourceGroupNextOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesListByResourceGroupNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListByResourceGroupNextResponse
+      name: PacketCoreControlPlanesListByResourceGroupNextResponse
+      no-loc:
+        - PacketCoreControlPlanesListByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListByResourceGroupOptionalParams
+      name: PacketCoreControlPlanesListByResourceGroupOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListByResourceGroupResponse
+      name: PacketCoreControlPlanesListByResourceGroupResponse
+      no-loc:
+        - PacketCoreControlPlanesListByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListBySubscriptionNextOptionalParams
+      name: PacketCoreControlPlanesListBySubscriptionNextOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesListBySubscriptionNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListBySubscriptionNextResponse
+      name: PacketCoreControlPlanesListBySubscriptionNextResponse
+      no-loc:
+        - PacketCoreControlPlanesListBySubscriptionNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListBySubscriptionOptionalParams
+      name: PacketCoreControlPlanesListBySubscriptionOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesListBySubscriptionOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlanesListBySubscriptionResponse
+      name: PacketCoreControlPlanesListBySubscriptionResponse
+      no-loc:
+        - PacketCoreControlPlanesListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesReinstallOptionalParams'
+      name: PacketCoreControlPlanesReinstallOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesReinstallOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesReinstallResponse'
+      name: PacketCoreControlPlanesReinstallResponse
+      no-loc:
+        - PacketCoreControlPlanesReinstallResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesRollbackOptionalParams'
+      name: PacketCoreControlPlanesRollbackOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesRollbackOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesRollbackResponse'
+      name: PacketCoreControlPlanesRollbackResponse
+      no-loc:
+        - PacketCoreControlPlanesRollbackResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesUpdateTagsOptionalParams'
+      name: PacketCoreControlPlanesUpdateTagsOptionalParams
+      no-loc:
+        - PacketCoreControlPlanesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlanesUpdateTagsResponse'
+      name: PacketCoreControlPlanesUpdateTagsResponse
+      no-loc:
+        - PacketCoreControlPlanesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersion'
+      name: PacketCoreControlPlaneVersion
+      no-loc:
+        - PacketCoreControlPlaneVersion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersionListResult'
+      name: PacketCoreControlPlaneVersionListResult
+      no-loc:
+        - PacketCoreControlPlaneVersionListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersions'
+      name: PacketCoreControlPlaneVersions
+      no-loc:
+        - PacketCoreControlPlaneVersions
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsGetBySubscriptionOptionalParams
+      name: PacketCoreControlPlaneVersionsGetBySubscriptionOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsGetBySubscriptionOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsGetBySubscriptionResponse
+      name: PacketCoreControlPlaneVersionsGetBySubscriptionResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsGetBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsGetOptionalParams'
+      name: PacketCoreControlPlaneVersionsGetOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsGetResponse'
+      name: PacketCoreControlPlaneVersionsGetResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListBySubscriptionNextOptionalParams
+      name: PacketCoreControlPlaneVersionsListBySubscriptionNextOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsListBySubscriptionNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListBySubscriptionNextResponse
+      name: PacketCoreControlPlaneVersionsListBySubscriptionNextResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsListBySubscriptionNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListBySubscriptionOptionalParams
+      name: PacketCoreControlPlaneVersionsListBySubscriptionOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsListBySubscriptionOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListBySubscriptionResponse
+      name: PacketCoreControlPlaneVersionsListBySubscriptionResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsListBySubscriptionResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListNextOptionalParams
+      name: PacketCoreControlPlaneVersionsListNextOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListNextResponse'
+      name: PacketCoreControlPlaneVersionsListNextResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsListNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListOptionalParams
+      name: PacketCoreControlPlaneVersionsListOptionalParams
+      no-loc:
+        - PacketCoreControlPlaneVersionsListOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreControlPlaneVersionsListResponse'
+      name: PacketCoreControlPlaneVersionsListResponse
+      no-loc:
+        - PacketCoreControlPlaneVersionsListResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlane'
+      name: PacketCoreDataPlane
+      no-loc:
+        - PacketCoreDataPlane
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlaneListResult'
+      name: PacketCoreDataPlaneListResult
+      no-loc:
+        - PacketCoreDataPlaneListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanes'
+      name: PacketCoreDataPlanes
+      no-loc:
+        - PacketCoreDataPlanes
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreDataPlanesCreateOrUpdateOptionalParams
+      name: PacketCoreDataPlanesCreateOrUpdateOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesCreateOrUpdateResponse'
+      name: PacketCoreDataPlanesCreateOrUpdateResponse
+      no-loc:
+        - PacketCoreDataPlanesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesDeleteOptionalParams'
+      name: PacketCoreDataPlanesDeleteOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesGetOptionalParams'
+      name: PacketCoreDataPlanesGetOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesGetResponse'
+      name: PacketCoreDataPlanesGetResponse
+      no-loc:
+        - PacketCoreDataPlanesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreDataPlanesListByPacketCoreControlPlaneNextOptionalParams
+      name: PacketCoreDataPlanesListByPacketCoreControlPlaneNextOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesListByPacketCoreControlPlaneNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreDataPlanesListByPacketCoreControlPlaneNextResponse
+      name: PacketCoreDataPlanesListByPacketCoreControlPlaneNextResponse
+      no-loc:
+        - PacketCoreDataPlanesListByPacketCoreControlPlaneNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreDataPlanesListByPacketCoreControlPlaneOptionalParams
+      name: PacketCoreDataPlanesListByPacketCoreControlPlaneOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesListByPacketCoreControlPlaneOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.PacketCoreDataPlanesListByPacketCoreControlPlaneResponse
+      name: PacketCoreDataPlanesListByPacketCoreControlPlaneResponse
+      no-loc:
+        - PacketCoreDataPlanesListByPacketCoreControlPlaneResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesUpdateTagsOptionalParams'
+      name: PacketCoreDataPlanesUpdateTagsOptionalParams
+      no-loc:
+        - PacketCoreDataPlanesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PacketCoreDataPlanesUpdateTagsResponse'
+      name: PacketCoreDataPlanesUpdateTagsResponse
+      no-loc:
+        - PacketCoreDataPlanesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PccRuleConfiguration'
+      name: PccRuleConfiguration
+      no-loc:
+        - PccRuleConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PccRuleQosPolicy'
+      name: PccRuleQosPolicy
+      no-loc:
+        - PccRuleQosPolicy
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PdnType'
+      name: PdnType
+      no-loc:
+        - PdnType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PduSessionType'
+      name: PduSessionType
+      no-loc:
+        - PduSessionType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PinholeTimeouts'
+      name: PinholeTimeouts
+      no-loc:
+        - PinholeTimeouts
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Platform'
+      name: Platform
+      no-loc:
+        - Platform
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PlatformConfiguration'
+      name: PlatformConfiguration
+      no-loc:
+        - PlatformConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PlatformType'
+      name: PlatformType
+      no-loc:
+        - PlatformType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PlmnId'
+      name: PlmnId
+      no-loc:
+        - PlmnId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PortRange'
+      name: PortRange
+      no-loc:
+        - PortRange
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PortReuseHoldTimes'
+      name: PortReuseHoldTimes
+      no-loc:
+        - PortReuseHoldTimes
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PreemptionCapability'
+      name: PreemptionCapability
+      no-loc:
+        - PreemptionCapability
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PreemptionVulnerability'
+      name: PreemptionVulnerability
+      no-loc:
+        - PreemptionVulnerability
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ProvisioningState'
+      name: ProvisioningState
+      no-loc:
+        - ProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ProxyResource'
+      name: ProxyResource
+      no-loc:
+        - ProxyResource
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PublicLandMobileNetwork'
+      name: PublicLandMobileNetwork
+      no-loc:
+        - PublicLandMobileNetwork
+      items: []
+    - uid: '@azure/arm-mobilenetwork.PublicLandMobileNetworkHomeNetworkPublicKeys'
+      name: PublicLandMobileNetworkHomeNetworkPublicKeys
+      no-loc:
+        - PublicLandMobileNetworkHomeNetworkPublicKeys
+      items: []
+    - uid: '@azure/arm-mobilenetwork.QosPolicy'
+      name: QosPolicy
+      no-loc:
+        - QosPolicy
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RatType'
+      name: RatType
+      no-loc:
+        - RatType
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RecommendedVersion'
+      name: RecommendedVersion
+      no-loc:
+        - RecommendedVersion
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ReinstallRequired'
+      name: ReinstallRequired
+      no-loc:
+        - ReinstallRequired
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfo'
+      name: RoutingInfo
+      no-loc:
+        - RoutingInfo
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoGetOptionalParams'
+      name: RoutingInfoGetOptionalParams
+      no-loc:
+        - RoutingInfoGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoGetResponse'
+      name: RoutingInfoGetResponse
+      no-loc:
+        - RoutingInfoGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoListNextOptionalParams'
+      name: RoutingInfoListNextOptionalParams
+      no-loc:
+        - RoutingInfoListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoListNextResponse'
+      name: RoutingInfoListNextResponse
+      no-loc:
+        - RoutingInfoListNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoListOptionalParams'
+      name: RoutingInfoListOptionalParams
+      no-loc:
+        - RoutingInfoListOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoListResponse'
+      name: RoutingInfoListResponse
+      no-loc:
+        - RoutingInfoListResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoListResult'
+      name: RoutingInfoListResult
+      no-loc:
+        - RoutingInfoListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RoutingInfoModel'
+      name: RoutingInfoModel
+      no-loc:
+        - RoutingInfoModel
+      items: []
+    - uid: '@azure/arm-mobilenetwork.RrcEstablishmentCause'
+      name: RrcEstablishmentCause
+      no-loc:
+        - RrcEstablishmentCause
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SdfDirection'
+      name: SdfDirection
+      no-loc:
+        - SdfDirection
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Service'
+      name: Service
+      no-loc:
+        - Service
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServiceDataFlowTemplate'
+      name: ServiceDataFlowTemplate
+      no-loc:
+        - ServiceDataFlowTemplate
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServiceListResult'
+      name: ServiceListResult
+      no-loc:
+        - ServiceListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServiceResourceId'
+      name: ServiceResourceId
+      no-loc:
+        - ServiceResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Services'
+      name: Services
+      no-loc:
+        - Services
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesCreateOrUpdateOptionalParams'
+      name: ServicesCreateOrUpdateOptionalParams
+      no-loc:
+        - ServicesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesCreateOrUpdateResponse'
+      name: ServicesCreateOrUpdateResponse
+      no-loc:
+        - ServicesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesDeleteOptionalParams'
+      name: ServicesDeleteOptionalParams
+      no-loc:
+        - ServicesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesGetOptionalParams'
+      name: ServicesGetOptionalParams
+      no-loc:
+        - ServicesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesGetResponse'
+      name: ServicesGetResponse
+      no-loc:
+        - ServicesGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesListByMobileNetworkNextOptionalParams'
+      name: ServicesListByMobileNetworkNextOptionalParams
+      no-loc:
+        - ServicesListByMobileNetworkNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesListByMobileNetworkNextResponse'
+      name: ServicesListByMobileNetworkNextResponse
+      no-loc:
+        - ServicesListByMobileNetworkNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesListByMobileNetworkOptionalParams'
+      name: ServicesListByMobileNetworkOptionalParams
+      no-loc:
+        - ServicesListByMobileNetworkOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesListByMobileNetworkResponse'
+      name: ServicesListByMobileNetworkResponse
+      no-loc:
+        - ServicesListByMobileNetworkResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesUpdateTagsOptionalParams'
+      name: ServicesUpdateTagsOptionalParams
+      no-loc:
+        - ServicesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.ServicesUpdateTagsResponse'
+      name: ServicesUpdateTagsResponse
+      no-loc:
+        - ServicesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SignalingConfiguration'
+      name: SignalingConfiguration
+      no-loc:
+        - SignalingConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Sim'
+      name: Sim
+      no-loc:
+        - Sim
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimClone'
+      name: SimClone
+      no-loc:
+        - SimClone
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimDeleteList'
+      name: SimDeleteList
+      no-loc:
+        - SimDeleteList
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroup'
+      name: SimGroup
+      no-loc:
+        - SimGroup
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupListResult'
+      name: SimGroupListResult
+      no-loc:
+        - SimGroupListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupResourceId'
+      name: SimGroupResourceId
+      no-loc:
+        - SimGroupResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroups'
+      name: SimGroups
+      no-loc:
+        - SimGroups
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsCreateOrUpdateOptionalParams'
+      name: SimGroupsCreateOrUpdateOptionalParams
+      no-loc:
+        - SimGroupsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsCreateOrUpdateResponse'
+      name: SimGroupsCreateOrUpdateResponse
+      no-loc:
+        - SimGroupsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsDeleteOptionalParams'
+      name: SimGroupsDeleteOptionalParams
+      no-loc:
+        - SimGroupsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsGetOptionalParams'
+      name: SimGroupsGetOptionalParams
+      no-loc:
+        - SimGroupsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsGetResponse'
+      name: SimGroupsGetResponse
+      no-loc:
+        - SimGroupsGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListByResourceGroupNextOptionalParams'
+      name: SimGroupsListByResourceGroupNextOptionalParams
+      no-loc:
+        - SimGroupsListByResourceGroupNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListByResourceGroupNextResponse'
+      name: SimGroupsListByResourceGroupNextResponse
+      no-loc:
+        - SimGroupsListByResourceGroupNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListByResourceGroupOptionalParams'
+      name: SimGroupsListByResourceGroupOptionalParams
+      no-loc:
+        - SimGroupsListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListByResourceGroupResponse'
+      name: SimGroupsListByResourceGroupResponse
+      no-loc:
+        - SimGroupsListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListBySubscriptionNextOptionalParams'
+      name: SimGroupsListBySubscriptionNextOptionalParams
+      no-loc:
+        - SimGroupsListBySubscriptionNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListBySubscriptionNextResponse'
+      name: SimGroupsListBySubscriptionNextResponse
+      no-loc:
+        - SimGroupsListBySubscriptionNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListBySubscriptionOptionalParams'
+      name: SimGroupsListBySubscriptionOptionalParams
+      no-loc:
+        - SimGroupsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsListBySubscriptionResponse'
+      name: SimGroupsListBySubscriptionResponse
+      no-loc:
+        - SimGroupsListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsUpdateTagsOptionalParams'
+      name: SimGroupsUpdateTagsOptionalParams
+      no-loc:
+        - SimGroupsUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimGroupsUpdateTagsResponse'
+      name: SimGroupsUpdateTagsResponse
+      no-loc:
+        - SimGroupsUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimListResult'
+      name: SimListResult
+      no-loc:
+        - SimListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimMove'
+      name: SimMove
+      no-loc:
+        - SimMove
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimNameAndEncryptedProperties'
+      name: SimNameAndEncryptedProperties
+      no-loc:
+        - SimNameAndEncryptedProperties
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimNameAndProperties'
+      name: SimNameAndProperties
+      no-loc:
+        - SimNameAndProperties
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPolicies'
+      name: SimPolicies
+      no-loc:
+        - SimPolicies
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesCreateOrUpdateOptionalParams'
+      name: SimPoliciesCreateOrUpdateOptionalParams
+      no-loc:
+        - SimPoliciesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesCreateOrUpdateResponse'
+      name: SimPoliciesCreateOrUpdateResponse
+      no-loc:
+        - SimPoliciesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesDeleteOptionalParams'
+      name: SimPoliciesDeleteOptionalParams
+      no-loc:
+        - SimPoliciesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesGetOptionalParams'
+      name: SimPoliciesGetOptionalParams
+      no-loc:
+        - SimPoliciesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesGetResponse'
+      name: SimPoliciesGetResponse
+      no-loc:
+        - SimPoliciesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mobilenetwork.SimPoliciesListByMobileNetworkNextOptionalParams
+      name: SimPoliciesListByMobileNetworkNextOptionalParams
+      no-loc:
+        - SimPoliciesListByMobileNetworkNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesListByMobileNetworkNextResponse'
+      name: SimPoliciesListByMobileNetworkNextResponse
+      no-loc:
+        - SimPoliciesListByMobileNetworkNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesListByMobileNetworkOptionalParams'
+      name: SimPoliciesListByMobileNetworkOptionalParams
+      no-loc:
+        - SimPoliciesListByMobileNetworkOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesListByMobileNetworkResponse'
+      name: SimPoliciesListByMobileNetworkResponse
+      no-loc:
+        - SimPoliciesListByMobileNetworkResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesUpdateTagsOptionalParams'
+      name: SimPoliciesUpdateTagsOptionalParams
+      no-loc:
+        - SimPoliciesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPoliciesUpdateTagsResponse'
+      name: SimPoliciesUpdateTagsResponse
+      no-loc:
+        - SimPoliciesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPolicy'
+      name: SimPolicy
+      no-loc:
+        - SimPolicy
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPolicyListResult'
+      name: SimPolicyListResult
+      no-loc:
+        - SimPolicyListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPolicyResourceId'
+      name: SimPolicyResourceId
+      no-loc:
+        - SimPolicyResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimPropertiesFormat'
+      name: SimPropertiesFormat
+      no-loc:
+        - SimPropertiesFormat
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Sims'
+      name: Sims
+      no-loc:
+        - Sims
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkDeleteOptionalParams'
+      name: SimsBulkDeleteOptionalParams
+      no-loc:
+        - SimsBulkDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkDeleteResponse'
+      name: SimsBulkDeleteResponse
+      no-loc:
+        - SimsBulkDeleteResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkUploadEncryptedOptionalParams'
+      name: SimsBulkUploadEncryptedOptionalParams
+      no-loc:
+        - SimsBulkUploadEncryptedOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkUploadEncryptedResponse'
+      name: SimsBulkUploadEncryptedResponse
+      no-loc:
+        - SimsBulkUploadEncryptedResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkUploadOptionalParams'
+      name: SimsBulkUploadOptionalParams
+      no-loc:
+        - SimsBulkUploadOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsBulkUploadResponse'
+      name: SimsBulkUploadResponse
+      no-loc:
+        - SimsBulkUploadResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsCloneHeaders'
+      name: SimsCloneHeaders
+      no-loc:
+        - SimsCloneHeaders
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsCloneOptionalParams'
+      name: SimsCloneOptionalParams
+      no-loc:
+        - SimsCloneOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsCloneResponse'
+      name: SimsCloneResponse
+      no-loc:
+        - SimsCloneResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsCreateOrUpdateOptionalParams'
+      name: SimsCreateOrUpdateOptionalParams
+      no-loc:
+        - SimsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsCreateOrUpdateResponse'
+      name: SimsCreateOrUpdateResponse
+      no-loc:
+        - SimsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsDeleteOptionalParams'
+      name: SimsDeleteOptionalParams
+      no-loc:
+        - SimsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsGetOptionalParams'
+      name: SimsGetOptionalParams
+      no-loc:
+        - SimsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsGetResponse'
+      name: SimsGetResponse
+      no-loc:
+        - SimsGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsListByGroupNextOptionalParams'
+      name: SimsListByGroupNextOptionalParams
+      no-loc:
+        - SimsListByGroupNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsListByGroupNextResponse'
+      name: SimsListByGroupNextResponse
+      no-loc:
+        - SimsListByGroupNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsListByGroupOptionalParams'
+      name: SimsListByGroupOptionalParams
+      no-loc:
+        - SimsListByGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsListByGroupResponse'
+      name: SimsListByGroupResponse
+      no-loc:
+        - SimsListByGroupResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsMoveHeaders'
+      name: SimsMoveHeaders
+      no-loc:
+        - SimsMoveHeaders
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsMoveOptionalParams'
+      name: SimsMoveOptionalParams
+      no-loc:
+        - SimsMoveOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimsMoveResponse'
+      name: SimsMoveResponse
+      no-loc:
+        - SimsMoveResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimState'
+      name: SimState
+      no-loc:
+        - SimState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimStaticIpProperties'
+      name: SimStaticIpProperties
+      no-loc:
+        - SimStaticIpProperties
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimStaticIpPropertiesStaticIp'
+      name: SimStaticIpPropertiesStaticIp
+      no-loc:
+        - SimStaticIpPropertiesStaticIp
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SimUploadList'
+      name: SimUploadList
+      no-loc:
+        - SimUploadList
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Site'
+      name: Site
+      no-loc:
+        - Site
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SiteDeletePacketCore'
+      name: SiteDeletePacketCore
+      no-loc:
+        - SiteDeletePacketCore
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SiteListResult'
+      name: SiteListResult
+      no-loc:
+        - SiteListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SiteProvisioningState'
+      name: SiteProvisioningState
+      no-loc:
+        - SiteProvisioningState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SiteResourceId'
+      name: SiteResourceId
+      no-loc:
+        - SiteResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Sites'
+      name: Sites
+      no-loc:
+        - Sites
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesCreateOrUpdateOptionalParams'
+      name: SitesCreateOrUpdateOptionalParams
+      no-loc:
+        - SitesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesCreateOrUpdateResponse'
+      name: SitesCreateOrUpdateResponse
+      no-loc:
+        - SitesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesDeleteOptionalParams'
+      name: SitesDeleteOptionalParams
+      no-loc:
+        - SitesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesDeletePacketCoreOptionalParams'
+      name: SitesDeletePacketCoreOptionalParams
+      no-loc:
+        - SitesDeletePacketCoreOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesGetOptionalParams'
+      name: SitesGetOptionalParams
+      no-loc:
+        - SitesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesGetResponse'
+      name: SitesGetResponse
+      no-loc:
+        - SitesGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesListByMobileNetworkNextOptionalParams'
+      name: SitesListByMobileNetworkNextOptionalParams
+      no-loc:
+        - SitesListByMobileNetworkNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesListByMobileNetworkNextResponse'
+      name: SitesListByMobileNetworkNextResponse
+      no-loc:
+        - SitesListByMobileNetworkNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesListByMobileNetworkOptionalParams'
+      name: SitesListByMobileNetworkOptionalParams
+      no-loc:
+        - SitesListByMobileNetworkOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesListByMobileNetworkResponse'
+      name: SitesListByMobileNetworkResponse
+      no-loc:
+        - SitesListByMobileNetworkResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesUpdateTagsOptionalParams'
+      name: SitesUpdateTagsOptionalParams
+      no-loc:
+        - SitesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SitesUpdateTagsResponse'
+      name: SitesUpdateTagsResponse
+      no-loc:
+        - SitesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Slice'
+      name: Slice
+      no-loc:
+        - Slice
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SliceConfiguration'
+      name: SliceConfiguration
+      no-loc:
+        - SliceConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SliceListResult'
+      name: SliceListResult
+      no-loc:
+        - SliceListResult
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SliceResourceId'
+      name: SliceResourceId
+      no-loc:
+        - SliceResourceId
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Slices'
+      name: Slices
+      no-loc:
+        - Slices
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesCreateOrUpdateOptionalParams'
+      name: SlicesCreateOrUpdateOptionalParams
+      no-loc:
+        - SlicesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesCreateOrUpdateResponse'
+      name: SlicesCreateOrUpdateResponse
+      no-loc:
+        - SlicesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesDeleteOptionalParams'
+      name: SlicesDeleteOptionalParams
+      no-loc:
+        - SlicesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesGetOptionalParams'
+      name: SlicesGetOptionalParams
+      no-loc:
+        - SlicesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesGetResponse'
+      name: SlicesGetResponse
+      no-loc:
+        - SlicesGetResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesListByMobileNetworkNextOptionalParams'
+      name: SlicesListByMobileNetworkNextOptionalParams
+      no-loc:
+        - SlicesListByMobileNetworkNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesListByMobileNetworkNextResponse'
+      name: SlicesListByMobileNetworkNextResponse
+      no-loc:
+        - SlicesListByMobileNetworkNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesListByMobileNetworkOptionalParams'
+      name: SlicesListByMobileNetworkOptionalParams
+      no-loc:
+        - SlicesListByMobileNetworkOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesListByMobileNetworkResponse'
+      name: SlicesListByMobileNetworkResponse
+      no-loc:
+        - SlicesListByMobileNetworkResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesUpdateTagsOptionalParams'
+      name: SlicesUpdateTagsOptionalParams
+      no-loc:
+        - SlicesUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SlicesUpdateTagsResponse'
+      name: SlicesUpdateTagsResponse
+      no-loc:
+        - SlicesUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.Snssai'
+      name: Snssai
+      no-loc:
+        - Snssai
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SubResource'
+      name: SubResource
+      no-loc:
+        - SubResource
+      items: []
+    - uid: '@azure/arm-mobilenetwork.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-mobilenetwork.TagsObject'
+      name: TagsObject
+      no-loc:
+        - TagsObject
+      items: []
+    - uid: '@azure/arm-mobilenetwork.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-mobilenetwork.TrafficControlPermission'
+      name: TrafficControlPermission
+      no-loc:
+        - TrafficControlPermission
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInfo'
+      name: UeInfo
+      no-loc:
+        - UeInfo
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInfo4G'
+      name: UeInfo4G
+      no-loc:
+        - UeInfo4G
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInfo5G'
+      name: UeInfo5G
+      no-loc:
+        - UeInfo5G
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInfoList'
+      name: UeInfoList
+      no-loc:
+        - UeInfoList
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInformation'
+      name: UeInformation
+      no-loc:
+        - UeInformation
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInformationListNextOptionalParams'
+      name: UeInformationListNextOptionalParams
+      no-loc:
+        - UeInformationListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInformationListNextResponse'
+      name: UeInformationListNextResponse
+      no-loc:
+        - UeInformationListNextResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInformationListOptionalParams'
+      name: UeInformationListOptionalParams
+      no-loc:
+        - UeInformationListOptionalParams
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeInformationListResponse'
+      name: UeInformationListResponse
+      no-loc:
+        - UeInformationListResponse
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeQOSFlow'
+      name: UeQOSFlow
+      no-loc:
+        - UeQOSFlow
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeSessionInfo4G'
+      name: UeSessionInfo4G
+      no-loc:
+        - UeSessionInfo4G
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeSessionInfo5G'
+      name: UeSessionInfo5G
+      no-loc:
+        - UeSessionInfo5G
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeState'
+      name: UeState
+      no-loc:
+        - UeState
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UeUsageSetting'
+      name: UeUsageSetting
+      no-loc:
+        - UeUsageSetting
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      no-loc:
+        - UserAssignedIdentity
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UserConsentConfiguration'
+      name: UserConsentConfiguration
+      no-loc:
+        - UserConsentConfiguration
+      items: []
+    - uid: '@azure/arm-mobilenetwork.UserPlaneDataRoutesItem'
+      name: UserPlaneDataRoutesItem
+      no-loc:
+        - UserPlaneDataRoutesItem
+      items: []
+    - uid: '@azure/arm-mobilenetwork.VersionState'
+      name: VersionState
+      no-loc:
+        - VersionState
+      items: []
 - name: '@azure/arm-networkanalytics'
   no-loc:
     - '@azure/arm-networkanalytics'
