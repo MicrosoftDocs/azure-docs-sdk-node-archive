@@ -4,3 +4,633 @@ name: GraphRbacManagementMappers
 type: module
 package: '@azure/graph'
 summary: ''
+variables:
+  - name: AddOwnerParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.AddOwnerParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'AddOwnerParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ADGroup
+    uid: '@azure/graph.GraphRbacManagementMappers.ADGroup'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ADGroup: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Application
+    uid: '@azure/graph.GraphRbacManagementMappers.Application'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Application: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ApplicationBase
+    uid: '@azure/graph.GraphRbacManagementMappers.ApplicationBase'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ApplicationBase: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ApplicationCreateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.ApplicationCreateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ApplicationCreateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ApplicationListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.ApplicationListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ApplicationListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ApplicationUpdateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.ApplicationUpdateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ApplicationUpdateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: AppRole
+    uid: '@azure/graph.GraphRbacManagementMappers.AppRole'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'AppRole: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: BaseResource
+    uid: '@azure/graph.GraphRbacManagementMappers.BaseResource'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'BaseResource: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: CheckGroupMembershipParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.CheckGroupMembershipParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'CheckGroupMembershipParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: CheckGroupMembershipResult
+    uid: '@azure/graph.GraphRbacManagementMappers.CheckGroupMembershipResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'CheckGroupMembershipResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: CloudError
+    uid: '@azure/graph.GraphRbacManagementMappers.CloudError'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'CloudError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DirectoryObject
+    uid: '@azure/graph.GraphRbacManagementMappers.DirectoryObject'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DirectoryObject: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DirectoryObjectListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.DirectoryObjectListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DirectoryObjectListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: discriminators
+    uid: '@azure/graph.GraphRbacManagementMappers.discriminators'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        discriminators: { DirectoryObject: msRest.CompositeMapper,
+        DirectoryObject.Application: msRest.CompositeMapper,
+        DirectoryObject.Group: msRest.CompositeMapper,
+        DirectoryObject.ServicePrincipal: msRest.CompositeMapper,
+        DirectoryObject.User: msRest.CompositeMapper }
+      return:
+        description: ''
+        type: >-
+          { DirectoryObject: <xref uid="msRest.CompositeMapper" />, <xref
+          uid="DirectoryObject.Application" />: <xref
+          uid="msRest.CompositeMapper" />, <xref uid="DirectoryObject.Group" />:
+          <xref uid="msRest.CompositeMapper" />, <xref
+          uid="DirectoryObject.ServicePrincipal" />: <xref
+          uid="msRest.CompositeMapper" />, <xref uid="DirectoryObject.User" />:
+          <xref uid="msRest.CompositeMapper" /> }
+  - name: Domain
+    uid: '@azure/graph.GraphRbacManagementMappers.Domain'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Domain: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DomainListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.DomainListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DomainListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GetObjectsParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.GetObjectsParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GetObjectsParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GraphError
+    uid: '@azure/graph.GraphRbacManagementMappers.GraphError'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GraphError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GroupAddMemberParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.GroupAddMemberParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GroupAddMemberParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GroupCreateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.GroupCreateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GroupCreateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GroupGetMemberGroupsParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.GroupGetMemberGroupsParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GroupGetMemberGroupsParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GroupGetMemberGroupsResult
+    uid: '@azure/graph.GraphRbacManagementMappers.GroupGetMemberGroupsResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GroupGetMemberGroupsResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: GroupListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.GroupListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GroupListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: InformationalUrl
+    uid: '@azure/graph.GraphRbacManagementMappers.InformationalUrl'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'InformationalUrl: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyCredential
+    uid: '@azure/graph.GraphRbacManagementMappers.KeyCredential'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyCredential: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyCredentialListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.KeyCredentialListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyCredentialListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyCredentialsUpdateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.KeyCredentialsUpdateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyCredentialsUpdateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OAuth2Permission
+    uid: '@azure/graph.GraphRbacManagementMappers.OAuth2Permission'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OAuth2Permission: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OAuth2PermissionGrant
+    uid: '@azure/graph.GraphRbacManagementMappers.OAuth2PermissionGrant'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OAuth2PermissionGrant: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OAuth2PermissionGrantListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.OAuth2PermissionGrantListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OAuth2PermissionGrantListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OptionalClaim
+    uid: '@azure/graph.GraphRbacManagementMappers.OptionalClaim'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OptionalClaim: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OptionalClaims
+    uid: '@azure/graph.GraphRbacManagementMappers.OptionalClaims'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OptionalClaims: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PasswordCredential
+    uid: '@azure/graph.GraphRbacManagementMappers.PasswordCredential'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PasswordCredential: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PasswordCredentialListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.PasswordCredentialListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PasswordCredentialListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PasswordCredentialsUpdateParameters
+    uid: >-
+      @azure/graph.GraphRbacManagementMappers.PasswordCredentialsUpdateParameters
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PasswordCredentialsUpdateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PasswordProfile
+    uid: '@azure/graph.GraphRbacManagementMappers.PasswordProfile'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PasswordProfile: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PreAuthorizedApplication
+    uid: '@azure/graph.GraphRbacManagementMappers.PreAuthorizedApplication'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PreAuthorizedApplication: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PreAuthorizedApplicationExtension
+    uid: '@azure/graph.GraphRbacManagementMappers.PreAuthorizedApplicationExtension'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PreAuthorizedApplicationExtension: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: PreAuthorizedApplicationPermission
+    uid: '@azure/graph.GraphRbacManagementMappers.PreAuthorizedApplicationPermission'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'PreAuthorizedApplicationPermission: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: RequiredResourceAccess
+    uid: '@azure/graph.GraphRbacManagementMappers.RequiredResourceAccess'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'RequiredResourceAccess: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceAccess
+    uid: '@azure/graph.GraphRbacManagementMappers.ResourceAccess'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceAccess: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipal
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipal'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipal: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipalBase
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipalBase'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipalBase: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipalCreateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipalCreateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipalCreateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipalListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipalListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipalListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipalObjectResult
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipalObjectResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipalObjectResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServicePrincipalUpdateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.ServicePrincipalUpdateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ServicePrincipalUpdateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SignInName
+    uid: '@azure/graph.GraphRbacManagementMappers.SignInName'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SignInName: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: User
+    uid: '@azure/graph.GraphRbacManagementMappers.User'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'User: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserBase
+    uid: '@azure/graph.GraphRbacManagementMappers.UserBase'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserBase: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserCreateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.UserCreateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserCreateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserGetMemberGroupsParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.UserGetMemberGroupsParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserGetMemberGroupsParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserGetMemberGroupsResult
+    uid: '@azure/graph.GraphRbacManagementMappers.UserGetMemberGroupsResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserGetMemberGroupsResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserListResult
+    uid: '@azure/graph.GraphRbacManagementMappers.UserListResult'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UserUpdateParameters
+    uid: '@azure/graph.GraphRbacManagementMappers.UserUpdateParameters'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UserUpdateParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

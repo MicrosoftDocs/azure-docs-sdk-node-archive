@@ -4,3 +4,81 @@ name: LogAnalyticsMappers
 type: module
 package: '@azure/loganalytics'
 summary: ''
+variables:
+  - name: Column
+    uid: '@azure/loganalytics.LogAnalyticsMappers.Column'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Column: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorDetail
+    uid: '@azure/loganalytics.LogAnalyticsMappers.ErrorDetail'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorDetail: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorInfo
+    uid: '@azure/loganalytics.LogAnalyticsMappers.ErrorInfo'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorResponse
+    uid: '@azure/loganalytics.LogAnalyticsMappers.ErrorResponse'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: QueryBody
+    uid: '@azure/loganalytics.LogAnalyticsMappers.QueryBody'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'QueryBody: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: QueryResults
+    uid: '@azure/loganalytics.LogAnalyticsMappers.QueryResults'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'QueryResults: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Table
+    uid: '@azure/loganalytics.LogAnalyticsMappers.Table'
+    package: '@azure/loganalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Table: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

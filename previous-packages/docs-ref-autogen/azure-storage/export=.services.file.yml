@@ -6,3 +6,21 @@ type: module
 interfaces:
   - azure-storage.export=.services.file.FileService
 package: azure-storage
+variables:
+  - name: FileService
+    uid: azure-storage.export=.services.file.FileService
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        FileService: (storageAccountOrConnectionString?: string,
+        storageAccessKey?: string, host?: string | StorageHost, sasToken?:
+        string, endpointSuffix?: string) => FileService
+      return:
+        description: ''
+        type: >-
+          (storageAccountOrConnectionString?: string, storageAccessKey?: string,
+          host?: string | StorageHost, sasToken?: string, endpointSuffix?:
+          string) =&gt; FileService

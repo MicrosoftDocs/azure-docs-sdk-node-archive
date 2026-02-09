@@ -4,3 +4,371 @@ name: FormRecognizerMappers
 type: module
 package: '@azure/cognitiveservices-formrecognizer'
 summary: ''
+variables:
+  - name: AnalyzeResult
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.AnalyzeResult
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'AnalyzeResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: BatchReadReceiptHeaders
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.BatchReadReceiptHeaders
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'BatchReadReceiptHeaders: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: BatchReadReceiptInStreamHeaders
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.BatchReadReceiptInStreamHeaders
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'BatchReadReceiptInStreamHeaders: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ComputerVisionError
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ComputerVisionError
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ComputerVisionError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: discriminators
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.discriminators
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        discriminators: { FieldValue.numberValue: msRest.CompositeMapper,
+        FieldValue.stringValue: msRest.CompositeMapper, fieldValue:
+        msRest.CompositeMapper }
+      return:
+        description: ''
+        type: >-
+          { <xref uid="FieldValue.numberValue" />: <xref
+          uid="msRest.CompositeMapper" />, <xref uid="FieldValue.stringValue"
+          />: <xref uid="msRest.CompositeMapper" />, fieldValue: <xref
+          uid="msRest.CompositeMapper" /> }
+  - name: ElementReference
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ElementReference
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ElementReference: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorInformation
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ErrorInformation
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorInformation: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorResponse
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ErrorResponse
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ExtractedKeyValuePair
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ExtractedKeyValuePair
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ExtractedKeyValuePair: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ExtractedPage
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ExtractedPage
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ExtractedPage: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ExtractedTable
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ExtractedTable
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ExtractedTable: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ExtractedTableColumn
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ExtractedTableColumn
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ExtractedTableColumn: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ExtractedToken
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ExtractedToken
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ExtractedToken: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: FieldValue
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.FieldValue'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'FieldValue: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: FormDocumentReport
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.FormDocumentReport
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'FormDocumentReport: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: FormOperationError
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.FormOperationError
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'FormOperationError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ImageUrl
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ImageUrl'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ImageUrl: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: InnerError
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.InnerError'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'InnerError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeysResult
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.KeysResult'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeysResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Line
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.Line'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Line: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ModelResult
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ModelResult'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ModelResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ModelsResult
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ModelsResult'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ModelsResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: NumberValue
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.NumberValue'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'NumberValue: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ReadReceiptResult
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.ReadReceiptResult
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ReadReceiptResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StringValue
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.StringValue'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StringValue: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: TextRecognitionResult
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.TextRecognitionResult
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TextRecognitionResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: TrainRequest
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.TrainRequest'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TrainRequest: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: TrainResult
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.TrainResult'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TrainResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: TrainSourceFilter
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.TrainSourceFilter
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TrainSourceFilter: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: UnderstandingResult
+    uid: >-
+      @azure/cognitiveservices-formrecognizer.FormRecognizerMappers.UnderstandingResult
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'UnderstandingResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Word
+    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerMappers.Word'
+    package: '@azure/cognitiveservices-formrecognizer'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Word: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

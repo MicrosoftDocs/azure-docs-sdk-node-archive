@@ -29,6 +29,18 @@ typeAliases:
   - '@azure/event-processor-host.OnError'
   - '@azure/event-processor-host.OnReceivedError'
   - '@azure/event-processor-host.OnReceivedMessage'
+variables:
+  - name: aadEventHubsAudience
+    uid: '@azure/event-processor-host.aadEventHubsAudience'
+    package: '@azure/event-processor-host'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'aadEventHubsAudience: "https://eventhubs.azure.net/"'
+      return:
+        description: ''
+        type: '"https:<xref uid="//eventhubs.azure.net/" />"'
 functions:
   - name: delay<T>(number, T)
     uid: '@azure/event-processor-host.delay'

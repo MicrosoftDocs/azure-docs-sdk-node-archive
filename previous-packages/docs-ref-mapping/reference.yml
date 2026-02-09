@@ -142,10 +142,20 @@
     href: ~/docs-ref-services/legacy/mixed-reality.md
     landingPageType: Service
     items:
+    - name: Mixed Reality Authentication (deprecated)
+      href: ~/docs-ref-services/legacy/mixed-reality-authentication-readme.md
+      children:
+      - '@azure/mixed-reality-authentication'
     - name: Azure Remote Rendering (deprecated)
       href: ~/docs-ref-services/legacy/mixed-reality-remote-rendering-readme.md
       children:
       - '@azure/mixed-reality-remote-rendering'
+    - name: Management
+      items:
+      - name: Resource Management - Mixed Reality (deprecated)
+        children:
+        - '@azure/arm-mixedreality'
+        landingPageType: Service
   - name: Mobile Network
     href: ~/docs-ref-services/legacy/mobile-network.md
     landingPageType: Service
