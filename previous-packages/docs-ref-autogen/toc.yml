@@ -13895,6 +13895,419 @@
       no-loc:
         - Visibility
       items: []
+- name: '@azure/arm-mixedreality'
+  no-loc:
+    - '@azure/arm-mixedreality'
+  items:
+    - name: Overview
+      uid: '@azure/arm-mixedreality'
+    - uid: '@azure/arm-mixedreality.AccountKeyRegenerateRequest'
+      name: AccountKeyRegenerateRequest
+      no-loc:
+        - AccountKeyRegenerateRequest
+      items: []
+    - uid: '@azure/arm-mixedreality.AccountKeys'
+      name: AccountKeys
+      no-loc:
+        - AccountKeys
+      items: []
+    - uid: '@azure/arm-mixedreality.CheckNameAvailabilityLocalOptionalParams'
+      name: CheckNameAvailabilityLocalOptionalParams
+      no-loc:
+        - CheckNameAvailabilityLocalOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.CheckNameAvailabilityLocalResponse'
+      name: CheckNameAvailabilityLocalResponse
+      no-loc:
+        - CheckNameAvailabilityLocalResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.CheckNameAvailabilityRequest'
+      name: CheckNameAvailabilityRequest
+      no-loc:
+        - CheckNameAvailabilityRequest
+      items: []
+    - uid: '@azure/arm-mixedreality.CheckNameAvailabilityResponse'
+      name: CheckNameAvailabilityResponse
+      no-loc:
+        - CheckNameAvailabilityResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.CloudError'
+      name: CloudError
+      no-loc:
+        - CloudError
+      items: []
+    - uid: '@azure/arm-mixedreality.CloudErrorBody'
+      name: CloudErrorBody
+      no-loc:
+        - CloudErrorBody
+      items: []
+    - uid: '@azure/arm-mixedreality.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-mixedreality.Identity'
+      name: Identity
+      no-loc:
+        - Identity
+      items: []
+    - uid: '@azure/arm-mixedreality.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-mixedreality.KnownNameUnavailableReason'
+      name: KnownNameUnavailableReason
+      no-loc:
+        - KnownNameUnavailableReason
+      items: []
+    - uid: '@azure/arm-mixedreality.LogSpecification'
+      name: LogSpecification
+      no-loc:
+        - LogSpecification
+      items: []
+    - uid: '@azure/arm-mixedreality.MetricDimension'
+      name: MetricDimension
+      no-loc:
+        - MetricDimension
+      items: []
+    - uid: '@azure/arm-mixedreality.MetricSpecification'
+      name: MetricSpecification
+      no-loc:
+        - MetricSpecification
+      items: []
+    - uid: '@azure/arm-mixedreality.MixedRealityClient'
+      name: MixedRealityClient
+      no-loc:
+        - MixedRealityClient
+      items: []
+    - uid: '@azure/arm-mixedreality.MixedRealityClientOptionalParams'
+      name: MixedRealityClientOptionalParams
+      no-loc:
+        - MixedRealityClientOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.NameUnavailableReason'
+      name: NameUnavailableReason
+      no-loc:
+        - NameUnavailableReason
+      items: []
+    - uid: '@azure/arm-mixedreality.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationPage'
+      name: OperationPage
+      no-loc:
+        - OperationPage
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationProperties'
+      name: OperationProperties
+      no-loc:
+        - OperationProperties
+      items: []
+    - uid: '@azure/arm-mixedreality.Operations'
+      name: Operations
+      no-loc:
+        - Operations
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
+      no-loc:
+        - OperationsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      no-loc:
+        - OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.OperationsListResponse'
+      name: OperationsListResponse
+      no-loc:
+        - OperationsListResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccount'
+      name: RemoteRenderingAccount
+      no-loc:
+        - RemoteRenderingAccount
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountPage'
+      name: RemoteRenderingAccountPage
+      no-loc:
+        - RemoteRenderingAccountPage
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccounts'
+      name: RemoteRenderingAccounts
+      no-loc:
+        - RemoteRenderingAccounts
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsCreateOptionalParams'
+      name: RemoteRenderingAccountsCreateOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsCreateResponse'
+      name: RemoteRenderingAccountsCreateResponse
+      no-loc:
+        - RemoteRenderingAccountsCreateResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsDeleteOptionalParams'
+      name: RemoteRenderingAccountsDeleteOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsGetOptionalParams'
+      name: RemoteRenderingAccountsGetOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsGetResponse'
+      name: RemoteRenderingAccountsGetResponse
+      no-loc:
+        - RemoteRenderingAccountsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListByResourceGroupNextOptionalParams
+      name: RemoteRenderingAccountsListByResourceGroupNextOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsListByResourceGroupNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListByResourceGroupNextResponse
+      name: RemoteRenderingAccountsListByResourceGroupNextResponse
+      no-loc:
+        - RemoteRenderingAccountsListByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListByResourceGroupOptionalParams
+      name: RemoteRenderingAccountsListByResourceGroupOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListByResourceGroupResponse
+      name: RemoteRenderingAccountsListByResourceGroupResponse
+      no-loc:
+        - RemoteRenderingAccountsListByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListBySubscriptionNextOptionalParams
+      name: RemoteRenderingAccountsListBySubscriptionNextOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsListBySubscriptionNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListBySubscriptionNextResponse
+      name: RemoteRenderingAccountsListBySubscriptionNextResponse
+      no-loc:
+        - RemoteRenderingAccountsListBySubscriptionNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListBySubscriptionOptionalParams
+      name: RemoteRenderingAccountsListBySubscriptionOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsListBySubscriptionOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsListBySubscriptionResponse
+      name: RemoteRenderingAccountsListBySubscriptionResponse
+      no-loc:
+        - RemoteRenderingAccountsListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsListKeysOptionalParams'
+      name: RemoteRenderingAccountsListKeysOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsListKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsListKeysResponse'
+      name: RemoteRenderingAccountsListKeysResponse
+      no-loc:
+        - RemoteRenderingAccountsListKeysResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.RemoteRenderingAccountsRegenerateKeysOptionalParams
+      name: RemoteRenderingAccountsRegenerateKeysOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsRegenerateKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsRegenerateKeysResponse'
+      name: RemoteRenderingAccountsRegenerateKeysResponse
+      no-loc:
+        - RemoteRenderingAccountsRegenerateKeysResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsUpdateOptionalParams'
+      name: RemoteRenderingAccountsUpdateOptionalParams
+      no-loc:
+        - RemoteRenderingAccountsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.RemoteRenderingAccountsUpdateResponse'
+      name: RemoteRenderingAccountsUpdateResponse
+      no-loc:
+        - RemoteRenderingAccountsUpdateResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-mixedreality.Serial'
+      name: Serial
+      no-loc:
+        - Serial
+      items: []
+    - uid: '@azure/arm-mixedreality.ServiceSpecification'
+      name: ServiceSpecification
+      no-loc:
+        - ServiceSpecification
+      items: []
+    - uid: '@azure/arm-mixedreality.Sku'
+      name: Sku
+      no-loc:
+        - Sku
+      items: []
+    - uid: '@azure/arm-mixedreality.SkuTier'
+      name: SkuTier
+      no-loc:
+        - SkuTier
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccount'
+      name: SpatialAnchorsAccount
+      no-loc:
+        - SpatialAnchorsAccount
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountPage'
+      name: SpatialAnchorsAccountPage
+      no-loc:
+        - SpatialAnchorsAccountPage
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccounts'
+      name: SpatialAnchorsAccounts
+      no-loc:
+        - SpatialAnchorsAccounts
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsCreateOptionalParams'
+      name: SpatialAnchorsAccountsCreateOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsCreateResponse'
+      name: SpatialAnchorsAccountsCreateResponse
+      no-loc:
+        - SpatialAnchorsAccountsCreateResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsDeleteOptionalParams'
+      name: SpatialAnchorsAccountsDeleteOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsGetOptionalParams'
+      name: SpatialAnchorsAccountsGetOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsGetResponse'
+      name: SpatialAnchorsAccountsGetResponse
+      no-loc:
+        - SpatialAnchorsAccountsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListByResourceGroupNextOptionalParams
+      name: SpatialAnchorsAccountsListByResourceGroupNextOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsListByResourceGroupNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListByResourceGroupNextResponse
+      name: SpatialAnchorsAccountsListByResourceGroupNextResponse
+      no-loc:
+        - SpatialAnchorsAccountsListByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListByResourceGroupOptionalParams
+      name: SpatialAnchorsAccountsListByResourceGroupOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListByResourceGroupResponse
+      name: SpatialAnchorsAccountsListByResourceGroupResponse
+      no-loc:
+        - SpatialAnchorsAccountsListByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListBySubscriptionNextOptionalParams
+      name: SpatialAnchorsAccountsListBySubscriptionNextOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsListBySubscriptionNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListBySubscriptionNextResponse
+      name: SpatialAnchorsAccountsListBySubscriptionNextResponse
+      no-loc:
+        - SpatialAnchorsAccountsListBySubscriptionNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsListBySubscriptionOptionalParams
+      name: SpatialAnchorsAccountsListBySubscriptionOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsListBySubscriptionResponse'
+      name: SpatialAnchorsAccountsListBySubscriptionResponse
+      no-loc:
+        - SpatialAnchorsAccountsListBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsListKeysOptionalParams'
+      name: SpatialAnchorsAccountsListKeysOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsListKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsListKeysResponse'
+      name: SpatialAnchorsAccountsListKeysResponse
+      no-loc:
+        - SpatialAnchorsAccountsListKeysResponse
+      items: []
+    - uid: >-
+        @azure/arm-mixedreality.SpatialAnchorsAccountsRegenerateKeysOptionalParams
+      name: SpatialAnchorsAccountsRegenerateKeysOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsRegenerateKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsRegenerateKeysResponse'
+      name: SpatialAnchorsAccountsRegenerateKeysResponse
+      no-loc:
+        - SpatialAnchorsAccountsRegenerateKeysResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsUpdateOptionalParams'
+      name: SpatialAnchorsAccountsUpdateOptionalParams
+      no-loc:
+        - SpatialAnchorsAccountsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-mixedreality.SpatialAnchorsAccountsUpdateResponse'
+      name: SpatialAnchorsAccountsUpdateResponse
+      no-loc:
+        - SpatialAnchorsAccountsUpdateResponse
+      items: []
+    - uid: '@azure/arm-mixedreality.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-mixedreality.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
 - name: '@azure/arm-mobilenetwork'
   no-loc:
     - '@azure/arm-mobilenetwork'
@@ -24301,6 +24714,37 @@
       name: Query
       no-loc:
         - Query
+      items: []
+- name: '@azure/mixed-reality-authentication'
+  no-loc:
+    - '@azure/mixed-reality-authentication'
+  items:
+    - name: Overview
+      uid: '@azure/mixed-reality-authentication'
+    - uid: '@azure/mixed-reality-authentication.AccessToken'
+      name: AccessToken
+      no-loc:
+        - AccessToken
+      items: []
+    - uid: '@azure/mixed-reality-authentication.AzureKeyCredential'
+      name: AzureKeyCredential
+      no-loc:
+        - AzureKeyCredential
+      items: []
+    - uid: '@azure/mixed-reality-authentication.GetTokenOptions'
+      name: GetTokenOptions
+      no-loc:
+        - GetTokenOptions
+      items: []
+    - uid: '@azure/mixed-reality-authentication.MixedRealityStsClient'
+      name: MixedRealityStsClient
+      no-loc:
+        - MixedRealityStsClient
+      items: []
+    - uid: '@azure/mixed-reality-authentication.MixedRealityStsClientOptions'
+      name: MixedRealityStsClientOptions
+      no-loc:
+        - MixedRealityStsClientOptions
       items: []
 - name: '@azure/mixed-reality-remote-rendering'
   no-loc:

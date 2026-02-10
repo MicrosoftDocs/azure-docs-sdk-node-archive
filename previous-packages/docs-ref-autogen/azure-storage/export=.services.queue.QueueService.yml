@@ -287,23 +287,79 @@ inheritedMethods:
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.emit](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.emit)
-  - name: listenerCount(EventEmitter, string)
+  - name: eventNames()
+    uid: azure-storage.export=.services.queue.QueueService.eventNames
+    package: azure-storage
+    summary: |-
+      Returns an array listing the events for which the emitter has registered
+      listeners.
+
+      ```js
+      import { EventEmitter } from 'node:events';
+
+      const myEE = new EventEmitter();
+      myEE.on('foo', () => {});
+      myEE.on('bar', () => {});
+
+      const sym = Symbol('symbol');
+      myEE.on(sym, () => {});
+
+      console.log(myEE.eventNames());
+      // Prints: [ 'foo', 'bar', Symbol(symbol) ]
+      ```
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function eventNames(): (string | symbol)[]'
+      return:
+        description: ''
+        type: (string | symbol)[]
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.eventNames](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.eventNames)
+  - name: getMaxListeners()
+    uid: azure-storage.export=.services.queue.QueueService.getMaxListeners
+    package: azure-storage
+    summary: >-
+      Returns the current max listener value for the `EventEmitter` which is
+      either
+
+      set by `emitter.setMaxListeners(n)` or defaults to
+
+      `events.defaultMaxListeners`.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getMaxListeners(): number'
+      return:
+        description: ''
+        type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.getMaxListeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.getMaxListeners)
+  - name: 'listenerCount<E>(string | symbol, (args: any[]) => void)'
     uid: azure-storage.export=.services.queue.QueueService.listenerCount
     package: azure-storage
-    summary: ''
+    summary: >-
+      Returns the number of listeners listening for the event named `eventName`.
+
+      If `listener` is provided, it will return how many times the listener is
+      found
+
+      in the list of the listeners of the event.
     remarks: ''
     isDeprecated: false
     syntax:
       content: >-
-        static function listenerCount(emitter: EventEmitter, event: string):
-        number
+        function listenerCount<E>(eventName: string | symbol, listener?: (args:
+        any[]) => void): number
       parameters:
-        - id: emitter
-          type: EventEmitter
-          description: ''
-        - id: event
-          type: string
-          description: ''
+        - id: eventName
+          type: string | symbol
+          description: The name of the event being listened for
+        - id: listener
+          type: '(args: any[]) =&gt; void'
+          description: The event handler function
       return:
         description: ''
         type: number
@@ -328,6 +384,31 @@ inheritedMethods:
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.listeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.listeners)
+  - name: 'off<E>(string | symbol, (args: any[]) => void)'
+    uid: azure-storage.export=.services.queue.QueueService.off
+    package: azure-storage
+    summary: Alias for `emitter.removeListener()`.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function off<E>(eventName: string | symbol, listener: (args: any[]) =>
+        void): QueueService
+      parameters:
+        - id: eventName
+          type: string | symbol
+          description: ''
+        - id: listener
+          type: '(args: any[]) =&gt; void'
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.queue.QueueService" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.off](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.off)
   - name: on(string, Function)
     uid: azure-storage.export=.services.queue.QueueService.on
     package: azure-storage
@@ -374,6 +455,146 @@ inheritedMethods:
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.once](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.once)
+  - name: 'prependListener<E>(string | symbol, (args: any[]) => void)'
+    uid: azure-storage.export=.services.queue.QueueService.prependListener
+    package: azure-storage
+    summary: >-
+      Adds the `listener` function to the _beginning_ of the listeners array for
+      the
+
+      event named `eventName`. No checks are made to see if the `listener` has
+
+      already been added. Multiple calls passing the same combination of
+      `eventName`
+
+      and `listener` will result in the `listener` being added, and called,
+      multiple
+
+      times.
+
+
+      ```js
+
+      server.prependListener('connection', (stream) => {
+        console.log('someone connected!');
+      });
+
+      ```
+
+
+      Returns a reference to the `EventEmitter`, so that calls can be chained.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function prependListener<E>(eventName: string | symbol, listener: (args:
+        any[]) => void): QueueService
+      parameters:
+        - id: eventName
+          type: string | symbol
+          description: The name of the event.
+        - id: listener
+          type: '(args: any[]) =&gt; void'
+          description: The callback function
+      return:
+        description: ''
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.queue.QueueService" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.prependListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.prependListener)
+  - name: 'prependOnceListener<E>(string | symbol, (args: any[]) => void)'
+    uid: azure-storage.export=.services.queue.QueueService.prependOnceListener
+    package: azure-storage
+    summary: >-
+      Adds a **one-time** `listener` function for the event named `eventName` to
+      the
+
+      _beginning_ of the listeners array. The next time `eventName` is
+      triggered, this
+
+      listener is removed, and then invoked.
+
+
+      ```js
+
+      server.prependOnceListener('connection', (stream) => {
+        console.log('Ah, we have our first user!');
+      });
+
+      ```
+
+
+      Returns a reference to the `EventEmitter`, so that calls can be chained.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function prependOnceListener<E>(eventName: string | symbol, listener:
+        (args: any[]) => void): QueueService
+      parameters:
+        - id: eventName
+          type: string | symbol
+          description: The name of the event.
+        - id: listener
+          type: '(args: any[]) =&gt; void'
+          description: The callback function
+      return:
+        description: ''
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.queue.QueueService" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.prependOnceListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.prependOnceListener)
+  - name: rawListeners<E>(string | symbol)
+    uid: azure-storage.export=.services.queue.QueueService.rawListeners
+    package: azure-storage
+    summary: |-
+      Returns a copy of the array of listeners for the event named `eventName`,
+      including any wrappers (such as those created by `.once()`).
+
+      ```js
+      import { EventEmitter } from 'node:events';
+      const emitter = new EventEmitter();
+      emitter.once('log', () => console.log('log once'));
+
+      // Returns a new Array with a function `onceWrapper` which has a property
+      // `listener` which contains the original listener bound above
+      const listeners = emitter.rawListeners('log');
+      const logFnWrapper = listeners[0];
+
+      // Logs "log once" to the console and does not unbind the `once` event
+      logFnWrapper.listener();
+
+      // Logs "log once" to the console and removes the listener
+      logFnWrapper();
+
+      emitter.on('log', () => console.log('log persistently'));
+      // Will return a new Array with a single function bound by `.on()` above
+      const newListeners = emitter.rawListeners('log');
+
+      // Logs "log persistently" twice
+      newListeners[0]();
+      emitter.emit('log');
+      ```
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function rawListeners<E>(eventName: string | symbol): (args: any[]) =>
+        void[]
+      parameters:
+        - id: eventName
+          type: string | symbol
+          description: ''
+      return:
+        description: ''
+        type: '(args: any[]) =&gt; void[]'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.rawListeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.rawListeners)
   - name: removeAllListeners(string)
     uid: azure-storage.export=.services.queue.QueueService.removeAllListeners
     package: azure-storage
@@ -460,6 +681,53 @@ inheritedMethods:
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.setProxy](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.setProxy)
+  - name: '[captureRejectionSymbol](Error, string | symbol, any[])'
+    uid: azure-storage.export=.services.queue.QueueService.[captureRejectionSymbol]
+    package: azure-storage
+    summary: |-
+      The `Symbol.for('nodejs.rejection')` method is called in case a
+      promise rejection happens when emitting an event and
+      `captureRejections` is enabled on the emitter.
+      It is possible to use `events.captureRejectionSymbol` in
+      place of `Symbol.for('nodejs.rejection')`.
+
+      ```js
+      import { EventEmitter, captureRejectionSymbol } from 'node:events';
+
+      class MyClass extends EventEmitter {
+        constructor() {
+          super({ captureRejections: true });
+        }
+
+        [captureRejectionSymbol](err, event, ...args) {
+          console.log('rejection happened for', event, 'with', err, ...args);
+          this.destroy(err);
+        }
+
+        destroy(err) {
+          // Tear the resource down here.
+        }
+      }
+      ```
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function [captureRejectionSymbol](error: Error, event: string | symbol,
+        args: any[])
+      parameters:
+        - id: error
+          type: Error
+          description: ''
+        - id: event
+          type: string | symbol
+          description: ''
+        - id: args
+          type: any[]
+          description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [StorageServiceClient.[captureRejectionSymbol]](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.[captureRejectionSymbol])
 methods:
   - name: clearMessages(string, ErrorOrResponse)
     uid: azure-storage.export=.services.queue.QueueService.clearMessages_1

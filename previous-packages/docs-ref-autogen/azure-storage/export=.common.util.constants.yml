@@ -7,3 +7,653 @@ enums:
   - azure-storage.export=.common.util.constants.RequestLocationMode
   - azure-storage.export=.common.util.constants.StorageLocation
 package: azure-storage
+variables:
+  - name: AccountSasConstants
+    uid: azure-storage.export=.common.util.constants.AccountSasConstants
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        AccountSasConstants: { Permissions: { ADD: string, CREATE: string,
+        DELETE: string, LIST: string, PROCESS: string, READ: string, UPDATE:
+        string, WRITE: string }, Protocols: { HTTPSONLY: string, HTTPSORHTTP:
+        string }, Resources: { CONTAINER: string, OBJECT: string, SERVICE:
+        string }, Services: { BLOB: string, FILE: string, QUEUE: string, TABLE:
+        string } }
+      return:
+        description: ''
+        type: >-
+          { Permissions: { ADD: string, CREATE: string, DELETE: string, LIST:
+          string, PROCESS: string, READ: string, UPDATE: string, WRITE: string
+          }, Protocols: { HTTPSONLY: string, HTTPSORHTTP: string }, Resources: {
+          CONTAINER: string, OBJECT: string, SERVICE: string }, Services: {
+          BLOB: string, FILE: string, QUEUE: string, TABLE: string } }
+  - name: AclConstants
+    uid: azure-storage.export=.common.util.constants.AclConstants
+    package: azure-storage
+    summary: Defines constants for use with shared access policies.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        AclConstants: { ACCESS_POLICY: string, EXPIRY: string, ID: string,
+        PERMISSION: string, SIGNED_IDENTIFIERS_ELEMENT: string,
+        SIGNED_IDENTIFIER_ELEMENT: string, START: string }
+      return:
+        description: ''
+        type: >-
+          { ACCESS_POLICY: string, EXPIRY: string, ID: string, PERMISSION:
+          string, SIGNED_IDENTIFIERS_ELEMENT: string, SIGNED_IDENTIFIER_ELEMENT:
+          string, START: string }
+  - name: BlobConstants
+    uid: azure-storage.export=.common.util.constants.BlobConstants
+    package: azure-storage
+    summary: Defines constants for use with blob operations.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        BlobConstants: { BLOCK_LIST_ELEMENT: string, BlobTypes: { BLOCK: string,
+        PAGE: string }, COMMITTED_ELEMENT: string,
+        DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES: number,
+        DEFAULT_WRITE_BLOCK_SIZE_IN_BYTES: number,
+        DEFAULT_WRITE_PAGE_SIZE_IN_BYTES: number, LATEST_ELEMENT: string,
+        LeaseOperation: { ACQUIRE: string, BREAK: string, CHANGE: string,
+        RELEASE: string, RENEW: string }, MAX_BLOCK_SIZE: number,
+        MAX_QUEUED_WRITE_DISK_BUFFER_SIZE: number, MAX_RANGE_GET_SIZE_WITH_MD5:
+        number, MAX_SINGLE_GET_PAGE_RANGE_SIZE: number,
+        MAX_SINGLE_UPLOAD_BLOB_SIZE_IN_BYTES: number, MAX_UPDATE_PAGE_SIZE:
+        number, MIN_WRITE_PAGE_SIZE_IN_BYTES: number, PAGE_SIZE: number,
+        PageWriteOptions: { CLEAR: string, UPDATE: string }, ResourceTypes: {
+        BLOB: string, CONTAINER: string }, UNCOMMITTED_ELEMENT: string }
+      return:
+        description: ''
+        type: >-
+          { BLOCK_LIST_ELEMENT: string, BlobTypes: { BLOCK: string, PAGE: string
+          }, COMMITTED_ELEMENT: string,
+          DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES: number,
+          DEFAULT_WRITE_BLOCK_SIZE_IN_BYTES: number,
+          DEFAULT_WRITE_PAGE_SIZE_IN_BYTES: number, LATEST_ELEMENT: string,
+          LeaseOperation: { ACQUIRE: string, BREAK: string, CHANGE: string,
+          RELEASE: string, RENEW: string }, MAX_BLOCK_SIZE: number,
+          MAX_QUEUED_WRITE_DISK_BUFFER_SIZE: number,
+          MAX_RANGE_GET_SIZE_WITH_MD5: number, MAX_SINGLE_GET_PAGE_RANGE_SIZE:
+          number, MAX_SINGLE_UPLOAD_BLOB_SIZE_IN_BYTES: number,
+          MAX_UPDATE_PAGE_SIZE: number, MIN_WRITE_PAGE_SIZE_IN_BYTES: number,
+          PAGE_SIZE: number, PageWriteOptions: { CLEAR: string, UPDATE: string
+          }, ResourceTypes: { BLOB: string, CONTAINER: string },
+          UNCOMMITTED_ELEMENT: string }
+  - name: BlobErrorCodeStrings
+    uid: azure-storage.export=.common.util.constants.BlobErrorCodeStrings
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        BlobErrorCodeStrings: { BLOB_ALREADY_EXISTS: string, BLOB_NOT_FOUND:
+        string, CONTAINER_ALREADY_EXISTS: string, CONTAINER_NOT_FOUND: string,
+        INVALID_BLOB_OR_BLOCK: string, INVALID_BLOCK_ID: string,
+        INVALID_BLOCK_LIST: string }
+      return:
+        description: ''
+        type: >-
+          { BLOB_ALREADY_EXISTS: string, BLOB_NOT_FOUND: string,
+          CONTAINER_ALREADY_EXISTS: string, CONTAINER_NOT_FOUND: string,
+          INVALID_BLOB_OR_BLOCK: string, INVALID_BLOCK_ID: string,
+          INVALID_BLOCK_LIST: string }
+  - name: ConnectionStringKeys
+    uid: azure-storage.export=.common.util.constants.ConnectionStringKeys
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        ConnectionStringKeys: { ACCOUNT_KEY_NAME: string, ACCOUNT_NAME_NAME:
+        string, BLOB_BASE_DNS_NAME: string, BLOB_ENDPOINT_NAME: string,
+        DEFAULT_ENDPOINTS_PROTOCOL_NAME: string,
+        DEVELOPMENT_STORAGE_PROXY_URI_NAME: string, FILE_BASE_DNS_NAME: string,
+        FILE_ENDPOINT_NAME: string, QUEUE_BASE_DNS_NAME: string,
+        QUEUE_ENDPOINT_NAME: string, SHARED_ACCESS_SIGNATURE_NAME: string,
+        TABLE_BASE_DNS_NAME: string, TABLE_ENDPOINT_NAME: string,
+        USE_DEVELOPMENT_STORAGE_NAME: string }
+      return:
+        description: ''
+        type: >-
+          { ACCOUNT_KEY_NAME: string, ACCOUNT_NAME_NAME: string,
+          BLOB_BASE_DNS_NAME: string, BLOB_ENDPOINT_NAME: string,
+          DEFAULT_ENDPOINTS_PROTOCOL_NAME: string,
+          DEVELOPMENT_STORAGE_PROXY_URI_NAME: string, FILE_BASE_DNS_NAME:
+          string, FILE_ENDPOINT_NAME: string, QUEUE_BASE_DNS_NAME: string,
+          QUEUE_ENDPOINT_NAME: string, SHARED_ACCESS_SIGNATURE_NAME: string,
+          TABLE_BASE_DNS_NAME: string, TABLE_ENDPOINT_NAME: string,
+          USE_DEVELOPMENT_STORAGE_NAME: string }
+  - name: DEFAULT_ENABLE_REUSE_SOCKET
+    uid: azure-storage.export=.common.util.constants.DEFAULT_ENABLE_REUSE_SOCKET
+    package: azure-storage
+    summary: The boolean of default value for enabling reuseSocket.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DEFAULT_ENABLE_REUSE_SOCKET: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: DEFAULT_PARALLEL_OPERATION_THREAD_COUNT
+    uid: >-
+      azure-storage.export=.common.util.constants.DEFAULT_PARALLEL_OPERATION_THREAD_COUNT
+    package: azure-storage
+    summary: The number of default concurrent requests for parallel operation.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DEFAULT_PARALLEL_OPERATION_THREAD_COUNT: number'
+      return:
+        description: ''
+        type: number
+  - name: FileConstants
+    uid: azure-storage.export=.common.util.constants.FileConstants
+    package: azure-storage
+    summary: Defines constants for use with file operations.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        FileConstants: { DEFAULT_SINGLE_FILE_GET_THRESHOLD_IN_BYTES: number,
+        DEFAULT_WRITE_SIZE_IN_BYTES: number, MAX_RANGE_GET_SIZE_WITH_MD5:
+        number, MAX_UPDATE_FILE_SIZE: number, MIN_WRITE_FILE_SIZE_IN_BYTES:
+        number, RangeWriteOptions: { CLEAR: string, UPDATE: string } }
+      return:
+        description: ''
+        type: >-
+          { DEFAULT_SINGLE_FILE_GET_THRESHOLD_IN_BYTES: number,
+          DEFAULT_WRITE_SIZE_IN_BYTES: number, MAX_RANGE_GET_SIZE_WITH_MD5:
+          number, MAX_UPDATE_FILE_SIZE: number, MIN_WRITE_FILE_SIZE_IN_BYTES:
+          number, RangeWriteOptions: { CLEAR: string, UPDATE: string } }
+  - name: FileErrorCodeStrings
+    uid: azure-storage.export=.common.util.constants.FileErrorCodeStrings
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        FileErrorCodeStrings: { FILE_NOT_FOUND: string, SHARE_ALREADY_EXISTS:
+        string, SHARE_NOT_FOUND: string }
+      return:
+        description: ''
+        type: >-
+          { FILE_NOT_FOUND: string, SHARE_ALREADY_EXISTS: string,
+          SHARE_NOT_FOUND: string }
+  - name: GB
+    uid: azure-storage.export=.common.util.constants.GB
+    package: azure-storage
+    summary: Constant representing a gigabyte (Non-SI version).
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'GB: number'
+      return:
+        description: ''
+        type: number
+  - name: HeaderConstants
+    uid: azure-storage.export=.common.util.constants.HeaderConstants
+    package: azure-storage
+    summary: Defines constants for use with HTTP headers.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        HeaderConstants: { ACCEPT_CHARSET_HEADER: string, ACCEPT_HEADER: string,
+        ACCEPT_RANGES: string, APPROXIMATE_MESSAGES_COUNT: string,
+        APPROXIMATE_MESSAGE_COUNT_HEADER: string, AUTHORIZATION: string,
+        BLOB_CACHE_CONTROL_HEADER: string, BLOB_CONTENT_DISPOSITION_HEADER:
+        string, BLOB_CONTENT_ENCODING_HEADER: string,
+        BLOB_CONTENT_LANGUAGE_HEADER: string, BLOB_CONTENT_LENGTH_HEADER:
+        string, BLOB_CONTENT_MD5_HEADER: string, BLOB_CONTENT_TYPE_HEADER:
+        string, BLOB_PUBLIC_ACCESS_HEADER: string, BLOB_TYPE_HEADER: string,
+        BLOCK_BLOB: string, CACHE_CONTROL: string, CACHE_CONTROL_HEADER: string,
+        CLIENT_REQUEST_ID_HEADER: string, CONTENT_DISPOSITION: string,
+        CONTENT_DISPOSITION_HEADER: string, CONTENT_ENCODING: string,
+        CONTENT_ENCODING_HEADER: string, CONTENT_ID: string, CONTENT_LANGUAGE:
+        string, CONTENT_LANGUAGE_HEADER: string, CONTENT_LENGTH: string,
+        CONTENT_LENGTH_HEADER: string, CONTENT_MD5: string, CONTENT_MD5_HEADER:
+        string, CONTENT_RANGE: string, CONTENT_TRANSFER_ENCODING_HEADER: string,
+        CONTENT_TYPE: string, CONTENT_TYPE_HEADER: string, COPY_ACTION: string,
+        COPY_COMPLETION_TIME: string, COPY_ID: string, COPY_PROGRESS: string,
+        COPY_SOURCE_HEADER: string, COPY_STATUS: string,
+        COPY_STATUS_DESCRIPTION: string, CORRELATION_ID_HEADER: string,
+        DATA_SERVICE_VERSION: string, DATE: string, DATE_HEADER: string,
+        DELETE_SNAPSHOT_HEADER: string, ETAG: string, FILE_WRITE: string,
+        GROUP_ID_HEADER: string, HOST_HEADER: string, IF_MATCH: string,
+        IF_MODIFIED_SINCE: string, IF_NONE_MATCH: string, IF_UNMODIFIED_SINCE:
+        string, INCLUDE_SNAPSHOTS_VALUE: string, JSON_CONTENT_TYPE_VALUE:
+        string, LAST_MODIFIED: string, LEASE_ACTION_HEADER: string,
+        LEASE_BREAK_PERIOD: string, LEASE_DURATION: string, LEASE_ID_HEADER:
+        string, LEASE_STATE: string, LEASE_STATUS: string, LEASE_TIME_HEADER:
+        string, LOCATION_HEADER: string, MAX_DATA_SERVICE_VERSION: string,
+        PAGE_BLOB: string, PAGE_WRITE: string, POP_RECEIPT_HEADER: string,
+        PREFER: string, PREFER_CONTENT: string, PREFER_NO_CONTENT: string,
+        PREFIX_FOR_STORAGE_HEADER: string, PREFIX_FOR_STORAGE_METADATA: string,
+        PREFIX_FOR_STORAGE_PROPERTIES: string, PROPOSED_LEASE_ID: string, RANGE:
+        string, RANGE_GET_CONTENT_MD5: string, RANGE_HEADER_FORMAT: string,
+        REQUEST_ID_HEADER: string, SEQUENCE_NUMBER: string,
+        SEQUENCE_NUMBER_ACTION: string, SEQUENCE_NUMBER_EQUAL: string,
+        SEQUENCE_NUMBER_LESS_THAN: string, SEQUENCE_NUMBER_LESS_THAN_OR_EQUAL:
+        string, SERVER_HEADER: string, SIZE: string, SNAPSHOTS_ONLY_VALUE:
+        string, SNAPSHOT_HEADER: string, SOURCE_IF_MATCH_HEADER: string,
+        SOURCE_IF_MODIFIED_SINCE_HEADER: string, SOURCE_IF_NONE_MATCH_HEADER:
+        string, SOURCE_IF_UNMODIFIED_SINCE_HEADER: string,
+        SOURCE_LEASE_ID_HEADER: string, STORAGE_RANGE_HEADER: string,
+        STORAGE_VERSION_HEADER: string, TARGET_STORAGE_VERSION: string,
+        TIME_NEXT_VISIBLE_HEADER: string, TRANSFER_ENCODING_HEADER: string,
+        TYPE_HEADER: string, USER_AGENT: string }
+      return:
+        description: ''
+        type: >-
+          { ACCEPT_CHARSET_HEADER: string, ACCEPT_HEADER: string, ACCEPT_RANGES:
+          string, APPROXIMATE_MESSAGES_COUNT: string,
+          APPROXIMATE_MESSAGE_COUNT_HEADER: string, AUTHORIZATION: string,
+          BLOB_CACHE_CONTROL_HEADER: string, BLOB_CONTENT_DISPOSITION_HEADER:
+          string, BLOB_CONTENT_ENCODING_HEADER: string,
+          BLOB_CONTENT_LANGUAGE_HEADER: string, BLOB_CONTENT_LENGTH_HEADER:
+          string, BLOB_CONTENT_MD5_HEADER: string, BLOB_CONTENT_TYPE_HEADER:
+          string, BLOB_PUBLIC_ACCESS_HEADER: string, BLOB_TYPE_HEADER: string,
+          BLOCK_BLOB: string, CACHE_CONTROL: string, CACHE_CONTROL_HEADER:
+          string, CLIENT_REQUEST_ID_HEADER: string, CONTENT_DISPOSITION: string,
+          CONTENT_DISPOSITION_HEADER: string, CONTENT_ENCODING: string,
+          CONTENT_ENCODING_HEADER: string, CONTENT_ID: string, CONTENT_LANGUAGE:
+          string, CONTENT_LANGUAGE_HEADER: string, CONTENT_LENGTH: string,
+          CONTENT_LENGTH_HEADER: string, CONTENT_MD5: string,
+          CONTENT_MD5_HEADER: string, CONTENT_RANGE: string,
+          CONTENT_TRANSFER_ENCODING_HEADER: string, CONTENT_TYPE: string,
+          CONTENT_TYPE_HEADER: string, COPY_ACTION: string,
+          COPY_COMPLETION_TIME: string, COPY_ID: string, COPY_PROGRESS: string,
+          COPY_SOURCE_HEADER: string, COPY_STATUS: string,
+          COPY_STATUS_DESCRIPTION: string, CORRELATION_ID_HEADER: string,
+          DATA_SERVICE_VERSION: string, DATE: string, DATE_HEADER: string,
+          DELETE_SNAPSHOT_HEADER: string, ETAG: string, FILE_WRITE: string,
+          GROUP_ID_HEADER: string, HOST_HEADER: string, IF_MATCH: string,
+          IF_MODIFIED_SINCE: string, IF_NONE_MATCH: string, IF_UNMODIFIED_SINCE:
+          string, INCLUDE_SNAPSHOTS_VALUE: string, JSON_CONTENT_TYPE_VALUE:
+          string, LAST_MODIFIED: string, LEASE_ACTION_HEADER: string,
+          LEASE_BREAK_PERIOD: string, LEASE_DURATION: string, LEASE_ID_HEADER:
+          string, LEASE_STATE: string, LEASE_STATUS: string, LEASE_TIME_HEADER:
+          string, LOCATION_HEADER: string, MAX_DATA_SERVICE_VERSION: string,
+          PAGE_BLOB: string, PAGE_WRITE: string, POP_RECEIPT_HEADER: string,
+          PREFER: string, PREFER_CONTENT: string, PREFER_NO_CONTENT: string,
+          PREFIX_FOR_STORAGE_HEADER: string, PREFIX_FOR_STORAGE_METADATA:
+          string, PREFIX_FOR_STORAGE_PROPERTIES: string, PROPOSED_LEASE_ID:
+          string, RANGE: string, RANGE_GET_CONTENT_MD5: string,
+          RANGE_HEADER_FORMAT: string, REQUEST_ID_HEADER: string,
+          SEQUENCE_NUMBER: string, SEQUENCE_NUMBER_ACTION: string,
+          SEQUENCE_NUMBER_EQUAL: string, SEQUENCE_NUMBER_LESS_THAN: string,
+          SEQUENCE_NUMBER_LESS_THAN_OR_EQUAL: string, SERVER_HEADER: string,
+          SIZE: string, SNAPSHOTS_ONLY_VALUE: string, SNAPSHOT_HEADER: string,
+          SOURCE_IF_MATCH_HEADER: string, SOURCE_IF_MODIFIED_SINCE_HEADER:
+          string, SOURCE_IF_NONE_MATCH_HEADER: string,
+          SOURCE_IF_UNMODIFIED_SINCE_HEADER: string, SOURCE_LEASE_ID_HEADER:
+          string, STORAGE_RANGE_HEADER: string, STORAGE_VERSION_HEADER: string,
+          TARGET_STORAGE_VERSION: string, TIME_NEXT_VISIBLE_HEADER: string,
+          TRANSFER_ENCODING_HEADER: string, TYPE_HEADER: string, USER_AGENT:
+          string }
+  - name: HTTP
+    uid: azure-storage.export=.common.util.constants.HTTP
+    package: azure-storage
+    summary: Specifies HTTP.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'HTTP: string'
+      return:
+        description: ''
+        type: string
+  - name: HTTPS
+    uid: azure-storage.export=.common.util.constants.HTTPS
+    package: azure-storage
+    summary: Specifies HTTPS.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'HTTPS: string'
+      return:
+        description: ''
+        type: string
+  - name: KB
+    uid: azure-storage.export=.common.util.constants.KB
+    package: azure-storage
+    summary: Constant representing a kilobyte (Non-SI version).
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KB: number'
+      return:
+        description: ''
+        type: number
+  - name: MB
+    uid: azure-storage.export=.common.util.constants.MB
+    package: azure-storage
+    summary: Constant representing a megabyte (Non-SI version).
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MB: number'
+      return:
+        description: ''
+        type: number
+  - name: QueryStringConstants
+    uid: azure-storage.export=.common.util.constants.QueryStringConstants
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        QueryStringConstants: { API_VERSION: string, BLOCK_ID: string,
+        BLOCK_LIST_TYPE: string, CACHE_CONTROL: string, COMP: string,
+        CONTENT_DISPOSITION: string, CONTENT_ENCODING: string, CONTENT_LANGUAGE:
+        string, CONTENT_TYPE: string, COPY_ID: string, DELIMITER: string, ENDPK:
+        string, ENDRK: string, FILTER: string, INCLUDE: string, LOCK_ID: string,
+        MARKER: string, MAX_RESULTS: string, MESSAGE_TTL: string,
+        NEXT_PARTITION_KEY: string, NEXT_ROW_KEY: string, NUM_OF_MESSAGES:
+        string, PEEK_ONLY: string, POP_RECEIPT: string, PREFIX: string, RESTYPE:
+        string, SELECT: string, SIGNATURE: string, SIGNED_EXPIRY: string,
+        SIGNED_IDENTIFIER: string, SIGNED_PERMISSIONS: string, SIGNED_RESOURCE:
+        string, SIGNED_START: string, SIGNED_VERSION: string, SKIP: string,
+        SNAPSHOT: string, STARTPK: string, STARTRK: string, TABLENAME: string,
+        TIMEOUT: string, TOP: string, VISIBILITY_TIMEOUT: string }
+      return:
+        description: ''
+        type: >-
+          { API_VERSION: string, BLOCK_ID: string, BLOCK_LIST_TYPE: string,
+          CACHE_CONTROL: string, COMP: string, CONTENT_DISPOSITION: string,
+          CONTENT_ENCODING: string, CONTENT_LANGUAGE: string, CONTENT_TYPE:
+          string, COPY_ID: string, DELIMITER: string, ENDPK: string, ENDRK:
+          string, FILTER: string, INCLUDE: string, LOCK_ID: string, MARKER:
+          string, MAX_RESULTS: string, MESSAGE_TTL: string, NEXT_PARTITION_KEY:
+          string, NEXT_ROW_KEY: string, NUM_OF_MESSAGES: string, PEEK_ONLY:
+          string, POP_RECEIPT: string, PREFIX: string, RESTYPE: string, SELECT:
+          string, SIGNATURE: string, SIGNED_EXPIRY: string, SIGNED_IDENTIFIER:
+          string, SIGNED_PERMISSIONS: string, SIGNED_RESOURCE: string,
+          SIGNED_START: string, SIGNED_VERSION: string, SKIP: string, SNAPSHOT:
+          string, STARTPK: string, STARTRK: string, TABLENAME: string, TIMEOUT:
+          string, TOP: string, VISIBILITY_TIMEOUT: string }
+  - name: QueueConstants
+    uid: azure-storage.export=.common.util.constants.QueueConstants
+    package: azure-storage
+    summary: Defines constants for use with queue storage.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        QueueConstants: { MESSAGE_TEXT_ELEMENT: string, QUEUE_MESSAGE_ELEMENT:
+        string }
+      return:
+        description: ''
+        type: '{ MESSAGE_TEXT_ELEMENT: string, QUEUE_MESSAGE_ELEMENT: string }'
+  - name: QueueErrorCodeStrings
+    uid: azure-storage.export=.common.util.constants.QueueErrorCodeStrings
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        QueueErrorCodeStrings: { INVALID_MARKER: string, INVALID_PARAMETER:
+        string, MESSAGE_NOT_FOUND: string, MESSAGE_TOO_LARGE: string,
+        POP_RECEIPT_MISMATCH: string, QUEUE_ALREADY_EXISTS: string,
+        QUEUE_BEING_DELETED: string, QUEUE_DISABLED: string, QUEUE_NOT_EMPTY:
+        string, QUEUE_NOT_FOUND: string }
+      return:
+        description: ''
+        type: >-
+          { INVALID_MARKER: string, INVALID_PARAMETER: string,
+          MESSAGE_NOT_FOUND: string, MESSAGE_TOO_LARGE: string,
+          POP_RECEIPT_MISMATCH: string, QUEUE_ALREADY_EXISTS: string,
+          QUEUE_BEING_DELETED: string, QUEUE_DISABLED: string, QUEUE_NOT_EMPTY:
+          string, QUEUE_NOT_FOUND: string }
+  - name: ServicePropertiesConstants
+    uid: azure-storage.export=.common.util.constants.ServicePropertiesConstants
+    package: azure-storage
+    summary: Defines constants for use with service properties.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        ServicePropertiesConstants: { ALLOWED_HEADERS_ELEMENT: string,
+        ALLOWED_METHODS_ELEMENT: string, ALLOWED_ORIGINS_ELEMENT: string,
+        CORS_ELEMENT: string, CORS_RULE_ELEMENT: string, DAYS_ELEMENT: string,
+        DEFAULT_ANALYTICS_VERSION: string,
+        DEFAULT_DELETE_RETENTION_POLICY_ELEMENT: string,
+        DEFAULT_SERVICE_VERSION_ELEMENT: string, DELETE_ELEMENT: string,
+        ENABLED_ELEMENT: string, EXPOSED_HEADERS_ELEMENT: string,
+        HOUR_METRICS_ELEMENT: string, INCLUDE_APIS_ELEMENT: string,
+        LOGGING_ELEMENT: string, MAX_AGE_IN_SECONDS_ELEMENT: string,
+        MINUTE_METRICS_ELEMENT: string, READ_ELEMENT: string,
+        RETENTION_POLICY_ELEMENT: string, STORAGE_SERVICE_PROPERTIES_ELEMENT:
+        string, VERSION_ELEMENT: string, WRITE_ELEMENT: string }
+      return:
+        description: ''
+        type: >-
+          { ALLOWED_HEADERS_ELEMENT: string, ALLOWED_METHODS_ELEMENT: string,
+          ALLOWED_ORIGINS_ELEMENT: string, CORS_ELEMENT: string,
+          CORS_RULE_ELEMENT: string, DAYS_ELEMENT: string,
+          DEFAULT_ANALYTICS_VERSION: string,
+          DEFAULT_DELETE_RETENTION_POLICY_ELEMENT: string,
+          DEFAULT_SERVICE_VERSION_ELEMENT: string, DELETE_ELEMENT: string,
+          ENABLED_ELEMENT: string, EXPOSED_HEADERS_ELEMENT: string,
+          HOUR_METRICS_ELEMENT: string, INCLUDE_APIS_ELEMENT: string,
+          LOGGING_ELEMENT: string, MAX_AGE_IN_SECONDS_ELEMENT: string,
+          MINUTE_METRICS_ELEMENT: string, READ_ELEMENT: string,
+          RETENTION_POLICY_ELEMENT: string, STORAGE_SERVICE_PROPERTIES_ELEMENT:
+          string, VERSION_ELEMENT: string, WRITE_ELEMENT: string }
+  - name: StorageErrorCodeStrings
+    uid: azure-storage.export=.common.util.constants.StorageErrorCodeStrings
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        StorageErrorCodeStrings: { AUTHENTICATION_FAILED: string,
+        CONDITION_NOT_MET: string, CONTAINER_ALREADY_EXISTS: string,
+        CONTAINER_BEING_DELETED: string, CONTAINER_DISABLED: string,
+        CONTAINER_NOT_FOUND: string, EMPTY_METADATA_KEY: string, INTERNAL_ERROR:
+        string, INVALID_HEADER_VALUE: string, INVALID_HTTP_VERB: string,
+        INVALID_INPUT: string, INVALID_MD5: string, INVALID_METADATA: string,
+        INVALID_QUERY_PARAMETER_VALUE: string, INVALID_RANGE: string,
+        INVALID_URI: string, INVALID_XML_DOCUMENT: string,
+        INVALID_XML_NODE_VALUE: string, MD5_MISMATCH: string,
+        METADATA_TOO_LARGE: string, MISSING_CONTENT_LENGTH_HEADER: string,
+        MISSING_REQUIRED_HEADER: string, MISSING_REQUIRED_QUERY_PARAMETER:
+        string, MISSING_REQUIRED_XML_NODE: string, OPERATION_TIMED_OUT: string,
+        OUT_OF_RANGE_INPUT: string, OUT_OF_RANGE_QUERY_PARAMETER_VALUE: string,
+        REQUEST_BODY_TOO_LARGE: string, RESOURCE_ALREADY_EXISTS: string,
+        RESOURCE_NOT_FOUND: string, SERVER_BUSY: string, UNSUPPORTED_HEADER:
+        string, UNSUPPORTED_HTTP_VERB: string, UNSUPPORTED_QUERY_PARAMETER:
+        string, UNSUPPORTED_XML_NODE: string, UPDATE_CONDITION_NOT_SATISFIED:
+        string }
+      return:
+        description: ''
+        type: >-
+          { AUTHENTICATION_FAILED: string, CONDITION_NOT_MET: string,
+          CONTAINER_ALREADY_EXISTS: string, CONTAINER_BEING_DELETED: string,
+          CONTAINER_DISABLED: string, CONTAINER_NOT_FOUND: string,
+          EMPTY_METADATA_KEY: string, INTERNAL_ERROR: string,
+          INVALID_HEADER_VALUE: string, INVALID_HTTP_VERB: string,
+          INVALID_INPUT: string, INVALID_MD5: string, INVALID_METADATA: string,
+          INVALID_QUERY_PARAMETER_VALUE: string, INVALID_RANGE: string,
+          INVALID_URI: string, INVALID_XML_DOCUMENT: string,
+          INVALID_XML_NODE_VALUE: string, MD5_MISMATCH: string,
+          METADATA_TOO_LARGE: string, MISSING_CONTENT_LENGTH_HEADER: string,
+          MISSING_REQUIRED_HEADER: string, MISSING_REQUIRED_QUERY_PARAMETER:
+          string, MISSING_REQUIRED_XML_NODE: string, OPERATION_TIMED_OUT:
+          string, OUT_OF_RANGE_INPUT: string,
+          OUT_OF_RANGE_QUERY_PARAMETER_VALUE: string, REQUEST_BODY_TOO_LARGE:
+          string, RESOURCE_ALREADY_EXISTS: string, RESOURCE_NOT_FOUND: string,
+          SERVER_BUSY: string, UNSUPPORTED_HEADER: string,
+          UNSUPPORTED_HTTP_VERB: string, UNSUPPORTED_QUERY_PARAMETER: string,
+          UNSUPPORTED_XML_NODE: string, UPDATE_CONDITION_NOT_SATISFIED: string }
+  - name: StorageServiceClientConstants
+    uid: azure-storage.export=.common.util.constants.StorageServiceClientConstants
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        StorageServiceClientConstants: { CLOUD_BLOB_HOST: string,
+        CLOUD_FILE_HOST: string, CLOUD_QUEUE_HOST: string, CLOUD_TABLE_HOST:
+        string, DEFAULT_PROTOCOL: string, DEVSTORE_BLOB_HOST: string,
+        DEVSTORE_DEFAULT_PROTOCOL: string, DEVSTORE_QUEUE_HOST: string,
+        DEVSTORE_STORAGE_ACCESS_KEY: string, DEVSTORE_STORAGE_ACCOUNT: string,
+        DEVSTORE_TABLE_HOST: string, DEV_STORE_URI: string,
+        EnvironmentVariables: { AZURE_STORAGE_ACCESS_KEY: string,
+        AZURE_STORAGE_ACCOUNT: string, AZURE_STORAGE_CONNECTION_STRING: string,
+        AZURE_STORAGE_DNS_SUFFIX: string, EMULATED: string, HTTPS_PROXY: string,
+        HTTP_PROXY: string } }
+      return:
+        description: ''
+        type: >-
+          { CLOUD_BLOB_HOST: string, CLOUD_FILE_HOST: string, CLOUD_QUEUE_HOST:
+          string, CLOUD_TABLE_HOST: string, DEFAULT_PROTOCOL: string,
+          DEVSTORE_BLOB_HOST: string, DEVSTORE_DEFAULT_PROTOCOL: string,
+          DEVSTORE_QUEUE_HOST: string, DEVSTORE_STORAGE_ACCESS_KEY: string,
+          DEVSTORE_STORAGE_ACCOUNT: string, DEVSTORE_TABLE_HOST: string,
+          DEV_STORE_URI: string, EnvironmentVariables: {
+          AZURE_STORAGE_ACCESS_KEY: string, AZURE_STORAGE_ACCOUNT: string,
+          AZURE_STORAGE_CONNECTION_STRING: string, AZURE_STORAGE_DNS_SUFFIX:
+          string, EMULATED: string, HTTPS_PROXY: string, HTTP_PROXY: string } }
+  - name: TableConstants
+    uid: azure-storage.export=.common.util.constants.TableConstants
+    package: azure-storage
+    summary: Defines constants for use with table storage.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        TableConstants: { BATCH_DELIMITER: string, CHANGESET_DELIMITER: string,
+        CONTINUATION_NEXT_PARTITION_KEY: string, CONTINUATION_NEXT_ROW_KEY:
+        string, CONTINUATION_NEXT_TABLE_NAME: string,
+        DEFAULT_DATA_SERVICE_VERSION: string, NEXT_PARTITION_KEY: string,
+        NEXT_ROW_KEY: string, NEXT_TABLE_NAME: string, ODATA_METADATA_MARKER:
+        string, ODATA_PREFIX: string, ODATA_TYPE_MARKER: string,
+        ODATA_TYPE_SUFFIX: string, ODATA_VALUE_MARKER: string, Operations: {
+        DELETE: string, INSERT: string, INSERT_OR_MERGE: string,
+        INSERT_OR_REPLACE: string, MERGE: string, RETRIEVE: string, UPDATE:
+        string }, TABLE_NAME: string, TABLE_SERVICE_TABLE_NAME: string }
+      return:
+        description: ''
+        type: >-
+          { BATCH_DELIMITER: string, CHANGESET_DELIMITER: string,
+          CONTINUATION_NEXT_PARTITION_KEY: string, CONTINUATION_NEXT_ROW_KEY:
+          string, CONTINUATION_NEXT_TABLE_NAME: string,
+          DEFAULT_DATA_SERVICE_VERSION: string, NEXT_PARTITION_KEY: string,
+          NEXT_ROW_KEY: string, NEXT_TABLE_NAME: string, ODATA_METADATA_MARKER:
+          string, ODATA_PREFIX: string, ODATA_TYPE_MARKER: string,
+          ODATA_TYPE_SUFFIX: string, ODATA_VALUE_MARKER: string, Operations: {
+          DELETE: string, INSERT: string, INSERT_OR_MERGE: string,
+          INSERT_OR_REPLACE: string, MERGE: string, RETRIEVE: string, UPDATE:
+          string }, TABLE_NAME: string, TABLE_SERVICE_TABLE_NAME: string }
+  - name: TableErrorCodeStrings
+    uid: azure-storage.export=.common.util.constants.TableErrorCodeStrings
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        TableErrorCodeStrings: { BATCH_OPERATION_NOT_SUPPORTED: string,
+        DUPLICATE_KEY_PROPERTY_SPECIFIED: string,
+        DUPLICATE_PROPERTIES_SPECIFIED: string, ENTITY_ALREADY_EXISTS: string,
+        ENTITY_NOT_FOUND: string, ENTITY_TOO_LARGE: string, INVALID_VALUE_TYPE:
+        string, JSON_FORMAT_NOT_SUPPORTED: string, METHOD_NOT_ALLOWED: string,
+        NOT_IMPLEMENTED: string, OPERATOR_INVALID: string,
+        PARTITION_KEY_NOT_SPECIFIED: string,
+        PARTITION_KEY_PROPERTY_CANNOT_BE_UPDATED: string,
+        PRIMARY_KEY_PROPERTY_IS_INVALID_TYPE: string, PROPERTIES_NEED_VALUE:
+        string, PROPERTY_NAME_INVALID: string, PROPERTY_NAME_TOO_LONG: string,
+        PROPERTY_VALUE_TOO_LARGE: string, TABLE_ALREADY_EXISTS: string,
+        TABLE_BEING_DELETED: string, TABLE_HAS_NO_PROPERTIES: string,
+        TABLE_HAS_NO_SUCH_PROPERTY: string, TABLE_NOT_FOUND: string,
+        TABLE_SERVER_OUT_OF_MEMORY: string, TOO_MANY_PROPERTIES: string,
+        UPDATE_CONDITION_NOT_SATISFIED: string, XMETHOD_INCORRECT_COUNT: string,
+        XMETHOD_INCORRECT_VALUE: string, XMETHOD_NOT_USING_POST: string }
+      return:
+        description: ''
+        type: >-
+          { BATCH_OPERATION_NOT_SUPPORTED: string,
+          DUPLICATE_KEY_PROPERTY_SPECIFIED: string,
+          DUPLICATE_PROPERTIES_SPECIFIED: string, ENTITY_ALREADY_EXISTS: string,
+          ENTITY_NOT_FOUND: string, ENTITY_TOO_LARGE: string,
+          INVALID_VALUE_TYPE: string, JSON_FORMAT_NOT_SUPPORTED: string,
+          METHOD_NOT_ALLOWED: string, NOT_IMPLEMENTED: string, OPERATOR_INVALID:
+          string, PARTITION_KEY_NOT_SPECIFIED: string,
+          PARTITION_KEY_PROPERTY_CANNOT_BE_UPDATED: string,
+          PRIMARY_KEY_PROPERTY_IS_INVALID_TYPE: string, PROPERTIES_NEED_VALUE:
+          string, PROPERTY_NAME_INVALID: string, PROPERTY_NAME_TOO_LONG: string,
+          PROPERTY_VALUE_TOO_LARGE: string, TABLE_ALREADY_EXISTS: string,
+          TABLE_BEING_DELETED: string, TABLE_HAS_NO_PROPERTIES: string,
+          TABLE_HAS_NO_SUCH_PROPERTY: string, TABLE_NOT_FOUND: string,
+          TABLE_SERVER_OUT_OF_MEMORY: string, TOO_MANY_PROPERTIES: string,
+          UPDATE_CONDITION_NOT_SATISFIED: string, XMETHOD_INCORRECT_COUNT:
+          string, XMETHOD_INCORRECT_VALUE: string, XMETHOD_NOT_USING_POST:
+          string }
+  - name: USER_AGENT_PRODUCT_NAME
+    uid: azure-storage.export=.common.util.constants.USER_AGENT_PRODUCT_NAME
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'USER_AGENT_PRODUCT_NAME: string'
+      return:
+        description: ''
+        type: string
+  - name: USER_AGENT_PRODUCT_VERSION
+    uid: azure-storage.export=.common.util.constants.USER_AGENT_PRODUCT_VERSION
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'USER_AGENT_PRODUCT_VERSION: string'
+      return:
+        description: ''
+        type: string
+  - name: VersionConstants
+    uid: azure-storage.export=.common.util.constants.VersionConstants
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'VersionConstants: { AUGUST_2013: string, FEBRUARY_2012: string }'
+      return:
+        description: ''
+        type: '{ AUGUST_2013: string, FEBRUARY_2012: string }'
+  - name: XML_METADATA_MARKER
+    uid: azure-storage.export=.common.util.constants.XML_METADATA_MARKER
+    package: azure-storage
+    summary: Marker for atom metadata.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'XML_METADATA_MARKER: string'
+      return:
+        description: ''
+        type: string
+  - name: XML_VALUE_MARKER
+    uid: azure-storage.export=.common.util.constants.XML_VALUE_MARKER
+    package: azure-storage
+    summary: Marker for atom value.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'XML_VALUE_MARKER: string'
+      return:
+        description: ''
+        type: string

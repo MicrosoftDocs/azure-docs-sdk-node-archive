@@ -4,3 +4,617 @@ name: ApplicationInsightsDataMappers
 type: module
 package: '@azure/applicationinsights-query'
 summary: ''
+variables:
+  - name: Column
+    uid: '@azure/applicationinsights-query.ApplicationInsightsDataMappers.Column'
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Column: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: discriminators
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.discriminators
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        discriminators: { EventsResultData.availabilityResult:
+        msRest.CompositeMapper, EventsResultData.browserTiming:
+        msRest.CompositeMapper, EventsResultData.customEvent:
+        msRest.CompositeMapper, EventsResultData.customMetric:
+        msRest.CompositeMapper, EventsResultData.dependency:
+        msRest.CompositeMapper, EventsResultData.exception:
+        msRest.CompositeMapper, EventsResultData.pageView:
+        msRest.CompositeMapper, EventsResultData.performanceCounter:
+        msRest.CompositeMapper, EventsResultData.request:
+        msRest.CompositeMapper, EventsResultData.trace: msRest.CompositeMapper,
+        eventsResultData: msRest.CompositeMapper }
+      return:
+        description: ''
+        type: >-
+          { <xref uid="EventsResultData.availabilityResult" />: <xref
+          uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.browserTiming" />: <xref
+          uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.customEvent" />: <xref
+          uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.customMetric" />: <xref
+          uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.dependency" />: <xref
+          uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.exception" />: <xref
+          uid="msRest.CompositeMapper" />, <xref uid="EventsResultData.pageView"
+          />: <xref uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.performanceCounter" />: <xref
+          uid="msRest.CompositeMapper" />, <xref uid="EventsResultData.request"
+          />: <xref uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.trace" />: <xref uid="msRest.CompositeMapper"
+          />, eventsResultData: <xref uid="msRest.CompositeMapper" /> }
+  - name: ErrorDetail
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.ErrorDetail
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorDetail: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorInfo
+    uid: '@azure/applicationinsights-query.ApplicationInsightsDataMappers.ErrorInfo'
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorResponse
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.ErrorResponse
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsAiInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsAiInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsAiInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsApplicationInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsApplicationInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsApplicationInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsAvailabilityResultInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsAvailabilityResultInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsAvailabilityResultInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsAvailabilityResultResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsAvailabilityResultResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsAvailabilityResultResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsBrowserTimingInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsBrowserTimingInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsBrowserTimingInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsBrowserTimingResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsBrowserTimingResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsBrowserTimingResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsClientInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsClientInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsClientInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsClientPerformanceInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsClientPerformanceInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsClientPerformanceInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsCloudInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsCloudInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsCloudInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsCustomEventInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsCustomEventInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsCustomEventInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsCustomEventResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsCustomEventResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsCustomEventResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsCustomMetricInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsCustomMetricInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsCustomMetricInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsCustomMetricResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsCustomMetricResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsCustomMetricResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsDependencyInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsDependencyInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsDependencyInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsDependencyResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsDependencyResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsDependencyResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsExceptionDetail
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsExceptionDetail
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsExceptionDetail: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsExceptionDetailsParsedStack
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsExceptionDetailsParsedStack
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsExceptionDetailsParsedStack: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsExceptionInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsExceptionInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsExceptionInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsExceptionResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsExceptionResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsExceptionResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsOperationInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsOperationInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsOperationInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsPageViewInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsPageViewInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsPageViewInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsPageViewResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsPageViewResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsPageViewResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsPerformanceCounterInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsPerformanceCounterInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsPerformanceCounterInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsPerformanceCounterResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsPerformanceCounterResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsPerformanceCounterResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsRequestInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsRequestInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsRequestInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsRequestResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsRequestResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsRequestResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsResultData
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsResultData
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsResultData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsResultDataCustomDimensions
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsResultDataCustomDimensions
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsResultDataCustomDimensions: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsResultDataCustomMeasurements
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsResultDataCustomMeasurements
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsResultDataCustomMeasurements: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsResults
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsResults
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsResults: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsSessionInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsSessionInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsSessionInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsTraceInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsTraceInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsTraceInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsTraceResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsTraceResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsTraceResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventsUserInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.EventsUserInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventsUserInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsPostBodySchema
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsPostBodySchema
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsPostBodySchema: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsPostBodySchemaParameters
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsPostBodySchemaParameters
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsPostBodySchemaParameters: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsResult
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsResult
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsResultInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsResultInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsResultInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsResultsItem
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsResultsItem
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsResultsItem: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MetricsSegmentInfo
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.MetricsSegmentInfo
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MetricsSegmentInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: QueryBody
+    uid: '@azure/applicationinsights-query.ApplicationInsightsDataMappers.QueryBody'
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'QueryBody: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: QueryResults
+    uid: >-
+      @azure/applicationinsights-query.ApplicationInsightsDataMappers.QueryResults
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'QueryResults: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Table
+    uid: '@azure/applicationinsights-query.ApplicationInsightsDataMappers.Table'
+    package: '@azure/applicationinsights-query'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Table: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

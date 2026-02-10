@@ -4,3 +4,53 @@ name: FileUtilities
 type: module
 package: azure-storage
 summary: ''
+variables:
+  - name: ListingDetails
+    uid: azure-storage.export=.services.file.FileUtilities.ListingDetails
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ListingDetails: { METADATA: string }'
+      return:
+        description: ''
+        type: '{ METADATA: string }'
+  - name: SharedAccessPermissions
+    uid: azure-storage.export=.services.file.FileUtilities.SharedAccessPermissions
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        SharedAccessPermissions: { CREATE: string, DELETE: string, LIST: string,
+        READ: string, WRITE: string }
+      return:
+        description: ''
+        type: >-
+          { CREATE: string, DELETE: string, LIST: string, READ: string, WRITE:
+          string }
+  - name: SharePublicAccessType
+    uid: azure-storage.export=.services.file.FileUtilities.SharePublicAccessType
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SharePublicAccessType: { FILE: string, OFF: string, SHARE: string }'
+      return:
+        description: ''
+        type: '{ FILE: string, OFF: string, SHARE: string }'
+  - name: ShareSnapshotDeleteOptions
+    uid: >-
+      azure-storage.export=.services.file.FileUtilities.ShareSnapshotDeleteOptions
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ShareSnapshotDeleteOptions: { SHARE_AND_SNAPSHOTS: string }'
+      return:
+        description: ''
+        type: '{ SHARE_AND_SNAPSHOTS: string }'

@@ -4,3 +4,37 @@ name: blobutilities
 type: module
 package: azure-storage
 summary: ''
+variables:
+  - name: BlobUtilities
+    uid: azure-storage.export=.services.blob.blobutilities.BlobUtilities
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        BlobUtilities: { BlobContainerPublicAccessType: { BLOB: string,
+        CONTAINER: string, OFF: string }, BlobListingDetails: { COPY: string,
+        DELETED: string, METADATA: string, SNAPSHOTS: string, UNCOMMITTED_BLOBS:
+        string }, BlobTier: { PremiumPageBlobTier: { P10: string, P20: string,
+        P30: string, P4: string, P40: string, P50: string, P6: string, P60:
+        string }, StandardBlobTier: { ARCHIVE: string, COOL: string, HOT: string
+        } }, BlockListFilter: { ALL: string, COMMITTED: string, UNCOMMITTED:
+        string }, SequenceNumberAction: { INCREMENT: string, MAX: string,
+        UPDATE: string }, SharedAccessPermissions: { DELETE: string, LIST:
+        string, READ: string, WRITE: string }, SnapshotDeleteOptions: {
+        BLOB_AND_SNAPSHOTS: string, SNAPSHOTS_ONLY: string } }
+      return:
+        description: ''
+        type: >-
+          { BlobContainerPublicAccessType: { BLOB: string, CONTAINER: string,
+          OFF: string }, BlobListingDetails: { COPY: string, DELETED: string,
+          METADATA: string, SNAPSHOTS: string, UNCOMMITTED_BLOBS: string },
+          BlobTier: { PremiumPageBlobTier: { P10: string, P20: string, P30:
+          string, P4: string, P40: string, P50: string, P6: string, P60: string
+          }, StandardBlobTier: { ARCHIVE: string, COOL: string, HOT: string } },
+          BlockListFilter: { ALL: string, COMMITTED: string, UNCOMMITTED: string
+          }, SequenceNumberAction: { INCREMENT: string, MAX: string, UPDATE:
+          string }, SharedAccessPermissions: { DELETE: string, LIST: string,
+          READ: string, WRITE: string }, SnapshotDeleteOptions: {
+          BLOB_AND_SNAPSHOTS: string, SNAPSHOTS_ONLY: string } }

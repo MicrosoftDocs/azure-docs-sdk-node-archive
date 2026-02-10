@@ -8,3 +8,19 @@ interfaces:
 classes:
   - azure-storage.export=.services.queue.QueueService
 package: azure-storage
+variables:
+  - name: QueueUtilities
+    uid: azure-storage.export=.services.queue.QueueUtilities
+    package: azure-storage
+    summary: Defines enums for use with the Queue service.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        QueueUtilities: { SharedAccessPermissions: { ADD: string, PROCESS:
+        string, READ: string, UPDATE: string } }
+      return:
+        description: ''
+        type: >-
+          { SharedAccessPermissions: { ADD: string, PROCESS: string, READ:
+          string, UPDATE: string } }

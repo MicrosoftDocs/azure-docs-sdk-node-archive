@@ -4,3 +4,1138 @@ name: EventGridMappers
 type: module
 package: '@azure/eventgrid'
 summary: ''
+variables:
+  - name: AppConfigurationKeyValueDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.AppConfigurationKeyValueDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'AppConfigurationKeyValueDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: AppConfigurationKeyValueModifiedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.AppConfigurationKeyValueModifiedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'AppConfigurationKeyValueModifiedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: BaseResource
+    uid: '@azure/eventgrid.EventGridMappers.BaseResource'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'BaseResource: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: CloudError
+    uid: '@azure/eventgrid.EventGridMappers.CloudError'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'CloudError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryArtifactEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryArtifactEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryArtifactEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryArtifactEventTarget
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryArtifactEventTarget'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryArtifactEventTarget: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryChartDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryChartDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryChartDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryChartPushedEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryChartPushedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryChartPushedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryEventActor
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryEventActor'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryEventActor: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryEventRequest
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryEventRequest'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryEventRequest: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryEventSource
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryEventSource'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryEventSource: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryEventTarget
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryEventTarget'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryEventTarget: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryImageDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryImageDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryImageDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ContainerRegistryImagePushedEventData
+    uid: '@azure/eventgrid.EventGridMappers.ContainerRegistryImagePushedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ContainerRegistryImagePushedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceConnectionStateEventInfo
+    uid: '@azure/eventgrid.EventGridMappers.DeviceConnectionStateEventInfo'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceConnectionStateEventInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceConnectionStateEventProperties
+    uid: '@azure/eventgrid.EventGridMappers.DeviceConnectionStateEventProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceConnectionStateEventProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceLifeCycleEventProperties
+    uid: '@azure/eventgrid.EventGridMappers.DeviceLifeCycleEventProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceLifeCycleEventProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTelemetryEventProperties
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTelemetryEventProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTelemetryEventProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTwinInfo
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTwinInfo'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTwinInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTwinInfoProperties
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTwinInfoProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTwinInfoProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTwinInfoX509Thumbprint
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTwinInfoX509Thumbprint'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTwinInfoX509Thumbprint: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTwinMetadata
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTwinMetadata'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTwinMetadata: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DeviceTwinProperties
+    uid: '@azure/eventgrid.EventGridMappers.DeviceTwinProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DeviceTwinProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: discriminators
+    uid: '@azure/eventgrid.EventGridMappers.discriminators'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        discriminators: { MediaJobOutput: msRest.CompositeMapper,
+        MediaJobOutput.#Microsoft.Media.JobOutputAsset: msRest.CompositeMapper }
+      return:
+        description: ''
+        type: >-
+          { MediaJobOutput: <xref uid="msRest.CompositeMapper" />,
+          MediaJobOutput.#<xref uid="Microsoft.Media.JobOutputAsset" />: <xref
+          uid="msRest.CompositeMapper" /> }
+  - name: EventGridEvent
+    uid: '@azure/eventgrid.EventGridMappers.EventGridEvent'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventGridEvent: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EventHubCaptureFileCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.EventHubCaptureFileCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EventHubCaptureFileCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IotHubDeviceConnectedEventData
+    uid: '@azure/eventgrid.EventGridMappers.IotHubDeviceConnectedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IotHubDeviceConnectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IotHubDeviceCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.IotHubDeviceCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IotHubDeviceCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IotHubDeviceDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.IotHubDeviceDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IotHubDeviceDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IotHubDeviceDisconnectedEventData
+    uid: '@azure/eventgrid.EventGridMappers.IotHubDeviceDisconnectedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IotHubDeviceDisconnectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IotHubDeviceTelemetryEventData
+    uid: '@azure/eventgrid.EventGridMappers.IotHubDeviceTelemetryEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IotHubDeviceTelemetryEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultCertificateExpiredEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultCertificateExpiredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultCertificateExpiredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultCertificateNearExpiryEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultCertificateNearExpiryEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultCertificateNearExpiryEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultCertificateNewVersionCreatedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.KeyVaultCertificateNewVersionCreatedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultCertificateNewVersionCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultKeyExpiredEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultKeyExpiredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultKeyExpiredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultKeyNearExpiryEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultKeyNearExpiryEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultKeyNearExpiryEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultKeyNewVersionCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultKeyNewVersionCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultKeyNewVersionCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultSecretExpiredEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultSecretExpiredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultSecretExpiredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultSecretNearExpiryEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultSecretNearExpiryEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultSecretNearExpiryEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyVaultSecretNewVersionCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.KeyVaultSecretNewVersionCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyVaultSecretNewVersionCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MachineLearningServicesDatasetDriftDetectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MachineLearningServicesDatasetDriftDetectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        MachineLearningServicesDatasetDriftDetectedEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MachineLearningServicesModelDeployedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MachineLearningServicesModelDeployedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MachineLearningServicesModelDeployedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MachineLearningServicesModelRegisteredEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MachineLearningServicesModelRegisteredEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MachineLearningServicesModelRegisteredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MachineLearningServicesRunCompletedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MachineLearningServicesRunCompletedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MachineLearningServicesRunCompletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MapsGeofenceEnteredEventData
+    uid: '@azure/eventgrid.EventGridMappers.MapsGeofenceEnteredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MapsGeofenceEnteredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MapsGeofenceEventProperties
+    uid: '@azure/eventgrid.EventGridMappers.MapsGeofenceEventProperties'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MapsGeofenceEventProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MapsGeofenceExitedEventData
+    uid: '@azure/eventgrid.EventGridMappers.MapsGeofenceExitedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MapsGeofenceExitedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MapsGeofenceGeometry
+    uid: '@azure/eventgrid.EventGridMappers.MapsGeofenceGeometry'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MapsGeofenceGeometry: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MapsGeofenceResultEventData
+    uid: '@azure/eventgrid.EventGridMappers.MapsGeofenceResultEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MapsGeofenceResultEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobCanceledEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobCanceledEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobCanceledEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobCancelingEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobCancelingEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobCancelingEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobError
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobError'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobErrorDetail
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobErrorDetail'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobErrorDetail: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobErroredEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobErroredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobErroredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobFinishedEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobFinishedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobFinishedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutput
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutput'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutput: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputAsset
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputAsset'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputAsset: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputCanceledEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputCanceledEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputCanceledEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputCancelingEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputCancelingEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputCancelingEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputErroredEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputErroredEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputErroredEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputFinishedEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputFinishedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputFinishedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputProcessingEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputProcessingEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputProcessingEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputProgressEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputProgressEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputProgressEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputScheduledEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputScheduledEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputScheduledEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobOutputStateChangeEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobOutputStateChangeEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobOutputStateChangeEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobProcessingEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobProcessingEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobProcessingEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobScheduledEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobScheduledEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobScheduledEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaJobStateChangeEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaJobStateChangeEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaJobStateChangeEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventConnectionRejectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventConnectionRejectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventConnectionRejectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventEncoderConnectedEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaLiveEventEncoderConnectedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventEncoderConnectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventEncoderDisconnectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventEncoderDisconnectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventEncoderDisconnectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventIncomingDataChunkDroppedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventIncomingDataChunkDroppedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventIncomingDataChunkDroppedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventIncomingStreamReceivedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventIncomingStreamReceivedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventIncomingStreamReceivedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventIncomingStreamsOutOfSyncEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventIncomingStreamsOutOfSyncEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventIncomingStreamsOutOfSyncEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventIncomingVideoStreamsOutOfSyncEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        MediaLiveEventIncomingVideoStreamsOutOfSyncEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventIngestHeartbeatEventData
+    uid: '@azure/eventgrid.EventGridMappers.MediaLiveEventIngestHeartbeatEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MediaLiveEventIngestHeartbeatEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MediaLiveEventTrackDiscontinuityDetectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.MediaLiveEventTrackDiscontinuityDetectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        MediaLiveEventTrackDiscontinuityDetectedEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceActionCancelData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceActionCancelData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceActionCancelData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceActionFailureData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceActionFailureData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceActionFailureData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceActionSuccessData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceActionSuccessData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceActionSuccessData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceDeleteCancelData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceDeleteCancelData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceDeleteCancelData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceDeleteFailureData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceDeleteFailureData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceDeleteFailureData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceDeleteSuccessData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceDeleteSuccessData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceDeleteSuccessData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceWriteCancelData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceWriteCancelData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceWriteCancelData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceWriteFailureData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceWriteFailureData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceWriteFailureData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ResourceWriteSuccessData
+    uid: '@azure/eventgrid.EventGridMappers.ResourceWriteSuccessData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ResourceWriteSuccessData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServiceBusActiveMessagesAvailableWithNoListenersEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.ServiceBusActiveMessagesAvailableWithNoListenersEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        ServiceBusActiveMessagesAvailableWithNoListenersEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        ServiceBusDeadletterMessagesAvailableWithNoListenersEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SignalRServiceClientConnectionConnectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.SignalRServiceClientConnectionConnectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SignalRServiceClientConnectionConnectedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SignalRServiceClientConnectionDisconnectedEventData
+    uid: >-
+      @azure/eventgrid.EventGridMappers.SignalRServiceClientConnectionDisconnectedEventData
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        SignalRServiceClientConnectionDisconnectedEventData:
+        msRest.CompositeMapper
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageBlobCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageBlobCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageBlobCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageBlobDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageBlobDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageBlobDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageBlobRenamedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageBlobRenamedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageBlobRenamedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageDirectoryCreatedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageDirectoryCreatedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageDirectoryCreatedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageDirectoryDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageDirectoryDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageDirectoryDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageDirectoryRenamedEventData
+    uid: '@azure/eventgrid.EventGridMappers.StorageDirectoryRenamedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageDirectoryRenamedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SubscriptionDeletedEventData
+    uid: '@azure/eventgrid.EventGridMappers.SubscriptionDeletedEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SubscriptionDeletedEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SubscriptionValidationEventData
+    uid: '@azure/eventgrid.EventGridMappers.SubscriptionValidationEventData'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SubscriptionValidationEventData: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SubscriptionValidationResponse
+    uid: '@azure/eventgrid.EventGridMappers.SubscriptionValidationResponse'
+    package: '@azure/eventgrid'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SubscriptionValidationResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

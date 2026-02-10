@@ -35,7 +35,9 @@ methods:
           description: ''
       return:
         description: A table query object with the and clause.
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />
   - name: or(string, any[])
     uid: azure-storage.export=.services.table.TableQuery.or
     package: azure-storage
@@ -63,7 +65,9 @@ methods:
           description: ''
       return:
         description: A table query object with the or clause.
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />
   - name: select(string[])
     uid: azure-storage.export=.services.table.TableQuery.select
     package: azure-storage
@@ -91,7 +95,9 @@ methods:
           description: ''
       return:
         description: A table query object with the select clause.
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />
   - name: select(string[])
     uid: azure-storage.export=.services.table.TableQuery.select_1
     package: azure-storage
@@ -106,7 +112,9 @@ methods:
           description: ''
       return:
         description: ''
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />
   - name: top(number)
     uid: azure-storage.export=.services.table.TableQuery.top
     package: azure-storage
@@ -146,7 +154,9 @@ methods:
           description: The number of items to fetch.
       return:
         description: A table query object with the top clause.
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />
   - name: toQueryObject()
     uid: azure-storage.export=.services.table.TableQuery.toQueryObject
     package: azure-storage
@@ -216,4 +226,6 @@ methods:
           description: ''
       return:
         description: A table query object with the where clause.
-        type: TableQuery
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableQuery" />

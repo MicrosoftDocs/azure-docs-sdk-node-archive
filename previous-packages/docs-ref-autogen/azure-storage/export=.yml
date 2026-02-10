@@ -195,7 +195,9 @@ functions:
       content: 'function createFileService(): FileService'
       return:
         description: ''
-        type: FileService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.file.FileService" />
   - name: createFileService(string)
     uid: azure-storage.export=.createFileService_1
     package: azure-storage
@@ -210,7 +212,9 @@ functions:
           description: ''
       return:
         description: ''
-        type: FileService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.file.FileService" />
   - name: createFileService(string, string, string | StorageHost)
     uid: azure-storage.export=.createFileService
     package: azure-storage
@@ -233,13 +237,16 @@ functions:
           description: ''
       return:
         description: ''
-        type: FileService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.file.FileService" />
   - name: createFileServiceWithSas(string | StorageHost, string)
     uid: azure-storage.export=.createFileServiceWithSas
     package: azure-storage
     summary: >-
-      Creates a new [FileService](xref:4559) object using the host Uri and the
-      SAS credentials provided.
+      Creates a new
+      [FileService](xref:azure-storage.export=.services.file.FileService) object
+      using the host Uri and the SAS credentials provided.
     remarks: ''
     isDeprecated: false
     syntax:
@@ -255,7 +262,9 @@ functions:
           description: The Shared Access Signature token.
       return:
         description: A new FileService object with the SAS credentials.
-        type: FileService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.file.FileService" />
   - name: createQueueService()
     uid: azure-storage.export=.createQueueService_2
     package: azure-storage
@@ -408,7 +417,9 @@ functions:
     uid: azure-storage.export=.createTableService
     package: azure-storage
     summary: >-
-      Creates a new [TableService](xref:4553) object.
+      Creates a new
+      [TableService](xref:azure-storage.export=.services.table.TableService)
+      object.
 
       If no storageaccount or storageaccesskey are provided, the
       AZURE_STORAGE_CONNECTION_STRING and then the AZURE_STORAGE_ACCOUNT and
@@ -421,7 +432,9 @@ functions:
       content: 'function createTableService(): TableService'
       return:
         description: A new TableService object.
-        type: TableService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableService" />
   - name: createTableService(string)
     uid: azure-storage.export=.createTableService_1
     package: azure-storage
@@ -436,7 +449,9 @@ functions:
           description: ''
       return:
         description: ''
-        type: TableService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableService" />
   - name: createTableService(string, string, StorageHost)
     uid: azure-storage.export=.createTableService_2
     package: azure-storage
@@ -459,13 +474,16 @@ functions:
           description: ''
       return:
         description: ''
-        type: TableService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableService" />
   - name: createTableServiceWithSas(string | StorageHost, string)
     uid: azure-storage.export=.createTableServiceWithSas
     package: azure-storage
     summary: >-
-      Creates a new [TableService](xref:4553) object using the host Uri and the
-      SAS credentials provided.
+      Creates a new
+      [TableService](xref:azure-storage.export=.services.table.TableService)
+      object using the host Uri and the SAS credentials provided.
     remarks: ''
     isDeprecated: false
     syntax:
@@ -481,7 +499,9 @@ functions:
           description: The Shared Access Signature token.
       return:
         description: A new TableService object with the SAS credentials.
-        type: TableService
+        type: >-
+          <xref uid="azure-storage.export" />=.<xref
+          uid="services.table.TableService" />
   - name: generateAccountSharedAccessSignature(string, string, SharedAccessPolicy)
     uid: azure-storage.export=.generateAccountSharedAccessSignature
     package: azure-storage

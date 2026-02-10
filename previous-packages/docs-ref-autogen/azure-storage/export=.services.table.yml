@@ -9,3 +9,43 @@ interfaces:
   - azure-storage.export=.services.table.TableQuery
   - azure-storage.export=.services.table.TableService
 package: azure-storage
+variables:
+  - name: TableBatch
+    uid: azure-storage.export=.services.table.TableBatch
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TableBatch: () => TableBatch'
+      return:
+        description: ''
+        type: () =&gt; TableBatch
+  - name: TableQuery
+    uid: azure-storage.export=.services.table.TableQuery
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'TableQuery: () => TableQuery'
+      return:
+        description: ''
+        type: () =&gt; TableQuery
+  - name: TableService
+    uid: azure-storage.export=.services.table.TableService
+    package: azure-storage
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        TableService: (storageAccountOrConnectionString?: string,
+        storageAccessKey?: string, host?: string | StorageHost, sasToken?:
+        string, endpointSuffix?: string) => TableService
+      return:
+        description: ''
+        type: >-
+          (storageAccountOrConnectionString?: string, storageAccessKey?: string,
+          host?: string | StorageHost, sasToken?: string, endpointSuffix?:
+          string) =&gt; TableService

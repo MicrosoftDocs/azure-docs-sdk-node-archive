@@ -4,3 +4,169 @@ name: IoTSpacesMappers
 type: module
 package: '@azure/arm-iotspaces'
 summary: ''
+variables:
+  - name: BaseResource
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.BaseResource'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'BaseResource: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: CloudError
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.CloudError'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'CloudError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorDetails
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.ErrorDetails'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorDetails: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesDescription
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesDescription'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesDescription: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesDescriptionListResult
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesDescriptionListResult'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesDescriptionListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesNameAvailabilityInfo
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesNameAvailabilityInfo'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesNameAvailabilityInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesPatchDescription
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesPatchDescription'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesPatchDescription: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesProperties
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesProperties'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: IoTSpacesSkuInfo
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.IoTSpacesSkuInfo'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'IoTSpacesSkuInfo: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Operation
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.Operation'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Operation: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OperationDisplay
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.OperationDisplay'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OperationDisplay: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OperationInputs
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.OperationInputs'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OperationInputs: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: OperationListResult
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.OperationListResult'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'OperationListResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Resource
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.Resource'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Resource: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: StorageContainerProperties
+    uid: '@azure/arm-iotspaces.IoTSpacesMappers.StorageContainerProperties'
+    package: '@azure/arm-iotspaces'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'StorageContainerProperties: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

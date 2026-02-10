@@ -4,3 +4,238 @@ name: TextAnalyticsMappers
 type: module
 package: '@azure/cognitiveservices-textanalytics'
 summary: ''
+variables:
+  - name: DetectedLanguage
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.DetectedLanguage
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DetectedLanguage: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: DocumentStatistics
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.DocumentStatistics
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'DocumentStatistics: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EntitiesBatchResult
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.EntitiesBatchResult
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EntitiesBatchResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EntitiesBatchResultItem
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.EntitiesBatchResultItem
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EntitiesBatchResultItem: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EntityRecord
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.EntityRecord'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EntityRecord: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorRecord
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.ErrorRecord'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorRecord: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ErrorResponse
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.ErrorResponse'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ErrorResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: InternalError
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.InternalError'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'InternalError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyPhraseBatchResult
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.KeyPhraseBatchResult
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyPhraseBatchResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: KeyPhraseBatchResultItem
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.KeyPhraseBatchResultItem
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'KeyPhraseBatchResultItem: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: LanguageBatchInput
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.LanguageBatchInput
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'LanguageBatchInput: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: LanguageBatchResult
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.LanguageBatchResult
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'LanguageBatchResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: LanguageBatchResultItem
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.LanguageBatchResultItem
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'LanguageBatchResultItem: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: LanguageInput
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.LanguageInput'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'LanguageInput: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MatchRecord
+    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsMappers.MatchRecord'
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MatchRecord: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MultiLanguageBatchInput
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.MultiLanguageBatchInput
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MultiLanguageBatchInput: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: MultiLanguageInput
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.MultiLanguageInput
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'MultiLanguageInput: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: RequestStatistics
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.RequestStatistics
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'RequestStatistics: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SentimentBatchResult
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.SentimentBatchResult
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SentimentBatchResult: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: SentimentBatchResultItem
+    uid: >-
+      @azure/cognitiveservices-textanalytics.TextAnalyticsMappers.SentimentBatchResultItem
+    package: '@azure/cognitiveservices-textanalytics'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'SentimentBatchResultItem: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />

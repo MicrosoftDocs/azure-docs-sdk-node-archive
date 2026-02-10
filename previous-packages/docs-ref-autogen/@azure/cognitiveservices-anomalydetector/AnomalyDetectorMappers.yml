@@ -4,3 +4,85 @@ name: AnomalyDetectorMappers
 type: module
 package: '@azure/cognitiveservices-anomalydetector'
 summary: ''
+variables:
+  - name: APIError
+    uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.APIError'
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'APIError: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ChangePointDetectRequest
+    uid: >-
+      @azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.ChangePointDetectRequest
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ChangePointDetectRequest: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: ChangePointDetectResponse
+    uid: >-
+      @azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.ChangePointDetectResponse
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ChangePointDetectResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: EntireDetectResponse
+    uid: >-
+      @azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.EntireDetectResponse
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'EntireDetectResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: LastDetectResponse
+    uid: >-
+      @azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.LastDetectResponse
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'LastDetectResponse: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Point
+    uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.Point'
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Point: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
+  - name: Request
+    uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorMappers.Request'
+    package: '@azure/cognitiveservices-anomalydetector'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'Request: msRest.CompositeMapper'
+      return:
+        description: ''
+        type: <xref uid="@azure/ms-rest-js.msRest.CompositeMapper" />
