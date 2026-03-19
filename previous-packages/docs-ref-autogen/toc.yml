@@ -16375,6 +16375,522 @@
       no-loc:
         - VersionState
       items: []
+- name: '@azure/arm-neonpostgres'
+  no-loc:
+    - '@azure/arm-neonpostgres'
+  items:
+    - name: Overview
+      uid: '@azure/arm-neonpostgres'
+    - uid: '@azure/arm-neonpostgres.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-neonpostgres.Attributes'
+      name: Attributes
+      no-loc:
+        - Attributes
+      items: []
+    - uid: '@azure/arm-neonpostgres.Branch'
+      name: Branch
+      no-loc:
+        - Branch
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesCreateOrUpdateOptionalParams'
+      name: BranchesCreateOrUpdateOptionalParams
+      no-loc:
+        - BranchesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesDeleteOptionalParams'
+      name: BranchesDeleteOptionalParams
+      no-loc:
+        - BranchesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesGetOptionalParams'
+      name: BranchesGetOptionalParams
+      no-loc:
+        - BranchesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesListOptionalParams'
+      name: BranchesListOptionalParams
+      no-loc:
+        - BranchesListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesOperations'
+      name: BranchesOperations
+      no-loc:
+        - BranchesOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchesUpdateOptionalParams'
+      name: BranchesUpdateOptionalParams
+      no-loc:
+        - BranchesUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.BranchProperties'
+      name: BranchProperties
+      no-loc:
+        - BranchProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.CompanyDetails'
+      name: CompanyDetails
+      no-loc:
+        - CompanyDetails
+      items: []
+    - uid: '@azure/arm-neonpostgres.Compute'
+      name: Compute
+      no-loc:
+        - Compute
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputeProperties'
+      name: ComputeProperties
+      no-loc:
+        - ComputeProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesCreateOrUpdateOptionalParams'
+      name: ComputesCreateOrUpdateOptionalParams
+      no-loc:
+        - ComputesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesDeleteOptionalParams'
+      name: ComputesDeleteOptionalParams
+      no-loc:
+        - ComputesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesGetOptionalParams'
+      name: ComputesGetOptionalParams
+      no-loc:
+        - ComputesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesListOptionalParams'
+      name: ComputesListOptionalParams
+      no-loc:
+        - ComputesListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesOperations'
+      name: ComputesOperations
+      no-loc:
+        - ComputesOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.ComputesUpdateOptionalParams'
+      name: ComputesUpdateOptionalParams
+      no-loc:
+        - ComputesUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ConnectionUriProperties'
+      name: ConnectionUriProperties
+      no-loc:
+        - ConnectionUriProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.ContinuablePage'
+      name: ContinuablePage
+      no-loc:
+        - ContinuablePage
+      items: []
+    - uid: '@azure/arm-neonpostgres.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-neonpostgres.DefaultEndpointSettings'
+      name: DefaultEndpointSettings
+      no-loc:
+        - DefaultEndpointSettings
+      items: []
+    - uid: '@azure/arm-neonpostgres.Endpoint'
+      name: Endpoint
+      no-loc:
+        - Endpoint
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointProperties'
+      name: EndpointProperties
+      no-loc:
+        - EndpointProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsCreateOrUpdateOptionalParams'
+      name: EndpointsCreateOrUpdateOptionalParams
+      no-loc:
+        - EndpointsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsDeleteOptionalParams'
+      name: EndpointsDeleteOptionalParams
+      no-loc:
+        - EndpointsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsGetOptionalParams'
+      name: EndpointsGetOptionalParams
+      no-loc:
+        - EndpointsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsListOptionalParams'
+      name: EndpointsListOptionalParams
+      no-loc:
+        - EndpointsListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsOperations'
+      name: EndpointsOperations
+      no-loc:
+        - EndpointsOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointsUpdateOptionalParams'
+      name: EndpointsUpdateOptionalParams
+      no-loc:
+        - EndpointsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.EndpointType'
+      name: EndpointType
+      no-loc:
+        - EndpointType
+      items: []
+    - uid: '@azure/arm-neonpostgres.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-neonpostgres.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-neonpostgres.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownEndpointType'
+      name: KnownEndpointType
+      no-loc:
+        - KnownEndpointType
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownMarketplaceSubscriptionStatus'
+      name: KnownMarketplaceSubscriptionStatus
+      no-loc:
+        - KnownMarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownResourceProvisioningState'
+      name: KnownResourceProvisioningState
+      no-loc:
+        - KnownResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownSingleSignOnStates'
+      name: KnownSingleSignOnStates
+      no-loc:
+        - KnownSingleSignOnStates
+      items: []
+    - uid: '@azure/arm-neonpostgres.KnownVersions'
+      name: KnownVersions
+      no-loc:
+        - KnownVersions
+      items: []
+    - uid: '@azure/arm-neonpostgres.MarketplaceDetails'
+      name: MarketplaceDetails
+      no-loc:
+        - MarketplaceDetails
+      items: []
+    - uid: '@azure/arm-neonpostgres.MarketplaceSubscriptionStatus'
+      name: MarketplaceSubscriptionStatus
+      no-loc:
+        - MarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabase'
+      name: NeonDatabase
+      no-loc:
+        - NeonDatabase
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabaseProperties'
+      name: NeonDatabaseProperties
+      no-loc:
+        - NeonDatabaseProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesCreateOrUpdateOptionalParams'
+      name: NeonDatabasesCreateOrUpdateOptionalParams
+      no-loc:
+        - NeonDatabasesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesDeleteOptionalParams'
+      name: NeonDatabasesDeleteOptionalParams
+      no-loc:
+        - NeonDatabasesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesGetOptionalParams'
+      name: NeonDatabasesGetOptionalParams
+      no-loc:
+        - NeonDatabasesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesListOptionalParams'
+      name: NeonDatabasesListOptionalParams
+      no-loc:
+        - NeonDatabasesListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesOperations'
+      name: NeonDatabasesOperations
+      no-loc:
+        - NeonDatabasesOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonDatabasesUpdateOptionalParams'
+      name: NeonDatabasesUpdateOptionalParams
+      no-loc:
+        - NeonDatabasesUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRole'
+      name: NeonRole
+      no-loc:
+        - NeonRole
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRoleProperties'
+      name: NeonRoleProperties
+      no-loc:
+        - NeonRoleProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesCreateOrUpdateOptionalParams'
+      name: NeonRolesCreateOrUpdateOptionalParams
+      no-loc:
+        - NeonRolesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesDeleteOptionalParams'
+      name: NeonRolesDeleteOptionalParams
+      no-loc:
+        - NeonRolesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesGetOptionalParams'
+      name: NeonRolesGetOptionalParams
+      no-loc:
+        - NeonRolesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesListOptionalParams'
+      name: NeonRolesListOptionalParams
+      no-loc:
+        - NeonRolesListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesOperations'
+      name: NeonRolesOperations
+      no-loc:
+        - NeonRolesOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.NeonRolesUpdateOptionalParams'
+      name: NeonRolesUpdateOptionalParams
+      no-loc:
+        - NeonRolesUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OfferDetails'
+      name: OfferDetails
+      no-loc:
+        - OfferDetails
+      items: []
+    - uid: '@azure/arm-neonpostgres.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-neonpostgres.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-neonpostgres.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OperationsOperations'
+      name: OperationsOperations
+      no-loc:
+        - OperationsOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationProperties'
+      name: OrganizationProperties
+      no-loc:
+        - OrganizationProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationResource'
+      name: OrganizationResource
+      no-loc:
+        - OrganizationResource
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsCreateOrUpdateOptionalParams'
+      name: OrganizationsCreateOrUpdateOptionalParams
+      no-loc:
+        - OrganizationsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsDeleteOptionalParams'
+      name: OrganizationsDeleteOptionalParams
+      no-loc:
+        - OrganizationsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsGetOptionalParams'
+      name: OrganizationsGetOptionalParams
+      no-loc:
+        - OrganizationsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsGetPostgresVersionsOptionalParams'
+      name: OrganizationsGetPostgresVersionsOptionalParams
+      no-loc:
+        - OrganizationsGetPostgresVersionsOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsListByResourceGroupOptionalParams'
+      name: OrganizationsListByResourceGroupOptionalParams
+      no-loc:
+        - OrganizationsListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsListBySubscriptionOptionalParams'
+      name: OrganizationsListBySubscriptionOptionalParams
+      no-loc:
+        - OrganizationsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsOperations'
+      name: OrganizationsOperations
+      no-loc:
+        - OrganizationsOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.OrganizationsUpdateOptionalParams'
+      name: OrganizationsUpdateOptionalParams
+      no-loc:
+        - OrganizationsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-neonpostgres.PagedAsyncIterableIterator'
+      name: PagedAsyncIterableIterator
+      no-loc:
+        - PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/arm-neonpostgres.PageSettings'
+      name: PageSettings
+      no-loc:
+        - PageSettings
+      items: []
+    - uid: '@azure/arm-neonpostgres.PartnerOrganizationProperties'
+      name: PartnerOrganizationProperties
+      no-loc:
+        - PartnerOrganizationProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.PgVersion'
+      name: PgVersion
+      no-loc:
+        - PgVersion
+      items: []
+    - uid: '@azure/arm-neonpostgres.PgVersionsResult'
+      name: PgVersionsResult
+      no-loc:
+        - PgVersionsResult
+      items: []
+    - uid: '@azure/arm-neonpostgres.PostgresClient'
+      name: PostgresClient
+      no-loc:
+        - PostgresClient
+      items: []
+    - uid: '@azure/arm-neonpostgres.PostgresClientOptionalParams'
+      name: PostgresClientOptionalParams
+      no-loc:
+        - PostgresClientOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.Project'
+      name: Project
+      no-loc:
+        - Project
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectProperties'
+      name: ProjectProperties
+      no-loc:
+        - ProjectProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsCreateOrUpdateOptionalParams'
+      name: ProjectsCreateOrUpdateOptionalParams
+      no-loc:
+        - ProjectsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsDeleteOptionalParams'
+      name: ProjectsDeleteOptionalParams
+      no-loc:
+        - ProjectsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsGetConnectionUriOptionalParams'
+      name: ProjectsGetConnectionUriOptionalParams
+      no-loc:
+        - ProjectsGetConnectionUriOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsGetOptionalParams'
+      name: ProjectsGetOptionalParams
+      no-loc:
+        - ProjectsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsListOptionalParams'
+      name: ProjectsListOptionalParams
+      no-loc:
+        - ProjectsListOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsOperations'
+      name: ProjectsOperations
+      no-loc:
+        - ProjectsOperations
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProjectsUpdateOptionalParams'
+      name: ProjectsUpdateOptionalParams
+      no-loc:
+        - ProjectsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-neonpostgres.ProxyResource'
+      name: ProxyResource
+      no-loc:
+        - ProxyResource
+      items: []
+    - uid: '@azure/arm-neonpostgres.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-neonpostgres.ResourceProvisioningState'
+      name: ResourceProvisioningState
+      no-loc:
+        - ResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-neonpostgres.RestorePollerOptions'
+      name: RestorePollerOptions
+      no-loc:
+        - RestorePollerOptions
+      items: []
+    - uid: '@azure/arm-neonpostgres.SingleSignOnProperties'
+      name: SingleSignOnProperties
+      no-loc:
+        - SingleSignOnProperties
+      items: []
+    - uid: '@azure/arm-neonpostgres.SingleSignOnStates'
+      name: SingleSignOnStates
+      no-loc:
+        - SingleSignOnStates
+      items: []
+    - uid: '@azure/arm-neonpostgres.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-neonpostgres.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-neonpostgres.UserDetails'
+      name: UserDetails
+      no-loc:
+        - UserDetails
+      items: []
 - name: '@azure/arm-networkanalytics'
   no-loc:
     - '@azure/arm-networkanalytics'
