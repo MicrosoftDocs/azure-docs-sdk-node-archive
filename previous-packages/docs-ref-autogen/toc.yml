@@ -8841,6 +8841,206 @@
       no-loc:
         - WarUploadedUserSourceInfo
       items: []
+- name: '@azure/arm-changeanalysis'
+  no-loc:
+    - '@azure/arm-changeanalysis'
+  items:
+    - name: Overview
+      uid: '@azure/arm-changeanalysis'
+    - uid: '@azure/arm-changeanalysis.AzureChangeAnalysisManagementClient'
+      name: AzureChangeAnalysisManagementClient
+      no-loc:
+        - AzureChangeAnalysisManagementClient
+      items: []
+    - uid: >-
+        @azure/arm-changeanalysis.AzureChangeAnalysisManagementClientOptionalParams
+      name: AzureChangeAnalysisManagementClientOptionalParams
+      no-loc:
+        - AzureChangeAnalysisManagementClientOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.Change'
+      name: Change
+      no-loc:
+        - Change
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangeCategory'
+      name: ChangeCategory
+      no-loc:
+        - ChangeCategory
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangeList'
+      name: ChangeList
+      no-loc:
+        - ChangeList
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangeProperties'
+      name: ChangeProperties
+      no-loc:
+        - ChangeProperties
+      items: []
+    - uid: '@azure/arm-changeanalysis.Changes'
+      name: Changes
+      no-loc:
+        - Changes
+      items: []
+    - uid: >-
+        @azure/arm-changeanalysis.ChangesListChangesByResourceGroupNextOptionalParams
+      name: ChangesListChangesByResourceGroupNextOptionalParams
+      no-loc:
+        - ChangesListChangesByResourceGroupNextOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangesListChangesByResourceGroupNextResponse'
+      name: ChangesListChangesByResourceGroupNextResponse
+      no-loc:
+        - ChangesListChangesByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-changeanalysis.ChangesListChangesByResourceGroupOptionalParams
+      name: ChangesListChangesByResourceGroupOptionalParams
+      no-loc:
+        - ChangesListChangesByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangesListChangesByResourceGroupResponse'
+      name: ChangesListChangesByResourceGroupResponse
+      no-loc:
+        - ChangesListChangesByResourceGroupResponse
+      items: []
+    - uid: >-
+        @azure/arm-changeanalysis.ChangesListChangesBySubscriptionNextOptionalParams
+      name: ChangesListChangesBySubscriptionNextOptionalParams
+      no-loc:
+        - ChangesListChangesBySubscriptionNextOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangesListChangesBySubscriptionNextResponse'
+      name: ChangesListChangesBySubscriptionNextResponse
+      no-loc:
+        - ChangesListChangesBySubscriptionNextResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangesListChangesBySubscriptionOptionalParams'
+      name: ChangesListChangesBySubscriptionOptionalParams
+      no-loc:
+        - ChangesListChangesBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangesListChangesBySubscriptionResponse'
+      name: ChangesListChangesBySubscriptionResponse
+      no-loc:
+        - ChangesListChangesBySubscriptionResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.ChangeType'
+      name: ChangeType
+      no-loc:
+        - ChangeType
+      items: []
+    - uid: '@azure/arm-changeanalysis.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-changeanalysis.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-changeanalysis.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.KnownChangeType'
+      name: KnownChangeType
+      no-loc:
+        - KnownChangeType
+      items: []
+    - uid: '@azure/arm-changeanalysis.KnownLevel'
+      name: KnownLevel
+      no-loc:
+        - KnownLevel
+      items: []
+    - uid: '@azure/arm-changeanalysis.Level'
+      name: Level
+      no-loc:
+        - Level
+      items: []
+    - uid: '@azure/arm-changeanalysis.Operations'
+      name: Operations
+      no-loc:
+        - Operations
+      items: []
+    - uid: '@azure/arm-changeanalysis.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
+      no-loc:
+        - OperationsListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      no-loc:
+        - OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.OperationsListResponse'
+      name: OperationsListResponse
+      no-loc:
+        - OperationsListResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.PropertyChange'
+      name: PropertyChange
+      no-loc:
+        - PropertyChange
+      items: []
+    - uid: '@azure/arm-changeanalysis.ProxyResource'
+      name: ProxyResource
+      no-loc:
+        - ProxyResource
+      items: []
+    - uid: '@azure/arm-changeanalysis.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceChanges'
+      name: ResourceChanges
+      no-loc:
+        - ResourceChanges
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceChangesListNextOptionalParams'
+      name: ResourceChangesListNextOptionalParams
+      no-loc:
+        - ResourceChangesListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceChangesListNextResponse'
+      name: ResourceChangesListNextResponse
+      no-loc:
+        - ResourceChangesListNextResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceChangesListOptionalParams'
+      name: ResourceChangesListOptionalParams
+      no-loc:
+        - ResourceChangesListOptionalParams
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceChangesListResponse'
+      name: ResourceChangesListResponse
+      no-loc:
+        - ResourceChangesListResponse
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceProviderOperationDefinition'
+      name: ResourceProviderOperationDefinition
+      no-loc:
+        - ResourceProviderOperationDefinition
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceProviderOperationDisplay'
+      name: ResourceProviderOperationDisplay
+      no-loc:
+        - ResourceProviderOperationDisplay
+      items: []
+    - uid: '@azure/arm-changeanalysis.ResourceProviderOperationList'
+      name: ResourceProviderOperationList
+      no-loc:
+        - ResourceProviderOperationList
+      items: []
 - name: '@azure/arm-hdinsightcontainers'
   no-loc:
     - '@azure/arm-hdinsightcontainers'
