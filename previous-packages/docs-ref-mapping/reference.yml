@@ -298,6 +298,16 @@
         href: ~/docs-ref-services/legacy/arm-videoanalyzer-readme.md
         children:
         - '@azure/arm-videoanalyzer'
+  - name: Voice Services
+    href: ~/docs-ref-services/legacy/voice-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Voice Services (deprecated)
+        children:
+        - '@azure/arm-voiceservices'
+        landingPageType: Service
   - name: Other
     landingPageType: Service
     items:
