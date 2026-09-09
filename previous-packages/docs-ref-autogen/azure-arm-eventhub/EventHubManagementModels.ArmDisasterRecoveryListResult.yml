@@ -42,7 +42,43 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.length
+  - name: '[unscopables]'
+    uid: >-
+      azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecoveryListResult.[unscopables]
+    package: azure-arm-eventhub
+    summary: |-
+      Is an object whose properties have the value 'true'
+      when they will be absent when used in a 'with' statement.
+    fullName: '[unscopables]'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      return:
+        description: ''
+        type: '{ [unscopables]?: boolean, length?: boolean }'
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@229
 inheritedMethods:
+  - name: at(number)
+    uid: >-
+      azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecoveryListResult.at
+    package: azure-arm-eventhub
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function at(index: number): undefined | ArmDisasterRecovery'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: >-
+          undefined | <xref
+          uid="azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecovery"
+          />
+    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((ArmDisasterRecovery | ConcatArray<ArmDisasterRecovery>)[])
     uid: >-
       azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecoveryListResult.concat_1
@@ -372,7 +408,7 @@ inheritedMethods:
           />
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
-      find<S>((this: void, value: ArmDisasterRecovery, index: number, obj:
+      find<S>((value: ArmDisasterRecovery, index: number, obj:
       ArmDisasterRecovery[]) => value, any)
     uid: >-
       azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecoveryListResult.find
@@ -386,13 +422,12 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: >-
-        function find<S>(predicate: (this: void, value: ArmDisasterRecovery,
-        index: number, obj: ArmDisasterRecovery[]) => value, thisArg?: any):
-        undefined | S
+        function find<S>(predicate: (value: ArmDisasterRecovery, index: number,
+        obj: ArmDisasterRecovery[]) => value, thisArg?: any): undefined | S
       parameters:
         - id: predicate
           type: >-
-            (this: void, value: ArmDisasterRecovery, index: number, obj:
+            (value: ArmDisasterRecovery, index: number, obj:
             ArmDisasterRecovery[]) =&gt; value
           description: >-
             find calls predicate once for each element of the array, in
@@ -1257,27 +1292,7 @@ inheritedMethods:
           IterableIterator&lt;<xref
           uid="azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecovery"
           />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@225
-  - name: '[unscopables]()'
-    uid: >-
-      azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecoveryListResult.[unscopables]
-    package: azure-arm-eventhub
-    summary: |-
-      Returns an object whose properties have the value 'true'
-      when they will be absent when used in a 'with' statement.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function [unscopables](): { copyWithin: boolean, entries: boolean, fill:
-        boolean, find: boolean, findIndex: boolean, keys: boolean, values:
-        boolean }
-      return:
-        description: ''
-        type: >-
-          { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
-          findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@227
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@227
 extends: >-
   Array&lt;<xref
   uid="azure-arm-eventhub.EventHubManagementModels.ArmDisasterRecovery" />&gt;

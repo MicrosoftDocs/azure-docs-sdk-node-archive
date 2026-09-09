@@ -23,7 +23,41 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.length
+  - name: '[unscopables]'
+    uid: >-
+      azure-arm-search.SearchManagementModels.SearchServiceListResult.[unscopables]
+    package: azure-arm-search
+    summary: |-
+      Is an object whose properties have the value 'true'
+      when they will be absent when used in a 'with' statement.
+    fullName: '[unscopables]'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      return:
+        description: ''
+        type: '{ [unscopables]?: boolean, length?: boolean }'
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@163
 inheritedMethods:
+  - name: at(number)
+    uid: azure-arm-search.SearchManagementModels.SearchServiceListResult.at
+    package: azure-arm-search
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function at(index: number): undefined | SearchService'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: >-
+          undefined | <xref
+          uid="azure-arm-search.SearchManagementModels.SearchService" />
+    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((SearchService | ConcatArray<SearchService>)[])
     uid: azure-arm-search.SearchManagementModels.SearchServiceListResult.concat_1
     package: azure-arm-search
@@ -324,8 +358,8 @@ inheritedMethods:
           uid="azure-arm-search.SearchManagementModels.SearchService" />
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
-      find<S>((this: void, value: SearchService, index: number, obj:
-      SearchService[]) => value, any)
+      find<S>((value: SearchService, index: number, obj: SearchService[]) =>
+      value, any)
     uid: azure-arm-search.SearchManagementModels.SearchServiceListResult.find
     package: azure-arm-search
     summary: >-
@@ -337,13 +371,13 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: >-
-        function find<S>(predicate: (this: void, value: SearchService, index:
-        number, obj: SearchService[]) => value, thisArg?: any): undefined | S
+        function find<S>(predicate: (value: SearchService, index: number, obj:
+        SearchService[]) => value, thisArg?: any): undefined | S
       parameters:
         - id: predicate
           type: >-
-            (this: void, value: SearchService, index: number, obj:
-            SearchService[]) =&gt; value
+            (value: SearchService, index: number, obj: SearchService[]) =&gt;
+            value
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -1127,27 +1161,7 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="azure-arm-search.SearchManagementModels.SearchService" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@159
-  - name: '[unscopables]()'
-    uid: >-
-      azure-arm-search.SearchManagementModels.SearchServiceListResult.[unscopables]
-    package: azure-arm-search
-    summary: |-
-      Returns an object whose properties have the value 'true'
-      when they will be absent when used in a 'with' statement.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function [unscopables](): { copyWithin: boolean, entries: boolean, fill:
-        boolean, find: boolean, findIndex: boolean, keys: boolean, values:
-        boolean }
-      return:
-        description: ''
-        type: >-
-          { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
-          findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@161
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@161
 extends: >-
   Array&lt;<xref uid="azure-arm-search.SearchManagementModels.SearchService"
   />&gt;

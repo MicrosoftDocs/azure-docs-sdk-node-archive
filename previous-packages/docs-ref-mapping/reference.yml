@@ -34,6 +34,16 @@
         children:
         - azure-arm-appinsights
         landingPageType: Service
+  - name: Astro
+    href: ~/docs-ref-services/legacy/astro.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Astro (deprecated)
+        href: ~/docs-ref-services/legacy/arm-astro-readme.md
+        children:
+        - '@azure/arm-astro'
   - name: Cognitive Services
     href: ~/docs-ref-services/legacy/cognitive-services.md
     landingPageType: Service

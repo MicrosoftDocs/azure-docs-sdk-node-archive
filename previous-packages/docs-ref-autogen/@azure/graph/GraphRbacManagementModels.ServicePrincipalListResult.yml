@@ -37,7 +37,41 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.length
+  - name: '[unscopables]'
+    uid: >-
+      @azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.[unscopables]
+    package: '@azure/graph'
+    summary: |-
+      Is an object whose properties have the value 'true'
+      when they will be absent when used in a 'with' statement.
+    fullName: '[unscopables]'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      return:
+        description: ''
+        type: '{ [unscopables]?: boolean, length?: boolean }'
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@734
 inheritedMethods:
+  - name: at(number)
+    uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.at'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function at(index: number): undefined | ServicePrincipal'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: >-
+          undefined | <xref
+          uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((ServicePrincipal | ConcatArray<ServicePrincipal>)[])
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.concat_1'
     package: '@azure/graph'
@@ -352,8 +386,8 @@ inheritedMethods:
           uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
-      find<S>((this: void, value: ServicePrincipal, index: number, obj:
-      ServicePrincipal[]) => value, any)
+      find<S>((value: ServicePrincipal, index: number, obj: ServicePrincipal[])
+      => value, any)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.find'
     package: '@azure/graph'
     summary: >-
@@ -365,13 +399,13 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: >-
-        function find<S>(predicate: (this: void, value: ServicePrincipal, index:
-        number, obj: ServicePrincipal[]) => value, thisArg?: any): undefined | S
+        function find<S>(predicate: (value: ServicePrincipal, index: number,
+        obj: ServicePrincipal[]) => value, thisArg?: any): undefined | S
       parameters:
         - id: predicate
           type: >-
-            (this: void, value: ServicePrincipal, index: number, obj:
-            ServicePrincipal[]) =&gt; value
+            (value: ServicePrincipal, index: number, obj: ServicePrincipal[])
+            =&gt; value
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -1181,27 +1215,7 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@730
-  - name: '[unscopables]()'
-    uid: >-
-      @azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.[unscopables]
-    package: '@azure/graph'
-    summary: |-
-      Returns an object whose properties have the value 'true'
-      when they will be absent when used in a 'with' statement.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function [unscopables](): { copyWithin: boolean, entries: boolean, fill:
-        boolean, find: boolean, findIndex: boolean, keys: boolean, values:
-        boolean }
-      return:
-        description: ''
-        type: >-
-          { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
-          findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@732
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@732
 extends: >-
   Array&lt;<xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal"
   />&gt;
