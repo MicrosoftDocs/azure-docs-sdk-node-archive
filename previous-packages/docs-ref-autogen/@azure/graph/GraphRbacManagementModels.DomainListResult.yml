@@ -23,7 +23,40 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.length
+  - name: '[unscopables]'
+    uid: '@azure/graph.GraphRbacManagementModels.DomainListResult.[unscopables]'
+    package: '@azure/graph'
+    summary: |-
+      Is an object whose properties have the value 'true'
+      when they will be absent when used in a 'with' statement.
+    fullName: '[unscopables]'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      return:
+        description: ''
+        type: '{ [unscopables]?: boolean, length?: boolean }'
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@734
 inheritedMethods:
+  - name: at(number)
+    uid: '@azure/graph.GraphRbacManagementModels.DomainListResult.at'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function at(index: number): undefined | Domain'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: >-
+          undefined | <xref uid="@azure/graph.GraphRbacManagementModels.Domain"
+          />
+    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((Domain | ConcatArray<Domain>)[])
     uid: '@azure/graph.GraphRbacManagementModels.DomainListResult.concat_1'
     package: '@azure/graph'
@@ -294,9 +327,7 @@ inheritedMethods:
           undefined | <xref uid="@azure/graph.GraphRbacManagementModels.Domain"
           />
     inheritanceDescription: <b>Inherited From</b> Array.find
-  - name: >-
-      find<S>((this: void, value: Domain, index: number, obj: Domain[]) =>
-      value, any)
+  - name: 'find<S>((value: Domain, index: number, obj: Domain[]) => value, any)'
     uid: '@azure/graph.GraphRbacManagementModels.DomainListResult.find'
     package: '@azure/graph'
     summary: >-
@@ -308,13 +339,11 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: >-
-        function find<S>(predicate: (this: void, value: Domain, index: number,
-        obj: Domain[]) => value, thisArg?: any): undefined | S
+        function find<S>(predicate: (value: Domain, index: number, obj:
+        Domain[]) => value, thisArg?: any): undefined | S
       parameters:
         - id: predicate
-          type: >-
-            (this: void, value: Domain, index: number, obj: Domain[]) =&gt;
-            value
+          type: '(value: Domain, index: number, obj: Domain[]) =&gt; value'
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -1054,24 +1083,5 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.Domain" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@730
-  - name: '[unscopables]()'
-    uid: '@azure/graph.GraphRbacManagementModels.DomainListResult.[unscopables]'
-    package: '@azure/graph'
-    summary: |-
-      Returns an object whose properties have the value 'true'
-      when they will be absent when used in a 'with' statement.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function [unscopables](): { copyWithin: boolean, entries: boolean, fill:
-        boolean, find: boolean, findIndex: boolean, keys: boolean, values:
-        boolean }
-      return:
-        description: ''
-        type: >-
-          { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
-          findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@732
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@732
 extends: Array&lt;<xref uid="@azure/graph.GraphRbacManagementModels.Domain" />&gt;
