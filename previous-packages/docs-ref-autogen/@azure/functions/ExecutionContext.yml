@@ -60,7 +60,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'retryContext: null | RetryContext'
+      content: 'retryContext: RetryContext | null'
       return:
         description: ''
-        type: null | <xref uid="@azure/functions.RetryContext" />
+        type: <xref uid="@azure/functions.RetryContext" /> | null

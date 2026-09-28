@@ -2,7 +2,7 @@
 name: ErrorInfo
 uid: '@azure/loganalytics.LogAnalyticsModels.ErrorInfo'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing ErrorInfo.
 fullName: ErrorInfo
 remarks: ''
 isDeprecated: false

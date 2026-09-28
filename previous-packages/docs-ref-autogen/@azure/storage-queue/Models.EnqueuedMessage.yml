@@ -2,7 +2,10 @@
 name: EnqueuedMessage
 uid: '@azure/storage-queue.Models.EnqueuedMessage'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing EnqueuedMessage.
+  The object returned in the QueueMessageList array when calling Put Message
+  on a Queue
 fullName: EnqueuedMessage
 remarks: ''
 isDeprecated: false

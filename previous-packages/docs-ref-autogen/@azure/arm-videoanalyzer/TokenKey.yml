@@ -33,10 +33,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        type: "#Microsoft.VideoAnalyzer.RsaTokenKey" |
-        "#Microsoft.VideoAnalyzer.EccTokenKey"
+        type: "#Microsoft.VideoAnalyzer.EccTokenKey" |
+        "#Microsoft.VideoAnalyzer.RsaTokenKey"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.RsaTokenKey" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.EccTokenKey" />"
+          "#<xref uid="Microsoft.VideoAnalyzer.EccTokenKey" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.RsaTokenKey" />"

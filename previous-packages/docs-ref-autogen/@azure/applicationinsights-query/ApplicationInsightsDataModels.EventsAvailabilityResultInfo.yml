@@ -3,7 +3,9 @@ name: EventsAvailabilityResultInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsAvailabilityResultInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsAvailabilityResultInfo.
+  The availability result info
 fullName: EventsAvailabilityResultInfo
 remarks: ''
 isDeprecated: false

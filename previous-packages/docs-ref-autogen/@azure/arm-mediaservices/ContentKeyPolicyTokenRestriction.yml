@@ -86,13 +86,13 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'primaryVerificationKey: null | ContentKeyPolicyRestrictionTokenKeyUnion'
+      content: 'primaryVerificationKey: ContentKeyPolicyRestrictionTokenKeyUnion | null'
       return:
         description: ''
         type: >-
-          null | <xref
+          <xref
           uid="@azure/arm-mediaservices.ContentKeyPolicyRestrictionTokenKeyUnion"
-          />
+          /> | null
   - name: requiredClaims
     uid: '@azure/arm-mediaservices.ContentKeyPolicyTokenRestriction.requiredClaims'
     package: '@azure/arm-mediaservices'

@@ -2,7 +2,7 @@
 name: Table
 uid: '@azure/loganalytics.LogAnalyticsModels.Table'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing Table.
 fullName: Table
 remarks: ''
 isDeprecated: false

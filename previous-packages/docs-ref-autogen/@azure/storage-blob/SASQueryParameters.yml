@@ -210,10 +210,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'ipRange: undefined | IIPRange'
+      content: 'ipRange: IIPRange | undefined'
       return:
         description: ''
-        type: undefined | <xref uid="@azure/storage-blob.IIPRange" />
+        type: <xref uid="@azure/storage-blob.IIPRange" /> | undefined
   - name: permissions
     uid: '@azure/storage-blob.SASQueryParameters.permissions'
     package: '@azure/storage-blob'

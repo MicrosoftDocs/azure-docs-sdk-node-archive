@@ -3,7 +3,9 @@ name: EventsSessionInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsSessionInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsSessionInfo.
+  Session info for an event result
 fullName: EventsSessionInfo
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,9 @@
 name: MessagesDequeueHeaders
 uid: '@azure/storage-queue.Models.MessagesDequeueHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing MessagesDequeueHeaders.
+  Defines headers for Dequeue operation.
 fullName: MessagesDequeueHeaders
 remarks: ''
 isDeprecated: false

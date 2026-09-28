@@ -2,7 +2,7 @@
 name: Column
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.Column'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing Column.
 fullName: Column
 remarks: ''
 isDeprecated: false

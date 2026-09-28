@@ -2,7 +2,7 @@
 name: ErrorResponse
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.ErrorResponse'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing ErrorResponse.
 fullName: ErrorResponse
 remarks: ''
 isDeprecated: false

@@ -17,10 +17,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'messageText?: string | Buffer'
+      content: 'messageText?: string | Buffer<ArrayBufferLike>'
       return:
         description: ''
-        type: string | Buffer
+        type: string | Buffer&lt;ArrayBufferLike&gt;
 inheritedProperties:
   - name: clientRequestId
     uid: >-

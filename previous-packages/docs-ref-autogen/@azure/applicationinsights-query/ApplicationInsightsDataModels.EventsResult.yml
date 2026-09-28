@@ -2,7 +2,9 @@
 name: EventsResult
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.EventsResult'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsResult.
+  An event query result.
 fullName: EventsResult
 remarks: ''
 isDeprecated: false

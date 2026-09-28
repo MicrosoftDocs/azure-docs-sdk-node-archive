@@ -2,7 +2,9 @@
 name: MessagesPeekHeaders
 uid: '@azure/storage-queue.Models.MessagesPeekHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing MessagesPeekHeaders.
+  Defines headers for Peek operation.
 fullName: MessagesPeekHeaders
 remarks: ''
 isDeprecated: false

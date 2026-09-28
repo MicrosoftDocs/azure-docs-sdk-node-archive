@@ -2,7 +2,7 @@
 name: ErrorDetail
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.ErrorDetail'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing ErrorDetail.
 fullName: ErrorDetail
 remarks: ''
 isDeprecated: false

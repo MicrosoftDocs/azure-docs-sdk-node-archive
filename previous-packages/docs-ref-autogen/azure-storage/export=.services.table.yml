@@ -5,8 +5,12 @@ summary: ''
 type: module
 interfaces:
   - azure-storage.export=.services.table.TableBatch
+  - azure-storage.export=.services.table.TableBatch
   - azure-storage.export=.services.table.TableOperation
   - azure-storage.export=.services.table.TableQuery
+  - azure-storage.export=.services.table.TableQuery
+  - azure-storage.export=.services.table.TableService
+  - azure-storage.export=.services.table.TableService
   - azure-storage.export=.services.table.TableService
 package: azure-storage
 variables:

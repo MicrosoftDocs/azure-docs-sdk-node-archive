@@ -19,6 +19,57 @@ constructors:
 
       the AZURE_STORAGE_CONNECTION_STRING or AZURE_STORAGE_ACCOUNT and
       AZURE_STORAGE_ACCESS_KEY environment variables will be used.
+
+
+      The BlobService class is used to perform operations on the Microsoft Azure
+      Blob Service.
+
+      The Blob Service provides storage for binary large objects, and provides
+
+      functions for working with data stored in blobs as either streams or pages
+      of data.
+
+
+      For more information on the Blob Service, as well as task focused
+      information on using it in a Node.js application, see
+
+      [How to Use the Blob Service from
+      Node.js](http://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-how-to-use-blob-storage/).
+
+      The following defaults can be set on the blob service.
+
+      singleBlobPutThresholdInBytes                       The default maximum
+      size, in bytes, of a blob before it must be separated into blocks.
+
+      defaultEnableReuseSocket                            The default boolean
+      value to enable socket reuse when uploading local files or streams.
+                                                          If the Node.js version is lower than 0.10.x, socket reuse will always be turned off.
+      defaultTimeoutIntervalInMs                          The default timeout
+      interval, in milliseconds, to use for request made via the Blob service.
+
+      defaultClientRequestTimeoutInMs                     The default timeout of
+      client requests, in milliseconds, to use for the request made via the Blob
+      service.
+
+      defaultMaximumExecutionTimeInMs                     The default maximum
+      execution time across all potential retries, for requests made via the
+      Blob service.
+
+      defaultLocationMode                                 The default location
+      mode for requests made via the Blob service.
+
+      parallelOperationThreadCount                        The number of parallel
+      operations that may be performed when uploading a blob that is greater
+      than
+                                                          the value specified by the singleBlobPutThresholdInBytes property in size.
+      useNagleAlgorithm                                   Determines whether the
+      Nagle algorithm is used for requests made via the Blob service; true to
+      use the
+                                                          Nagle algorithm; otherwise, false. The default value is false.
+      enableGlobalHttpAgent                               Determines whether
+      global HTTP(s) agent is enabled; true to use Global HTTP(s) agent;
+      otherwise, false to use
+                                                          http(s).Agent({keepAlive:true}).
     remarks: ''
     isDeprecated: false
     syntax:
@@ -253,7 +304,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function addListener(event: string, listener: Function): BlobService'
+      content: 'function addListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -263,9 +314,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.blob.blobservice.BlobService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.addListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.addListener)
@@ -338,7 +387,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function on(event: string, listener: Function): BlobService'
+      content: 'function on(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -348,9 +397,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.blob.blobservice.BlobService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.on](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.on)
@@ -361,7 +408,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function once(event: string, listener: Function): BlobService'
+      content: 'function once(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -371,9 +418,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.blob.blobservice.BlobService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.once](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.once)
@@ -385,16 +430,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeAllListeners(event?: string): BlobService'
+      content: 'function removeAllListeners(event?: string): this'
       parameters:
         - id: event
           type: string
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.blob.blobservice.BlobService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeAllListeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeAllListeners)
@@ -405,7 +448,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeListener(event: string, listener: Function): BlobService'
+      content: 'function removeListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -415,9 +458,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.blob.blobservice.BlobService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeListener)
@@ -440,7 +481,10 @@ inheritedMethods:
   - name: setProxy(Proxy)
     uid: azure-storage.export=.services.blob.blobservice.BlobService.setProxy
     package: azure-storage
-    summary: Sets proxy object specified by caller.
+    summary: |-
+      Sets proxy object specified by caller.
+
+       StorageServiceClient#setProxy
     remarks: ''
     isDeprecated: false
     syntax:
@@ -674,7 +718,7 @@ methods:
             uid="services.blob.blobservice.BlobService.BlobResult" />&gt;
           description: ''
   - name: >-
-      appendBlockFromText(string, string, string | Buffer,
+      appendBlockFromText(string, string, string | Buffer<ArrayBufferLike>,
       AppendBlobRequestOptions, ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.appendBlockFromText
@@ -694,8 +738,8 @@ methods:
     syntax:
       content: >-
         function appendBlockFromText(container: string, blob: string, content:
-        string | Buffer, options?: AppendBlobRequestOptions, callback:
-        ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, options?: AppendBlobRequestOptions,
+        callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -704,7 +748,7 @@ methods:
           type: string
           description: The blob name.
         - id: content
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: The block text, as a string or in a Buffer.
         - id: options
           type: >-
@@ -723,7 +767,7 @@ methods:
                                                                                   information about the blob.
                                                                                   `response` will contain information related to this operation.
   - name: >-
-      appendBlockFromText(string, string, string | Buffer,
+      appendBlockFromText(string, string, string | Buffer<ArrayBufferLike>,
       ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.appendBlockFromText_1
@@ -734,7 +778,7 @@ methods:
     syntax:
       content: >-
         function appendBlockFromText(container: string, blob: string, content:
-        string | Buffer, callback: ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -743,7 +787,7 @@ methods:
           type: string
           description: ''
         - id: content
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
         - id: callback
           type: >-
@@ -1712,7 +1756,7 @@ methods:
           <xref uid="azure-storage.export" />=.<xref
           uid="common.streams.speedsummary.SpeedSummary" />
   - name: >-
-      createAppendBlobFromText(string, string, string | Buffer,
+      createAppendBlobFromText(string, string, string | Buffer<ArrayBufferLike>,
       CreateBlobRequestOptions, ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createAppendBlobFromText
@@ -1739,8 +1783,8 @@ methods:
     syntax:
       content: >-
         function createAppendBlobFromText(container: string, blob: string, text:
-        string | Buffer, options?: CreateBlobRequestOptions, callback:
-        ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, options?: CreateBlobRequestOptions,
+        callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -1749,7 +1793,7 @@ methods:
           type: string
           description: The blob name.
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: The blob text, as a string or in a Buffer.
         - id: options
           type: >-
@@ -1768,7 +1812,7 @@ methods:
                                                                                       information about the blob.
                                                                                       `response` will contain information related to this operation.
   - name: >-
-      createAppendBlobFromText(string, string, string | Buffer,
+      createAppendBlobFromText(string, string, string | Buffer<ArrayBufferLike>,
       ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createAppendBlobFromText_1
@@ -1779,7 +1823,7 @@ methods:
     syntax:
       content: >-
         function createAppendBlobFromText(container: string, blob: string, text:
-        string | Buffer, callback: ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -1788,7 +1832,7 @@ methods:
           type: string
           description: ''
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
         - id: callback
           type: >-
@@ -2112,7 +2156,7 @@ methods:
           <xref uid="azure-storage.export" />=.<xref
           uid="common.streams.speedsummary.SpeedSummary" />
   - name: >-
-      createBlockBlobFromText(string, string, string | Buffer,
+      createBlockBlobFromText(string, string, string | Buffer<ArrayBufferLike>,
       CreateBlobRequestOptions, ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createBlockBlobFromText
@@ -2123,8 +2167,8 @@ methods:
     syntax:
       content: >-
         function createBlockBlobFromText(container: string, blob: string, text:
-        string | Buffer, options?: CreateBlobRequestOptions, callback:
-        ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, options?: CreateBlobRequestOptions,
+        callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -2133,7 +2177,7 @@ methods:
           type: string
           description: The blob name.
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: The blob text, as a string or in a Buffer.
         - id: options
           type: >-
@@ -2152,7 +2196,7 @@ methods:
                                                                                         information about the blob.
                                                                                         `response` will contain information related to this operation.
   - name: >-
-      createBlockBlobFromText(string, string, string | Buffer,
+      createBlockBlobFromText(string, string, string | Buffer<ArrayBufferLike>,
       ErrorOrResult<BlobResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createBlockBlobFromText_1
@@ -2163,7 +2207,7 @@ methods:
     syntax:
       content: >-
         function createBlockBlobFromText(container: string, blob: string, text:
-        string | Buffer, callback: ErrorOrResult<BlobResult>)
+        string | Buffer<ArrayBufferLike>, callback: ErrorOrResult<BlobResult>)
       parameters:
         - id: container
           type: string
@@ -2172,7 +2216,7 @@ methods:
           type: string
           description: ''
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
         - id: callback
           type: >-
@@ -2255,8 +2299,8 @@ methods:
           type: <xref uid="azure-storage.export" />=.ErrorOrResponse
           description: ''
   - name: >-
-      createBlockFromText(string, string, string, string | Buffer,
-      BlobRequestOptions, ErrorOrResponse)
+      createBlockFromText(string, string, string, string |
+      Buffer<ArrayBufferLike>, BlobRequestOptions, ErrorOrResponse)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createBlockFromText
     package: azure-storage
@@ -2266,8 +2310,8 @@ methods:
     syntax:
       content: >-
         function createBlockFromText(blockId: string, container: string, blob:
-        string, content: string | Buffer, options?: BlobRequestOptions,
-        callback: ErrorOrResponse)
+        string, content: string | Buffer<ArrayBufferLike>, options?:
+        BlobRequestOptions, callback: ErrorOrResponse)
       parameters:
         - id: blockId
           type: string
@@ -2279,7 +2323,7 @@ methods:
           type: string
           description: The blob name.
         - id: content
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: The block content.
         - id: options
           type: >-
@@ -2293,8 +2337,8 @@ methods:
                                                                                   if an error occurs; otherwise
                                                                                   `response` will contain information related to this operation.
   - name: >-
-      createBlockFromText(string, string, string, string | Buffer,
-      ErrorOrResponse)
+      createBlockFromText(string, string, string, string |
+      Buffer<ArrayBufferLike>, ErrorOrResponse)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.createBlockFromText_1
     package: azure-storage
@@ -2304,7 +2348,8 @@ methods:
     syntax:
       content: >-
         function createBlockFromText(blockId: string, container: string, blob:
-        string, content: string | Buffer, callback: ErrorOrResponse)
+        string, content: string | Buffer<ArrayBufferLike>, callback:
+        ErrorOrResponse)
       parameters:
         - id: blockId
           type: string
@@ -2316,7 +2361,7 @@ methods:
           type: string
           description: ''
         - id: content
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
         - id: callback
           type: <xref uid="azure-storage.export" />=.ErrorOrResponse
@@ -5922,7 +5967,7 @@ methods:
                                                                                  if an error occurs; otherwise, `response`
                                                                                  will contain information related to this operation.
   - name: >-
-      setContainerAcl(string, {[key: string]: common.AccessPolicy},
+      setContainerAcl(string, {[key: string]: AccessPolicy},
       ContainerAclOptions, ErrorOrResult<ContainerAclResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.setContainerAcl
@@ -5933,7 +5978,7 @@ methods:
     syntax:
       content: >-
         function setContainerAcl(container: string, signedIdentifiers: {[key:
-        string]: common.AccessPolicy}, options?: ContainerAclOptions, callback:
+        string]: AccessPolicy}, options?: ContainerAclOptions, callback:
         ErrorOrResult<ContainerAclResult>)
       parameters:
         - id: container
@@ -5964,7 +6009,7 @@ methods:
                                                                                         information for the container.
                                                                                         `response` will contain information related to this operation.
   - name: >-
-      setContainerAcl(string, {[key: string]: common.AccessPolicy},
+      setContainerAcl(string, {[key: string]: AccessPolicy},
       ErrorOrResult<ContainerAclResult>)
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.setContainerAcl_1
@@ -5975,8 +6020,7 @@ methods:
     syntax:
       content: >-
         function setContainerAcl(container: string, signedIdentifiers: {[key:
-        string]: common.AccessPolicy}, callback:
-        ErrorOrResult<ContainerAclResult>)
+        string]: AccessPolicy}, callback: ErrorOrResult<ContainerAclResult>)
       parameters:
         - id: container
           type: string
@@ -6376,6 +6420,8 @@ methods:
       to end
 
       up the service invocation.
+
+       BlobService#withFilter
     remarks: ''
     isDeprecated: false
     syntax:

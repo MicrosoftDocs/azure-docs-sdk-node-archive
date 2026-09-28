@@ -11416,6 +11416,265 @@
       no-loc:
         - Operations
       items: []
+- name: '@azure/arm-lambdatesthyperexecute'
+  no-loc:
+    - '@azure/arm-lambdatesthyperexecute'
+  items:
+    - name: Overview
+      uid: '@azure/arm-lambdatesthyperexecute'
+    - uid: '@azure/arm-lambdatesthyperexecute.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ContinuablePage'
+      name: ContinuablePage
+      no-loc:
+        - ContinuablePage
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.HyperExecuteClient'
+      name: HyperExecuteClient
+      no-loc:
+        - HyperExecuteClient
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.HyperExecuteClientOptionalParams'
+      name: HyperExecuteClientOptionalParams
+      no-loc:
+        - HyperExecuteClientOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownManagedServiceIdentityType'
+      name: KnownManagedServiceIdentityType
+      no-loc:
+        - KnownManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownMarketplaceSubscriptionStatus'
+      name: KnownMarketplaceSubscriptionStatus
+      no-loc:
+        - KnownMarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownResourceProvisioningState'
+      name: KnownResourceProvisioningState
+      no-loc:
+        - KnownResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownSingleSignOnStates'
+      name: KnownSingleSignOnStates
+      no-loc:
+        - KnownSingleSignOnStates
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownSingleSignOnType'
+      name: KnownSingleSignOnType
+      no-loc:
+        - KnownSingleSignOnType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.KnownVersions'
+      name: KnownVersions
+      no-loc:
+        - KnownVersions
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ManagedServiceIdentity'
+      name: ManagedServiceIdentity
+      no-loc:
+        - ManagedServiceIdentity
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ManagedServiceIdentityType'
+      name: ManagedServiceIdentityType
+      no-loc:
+        - ManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.MarketplaceDetails'
+      name: MarketplaceDetails
+      no-loc:
+        - MarketplaceDetails
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.MarketplaceSubscriptionStatus'
+      name: MarketplaceSubscriptionStatus
+      no-loc:
+        - MarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OfferDetails'
+      name: OfferDetails
+      no-loc:
+        - OfferDetails
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OperationsOperations'
+      name: OperationsOperations
+      no-loc:
+        - OperationsOperations
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationProperties'
+      name: OrganizationProperties
+      no-loc:
+        - OrganizationProperties
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationResource'
+      name: OrganizationResource
+      no-loc:
+        - OrganizationResource
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationResourceUpdate'
+      name: OrganizationResourceUpdate
+      no-loc:
+        - OrganizationResourceUpdate
+      items: []
+    - uid: >-
+        @azure/arm-lambdatesthyperexecute.OrganizationsCreateOrUpdateOptionalParams
+      name: OrganizationsCreateOrUpdateOptionalParams
+      no-loc:
+        - OrganizationsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationsDeleteOptionalParams'
+      name: OrganizationsDeleteOptionalParams
+      no-loc:
+        - OrganizationsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationsGetOptionalParams'
+      name: OrganizationsGetOptionalParams
+      no-loc:
+        - OrganizationsGetOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-lambdatesthyperexecute.OrganizationsListByResourceGroupOptionalParams
+      name: OrganizationsListByResourceGroupOptionalParams
+      no-loc:
+        - OrganizationsListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-lambdatesthyperexecute.OrganizationsListBySubscriptionOptionalParams
+      name: OrganizationsListBySubscriptionOptionalParams
+      no-loc:
+        - OrganizationsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationsOperations'
+      name: OrganizationsOperations
+      no-loc:
+        - OrganizationsOperations
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.OrganizationsUpdateOptionalParams'
+      name: OrganizationsUpdateOptionalParams
+      no-loc:
+        - OrganizationsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.PagedAsyncIterableIterator'
+      name: PagedAsyncIterableIterator
+      no-loc:
+        - PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.PageSettings'
+      name: PageSettings
+      no-loc:
+        - PageSettings
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.PartnerProperties'
+      name: PartnerProperties
+      no-loc:
+        - PartnerProperties
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.ResourceProvisioningState'
+      name: ResourceProvisioningState
+      no-loc:
+        - ResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.RestorePollerOptions'
+      name: RestorePollerOptions
+      no-loc:
+        - RestorePollerOptions
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.SingleSignOnPropertiesV2'
+      name: SingleSignOnPropertiesV2
+      no-loc:
+        - SingleSignOnPropertiesV2
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.SingleSignOnStates'
+      name: SingleSignOnStates
+      no-loc:
+        - SingleSignOnStates
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.SingleSignOnType'
+      name: SingleSignOnType
+      no-loc:
+        - SingleSignOnType
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      no-loc:
+        - UserAssignedIdentity
+      items: []
+    - uid: '@azure/arm-lambdatesthyperexecute.UserDetails'
+      name: UserDetails
+      no-loc:
+        - UserDetails
+      items: []
 - name: '@azure/arm-mediaservices'
   no-loc:
     - '@azure/arm-mediaservices'
@@ -18109,6 +18368,264 @@
       no-loc:
         - VirtualNetworkRule
       items: []
+- name: '@azure/arm-pineconevectordb'
+  no-loc:
+    - '@azure/arm-pineconevectordb'
+  items:
+    - name: Overview
+      uid: '@azure/arm-pineconevectordb'
+    - uid: '@azure/arm-pineconevectordb.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ContinuablePage'
+      name: ContinuablePage
+      no-loc:
+        - ContinuablePage
+      items: []
+    - uid: '@azure/arm-pineconevectordb.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownManagedServiceIdentityType'
+      name: KnownManagedServiceIdentityType
+      no-loc:
+        - KnownManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownMarketplaceSubscriptionStatus'
+      name: KnownMarketplaceSubscriptionStatus
+      no-loc:
+        - KnownMarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownResourceProvisioningState'
+      name: KnownResourceProvisioningState
+      no-loc:
+        - KnownResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownSingleSignOnStates'
+      name: KnownSingleSignOnStates
+      no-loc:
+        - KnownSingleSignOnStates
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownSingleSignOnType'
+      name: KnownSingleSignOnType
+      no-loc:
+        - KnownSingleSignOnType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.KnownVersions'
+      name: KnownVersions
+      no-loc:
+        - KnownVersions
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ManagedServiceIdentity'
+      name: ManagedServiceIdentity
+      no-loc:
+        - ManagedServiceIdentity
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ManagedServiceIdentityType'
+      name: ManagedServiceIdentityType
+      no-loc:
+        - ManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.MarketplaceDetails'
+      name: MarketplaceDetails
+      no-loc:
+        - MarketplaceDetails
+      items: []
+    - uid: '@azure/arm-pineconevectordb.MarketplaceSubscriptionStatus'
+      name: MarketplaceSubscriptionStatus
+      no-loc:
+        - MarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OfferDetails'
+      name: OfferDetails
+      no-loc:
+        - OfferDetails
+      items: []
+    - uid: '@azure/arm-pineconevectordb.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OperationsOperations'
+      name: OperationsOperations
+      no-loc:
+        - OperationsOperations
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationProperties'
+      name: OrganizationProperties
+      no-loc:
+        - OrganizationProperties
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationResource'
+      name: OrganizationResource
+      no-loc:
+        - OrganizationResource
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationResourceUpdate'
+      name: OrganizationResourceUpdate
+      no-loc:
+        - OrganizationResourceUpdate
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationsCreateOrUpdateOptionalParams'
+      name: OrganizationsCreateOrUpdateOptionalParams
+      no-loc:
+        - OrganizationsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationsDeleteOptionalParams'
+      name: OrganizationsDeleteOptionalParams
+      no-loc:
+        - OrganizationsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationsGetOptionalParams'
+      name: OrganizationsGetOptionalParams
+      no-loc:
+        - OrganizationsGetOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-pineconevectordb.OrganizationsListByResourceGroupOptionalParams
+      name: OrganizationsListByResourceGroupOptionalParams
+      no-loc:
+        - OrganizationsListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-pineconevectordb.OrganizationsListBySubscriptionOptionalParams
+      name: OrganizationsListBySubscriptionOptionalParams
+      no-loc:
+        - OrganizationsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationsOperations'
+      name: OrganizationsOperations
+      no-loc:
+        - OrganizationsOperations
+      items: []
+    - uid: '@azure/arm-pineconevectordb.OrganizationsUpdateOptionalParams'
+      name: OrganizationsUpdateOptionalParams
+      no-loc:
+        - OrganizationsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-pineconevectordb.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-pineconevectordb.PagedAsyncIterableIterator'
+      name: PagedAsyncIterableIterator
+      no-loc:
+        - PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/arm-pineconevectordb.PageSettings'
+      name: PageSettings
+      no-loc:
+        - PageSettings
+      items: []
+    - uid: '@azure/arm-pineconevectordb.PartnerProperties'
+      name: PartnerProperties
+      no-loc:
+        - PartnerProperties
+      items: []
+    - uid: '@azure/arm-pineconevectordb.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-pineconevectordb.ResourceProvisioningState'
+      name: ResourceProvisioningState
+      no-loc:
+        - ResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-pineconevectordb.RestorePollerOptions'
+      name: RestorePollerOptions
+      no-loc:
+        - RestorePollerOptions
+      items: []
+    - uid: '@azure/arm-pineconevectordb.SingleSignOnPropertiesV2'
+      name: SingleSignOnPropertiesV2
+      no-loc:
+        - SingleSignOnPropertiesV2
+      items: []
+    - uid: '@azure/arm-pineconevectordb.SingleSignOnStates'
+      name: SingleSignOnStates
+      no-loc:
+        - SingleSignOnStates
+      items: []
+    - uid: '@azure/arm-pineconevectordb.SingleSignOnType'
+      name: SingleSignOnType
+      no-loc:
+        - SingleSignOnType
+      items: []
+    - uid: '@azure/arm-pineconevectordb.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-pineconevectordb.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-pineconevectordb.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      no-loc:
+        - UserAssignedIdentity
+      items: []
+    - uid: '@azure/arm-pineconevectordb.UserDetails'
+      name: UserDetails
+      no-loc:
+        - UserDetails
+      items: []
+    - uid: '@azure/arm-pineconevectordb.VectorDbClient'
+      name: VectorDbClient
+      no-loc:
+        - VectorDbClient
+      items: []
+    - uid: '@azure/arm-pineconevectordb.VectorDbClientOptionalParams'
+      name: VectorDbClientOptionalParams
+      no-loc:
+        - VectorDbClientOptionalParams
+      items: []
 - name: '@azure/arm-playwrighttesting'
   no-loc:
     - '@azure/arm-playwrighttesting'
@@ -24004,6 +24521,272 @@
       name: TrackedResource
       no-loc:
         - TrackedResource
+      items: []
+- name: '@azure/arm-weightsandbiases'
+  no-loc:
+    - '@azure/arm-weightsandbiases'
+  items:
+    - name: Overview
+      uid: '@azure/arm-weightsandbiases'
+    - uid: '@azure/arm-weightsandbiases.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ContinuablePage'
+      name: ContinuablePage
+      no-loc:
+        - ContinuablePage
+      items: []
+    - uid: '@azure/arm-weightsandbiases.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstanceProperties'
+      name: InstanceProperties
+      no-loc:
+        - InstanceProperties
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstanceResource'
+      name: InstanceResource
+      no-loc:
+        - InstanceResource
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstanceResourceUpdate'
+      name: InstanceResourceUpdate
+      no-loc:
+        - InstanceResourceUpdate
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesCreateOrUpdateOptionalParams'
+      name: InstancesCreateOrUpdateOptionalParams
+      no-loc:
+        - InstancesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesDeleteOptionalParams'
+      name: InstancesDeleteOptionalParams
+      no-loc:
+        - InstancesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesGetOptionalParams'
+      name: InstancesGetOptionalParams
+      no-loc:
+        - InstancesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesListByResourceGroupOptionalParams'
+      name: InstancesListByResourceGroupOptionalParams
+      no-loc:
+        - InstancesListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesListBySubscriptionOptionalParams'
+      name: InstancesListBySubscriptionOptionalParams
+      no-loc:
+        - InstancesListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesOperations'
+      name: InstancesOperations
+      no-loc:
+        - InstancesOperations
+      items: []
+    - uid: '@azure/arm-weightsandbiases.InstancesUpdateOptionalParams'
+      name: InstancesUpdateOptionalParams
+      no-loc:
+        - InstancesUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownManagedServiceIdentityType'
+      name: KnownManagedServiceIdentityType
+      no-loc:
+        - KnownManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownMarketplaceSubscriptionStatus'
+      name: KnownMarketplaceSubscriptionStatus
+      no-loc:
+        - KnownMarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownRegion'
+      name: KnownRegion
+      no-loc:
+        - KnownRegion
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownResourceProvisioningState'
+      name: KnownResourceProvisioningState
+      no-loc:
+        - KnownResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownSingleSignOnStates'
+      name: KnownSingleSignOnStates
+      no-loc:
+        - KnownSingleSignOnStates
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownSingleSignOnType'
+      name: KnownSingleSignOnType
+      no-loc:
+        - KnownSingleSignOnType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.KnownVersions'
+      name: KnownVersions
+      no-loc:
+        - KnownVersions
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ManagedServiceIdentity'
+      name: ManagedServiceIdentity
+      no-loc:
+        - ManagedServiceIdentity
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ManagedServiceIdentityType'
+      name: ManagedServiceIdentityType
+      no-loc:
+        - ManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.MarketplaceDetails'
+      name: MarketplaceDetails
+      no-loc:
+        - MarketplaceDetails
+      items: []
+    - uid: '@azure/arm-weightsandbiases.MarketplaceSubscriptionStatus'
+      name: MarketplaceSubscriptionStatus
+      no-loc:
+        - MarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-weightsandbiases.OfferDetails'
+      name: OfferDetails
+      no-loc:
+        - OfferDetails
+      items: []
+    - uid: '@azure/arm-weightsandbiases.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-weightsandbiases.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-weightsandbiases.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-weightsandbiases.OperationsOperations'
+      name: OperationsOperations
+      no-loc:
+        - OperationsOperations
+      items: []
+    - uid: '@azure/arm-weightsandbiases.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-weightsandbiases.PagedAsyncIterableIterator'
+      name: PagedAsyncIterableIterator
+      no-loc:
+        - PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/arm-weightsandbiases.PageSettings'
+      name: PageSettings
+      no-loc:
+        - PageSettings
+      items: []
+    - uid: '@azure/arm-weightsandbiases.PartnerProperties'
+      name: PartnerProperties
+      no-loc:
+        - PartnerProperties
+      items: []
+    - uid: '@azure/arm-weightsandbiases.Region'
+      name: Region
+      no-loc:
+        - Region
+      items: []
+    - uid: '@azure/arm-weightsandbiases.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-weightsandbiases.ResourceProvisioningState'
+      name: ResourceProvisioningState
+      no-loc:
+        - ResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-weightsandbiases.RestorePollerOptions'
+      name: RestorePollerOptions
+      no-loc:
+        - RestorePollerOptions
+      items: []
+    - uid: '@azure/arm-weightsandbiases.SingleSignOnPropertiesV2'
+      name: SingleSignOnPropertiesV2
+      no-loc:
+        - SingleSignOnPropertiesV2
+      items: []
+    - uid: '@azure/arm-weightsandbiases.SingleSignOnStates'
+      name: SingleSignOnStates
+      no-loc:
+        - SingleSignOnStates
+      items: []
+    - uid: '@azure/arm-weightsandbiases.SingleSignOnType'
+      name: SingleSignOnType
+      no-loc:
+        - SingleSignOnType
+      items: []
+    - uid: '@azure/arm-weightsandbiases.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-weightsandbiases.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-weightsandbiases.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      no-loc:
+        - UserAssignedIdentity
+      items: []
+    - uid: '@azure/arm-weightsandbiases.UserDetails'
+      name: UserDetails
+      no-loc:
+        - UserDetails
+      items: []
+    - uid: '@azure/arm-weightsandbiases.WeightsAndBiasesClient'
+      name: WeightsAndBiasesClient
+      no-loc:
+        - WeightsAndBiasesClient
+      items: []
+    - uid: '@azure/arm-weightsandbiases.WeightsAndBiasesClientOptionalParams'
+      name: WeightsAndBiasesClientOptionalParams
+      no-loc:
+        - WeightsAndBiasesClientOptionalParams
       items: []
 - name: '@azure/cognitiveservices-anomalydetector'
   no-loc:
@@ -34154,6 +34937,18 @@
                   no-loc:
                     - QueueService
                   items: []
+                - name: QueueUtilities
+                  no-loc:
+                    - QueueUtilities
+                  items:
+                    - name: Overview
+                      uid: azure-storage.export=.services.queue.QueueUtilities
+                    - uid: >-
+                        azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions
+                      name: SharedAccessPermissions
+                      no-loc:
+                        - SharedAccessPermissions
+                      items: []
             - name: table
               no-loc:
                 - table

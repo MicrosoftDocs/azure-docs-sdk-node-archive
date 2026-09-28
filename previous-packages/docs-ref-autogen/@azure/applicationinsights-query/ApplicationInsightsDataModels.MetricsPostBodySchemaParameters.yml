@@ -3,7 +3,9 @@ name: MetricsPostBodySchemaParameters
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.MetricsPostBodySchemaParameters
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing MetricsPostBodySchemaParameters.
+  The parameters for a single metrics query
 fullName: MetricsPostBodySchemaParameters
 remarks: ''
 isDeprecated: false

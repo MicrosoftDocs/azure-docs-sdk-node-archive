@@ -5,6 +5,7 @@ package: '@azure/event-processor-host'
 summary: |-
   Represents options can be set during the creation of a event hub receiver.
   Defines a position of an @link~EventData in the event hub partition.
+   EventPosition
 fullName: EventPosition
 remarks: ''
 isDeprecated: false
@@ -26,7 +27,7 @@ properties:
   - name: customFilter
     uid: '@azure/event-processor-host.EventPosition.customFilter'
     package: '@azure/event-processor-host'
-    summary: The custom filter expression that needs to be set on the receiver.
+    summary: ''
     fullName: customFilter
     remarks: ''
     isDeprecated: false
@@ -38,7 +39,7 @@ properties:
   - name: endOfStream
     uid: '@azure/event-processor-host.EventPosition.endOfStream'
     package: '@azure/event-processor-host'
-    summary: 'The offset from which events would be received: `"@latest"`.'
+    summary: ''
     fullName: endOfStream
     remarks: ''
     isDeprecated: false
@@ -50,9 +51,7 @@ properties:
   - name: enqueuedTime
     uid: '@azure/event-processor-host.EventPosition.enqueuedTime'
     package: '@azure/event-processor-host'
-    summary: |-
-      The enqueued time of the event at the position. It can be undefined
-      if the position is just created from a sequence number or an offset.
+    summary: ''
     fullName: enqueuedTime
     remarks: ''
     isDeprecated: false
@@ -64,11 +63,7 @@ properties:
   - name: isInclusive
     uid: '@azure/event-processor-host.EventPosition.isInclusive'
     package: '@azure/event-processor-host'
-    summary: >-
-      Indicates if the current event at the specified offset is
-
-      included or not. It is only applicable if offset is set. Default value:
-      false.
+    summary: ''
     fullName: isInclusive
     remarks: ''
     isDeprecated: false
@@ -80,11 +75,7 @@ properties:
   - name: offset
     uid: '@azure/event-processor-host.EventPosition.offset'
     package: '@azure/event-processor-host'
-    summary: >-
-      The offset of the event at the position. It can be undefined
-
-      if the position is just created from a sequence number or an enqueued
-      time.
+    summary: ''
     fullName: offset
     remarks: ''
     isDeprecated: false
@@ -96,9 +87,7 @@ properties:
   - name: sequenceNumber
     uid: '@azure/event-processor-host.EventPosition.sequenceNumber'
     package: '@azure/event-processor-host'
-    summary: |-
-      The sequence number of the event at the position. It can be undefined
-      if the position is just created from an enqueued time or an offset.
+    summary: ''
     fullName: sequenceNumber
     remarks: ''
     isDeprecated: false
@@ -110,7 +99,7 @@ properties:
   - name: startOfStream
     uid: '@azure/event-processor-host.EventPosition.startOfStream'
     package: '@azure/event-processor-host'
-    summary: 'The offset from which events would be received: `"-1"`.'
+    summary: ''
     fullName: startOfStream
     remarks: ''
     isDeprecated: false

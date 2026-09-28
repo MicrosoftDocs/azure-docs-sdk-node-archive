@@ -1,0 +1,29 @@
+### YamlMime:TSEnum
+name: SharedAccessPermissions
+uid: azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions
+package: azure-storage
+summary: ''
+fullName: SharedAccessPermissions
+remarks: ''
+isDeprecated: false
+fields:
+  - name: ADD
+    uid: >-
+      azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions.ADD
+    package: azure-storage
+    summary: ''
+  - name: PROCESS
+    uid: >-
+      azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions.PROCESS
+    package: azure-storage
+    summary: ''
+  - name: READ
+    uid: >-
+      azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions.READ
+    package: azure-storage
+    summary: ''
+  - name: UPDATE
+    uid: >-
+      azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions.UPDATE
+    package: azure-storage
+    summary: ''

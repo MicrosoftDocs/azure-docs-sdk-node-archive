@@ -3,7 +3,9 @@ name: EventsTraceResult
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsTraceResult
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsTraceResult.
+  A trace result
 fullName: EventsTraceResult
 remarks: ''
 isDeprecated: false

@@ -172,7 +172,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function addListener(event: string, listener: Function): TableService'
+      content: 'function addListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -182,9 +182,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.table.TableService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.addListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.addListener)
@@ -234,7 +232,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function on(event: string, listener: Function): TableService'
+      content: 'function on(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -244,9 +242,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.table.TableService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.on](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.on)
@@ -257,7 +253,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function once(event: string, listener: Function): TableService'
+      content: 'function once(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -267,9 +263,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.table.TableService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.once](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.once)
@@ -280,16 +274,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeAllListeners(event?: string): TableService'
+      content: 'function removeAllListeners(event?: string): this'
       parameters:
         - id: event
           type: string
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.table.TableService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeAllListeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeAllListeners)
@@ -300,7 +292,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeListener(event: string, listener: Function): TableService'
+      content: 'function removeListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -310,9 +302,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.table.TableService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeListener)
@@ -334,7 +324,10 @@ inheritedMethods:
   - name: setProxy(Proxy)
     uid: azure-storage.export=.services.table.TableService.setProxy
     package: azure-storage
-    summary: Sets proxy object specified by caller.
+    summary: |-
+      Sets proxy object specified by caller.
+
+       StorageServiceClient#setProxy
     remarks: ''
     isDeprecated: false
     syntax:
@@ -1843,9 +1836,8 @@ methods:
             `error` will contain information if an error occurs;
                                                                                      `response` will contain information related to this operation.
   - name: >-
-      setTableAcl(string, {[key: string]: common.AccessPolicy}, ErrorOrResult<{
-      TableName: string, signedIdentifiers: {[key: string]: common.AccessPolicy}
-      }>)
+      setTableAcl(string, {[key: string]: AccessPolicy}, ErrorOrResult<{
+      signedIdentifiers: {[key: string]: AccessPolicy}, TableName: string }>)
     uid: azure-storage.export=.services.table.TableService.setTableAcl_1
     package: azure-storage
     summary: Updates the table's ACL.
@@ -1854,8 +1846,8 @@ methods:
     syntax:
       content: >-
         function setTableAcl(table: string, signedIdentifiers: {[key: string]:
-        common.AccessPolicy}, callback: ErrorOrResult<{ TableName: string,
-        signedIdentifiers: {[key: string]: common.AccessPolicy} }>)
+        AccessPolicy}, callback: ErrorOrResult<{ signedIdentifiers: {[key:
+        string]: AccessPolicy}, TableName: string }>)
       parameters:
         - id: table
           type: string
@@ -1867,17 +1859,17 @@ methods:
           description: The signed identifiers. Signed identifiers must be in an array.
         - id: callback
           type: >-
-            <xref uid="azure-storage.export" />=.ErrorOrResult&lt;{ TableName:
-            string, signedIdentifiers: {[key: string]: <xref
-            uid="common.AccessPolicy" />} }&gt;
+            <xref uid="azure-storage.export" />=.ErrorOrResult&lt;{
+            signedIdentifiers: {[key: string]: AccessPolicy}, TableName: string
+            }&gt;
           description: |-
             `error` will contain information if an error occurs;
                                                                                      otherwise `result` will contain information for the table.
                                                                                      `response` will contain information related to this operation.
   - name: >-
-      setTableAcl(string, {[key: string]: common.AccessPolicy}, RequestOptions,
-      ErrorOrResult<{ TableName: string, signedIdentifiers: {[key: string]:
-      common.AccessPolicy} }>)
+      setTableAcl(string, {[key: string]: AccessPolicy}, RequestOptions,
+      ErrorOrResult<{ signedIdentifiers: {[key: string]: AccessPolicy},
+      TableName: string }>)
     uid: azure-storage.export=.services.table.TableService.setTableAcl
     package: azure-storage
     summary: Updates the table's ACL.
@@ -1886,9 +1878,8 @@ methods:
     syntax:
       content: >-
         function setTableAcl(table: string, signedIdentifiers: {[key: string]:
-        common.AccessPolicy}, options?: RequestOptions, callback:
-        ErrorOrResult<{ TableName: string, signedIdentifiers: {[key: string]:
-        common.AccessPolicy} }>)
+        AccessPolicy}, options?: RequestOptions, callback: ErrorOrResult<{
+        signedIdentifiers: {[key: string]: AccessPolicy}, TableName: string }>)
       parameters:
         - id: table
           type: string
@@ -1905,9 +1896,9 @@ methods:
           description: The request options.
         - id: callback
           type: >-
-            <xref uid="azure-storage.export" />=.ErrorOrResult&lt;{ TableName:
-            string, signedIdentifiers: {[key: string]: <xref
-            uid="common.AccessPolicy" />} }&gt;
+            <xref uid="azure-storage.export" />=.ErrorOrResult&lt;{
+            signedIdentifiers: {[key: string]: AccessPolicy}, TableName: string
+            }&gt;
           description: |-
             `error` will contain information if an error occurs;
                                                                                      otherwise `result` will contain information for the table.
@@ -1945,6 +1936,8 @@ methods:
       to end
 
       up the service invocation.
+
+       TableService#withFilter
     remarks: ''
     isDeprecated: false
     syntax:

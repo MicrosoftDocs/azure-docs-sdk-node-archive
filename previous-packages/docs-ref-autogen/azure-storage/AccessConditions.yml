@@ -2,9 +2,9 @@
 name: AccessConditions
 uid: azure-storage.AccessConditions
 package: azure-storage
-summary: |-
-  If the append position is equal to the specified value.
-                                                                For Append Block operation only. See https://msdn.microsoft.com/en-us/library/mt427365.aspx for more information.
+summary: >-
+  Specifying conditional headers for blob service operations. See
+  http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 fullName: AccessConditions
 remarks: ''
 isDeprecated: false
@@ -13,7 +13,7 @@ properties:
   - name: DateModifedSince
     uid: azure-storage.AccessConditions.DateModifedSince
     package: azure-storage
-    summary: ''
+    summary: If the blob has been modified since the specified date.
     fullName: DateModifedSince
     remarks: ''
     isDeprecated: false
@@ -25,7 +25,7 @@ properties:
   - name: DateUnModifiedSince
     uid: azure-storage.AccessConditions.DateUnModifiedSince
     package: azure-storage
-    summary: ''
+    summary: If the blob has not been modified since the specified date.
     fullName: DateUnModifiedSince
     remarks: ''
     isDeprecated: false
@@ -37,7 +37,9 @@ properties:
   - name: EtagMatch
     uid: azure-storage.AccessConditions.EtagMatch
     package: azure-storage
-    summary: ''
+    summary: |-
+      If the ETag for the blob matches the specified ETag.
+                                                                    Specify the wildcard character (*) to perform the operation only if the resource does exist, and fail the operation if it does not exist.
     fullName: EtagMatch
     remarks: ''
     isDeprecated: false
@@ -49,7 +51,9 @@ properties:
   - name: EtagNonMatch
     uid: azure-storage.AccessConditions.EtagNonMatch
     package: azure-storage
-    summary: ''
+    summary: |-
+      If the ETag for the blob does not match the specified ETag.
+                                                                    Specify the wildcard character (*) to perform the operation only if the resource does not exist, and fail the operation if it does exist.
     fullName: EtagNonMatch
     remarks: ''
     isDeprecated: false
@@ -61,7 +65,9 @@ properties:
   - name: MaxAppendPosition
     uid: azure-storage.AccessConditions.MaxAppendPosition
     package: azure-storage
-    summary: ''
+    summary: |-
+      If the append position is equal to the specified value.
+                                                                    For Append Block operation only. See https://msdn.microsoft.com/en-us/library/mt427365.aspx for more information.
     fullName: MaxAppendPosition
     remarks: ''
     isDeprecated: false
@@ -73,7 +79,10 @@ properties:
   - name: MaxBlobSize
     uid: azure-storage.AccessConditions.MaxBlobSize
     package: azure-storage
-    summary: ''
+    summary: >-
+      If the Append Block operation would cause the blob to exceed that limit or
+      if the blob size is already greater than the specified value. 
+                                                                    For Append Block operation only. See https://msdn.microsoft.com/en-us/library/mt427365.aspx for more information.
     fullName: MaxBlobSize
     remarks: ''
     isDeprecated: false
@@ -85,7 +94,9 @@ properties:
   - name: SequenceNumberEqual
     uid: azure-storage.AccessConditions.SequenceNumberEqual
     package: azure-storage
-    summary: ''
+    summary: |-
+      If the blob’s sequence number is equal to the specified value.
+                                                                    For Put Page operation only. See https://msdn.microsoft.com/en-us/library/azure/ee691975.aspx for more information.
     fullName: SequenceNumberEqual
     remarks: ''
     isDeprecated: false
@@ -97,7 +108,9 @@ properties:
   - name: SequenceNumberLessThan
     uid: azure-storage.AccessConditions.SequenceNumberLessThan
     package: azure-storage
-    summary: ''
+    summary: |-
+      If the blob’s sequence number is less than the specified value.
+                                                                    For Put Page operation only. See https://msdn.microsoft.com/en-us/library/azure/ee691975.aspx for more information.
     fullName: SequenceNumberLessThan
     remarks: ''
     isDeprecated: false
@@ -109,7 +122,10 @@ properties:
   - name: SequenceNumberLessThanOrEqual
     uid: azure-storage.AccessConditions.SequenceNumberLessThanOrEqual
     package: azure-storage
-    summary: ''
+    summary: >-
+      If the blob’s sequence number is less than or equal to the specified
+      value.
+                                                                    For Put Page operation only. See https://msdn.microsoft.com/en-us/library/azure/ee691975.aspx for more information.
     fullName: SequenceNumberLessThanOrEqual
     remarks: ''
     isDeprecated: false

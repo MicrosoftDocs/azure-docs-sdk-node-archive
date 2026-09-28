@@ -3,7 +3,9 @@ name: EventsClientPerformanceInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsClientPerformanceInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsClientPerformanceInfo.
+  Client performance information
 fullName: EventsClientPerformanceInfo
 remarks: ''
 isDeprecated: false

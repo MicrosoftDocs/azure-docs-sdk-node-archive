@@ -2,7 +2,9 @@
 name: StorageServiceProperties
 uid: '@azure/storage-queue.Models.StorageServiceProperties'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing StorageServiceProperties.
+  Storage Service Properties.
 fullName: StorageServiceProperties
 remarks: ''
 isDeprecated: false

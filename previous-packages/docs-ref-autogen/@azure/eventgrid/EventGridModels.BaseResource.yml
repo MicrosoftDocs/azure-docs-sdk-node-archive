@@ -2,7 +2,7 @@
 name: BaseResource
 uid: '@azure/eventgrid.EventGridModels.BaseResource'
 package: '@azure/eventgrid'
-summary: ''
+summary: An empty interface.
 fullName: BaseResource
 remarks: ''
 isDeprecated: false

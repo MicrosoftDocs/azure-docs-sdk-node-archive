@@ -2,7 +2,7 @@
 name: DirectoryObjectListResult
 uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult'
 package: '@azure/graph'
-summary: ''
+summary: DirectoryObject list operation result.
 fullName: DirectoryObjectListResult
 remarks: ''
 isDeprecated: false
@@ -48,30 +48,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@734
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.at'
-    package: '@azure/graph'
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | DirectoryObjectUnion'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((DirectoryObjectUnion | ConcatArray<DirectoryObjectUnion>)[])
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.concat_1'
     package: '@azure/graph'
@@ -173,10 +155,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, DirectoryObjectUnion]>'
+      content: 'function entries(): ArrayIterator<[number, DirectoryObjectUnion]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, DirectoryObjectUnion]&gt;
+        type: ArrayIterator&lt;[number, DirectoryObjectUnion]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: >-
       every((value: DirectoryObjectUnion, index: number, array:
@@ -217,7 +199,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
       every<S>((value: DirectoryObjectUnion, index: number, array:
-      DirectoryObjectUnion[]) => value, any)
+      DirectoryObjectUnion[]) => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.every'
     package: '@azure/graph'
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -226,12 +208,13 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: DirectoryObjectUnion, index:
-        number, array: DirectoryObjectUnion[]) => value, thisArg?: any): this
+        number, array: DirectoryObjectUnion[]) => value is S, thisArg?: any):
+        this is S[]
       parameters:
         - id: predicate
           type: >-
             (value: DirectoryObjectUnion, index: number, array:
-            DirectoryObjectUnion[]) =&gt; value
+            DirectoryObjectUnion[]) =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -250,7 +233,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(DirectoryObjectUnion, number, number)
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.fill'
@@ -328,7 +311,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: DirectoryObjectUnion, index: number, array:
-      DirectoryObjectUnion[]) => value, any)
+      DirectoryObjectUnion[]) => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.filter'
     package: '@azure/graph'
     summary: >-
@@ -339,12 +322,13 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: DirectoryObjectUnion, index:
-        number, array: DirectoryObjectUnion[]) => value, thisArg?: any): S[]
+        number, array: DirectoryObjectUnion[]) => value is S, thisArg?: any):
+        S[]
       parameters:
         - id: predicate
           type: >-
             (value: DirectoryObjectUnion, index: number, array:
-            DirectoryObjectUnion[]) =&gt; value
+            DirectoryObjectUnion[]) =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -369,8 +353,8 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: DirectoryObjectUnion, index: number,
-        obj: DirectoryObjectUnion[]) => unknown, thisArg?: any): undefined |
-        DirectoryObjectUnion
+        obj: DirectoryObjectUnion[]) => unknown, thisArg?: any):
+        DirectoryObjectUnion | undefined
       parameters:
         - id: predicate
           type: >-
@@ -383,12 +367,13 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" />
+          <xref
+          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       find<S>((value: DirectoryObjectUnion, index: number, obj:
-      DirectoryObjectUnion[]) => value, any)
+      DirectoryObjectUnion[]) => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.find'
     package: '@azure/graph'
     summary: >-
@@ -401,12 +386,13 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: DirectoryObjectUnion, index: number,
-        obj: DirectoryObjectUnion[]) => value, thisArg?: any): undefined | S
+        obj: DirectoryObjectUnion[]) => value is S, thisArg?: any): S |
+        undefined
       parameters:
         - id: predicate
           type: >-
             (value: DirectoryObjectUnion, index: number, obj:
-            DirectoryObjectUnion[]) =&gt; value
+            DirectoryObjectUnion[]) =&gt; value is S
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -425,7 +411,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       findIndex((value: DirectoryObjectUnion, index: number, obj:
@@ -640,10 +626,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(DirectoryObjectUnion, number)
     uid: >-
@@ -716,12 +702,13 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | DirectoryObjectUnion'
+      content: 'function pop(): DirectoryObjectUnion | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" />
+          <xref
+          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(DirectoryObjectUnion[])
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.push'
@@ -978,12 +965,13 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | DirectoryObjectUnion'
+      content: 'function shift(): DirectoryObjectUnion | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" />
+          <xref
+          uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: '@azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.slice'
@@ -1079,7 +1067,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -1113,7 +1101,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: >-
@@ -1140,7 +1136,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: >-
             <xref
@@ -1164,6 +1167,30 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: >-
+      @azure/graph.GraphRbacManagementModels.DirectoryObjectListResult.toLocaleString_1
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1208,11 +1235,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<DirectoryObjectUnion>'
+      content: 'function values(): ArrayIterator<DirectoryObjectUnion>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion"
           />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
@@ -1224,14 +1251,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<DirectoryObjectUnion>'
+      content: 'function [iterator](): ArrayIterator<DirectoryObjectUnion>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion"
           />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@732
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: >-
   Array&lt;<xref
   uid="@azure/graph.GraphRbacManagementModels.DirectoryObjectUnion" />&gt;

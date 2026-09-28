@@ -34,8 +34,8 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'rawBody: null | Uint8Array'
+      content: 'rawBody: Uint8Array | null'
       return:
         description: ''
-        type: null | Uint8Array
+        type: Uint8Array | null
 extends: <xref uid="@azure/arm-mediaservices.ContentKeyPolicyRestrictionTokenKey" />

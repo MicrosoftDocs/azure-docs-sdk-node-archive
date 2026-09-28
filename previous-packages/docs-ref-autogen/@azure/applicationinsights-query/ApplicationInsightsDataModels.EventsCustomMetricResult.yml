@@ -3,7 +3,9 @@ name: EventsCustomMetricResult
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsCustomMetricResult
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsCustomMetricResult.
+  A custom metric result
 fullName: EventsCustomMetricResult
 remarks: ''
 isDeprecated: false

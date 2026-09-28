@@ -3,7 +3,9 @@ name: EventsRequestInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsRequestInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsRequestInfo.
+  The request info
 fullName: EventsRequestInfo
 remarks: ''
 isDeprecated: false

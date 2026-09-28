@@ -2,7 +2,9 @@
 name: QueueSetMetadataHeaders
 uid: '@azure/storage-queue.Models.QueueSetMetadataHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueSetMetadataHeaders.
+  Defines headers for SetMetadata operation.
 fullName: QueueSetMetadataHeaders
 remarks: ''
 isDeprecated: false

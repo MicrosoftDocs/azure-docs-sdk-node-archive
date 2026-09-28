@@ -19,13 +19,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        @type: "#Microsoft.VideoAnalyzer.RtspSource" |
-        "#Microsoft.VideoAnalyzer.IotHubMessageSource"
+        @type: "#Microsoft.VideoAnalyzer.IotHubMessageSource" |
+        "#Microsoft.VideoAnalyzer.RtspSource"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.RtspSource" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.IotHubMessageSource" />"
+          "#<xref uid="Microsoft.VideoAnalyzer.IotHubMessageSource" />" |
+          "#<xref uid="Microsoft.VideoAnalyzer.RtspSource" />"
   - name: name
     uid: '@azure/video-analyzer-edge.SourceNodeBase.name'
     package: '@azure/video-analyzer-edge'

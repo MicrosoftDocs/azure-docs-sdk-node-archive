@@ -2,7 +2,9 @@
 name: QueueSetAccessPolicyHeaders
 uid: '@azure/storage-queue.Models.QueueSetAccessPolicyHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueSetAccessPolicyHeaders.
+  Defines headers for SetAccessPolicy operation.
 fullName: QueueSetAccessPolicyHeaders
 remarks: ''
 isDeprecated: false

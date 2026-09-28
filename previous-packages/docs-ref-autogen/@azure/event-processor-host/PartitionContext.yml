@@ -2,7 +2,9 @@
 name: PartitionContext
 uid: '@azure/event-processor-host.PartitionContext'
 package: '@azure/event-processor-host'
-summary: Describes the Partition Context.
+summary: |-
+  Describes the Partition Context.
+   PartitionContext
 fullName: PartitionContext
 remarks: ''
 isDeprecated: false
@@ -34,7 +36,7 @@ properties:
   - name: consumerGroup
     uid: '@azure/event-processor-host.PartitionContext.consumerGroup'
     package: '@azure/event-processor-host'
-    summary: The name of the consumer group.
+    summary: ''
     fullName: consumerGroup
     remarks: ''
     isDeprecated: false
@@ -46,7 +48,7 @@ properties:
   - name: eventhubPath
     uid: '@azure/event-processor-host.PartitionContext.eventhubPath'
     package: '@azure/event-processor-host'
-    summary: The path of the eventhub
+    summary: ''
     fullName: eventhubPath
     remarks: ''
     isDeprecated: false
@@ -58,7 +60,7 @@ properties:
   - name: lease
     uid: '@azure/event-processor-host.PartitionContext.lease'
     package: '@azure/event-processor-host'
-    summary: The most recdent checkpointed lease with the partitionId.
+    summary: ''
     fullName: lease
     remarks: ''
     isDeprecated: false
@@ -70,7 +72,7 @@ properties:
   - name: owner
     uid: '@azure/event-processor-host.PartitionContext.owner'
     package: '@azure/event-processor-host'
-    summary: The host/owner of the partition.
+    summary: ''
     fullName: owner
     remarks: ''
     isDeprecated: false
@@ -82,7 +84,7 @@ properties:
   - name: partitionId
     uid: '@azure/event-processor-host.PartitionContext.partitionId'
     package: '@azure/event-processor-host'
-    summary: The eventhub partition id.
+    summary: ''
     fullName: partitionId
     remarks: ''
     isDeprecated: false

@@ -2,7 +2,9 @@
 name: EventsAiInfo
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.EventsAiInfo'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsAiInfo.
+  AI related application info for an event result
 fullName: EventsAiInfo
 remarks: ''
 isDeprecated: false

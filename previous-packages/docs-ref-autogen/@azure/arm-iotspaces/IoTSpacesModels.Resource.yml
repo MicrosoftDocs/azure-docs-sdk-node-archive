@@ -2,7 +2,9 @@
 name: Resource
 uid: '@azure/arm-iotspaces.IoTSpacesModels.Resource'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing Resource.
+  The common properties of an IoTSpaces service.
 fullName: Resource
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,7 @@
 name: LogAnalyticsClientOptions
 uid: '@azure/loganalytics.LogAnalyticsModels.LogAnalyticsClientOptions'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing LogAnalyticsClientOptions.
 fullName: LogAnalyticsClientOptions
 remarks: ''
 isDeprecated: false

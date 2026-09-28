@@ -2,7 +2,7 @@
 name: Column
 uid: '@azure/loganalytics.LogAnalyticsModels.Column'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing Column.
 fullName: Column
 remarks: ''
 isDeprecated: false

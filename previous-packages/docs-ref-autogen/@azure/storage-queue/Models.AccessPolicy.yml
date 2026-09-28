@@ -2,7 +2,9 @@
 name: AccessPolicy
 uid: '@azure/storage-queue.Models.AccessPolicy'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing AccessPolicy.
+  An Access policy
 fullName: AccessPolicy
 remarks: ''
 isDeprecated: false

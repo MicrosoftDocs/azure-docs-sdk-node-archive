@@ -207,10 +207,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'ipRange: undefined | IIPRange'
+      content: 'ipRange: IIPRange | undefined'
       return:
         description: ''
-        type: undefined | <xref uid="@azure/storage-file.IIPRange" />
+        type: <xref uid="@azure/storage-file.IIPRange" /> | undefined
   - name: permissions
     uid: '@azure/storage-file.SASQueryParameters.permissions'
     package: '@azure/storage-file'

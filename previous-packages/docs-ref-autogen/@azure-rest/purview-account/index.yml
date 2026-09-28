@@ -122,29 +122,6 @@ typeAliases:
   - '@azure-rest/purview-account.ResourceSetRulesGetResourceSetRuleParameters'
   - '@azure-rest/purview-account.ResourceSetRulesListResourceSetRulesParameters'
 functions:
-  - name: default(string, TokenCredential, ClientOptions)
-    uid: '@azure-rest/purview-account.default'
-    package: '@azure-rest/purview-account'
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function default(endpoint: string, credentials: TokenCredential,
-        options?: ClientOptions): PurviewAccountRestClient
-      parameters:
-        - id: endpoint
-          type: string
-          description: ''
-        - id: credentials
-          type: <xref uid="@azure/core-auth.TokenCredential" />
-          description: ''
-        - id: options
-          type: <xref uid="@azure-rest/core-client.ClientOptions" />
-          description: ''
-      return:
-        description: ''
-        type: <xref uid="@azure-rest/purview-account.PurviewAccountRestClient" />
   - name: paginate<TReturn>(Client, TReturn)
     uid: '@azure-rest/purview-account.paginate'
     package: '@azure-rest/purview-account'
@@ -157,7 +134,7 @@ functions:
       content: >-
         function paginate<TReturn>(client: Client, initialResponse: TReturn):
         PagedAsyncIterableIterator<PaginateReturn<TReturn>,
-        PaginateReturn<TReturn>[]>
+        PaginateReturn<TReturn>[], PageSettings>
       parameters:
         - id: client
           type: <xref uid="@azure-rest/core-client.Client" />
@@ -173,4 +150,28 @@ functions:
           <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
           uid="@azure-rest/purview-account.PaginateReturn" />&lt;TReturn&gt;,
           <xref uid="@azure-rest/purview-account.PaginateReturn"
-          />&lt;TReturn&gt;[]&gt;
+          />&lt;TReturn&gt;[], <xref uid="@azure/core-paging.PageSettings"
+          />&gt;
+  - name: PurviewAccount(string, TokenCredential, ClientOptions)
+    uid: '@azure-rest/purview-account.PurviewAccount'
+    package: '@azure-rest/purview-account'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function PurviewAccount(endpoint: string, credentials: TokenCredential,
+        options?: ClientOptions): PurviewAccountRestClient
+      parameters:
+        - id: endpoint
+          type: string
+          description: ''
+        - id: credentials
+          type: <xref uid="@azure/core-auth.TokenCredential" />
+          description: ''
+        - id: options
+          type: <xref uid="@azure-rest/core-client.ClientOptions" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/purview-account.PurviewAccountRestClient" />

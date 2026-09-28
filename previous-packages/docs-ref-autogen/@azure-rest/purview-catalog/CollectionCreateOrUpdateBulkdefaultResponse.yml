@@ -19,7 +19,7 @@ properties:
     uid: >-
       @azure-rest/purview-catalog.CollectionCreateOrUpdateBulkdefaultResponse.body
     package: '@azure-rest/purview-catalog'
-    summary: ''
+    summary: Parsed body
     fullName: body
     remarks: ''
     isDeprecated: false
@@ -32,7 +32,7 @@ properties:
     uid: >-
       @azure-rest/purview-catalog.CollectionCreateOrUpdateBulkdefaultResponse.status
     package: '@azure-rest/purview-catalog'
-    summary: ''
+    summary: The HTTP status code of the response.
     fullName: status
     remarks: ''
     isDeprecated: false

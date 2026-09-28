@@ -129,7 +129,10 @@ methods:
   - name: del(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.del
     package: azure-storage
-    summary: Creates a new delete request web resource.
+    summary: |-
+      Creates a new delete request web resource.
+
+       WebResource#del
     remarks: ''
     isDeprecated: false
     syntax:
@@ -146,7 +149,10 @@ methods:
   - name: get(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.get
     package: azure-storage
-    summary: Creates a new get request web resource.
+    summary: |-
+      Creates a new get request web resource.
+
+       WebResource#get
     remarks: ''
     isDeprecated: false
     syntax:
@@ -163,7 +169,10 @@ methods:
   - name: head(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.head
     package: azure-storage
-    summary: Creates a new head request web resource.
+    summary: |-
+      Creates a new head request web resource.
+
+       WebResource#head
     remarks: ''
     isDeprecated: false
     syntax:
@@ -180,7 +189,10 @@ methods:
   - name: merge(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.merge
     package: azure-storage
-    summary: Creates a new merge request web resource.
+    summary: |-
+      Creates a new merge request web resource.
+
+       WebResource#merge
     remarks: ''
     isDeprecated: false
     syntax:
@@ -202,6 +214,8 @@ methods:
       WebResource method
 
       requires a request body and a body is not already set.
+
+       WebResource#pipeInput
     remarks: ''
     isDeprecated: false
     syntax:
@@ -221,7 +235,10 @@ methods:
   - name: post(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.post
     package: azure-storage
-    summary: Creates a new post request web resource.
+    summary: |-
+      Creates a new post request web resource.
+
+       WebResource#post
     remarks: ''
     isDeprecated: false
     syntax:
@@ -238,7 +255,10 @@ methods:
   - name: put(string)
     uid: azure-storage.export=.common.http.webresource.WebResource.put
     package: azure-storage
-    summary: Creates a new put request web resource.
+    summary: |-
+      Creates a new put request web resource.
+
+       WebResource#put
     remarks: ''
     isDeprecated: false
     syntax:
@@ -259,6 +279,8 @@ methods:
       Adds optional query string parameters.
 
       Additional arguments will be the needles to search in the haystack.
+
+       WebResource#withHeaders
     remarks: ''
     isDeprecated: false
     syntax:
@@ -281,11 +303,16 @@ methods:
 
           Determines if a status code corresponds to a valid response according
           to the WebResource's expected status codes.
+
+           WebResource#validResponse
         type: boolean
   - name: withBody(any)
     uid: azure-storage.export=.common.http.webresource.WebResource.withBody
     package: azure-storage
-    summary: Adds an optional body.
+    summary: |-
+      Adds an optional body.
+
+       WebResource#withBody
     remarks: ''
     isDeprecated: false
     syntax:
@@ -302,7 +329,10 @@ methods:
   - name: withHeader<T>(string, T)
     uid: azure-storage.export=.common.http.webresource.WebResource.withHeader
     package: azure-storage
-    summary: Adds an optional header parameter.
+    summary: |-
+      Adds an optional header parameter.
+
+       WebResource#withHeader
     remarks: ''
     isDeprecated: false
     syntax:
@@ -322,7 +352,10 @@ methods:
   - name: withHeadersOnly(boolean)
     uid: azure-storage.export=.common.http.webresource.WebResource.withHeadersOnly
     package: azure-storage
-    summary: Specifies if the request only has headers.
+    summary: |-
+      Specifies if the request only has headers.
+
+       WebResource#withHeadersOnly
     remarks: ''
     isDeprecated: false
     syntax:
@@ -339,7 +372,10 @@ methods:
   - name: withProperty(string, string)
     uid: azure-storage.export=.common.http.webresource.WebResource.withProperty
     package: azure-storage
-    summary: Specifies a custom property in the web resource.
+    summary: |-
+      Specifies a custom property in the web resource.
+
+       WebResource#withProperty
     remarks: ''
     isDeprecated: false
     syntax:
@@ -359,7 +395,10 @@ methods:
   - name: withQueryOption<T>(any, T, T)
     uid: azure-storage.export=.common.http.webresource.WebResource.withQueryOption
     package: azure-storage
-    summary: Adds an optional query string parameter.
+    summary: |-
+      Adds an optional query string parameter.
+
+       WebResource#withQueryOption
     remarks: ''
     isDeprecated: false
     syntax:
@@ -390,6 +429,8 @@ methods:
       Adds optional query string parameters.
 
       Additional arguments will be the needles to search in the haystack.
+
+       WebResource#withQueryOptions
     remarks: ''
     isDeprecated: false
     syntax:
@@ -409,7 +450,10 @@ methods:
   - name: withRawResponse(boolean)
     uid: azure-storage.export=.common.http.webresource.WebResource.withRawResponse
     package: azure-storage
-    summary: Specifies if the response should be parsed or not.
+    summary: |-
+      Specifies if the response should be parsed or not.
+
+       WebResource#withRawResponse
     remarks: ''
     isDeprecated: false
     syntax:

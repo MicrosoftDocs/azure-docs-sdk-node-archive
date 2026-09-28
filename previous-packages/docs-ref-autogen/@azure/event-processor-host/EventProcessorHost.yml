@@ -2,7 +2,9 @@
 name: EventProcessorHost
 uid: '@azure/event-processor-host.EventProcessorHost'
 package: '@azure/event-processor-host'
-summary: Describes the Event Processor Host to process events from an EventHub.
+summary: |-
+  Describes the Event Processor Host to process events from an EventHub.
+   EventProcessorHost
 fullName: EventProcessorHost
 remarks: ''
 isDeprecated: false

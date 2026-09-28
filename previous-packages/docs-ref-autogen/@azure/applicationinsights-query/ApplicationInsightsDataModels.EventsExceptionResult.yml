@@ -3,7 +3,9 @@ name: EventsExceptionResult
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsExceptionResult
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsExceptionResult.
+  An exception result
 fullName: EventsExceptionResult
 remarks: ''
 isDeprecated: false

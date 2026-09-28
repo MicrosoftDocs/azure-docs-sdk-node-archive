@@ -2,7 +2,9 @@
 name: ServiceGetPropertiesHeaders
 uid: '@azure/storage-queue.Models.ServiceGetPropertiesHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing ServiceGetPropertiesHeaders.
+  Defines headers for GetProperties operation.
 fullName: ServiceGetPropertiesHeaders
 remarks: ''
 isDeprecated: false

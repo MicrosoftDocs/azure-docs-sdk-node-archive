@@ -2,7 +2,7 @@
 name: GroupListResult
 uid: '@azure/graph.GraphRbacManagementModels.GroupListResult'
 package: '@azure/graph'
-summary: ''
+summary: Server response for Get tenant groups API call
 fullName: GroupListResult
 remarks: ''
 isDeprecated: false
@@ -46,30 +46,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@734
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.at'
-    package: '@azure/graph'
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | ADGroup'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup"
-          />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((ADGroup | ConcatArray<ADGroup>)[])
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.concat_1'
     package: '@azure/graph'
@@ -156,10 +138,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, ADGroup]>'
+      content: 'function entries(): ArrayIterator<[number, ADGroup]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, ADGroup]&gt;
+        type: ArrayIterator&lt;[number, ADGroup]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: 'every((value: ADGroup, index: number, array: ADGroup[]) => unknown, any)'
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.every_1'
@@ -194,7 +176,9 @@ inheritedMethods:
         description: ''
         type: boolean
     inheritanceDescription: <b>Inherited From</b> Array.every
-  - name: 'every<S>((value: ADGroup, index: number, array: ADGroup[]) => value, any)'
+  - name: >-
+      every<S>((value: ADGroup, index: number, array: ADGroup[]) => value is S,
+      any)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.every'
     package: '@azure/graph'
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -203,10 +187,10 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: ADGroup, index: number, array:
-        ADGroup[]) => value, thisArg?: any): this
+        ADGroup[]) => value is S, thisArg?: any): this is S[]
       parameters:
         - id: predicate
-          type: '(value: ADGroup, index: number, array: ADGroup[]) =&gt; value'
+          type: '(value: ADGroup, index: number, array: ADGroup[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -225,7 +209,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(ADGroup, number, number)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.fill'
@@ -289,7 +273,9 @@ inheritedMethods:
         description: ''
         type: <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" />[]
     inheritanceDescription: <b>Inherited From</b> Array.filter
-  - name: 'filter<S>((value: ADGroup, index: number, array: ADGroup[]) => value, any)'
+  - name: >-
+      filter<S>((value: ADGroup, index: number, array: ADGroup[]) => value is S,
+      any)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.filter'
     package: '@azure/graph'
     summary: >-
@@ -300,10 +286,10 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: ADGroup, index: number, array:
-        ADGroup[]) => value, thisArg?: any): S[]
+        ADGroup[]) => value is S, thisArg?: any): S[]
       parameters:
         - id: predicate
-          type: '(value: ADGroup, index: number, array: ADGroup[]) =&gt; value'
+          type: '(value: ADGroup, index: number, array: ADGroup[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -326,7 +312,7 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: ADGroup, index: number, obj: ADGroup[])
-        => unknown, thisArg?: any): undefined | ADGroup
+        => unknown, thisArg?: any): ADGroup | undefined
       parameters:
         - id: predicate
           type: '(value: ADGroup, index: number, obj: ADGroup[]) =&gt; unknown'
@@ -337,10 +323,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup"
-          />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
-  - name: 'find<S>((value: ADGroup, index: number, obj: ADGroup[]) => value, any)'
+  - name: >-
+      find<S>((value: ADGroup, index: number, obj: ADGroup[]) => value is S,
+      any)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.find'
     package: '@azure/graph'
     summary: >-
@@ -353,10 +341,10 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: ADGroup, index: number, obj:
-        ADGroup[]) => value, thisArg?: any): undefined | S
+        ADGroup[]) => value is S, thisArg?: any): S | undefined
       parameters:
         - id: predicate
-          type: '(value: ADGroup, index: number, obj: ADGroup[]) =&gt; value'
+          type: '(value: ADGroup, index: number, obj: ADGroup[]) =&gt; value is S'
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -375,7 +363,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: 'findIndex((value: ADGroup, index: number, obj: ADGroup[]) => unknown, any)'
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.findIndex'
@@ -573,10 +561,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(ADGroup, number)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.lastIndexOf'
@@ -640,12 +628,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | ADGroup'
+      content: 'function pop(): ADGroup | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup"
-          />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(ADGroup[])
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.push'
@@ -869,12 +857,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | ADGroup'
+      content: 'function shift(): ADGroup | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup"
-          />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.slice'
@@ -964,7 +952,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -993,7 +981,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" />[]
@@ -1018,7 +1014,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: <xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" />[]
           description: Elements to insert into the array in place of the deleted elements.
@@ -1036,6 +1039,29 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: '@azure/graph.GraphRbacManagementModels.GroupListResult.toLocaleString_1'
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1077,11 +1103,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<ADGroup>'
+      content: 'function values(): ArrayIterator<ADGroup>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.ADGroup" />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
   - name: '[iterator]()'
@@ -1091,11 +1117,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<ADGroup>'
+      content: 'function [iterator](): ArrayIterator<ADGroup>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.ADGroup" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@732
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: Array&lt;<xref uid="@azure/graph.GraphRbacManagementModels.ADGroup" />&gt;

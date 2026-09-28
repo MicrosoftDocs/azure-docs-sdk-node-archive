@@ -3,7 +3,7 @@ name: MetricsResultsItem
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.MetricsResultsItem
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing MetricsResultsItem.
 fullName: MetricsResultsItem
 remarks: ''
 isDeprecated: false

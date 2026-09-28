@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'body?: string | Buffer'
+      content: 'body?: string | Buffer<ArrayBufferLike>'
       return:
         description: ''
-        type: string | Buffer
+        type: string | Buffer&lt;ArrayBufferLike&gt;
   - name: error
     uid: azure-storage.ServiceResponse.error
     package: azure-storage
@@ -28,10 +28,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'error?: Error | StorageError'
+      content: 'error?: StorageError | Error'
       return:
         description: ''
-        type: Error | <xref uid="azure-storage.export" />=.StorageError
+        type: <xref uid="azure-storage.export" />=.StorageError | Error
   - name: headers
     uid: azure-storage.ServiceResponse.headers
     package: azure-storage

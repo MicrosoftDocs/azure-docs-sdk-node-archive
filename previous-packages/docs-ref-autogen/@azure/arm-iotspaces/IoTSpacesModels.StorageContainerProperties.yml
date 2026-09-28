@@ -2,7 +2,9 @@
 name: StorageContainerProperties
 uid: '@azure/arm-iotspaces.IoTSpacesModels.StorageContainerProperties'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing StorageContainerProperties.
+  The properties of the Azure Storage Container for file archive.
 fullName: StorageContainerProperties
 remarks: ''
 isDeprecated: false

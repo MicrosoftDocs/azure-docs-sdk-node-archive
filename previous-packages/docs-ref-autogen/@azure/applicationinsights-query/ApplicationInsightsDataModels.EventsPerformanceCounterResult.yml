@@ -3,7 +3,9 @@ name: EventsPerformanceCounterResult
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsPerformanceCounterResult
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsPerformanceCounterResult.
+  A performance counter result
 fullName: EventsPerformanceCounterResult
 remarks: ''
 isDeprecated: false

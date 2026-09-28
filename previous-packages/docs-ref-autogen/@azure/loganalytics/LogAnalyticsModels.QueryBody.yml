@@ -2,7 +2,12 @@
 name: QueryBody
 uid: '@azure/loganalytics.LogAnalyticsModels.QueryBody'
 package: '@azure/loganalytics'
-summary: ''
+summary: >-
+  An interface representing QueryBody.
+
+  The Analytics query. Learn more about the [Analytics query
+
+  syntax](https://azure.microsoft.com/documentation/articles/app-insights-analytics-reference/)
 fullName: QueryBody
 remarks: ''
 isDeprecated: false

@@ -3,7 +3,9 @@ name: EventsDependencyInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsDependencyInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsDependencyInfo.
+  The dependency info
 fullName: EventsDependencyInfo
 remarks: ''
 isDeprecated: false

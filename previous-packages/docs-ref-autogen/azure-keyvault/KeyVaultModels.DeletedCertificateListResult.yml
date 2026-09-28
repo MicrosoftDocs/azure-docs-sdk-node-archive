@@ -46,30 +46,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@3023
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.at
-    package: azure-keyvault
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | DeletedCertificateItem'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref
-          uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((DeletedCertificateItem | ConcatArray<DeletedCertificateItem>)[])
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.concat_1
     package: azure-keyvault
@@ -162,10 +144,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, DeletedCertificateItem]>'
+      content: 'function entries(): ArrayIterator<[number, DeletedCertificateItem]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, DeletedCertificateItem]&gt;
+        type: ArrayIterator&lt;[number, DeletedCertificateItem]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: >-
       every((value: DeletedCertificateItem, index: number, array:
@@ -206,7 +188,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
       every<S>((value: DeletedCertificateItem, index: number, array:
-      DeletedCertificateItem[]) => value, any)
+      DeletedCertificateItem[]) => value is S, any)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.every
     package: azure-keyvault
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -215,12 +197,13 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: DeletedCertificateItem, index:
-        number, array: DeletedCertificateItem[]) => value, thisArg?: any): this
+        number, array: DeletedCertificateItem[]) => value is S, thisArg?: any):
+        this is S[]
       parameters:
         - id: predicate
           type: >-
             (value: DeletedCertificateItem, index: number, array:
-            DeletedCertificateItem[]) =&gt; value
+            DeletedCertificateItem[]) =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -239,7 +222,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(DeletedCertificateItem, number, number)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.fill
@@ -312,7 +295,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: DeletedCertificateItem, index: number, array:
-      DeletedCertificateItem[]) => value, any)
+      DeletedCertificateItem[]) => value is S, any)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.filter
     package: azure-keyvault
     summary: >-
@@ -323,12 +306,13 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: DeletedCertificateItem, index:
-        number, array: DeletedCertificateItem[]) => value, thisArg?: any): S[]
+        number, array: DeletedCertificateItem[]) => value is S, thisArg?: any):
+        S[]
       parameters:
         - id: predicate
           type: >-
             (value: DeletedCertificateItem, index: number, array:
-            DeletedCertificateItem[]) =&gt; value
+            DeletedCertificateItem[]) =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -353,8 +337,8 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: DeletedCertificateItem, index: number,
-        obj: DeletedCertificateItem[]) => unknown, thisArg?: any): undefined |
-        DeletedCertificateItem
+        obj: DeletedCertificateItem[]) => unknown, thisArg?: any):
+        DeletedCertificateItem | undefined
       parameters:
         - id: predicate
           type: >-
@@ -367,12 +351,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />
+          <xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       find<S>((value: DeletedCertificateItem, index: number, obj:
-      DeletedCertificateItem[]) => value, any)
+      DeletedCertificateItem[]) => value is S, any)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.find
     package: azure-keyvault
     summary: >-
@@ -385,13 +369,13 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: DeletedCertificateItem, index:
-        number, obj: DeletedCertificateItem[]) => value, thisArg?: any):
-        undefined | S
+        number, obj: DeletedCertificateItem[]) => value is S, thisArg?: any): S
+        | undefined
       parameters:
         - id: predicate
           type: >-
             (value: DeletedCertificateItem, index: number, obj:
-            DeletedCertificateItem[]) =&gt; value
+            DeletedCertificateItem[]) =&gt; value is S
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -410,7 +394,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       findIndex((value: DeletedCertificateItem, index: number, obj:
@@ -622,10 +606,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(DeletedCertificateItem, number)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.lastIndexOf
@@ -695,12 +679,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | DeletedCertificateItem'
+      content: 'function pop(): DeletedCertificateItem | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />
+          <xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(DeletedCertificateItem[])
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.push
@@ -943,12 +927,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | DeletedCertificateItem'
+      content: 'function shift(): DeletedCertificateItem | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />
+          <xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: azure-keyvault.KeyVaultModels.DeletedCertificateListResult.slice
@@ -1042,7 +1026,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -1075,7 +1059,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: <xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />[]
@@ -1100,7 +1092,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: >-
             <xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem"
@@ -1120,6 +1119,30 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: >-
+      azure-keyvault.KeyVaultModels.DeletedCertificateListResult.toLocaleString_1
+    package: azure-keyvault
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1163,11 +1186,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<DeletedCertificateItem>'
+      content: 'function values(): ArrayIterator<DeletedCertificateItem>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
   - name: '[iterator]()'
@@ -1177,13 +1200,13 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<DeletedCertificateItem>'
+      content: 'function [iterator](): ArrayIterator<DeletedCertificateItem>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@3021
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: >-
   Array&lt;<xref uid="azure-keyvault.KeyVaultModels.DeletedCertificateItem"
   />&gt;

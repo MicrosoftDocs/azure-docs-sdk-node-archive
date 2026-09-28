@@ -3,7 +3,9 @@ name: EventsCustomEventInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsCustomEventInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsCustomEventInfo.
+  The custom event information
 fullName: EventsCustomEventInfo
 remarks: ''
 isDeprecated: false

@@ -39,13 +39,13 @@ variables:
     syntax:
       content: >-
         AclConstants: { ACCESS_POLICY: string, EXPIRY: string, ID: string,
-        PERMISSION: string, SIGNED_IDENTIFIERS_ELEMENT: string,
-        SIGNED_IDENTIFIER_ELEMENT: string, START: string }
+        PERMISSION: string, SIGNED_IDENTIFIER_ELEMENT: string,
+        SIGNED_IDENTIFIERS_ELEMENT: string, START: string }
       return:
         description: ''
         type: >-
           { ACCESS_POLICY: string, EXPIRY: string, ID: string, PERMISSION:
-          string, SIGNED_IDENTIFIERS_ELEMENT: string, SIGNED_IDENTIFIER_ELEMENT:
+          string, SIGNED_IDENTIFIER_ELEMENT: string, SIGNED_IDENTIFIERS_ELEMENT:
           string, START: string }
   - name: BlobConstants
     uid: azure-storage.export=.common.util.constants.BlobConstants
@@ -55,8 +55,8 @@ variables:
     isDeprecated: false
     syntax:
       content: >-
-        BlobConstants: { BLOCK_LIST_ELEMENT: string, BlobTypes: { BLOCK: string,
-        PAGE: string }, COMMITTED_ELEMENT: string,
+        BlobConstants: { BlobTypes: { BLOCK: string, PAGE: string },
+        BLOCK_LIST_ELEMENT: string, COMMITTED_ELEMENT: string,
         DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES: number,
         DEFAULT_WRITE_BLOCK_SIZE_IN_BYTES: number,
         DEFAULT_WRITE_PAGE_SIZE_IN_BYTES: number, LATEST_ELEMENT: string,
@@ -71,8 +71,8 @@ variables:
       return:
         description: ''
         type: >-
-          { BLOCK_LIST_ELEMENT: string, BlobTypes: { BLOCK: string, PAGE: string
-          }, COMMITTED_ELEMENT: string,
+          { BlobTypes: { BLOCK: string, PAGE: string }, BLOCK_LIST_ELEMENT:
+          string, COMMITTED_ELEMENT: string,
           DEFAULT_SINGLE_BLOB_PUT_THRESHOLD_IN_BYTES: number,
           DEFAULT_WRITE_BLOCK_SIZE_IN_BYTES: number,
           DEFAULT_WRITE_PAGE_SIZE_IN_BYTES: number, LATEST_ELEMENT: string,
@@ -208,8 +208,8 @@ variables:
     syntax:
       content: >-
         HeaderConstants: { ACCEPT_CHARSET_HEADER: string, ACCEPT_HEADER: string,
-        ACCEPT_RANGES: string, APPROXIMATE_MESSAGES_COUNT: string,
-        APPROXIMATE_MESSAGE_COUNT_HEADER: string, AUTHORIZATION: string,
+        ACCEPT_RANGES: string, APPROXIMATE_MESSAGE_COUNT_HEADER: string,
+        APPROXIMATE_MESSAGES_COUNT: string, AUTHORIZATION: string,
         BLOB_CACHE_CONTROL_HEADER: string, BLOB_CONTENT_DISPOSITION_HEADER:
         string, BLOB_CONTENT_ENCODING_HEADER: string,
         BLOB_CONTENT_LANGUAGE_HEADER: string, BLOB_CONTENT_LENGTH_HEADER:
@@ -243,8 +243,8 @@ variables:
         REQUEST_ID_HEADER: string, SEQUENCE_NUMBER: string,
         SEQUENCE_NUMBER_ACTION: string, SEQUENCE_NUMBER_EQUAL: string,
         SEQUENCE_NUMBER_LESS_THAN: string, SEQUENCE_NUMBER_LESS_THAN_OR_EQUAL:
-        string, SERVER_HEADER: string, SIZE: string, SNAPSHOTS_ONLY_VALUE:
-        string, SNAPSHOT_HEADER: string, SOURCE_IF_MATCH_HEADER: string,
+        string, SERVER_HEADER: string, SIZE: string, SNAPSHOT_HEADER: string,
+        SNAPSHOTS_ONLY_VALUE: string, SOURCE_IF_MATCH_HEADER: string,
         SOURCE_IF_MODIFIED_SINCE_HEADER: string, SOURCE_IF_NONE_MATCH_HEADER:
         string, SOURCE_IF_UNMODIFIED_SINCE_HEADER: string,
         SOURCE_LEASE_ID_HEADER: string, STORAGE_RANGE_HEADER: string,
@@ -255,8 +255,8 @@ variables:
         description: ''
         type: >-
           { ACCEPT_CHARSET_HEADER: string, ACCEPT_HEADER: string, ACCEPT_RANGES:
-          string, APPROXIMATE_MESSAGES_COUNT: string,
-          APPROXIMATE_MESSAGE_COUNT_HEADER: string, AUTHORIZATION: string,
+          string, APPROXIMATE_MESSAGE_COUNT_HEADER: string,
+          APPROXIMATE_MESSAGES_COUNT: string, AUTHORIZATION: string,
           BLOB_CACHE_CONTROL_HEADER: string, BLOB_CONTENT_DISPOSITION_HEADER:
           string, BLOB_CONTENT_ENCODING_HEADER: string,
           BLOB_CONTENT_LANGUAGE_HEADER: string, BLOB_CONTENT_LENGTH_HEADER:
@@ -292,7 +292,7 @@ variables:
           SEQUENCE_NUMBER: string, SEQUENCE_NUMBER_ACTION: string,
           SEQUENCE_NUMBER_EQUAL: string, SEQUENCE_NUMBER_LESS_THAN: string,
           SEQUENCE_NUMBER_LESS_THAN_OR_EQUAL: string, SERVER_HEADER: string,
-          SIZE: string, SNAPSHOTS_ONLY_VALUE: string, SNAPSHOT_HEADER: string,
+          SIZE: string, SNAPSHOT_HEADER: string, SNAPSHOTS_ONLY_VALUE: string,
           SOURCE_IF_MATCH_HEADER: string, SOURCE_IF_MODIFIED_SINCE_HEADER:
           string, SOURCE_IF_NONE_MATCH_HEADER: string,
           SOURCE_IF_UNMODIFIED_SINCE_HEADER: string, SOURCE_LEASE_ID_HEADER:
@@ -507,26 +507,26 @@ variables:
       content: >-
         StorageServiceClientConstants: { CLOUD_BLOB_HOST: string,
         CLOUD_FILE_HOST: string, CLOUD_QUEUE_HOST: string, CLOUD_TABLE_HOST:
-        string, DEFAULT_PROTOCOL: string, DEVSTORE_BLOB_HOST: string,
-        DEVSTORE_DEFAULT_PROTOCOL: string, DEVSTORE_QUEUE_HOST: string,
-        DEVSTORE_STORAGE_ACCESS_KEY: string, DEVSTORE_STORAGE_ACCOUNT: string,
-        DEVSTORE_TABLE_HOST: string, DEV_STORE_URI: string,
+        string, DEFAULT_PROTOCOL: string, DEV_STORE_URI: string,
+        DEVSTORE_BLOB_HOST: string, DEVSTORE_DEFAULT_PROTOCOL: string,
+        DEVSTORE_QUEUE_HOST: string, DEVSTORE_STORAGE_ACCESS_KEY: string,
+        DEVSTORE_STORAGE_ACCOUNT: string, DEVSTORE_TABLE_HOST: string,
         EnvironmentVariables: { AZURE_STORAGE_ACCESS_KEY: string,
         AZURE_STORAGE_ACCOUNT: string, AZURE_STORAGE_CONNECTION_STRING: string,
-        AZURE_STORAGE_DNS_SUFFIX: string, EMULATED: string, HTTPS_PROXY: string,
-        HTTP_PROXY: string } }
+        AZURE_STORAGE_DNS_SUFFIX: string, EMULATED: string, HTTP_PROXY: string,
+        HTTPS_PROXY: string } }
       return:
         description: ''
         type: >-
           { CLOUD_BLOB_HOST: string, CLOUD_FILE_HOST: string, CLOUD_QUEUE_HOST:
           string, CLOUD_TABLE_HOST: string, DEFAULT_PROTOCOL: string,
-          DEVSTORE_BLOB_HOST: string, DEVSTORE_DEFAULT_PROTOCOL: string,
-          DEVSTORE_QUEUE_HOST: string, DEVSTORE_STORAGE_ACCESS_KEY: string,
-          DEVSTORE_STORAGE_ACCOUNT: string, DEVSTORE_TABLE_HOST: string,
-          DEV_STORE_URI: string, EnvironmentVariables: {
+          DEV_STORE_URI: string, DEVSTORE_BLOB_HOST: string,
+          DEVSTORE_DEFAULT_PROTOCOL: string, DEVSTORE_QUEUE_HOST: string,
+          DEVSTORE_STORAGE_ACCESS_KEY: string, DEVSTORE_STORAGE_ACCOUNT: string,
+          DEVSTORE_TABLE_HOST: string, EnvironmentVariables: {
           AZURE_STORAGE_ACCESS_KEY: string, AZURE_STORAGE_ACCOUNT: string,
           AZURE_STORAGE_CONNECTION_STRING: string, AZURE_STORAGE_DNS_SUFFIX:
-          string, EMULATED: string, HTTPS_PROXY: string, HTTP_PROXY: string } }
+          string, EMULATED: string, HTTP_PROXY: string, HTTPS_PROXY: string } }
   - name: TableConstants
     uid: azure-storage.export=.common.util.constants.TableConstants
     package: azure-storage

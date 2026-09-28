@@ -8,14 +8,14 @@ remarks: ''
 isDeprecated: false
 type: interface
 methods:
-  - name: handle(RequestOptions, Next)
+  - name: handle(common.RequestOptions, Next)
     uid: azure-storage.export=.common.filters.IFilter.handle
     package: azure-storage
     summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function handle(requestOptions: RequestOptions, next: Next)'
+      content: 'function handle(requestOptions: common.RequestOptions, next: Next)'
       parameters:
         - id: requestOptions
           type: >-

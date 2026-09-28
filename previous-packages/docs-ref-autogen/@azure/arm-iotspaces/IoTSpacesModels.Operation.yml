@@ -2,7 +2,9 @@
 name: Operation
 uid: '@azure/arm-iotspaces.IoTSpacesModels.Operation'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing Operation.
+  IoTSpaces service REST API operation
 fullName: Operation
 remarks: ''
 isDeprecated: false

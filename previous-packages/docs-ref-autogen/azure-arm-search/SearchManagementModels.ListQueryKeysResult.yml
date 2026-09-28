@@ -33,30 +33,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@163
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.at
-    package: azure-arm-search
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | QueryKey'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref
-          uid="azure-arm-search.SearchManagementModels.QueryKey" />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((QueryKey | ConcatArray<QueryKey>)[])
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.concat_1
     package: azure-arm-search
@@ -145,10 +127,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, QueryKey]>'
+      content: 'function entries(): ArrayIterator<[number, QueryKey]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, QueryKey]&gt;
+        type: ArrayIterator&lt;[number, QueryKey]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: 'every((value: QueryKey, index: number, array: QueryKey[]) => unknown, any)'
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.every_1
@@ -184,8 +166,8 @@ inheritedMethods:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
-      every<S>((value: QueryKey, index: number, array: QueryKey[]) => value,
-      any)
+      every<S>((value: QueryKey, index: number, array: QueryKey[]) => value is
+      S, any)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.every
     package: azure-arm-search
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -194,10 +176,10 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: QueryKey, index: number, array:
-        QueryKey[]) => value, thisArg?: any): this
+        QueryKey[]) => value is S, thisArg?: any): this is S[]
       parameters:
         - id: predicate
-          type: '(value: QueryKey, index: number, array: QueryKey[]) =&gt; value'
+          type: '(value: QueryKey, index: number, array: QueryKey[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -216,7 +198,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(QueryKey, number, number)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.fill
@@ -285,8 +267,8 @@ inheritedMethods:
         type: <xref uid="azure-arm-search.SearchManagementModels.QueryKey" />[]
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
-      filter<S>((value: QueryKey, index: number, array: QueryKey[]) => value,
-      any)
+      filter<S>((value: QueryKey, index: number, array: QueryKey[]) => value is
+      S, any)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.filter
     package: azure-arm-search
     summary: >-
@@ -297,10 +279,10 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: QueryKey, index: number, array:
-        QueryKey[]) => value, thisArg?: any): S[]
+        QueryKey[]) => value is S, thisArg?: any): S[]
       parameters:
         - id: predicate
-          type: '(value: QueryKey, index: number, array: QueryKey[]) =&gt; value'
+          type: '(value: QueryKey, index: number, array: QueryKey[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -323,7 +305,7 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: QueryKey, index: number, obj:
-        QueryKey[]) => unknown, thisArg?: any): undefined | QueryKey
+        QueryKey[]) => unknown, thisArg?: any): QueryKey | undefined
       parameters:
         - id: predicate
           type: '(value: QueryKey, index: number, obj: QueryKey[]) =&gt; unknown'
@@ -334,10 +316,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-search.SearchManagementModels.QueryKey" />
+          <xref uid="azure-arm-search.SearchManagementModels.QueryKey" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
-  - name: 'find<S>((value: QueryKey, index: number, obj: QueryKey[]) => value, any)'
+  - name: >-
+      find<S>((value: QueryKey, index: number, obj: QueryKey[]) => value is S,
+      any)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.find
     package: azure-arm-search
     summary: >-
@@ -350,10 +334,10 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: QueryKey, index: number, obj:
-        QueryKey[]) => value, thisArg?: any): undefined | S
+        QueryKey[]) => value is S, thisArg?: any): S | undefined
       parameters:
         - id: predicate
-          type: '(value: QueryKey, index: number, obj: QueryKey[]) =&gt; value'
+          type: '(value: QueryKey, index: number, obj: QueryKey[]) =&gt; value is S'
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -372,7 +356,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       findIndex((value: QueryKey, index: number, obj: QueryKey[]) => unknown,
@@ -572,10 +556,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(QueryKey, number)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.lastIndexOf
@@ -641,12 +625,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | QueryKey'
+      content: 'function pop(): QueryKey | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-search.SearchManagementModels.QueryKey" />
+          <xref uid="azure-arm-search.SearchManagementModels.QueryKey" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(QueryKey[])
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.push
@@ -873,12 +857,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | QueryKey'
+      content: 'function shift(): QueryKey | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-search.SearchManagementModels.QueryKey" />
+          <xref uid="azure-arm-search.SearchManagementModels.QueryKey" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: azure-arm-search.SearchManagementModels.ListQueryKeysResult.slice
@@ -968,7 +952,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -999,7 +983,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: <xref uid="azure-arm-search.SearchManagementModels.QueryKey" />[]
@@ -1024,7 +1016,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: <xref uid="azure-arm-search.SearchManagementModels.QueryKey" />[]
           description: Elements to insert into the array in place of the deleted elements.
@@ -1042,6 +1041,30 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: >-
+      azure-arm-search.SearchManagementModels.ListQueryKeysResult.toLocaleString_1
+    package: azure-arm-search
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1083,11 +1106,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<QueryKey>'
+      content: 'function values(): ArrayIterator<QueryKey>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-arm-search.SearchManagementModels.QueryKey" />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
   - name: '[iterator]()'
@@ -1097,11 +1120,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<QueryKey>'
+      content: 'function [iterator](): ArrayIterator<QueryKey>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-arm-search.SearchManagementModels.QueryKey" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@161
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: Array&lt;<xref uid="azure-arm-search.SearchManagementModels.QueryKey" />&gt;

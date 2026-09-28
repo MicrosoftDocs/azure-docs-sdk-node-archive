@@ -2,7 +2,9 @@
 name: SignedIdentifier
 uid: '@azure/storage-queue.Models.SignedIdentifier'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing SignedIdentifier.
+  signed identifier
 fullName: SignedIdentifier
 remarks: ''
 isDeprecated: false

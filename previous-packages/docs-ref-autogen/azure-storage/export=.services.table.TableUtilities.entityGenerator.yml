@@ -22,24 +22,26 @@ classes:
     azure-storage.export=.services.table.TableUtilities.entityGenerator.EntityProperty
 package: azure-storage
 functions:
-  - name: Binary(string | Buffer)
+  - name: Binary(string | Buffer<ArrayBufferLike>)
     uid: azure-storage.export=.services.table.TableUtilities.entityGenerator.Binary
     package: azure-storage
     summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function Binary(value: string | Buffer): EntityProperty<Buffer>'
+      content: >-
+        function Binary(value: string | Buffer<ArrayBufferLike>):
+        EntityProperty<Buffer<ArrayBufferLike>>
       parameters:
         - id: value
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
       return:
         description: ''
         type: >-
           <xref uid="azure-storage.export" />=.<xref
           uid="services.table.TableUtilities.entityGenerator.EntityProperty"
-          />&lt;Buffer&gt;
+          />&lt;Buffer&lt;ArrayBufferLike&gt;&gt;
   - name: Boolean(string | boolean)
     uid: >-
       azure-storage.export=.services.table.TableUtilities.entityGenerator.Boolean

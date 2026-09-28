@@ -62,7 +62,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'defaultLocationMode: LocationMode'
+      content: 'defaultLocationMode: common.util.storageutilities.LocationMode'
       return:
         description: ''
         type: >-
@@ -171,9 +171,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: >-
-        function addListener(event: string, listener: Function):
-        StorageServiceClient
+      content: 'function addListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -183,9 +181,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.services.storageserviceclient.StorageServiceClient" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.addListener
   - name: emit(string, any[])
     uid: >-
@@ -254,7 +250,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function on(event: string, listener: Function): StorageServiceClient'
+      content: 'function on(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -264,9 +260,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.services.storageserviceclient.StorageServiceClient" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.on
   - name: once(string, Function)
     uid: >-
@@ -276,7 +270,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function once(event: string, listener: Function): StorageServiceClient'
+      content: 'function once(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -286,9 +280,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.services.storageserviceclient.StorageServiceClient" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.once
   - name: removeAllListeners(string)
     uid: >-
@@ -298,16 +290,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeAllListeners(event?: string): StorageServiceClient'
+      content: 'function removeAllListeners(event?: string): this'
       parameters:
         - id: event
           type: string
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.services.storageserviceclient.StorageServiceClient" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.removeAllListeners
   - name: removeListener(string, Function)
     uid: >-
@@ -317,9 +307,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: >-
-        function removeListener(event: string, listener: Function):
-        StorageServiceClient
+      content: 'function removeListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -329,9 +317,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.services.storageserviceclient.StorageServiceClient" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.removeListener
   - name: setMaxListeners(number)
     uid: >-
@@ -352,7 +338,10 @@ methods:
     uid: >-
       azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.setProxy
     package: azure-storage
-    summary: Sets proxy object specified by caller.
+    summary: |-
+      Sets proxy object specified by caller.
+
+       StorageServiceClient#setProxy
     remarks: ''
     isDeprecated: false
     syntax:
@@ -374,7 +363,7 @@ methods:
                                                     cert: cert for proxy server
                                                    }
                                                    if null or undefined, clears proxy
-  - name: withFilter(IFilter)
+  - name: withFilter(common.filters.IFilter)
     uid: >-
       azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.withFilter
     package: azure-storage
@@ -408,10 +397,14 @@ methods:
       to end
 
       up the service invocation.
+
+       StorageServiceClient#withFilter
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function withFilter(newFilter: IFilter): StorageServiceClient'
+      content: >-
+        function withFilter(newFilter: common.filters.IFilter):
+        StorageServiceClient
       parameters:
         - id: newFilter
           type: >-

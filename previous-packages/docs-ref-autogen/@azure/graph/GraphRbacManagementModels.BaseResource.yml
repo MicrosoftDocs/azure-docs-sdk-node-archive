@@ -2,7 +2,7 @@
 name: BaseResource
 uid: '@azure/graph.GraphRbacManagementModels.BaseResource'
 package: '@azure/graph'
-summary: ''
+summary: An empty interface.
 fullName: BaseResource
 remarks: ''
 isDeprecated: false

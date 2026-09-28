@@ -2,7 +2,9 @@
 name: EventsCloudInfo
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.EventsCloudInfo'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsCloudInfo.
+  Cloud info for an event result
 fullName: EventsCloudInfo
 remarks: ''
 isDeprecated: false

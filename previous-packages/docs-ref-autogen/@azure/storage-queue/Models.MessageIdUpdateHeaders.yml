@@ -2,7 +2,9 @@
 name: MessageIdUpdateHeaders
 uid: '@azure/storage-queue.Models.MessageIdUpdateHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing MessageIdUpdateHeaders.
+  Defines headers for Update operation.
 fullName: MessageIdUpdateHeaders
 remarks: ''
 isDeprecated: false

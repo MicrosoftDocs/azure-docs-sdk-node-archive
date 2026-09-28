@@ -2,7 +2,7 @@
 name: ErrorOrResult
 uid: azure-storage.export=.ErrorOrResult
 package: azure-storage
-summary: ''
+summary: A callback that returns result and response objects.
 fullName: ErrorOrResult<TResult>
 remarks: ''
 isDeprecated: false

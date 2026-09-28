@@ -139,12 +139,10 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'siteProvisioningState?: {[propertyName: string]: SiteProvisioningState}'
+      content: 'siteProvisioningState?: {[propertyName: string]: string}'
       return:
         description: ''
-        type: >-
-          {[propertyName: string]: <xref
-          uid="@azure/arm-mobilenetwork.SiteProvisioningState" />}
+        type: '{[propertyName: string]: string}'
     inheritanceDescription: >-
       <b>Inherited From</b>
       [CommonSimPropertiesFormat.siteProvisioningState](xref:@azure/arm-mobilenetwork.CommonSimPropertiesFormat.siteProvisioningState)

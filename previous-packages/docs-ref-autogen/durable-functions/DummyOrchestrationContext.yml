@@ -72,7 +72,7 @@ properties:
   - name: bindingData
     uid: durable-functions.DummyOrchestrationContext.bindingData
     package: durable-functions
-    summary: ''
+    summary: Trigger metadata and function invocation data.
     fullName: bindingData
     remarks: ''
     isDeprecated: false
@@ -84,7 +84,7 @@ properties:
   - name: bindingDefinitions
     uid: durable-functions.DummyOrchestrationContext.bindingDefinitions
     package: durable-functions
-    summary: ''
+    summary: Bindings your function uses, as defined in function.json.
     fullName: bindingDefinitions
     remarks: ''
     isDeprecated: false
@@ -96,7 +96,11 @@ properties:
   - name: bindings
     uid: durable-functions.DummyOrchestrationContext.bindings
     package: durable-functions
-    summary: ''
+    summary: >-
+      Input and trigger binding data, as defined in function.json. Properties on
+      this object are dynamically
+
+      generated and named based off of the "name" property in function.json.
     fullName: bindings
     remarks: ''
     isDeprecated: false
@@ -125,10 +129,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'doneValue: undefined | IOrchestratorState'
+      content: 'doneValue: IOrchestratorState | undefined'
       return:
         description: ''
-        type: undefined | IOrchestratorState
+        type: IOrchestratorState | undefined
   - name: err
     uid: durable-functions.DummyOrchestrationContext.err
     package: durable-functions
@@ -137,14 +141,14 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'err: undefined | null | string | Error'
+      content: 'err: string | Error | null | undefined'
       return:
         description: ''
-        type: undefined | null | string | Error
+        type: string | Error | null | undefined
   - name: executionContext
     uid: durable-functions.DummyOrchestrationContext.executionContext
     package: durable-functions
-    summary: ''
+    summary: Function execution metadata.
     fullName: executionContext
     remarks: ''
     isDeprecated: false
@@ -156,7 +160,7 @@ properties:
   - name: invocationId
     uid: durable-functions.DummyOrchestrationContext.invocationId
     package: durable-functions
-    summary: ''
+    summary: A unique GUID per function invocation.
     fullName: invocationId
     remarks: ''
     isDeprecated: false
@@ -168,7 +172,11 @@ properties:
   - name: log
     uid: durable-functions.DummyOrchestrationContext.log
     package: durable-functions
-    summary: ''
+    summary: >-
+      Allows you to write streaming function logs. Calling directly allows you
+      to write streaming function logs
+
+      at the default trace level.
     fullName: log
     remarks: ''
     isDeprecated: false
@@ -180,7 +188,7 @@ properties:
   - name: req
     uid: durable-functions.DummyOrchestrationContext.req
     package: durable-functions
-    summary: ''
+    summary: HTTP request object. Provided to your function when using HTTP Bindings.
     fullName: req
     remarks: ''
     isDeprecated: false
@@ -192,7 +200,7 @@ properties:
   - name: res
     uid: durable-functions.DummyOrchestrationContext.res
     package: durable-functions
-    summary: ''
+    summary: HTTP response object. Provided to your function when using HTTP Bindings.
     fullName: res
     remarks: ''
     isDeprecated: false
@@ -216,7 +224,7 @@ properties:
   - name: traceContext
     uid: durable-functions.DummyOrchestrationContext.traceContext
     package: durable-functions
-    summary: ''
+    summary: TraceContext information to enable distributed tracing scenarios.
     fullName: traceContext
     remarks: ''
     isDeprecated: false
@@ -229,7 +237,14 @@ methods:
   - name: done(string | Error, any)
     uid: durable-functions.DummyOrchestrationContext.done
     package: durable-functions
-    summary: ''
+    summary: >-
+      A callback function that signals to the runtime that your code has
+      completed. If your function is synchronous,
+
+      you must call context.done at the end of execution. If your function is
+      asynchronous, you should not use this
+
+      callback.
     remarks: ''
     isDeprecated: false
     syntax:
@@ -237,7 +252,12 @@ methods:
       parameters:
         - id: err
           type: string | Error
-          description: ''
+          description: >-
+            A user-defined error to pass back to the runtime. If present, your
+            function execution will fail.
         - id: result
           type: any
-          description: ''
+          description: >-
+            An object containing output binding data. `result` will be passed to
+            JSON.stringify unless it is
+             a string, Buffer, ArrayBufferView, or number.

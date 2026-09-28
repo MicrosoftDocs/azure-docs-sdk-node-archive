@@ -3,7 +3,9 @@ name: EventsExceptionDetailsParsedStack
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsExceptionDetailsParsedStack
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsExceptionDetailsParsedStack.
+  A parsed stack entry
 fullName: EventsExceptionDetailsParsedStack
 remarks: ''
 isDeprecated: false

@@ -15,9 +15,7 @@ properties:
   - name: action
     uid: '@azure/event-processor-host.EPHDiagnosticInfo.action'
     package: '@azure/event-processor-host'
-    summary: |-
-      A short string that indicates what general activity threw the
-      error.
+    summary: ''
     fullName: action
     remarks: ''
     isDeprecated: false
@@ -29,7 +27,7 @@ properties:
   - name: error
     uid: '@azure/event-processor-host.EPHDiagnosticInfo.error'
     package: '@azure/event-processor-host'
-    summary: The error that was thrown.
+    summary: ''
     fullName: error
     remarks: ''
     isDeprecated: false
@@ -41,9 +39,7 @@ properties:
   - name: hostName
     uid: '@azure/event-processor-host.EPHDiagnosticInfo.hostName'
     package: '@azure/event-processor-host'
-    summary: |-
-      The name of the host that experienced the error. Allows
-      distinguishing the error source if multiple hosts in a single process.
+    summary: ''
     fullName: hostName
     remarks: ''
     isDeprecated: false
@@ -55,9 +51,7 @@ properties:
   - name: partitionId
     uid: '@azure/event-processor-host.EPHDiagnosticInfo.partitionId'
     package: '@azure/event-processor-host'
-    summary: |-
-      The partitionId that experienced the error. Allows
-      distinguishing the error source if multiple hosts in a single process.
+    summary: ''
     fullName: partitionId
     remarks: ''
     isDeprecated: false

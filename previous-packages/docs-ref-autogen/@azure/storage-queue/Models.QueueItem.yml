@@ -2,7 +2,9 @@
 name: QueueItem
 uid: '@azure/storage-queue.Models.QueueItem'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueItem.
+  An Azure Storage Queue.
 fullName: QueueItem
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,9 @@
 name: OperationInputs
 uid: '@azure/arm-iotspaces.IoTSpacesModels.OperationInputs'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing OperationInputs.
+  Input values.
 fullName: OperationInputs
 remarks: ''
 isDeprecated: false

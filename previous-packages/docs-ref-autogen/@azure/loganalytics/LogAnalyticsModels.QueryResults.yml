@@ -2,7 +2,7 @@
 name: QueryResults
 uid: '@azure/loganalytics.LogAnalyticsModels.QueryResults'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing QueryResults.
 fullName: QueryResults
 remarks: ''
 isDeprecated: false

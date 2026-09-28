@@ -62,15 +62,15 @@ variables:
     isDeprecated: false
     syntax:
       content: >-
-        discriminators: { FieldValue.numberValue: msRest.CompositeMapper,
-        FieldValue.stringValue: msRest.CompositeMapper, fieldValue:
+        discriminators: { fieldValue: msRest.CompositeMapper,
+        FieldValue.numberValue: msRest.CompositeMapper, FieldValue.stringValue:
         msRest.CompositeMapper }
       return:
         description: ''
         type: >-
-          { <xref uid="FieldValue.numberValue" />: <xref
-          uid="msRest.CompositeMapper" />, <xref uid="FieldValue.stringValue"
-          />: <xref uid="msRest.CompositeMapper" />, fieldValue: <xref
+          { fieldValue: <xref uid="msRest.CompositeMapper" />, <xref
+          uid="FieldValue.numberValue" />: <xref uid="msRest.CompositeMapper"
+          />, <xref uid="FieldValue.stringValue" />: <xref
           uid="msRest.CompositeMapper" /> }
   - name: ElementReference
     uid: >-

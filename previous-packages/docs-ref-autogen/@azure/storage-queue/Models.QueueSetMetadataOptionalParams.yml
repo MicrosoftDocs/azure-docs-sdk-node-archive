@@ -2,7 +2,9 @@
 name: QueueSetMetadataOptionalParams
 uid: '@azure/storage-queue.Models.QueueSetMetadataOptionalParams'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueSetMetadataOptionalParams.
+  Optional Parameters.
 fullName: QueueSetMetadataOptionalParams
 remarks: ''
 isDeprecated: false
@@ -62,9 +64,7 @@ inheritedProperties:
   - name: customHeaders
     uid: '@azure/storage-queue.Models.QueueSetMetadataOptionalParams.customHeaders'
     package: '@azure/storage-queue'
-    summary: |-
-      User defined custom request headers that
-      will be applied before the request is sent.
+    summary: ''
     fullName: customHeaders
     remarks: ''
     isDeprecated: false

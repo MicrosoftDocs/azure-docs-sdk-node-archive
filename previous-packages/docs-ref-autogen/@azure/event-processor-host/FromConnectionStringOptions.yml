@@ -15,11 +15,7 @@ properties:
   - name: eventHubPath
     uid: '@azure/event-processor-host.FromConnectionStringOptions.eventHubPath'
     package: '@azure/event-processor-host'
-    summary: >-
-      The name of the EventHub. This is optional if the
-
-      EventHub connection string contains EntityPath=hub-name else an Error will
-      be thrown.
+    summary: ''
     fullName: eventHubPath
     remarks: ''
     isDeprecated: false
@@ -32,9 +28,7 @@ inheritedProperties:
   - name: consumerGroup
     uid: '@azure/event-processor-host.FromConnectionStringOptions.consumerGroup'
     package: '@azure/event-processor-host'
-    summary: |-
-      The name of the consumer group within the Event Hub. Default
-      value: **`"$default"`**.
+    summary: ''
     fullName: consumerGroup
     remarks: ''
     isDeprecated: false
@@ -49,16 +43,7 @@ inheritedProperties:
   - name: dataTransformer
     uid: '@azure/event-processor-host.FromConnectionStringOptions.dataTransformer'
     package: '@azure/event-processor-host'
-    summary: >-
-      The data transformer that will be used to encode
-
-      and decode the sent and received messages respectively. If not provided
-      then we will use the
-
-      DefaultDataTransformer. The default transformer should handle majority of
-      the cases. This
-
-      option needs to be used only for specialized scenarios.
+    summary: ''
     fullName: dataTransformer
     remarks: ''
     isDeprecated: false
@@ -73,16 +58,7 @@ inheritedProperties:
   - name: fastScanInterval
     uid: '@azure/event-processor-host.FromConnectionStringOptions.fastScanInterval'
     package: '@azure/event-processor-host'
-    summary: >-
-      There are two possible interval times between scans for
-
-      available partitions, fast and slow. The fast (short) interval **`in
-      seconds`** is used after
-
-      a scan in which lease stealing has occurred, to promote quicker
-      rebalancing.
-
-      Default: **`3` seconds**.
+    summary: ''
     fullName: fastScanInterval
     remarks: ''
     isDeprecated: false
@@ -97,14 +73,7 @@ inheritedProperties:
   - name: initialOffset
     uid: '@azure/event-processor-host.FromConnectionStringOptions.initialOffset'
     package: '@azure/event-processor-host'
-    summary: >-
-      This is only used when then receiver is being created
-
-      for the very first time and there is no checkpoint data in the blob. For
-      this option to be
-
-      effective please make sure to provide a new hostName that was not used
-      previously.
+    summary: ''
     fullName: initialOffset
     remarks: ''
     isDeprecated: false
@@ -119,16 +88,7 @@ inheritedProperties:
   - name: leaseDuration
     uid: '@azure/event-processor-host.FromConnectionStringOptions.leaseDuration'
     package: '@azure/event-processor-host'
-    summary: >-
-      Duration of a lease **`in seconds`** before it expires
-
-      unless renewed. Default: **`30` seconds**, Min Value: **`15` seconds**,
-
-      Max value: **`60` seconds**.
-
-
-      If `Leasemanager` is provided when creating the EventProcessorHost then
-      this value will be ignored.
+    summary: ''
     fullName: leaseDuration
     remarks: ''
     isDeprecated: false
@@ -143,27 +103,7 @@ inheritedProperties:
   - name: leaseRenewInterval
     uid: '@azure/event-processor-host.FromConnectionStringOptions.leaseRenewInterval'
     package: '@azure/event-processor-host'
-    summary: >-
-      The sleep interval **`in seconds`** between scans.
-
-      Default: **`10` seconds**.
-
-
-      Allows a lease manager implementation to specify to PartitionManager how
-      often it should
-
-      scan leases and renew them. In order to redistribute leases in a timely
-      fashion after a host
-
-      ceases operating, we recommend a relatively short interval, such as ten
-      seconds. Obviously it
-
-      should be less than half of the lease length, to prevent accidental
-      expiration.
-
-
-      If `Leasemanager` is provided when creating the EventProcessorHost then
-      this value will be ignored.
+    summary: ''
     fullName: leaseRenewInterval
     remarks: ''
     isDeprecated: false
@@ -178,20 +118,7 @@ inheritedProperties:
   - name: onEphError
     uid: '@azure/event-processor-host.FromConnectionStringOptions.onEphError'
     package: '@azure/event-processor-host'
-    summary: >-
-      Error handler that can be provided to receive notifcation
-
-      for general errors.
-
-
-      Errors which occur while processing events from a particular EventHub
-      partition are delivered
-
-      to the `onError` handler provided in the `start()` method. This handler is
-      called on
-
-      occasions when an error occurs while managing partitions or leases for the
-      partitions.
+    summary: ''
     fullName: onEphError
     remarks: ''
     isDeprecated: false
@@ -206,13 +133,7 @@ inheritedProperties:
   - name: slowScanInterval
     uid: '@azure/event-processor-host.FromConnectionStringOptions.slowScanInterval'
     package: '@azure/event-processor-host'
-    summary: >-
-      The slow (long) interval **`in seconds`** is used
-
-      after a scan in which lease stealing did not occur, to reduce unnecessary
-      scanning when
-
-      the system is in steady state. Default: **`5` seconds**.
+    summary: ''
     fullName: slowScanInterval
     remarks: ''
     isDeprecated: false
@@ -227,19 +148,7 @@ inheritedProperties:
   - name: startupScanDelay
     uid: '@azure/event-processor-host.FromConnectionStringOptions.startupScanDelay'
     package: '@azure/event-processor-host'
-    summary: >-
-      The delay time **`in seconds`** between the first scan
-
-      for available partitions and the second. This is part of a startup
-      optimization which allows
-
-      individual hosts to become visible to other hosts, and thereby get a more
-      accurate count
-
-      of the number of hosts in the system, before they try to estimate how many
-      partitions they
-
-      should own. Default: **`30` seconds**.
+    summary: ''
     fullName: startupScanDelay
     remarks: ''
     isDeprecated: false
@@ -254,9 +163,7 @@ inheritedProperties:
   - name: storageBlobPrefix
     uid: '@azure/event-processor-host.FromConnectionStringOptions.storageBlobPrefix'
     package: '@azure/event-processor-host'
-    summary: |-
-      Prefix used when naming blobs within the storage
-      container.
+    summary: ''
     fullName: storageBlobPrefix
     remarks: ''
     isDeprecated: false
@@ -271,9 +178,7 @@ inheritedProperties:
   - name: userAgent
     uid: '@azure/event-processor-host.FromConnectionStringOptions.userAgent'
     package: '@azure/event-processor-host'
-    summary: |-
-      The user agent that needs to be appended to the built in
-      user agent string.
+    summary: ''
     fullName: userAgent
     remarks: ''
     isDeprecated: false
@@ -288,20 +193,7 @@ inheritedProperties:
   - name: webSocket
     uid: '@azure/event-processor-host.FromConnectionStringOptions.webSocket'
     package: '@azure/event-processor-host'
-    summary: >-
-      WebSocket constructor used to create an AMQP connection over a WebSocket.
-
-      This option should be provided in the below scenarios
-
-      - The TCP port 5671 which is what is used by the AMQP connection to Event
-      Hubs is blocked in your environment.
-
-      - Your application needs to be run behind a proxy server
-
-      - Your application needs to run in the browser and you want to provide
-      your own choice of Websocket implementation
-
-      instead of the built-in WebSocket in the browser.
+    summary: ''
     fullName: webSocket
     remarks: ''
     isDeprecated: false
@@ -317,7 +209,7 @@ inheritedProperties:
     uid: >-
       @azure/event-processor-host.FromConnectionStringOptions.webSocketConstructorOptions
     package: '@azure/event-processor-host'
-    summary: Options to be passed to the WebSocket constructor
+    summary: ''
     fullName: webSocketConstructorOptions
     remarks: ''
     isDeprecated: false
