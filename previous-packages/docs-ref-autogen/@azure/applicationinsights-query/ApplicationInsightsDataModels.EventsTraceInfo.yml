@@ -2,7 +2,9 @@
 name: EventsTraceInfo
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.EventsTraceInfo'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsTraceInfo.
+  The trace information
 fullName: EventsTraceInfo
 remarks: ''
 isDeprecated: false

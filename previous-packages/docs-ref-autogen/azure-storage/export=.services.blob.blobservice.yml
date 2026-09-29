@@ -5,4 +5,5 @@ summary: ''
 type: module
 classes:
   - azure-storage.export=.services.blob.blobservice.BlobService
+  - azure-storage.export=.services.blob.blobservice.BlobService
 package: azure-storage

@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'keyValue: null | Uint8Array'
+      content: 'keyValue: Uint8Array | null'
       return:
         description: ''
-        type: null | Uint8Array
+        type: Uint8Array | null
   - name: odataType
     uid: '@azure/arm-mediaservices.ContentKeyPolicySymmetricTokenKey.odataType'
     package: '@azure/arm-mediaservices'

@@ -119,10 +119,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'ipRange: undefined | IIPRange'
+      content: 'ipRange: IIPRange | undefined'
       return:
         description: ''
-        type: undefined | <xref uid="@azure/storage-queue.IIPRange" />
+        type: <xref uid="@azure/storage-queue.IIPRange" /> | undefined
   - name: permissions
     uid: '@azure/storage-queue.SASQueryParameters.permissions'
     package: '@azure/storage-queue'

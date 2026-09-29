@@ -3,7 +3,9 @@ name: MetricsResultInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.MetricsResultInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing MetricsResultInfo.
+  A metric result data.
 fullName: MetricsResultInfo
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,10 @@
 name: IoTSpacesNameAvailabilityInfo
 uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesNameAvailabilityInfo'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing IoTSpacesNameAvailabilityInfo.
+  The properties indicating whether a given IoTSpaces service name is
+  available.
 fullName: IoTSpacesNameAvailabilityInfo
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,28 @@
 name: LeaseManager
 uid: '@azure/event-processor-host.LeaseManager'
 package: '@azure/event-processor-host'
-summary: ''
+summary: >-
+  LeaseManager
+
+  If you wish to have EventProcessorHost store leases somewhere other than Azure
+  Storage,
+
+  you can write your own lease manager using this interface.
+
+
+  The Azure Storage managers use the same storage for both lease and
+  checkpoints, so both
+
+  interfaces are implemented by the same class. You are free to do the same
+  thing if you have
+
+  a unified store for both types of data.
+
+
+  This interface does not specify initialization methods because we have no way
+  of knowing what
+
+  information your implementation will require.
 fullName: LeaseManager
 remarks: ''
 isDeprecated: false
@@ -11,9 +32,7 @@ properties:
   - name: leaseDuration
     uid: '@azure/event-processor-host.LeaseManager.leaseDuration'
     package: '@azure/event-processor-host'
-    summary: |-
-      Duration of a lease **in seconds** before it expires
-      unless renewed.
+    summary: ''
     fullName: leaseDuration
     remarks: ''
     isDeprecated: false
@@ -25,21 +44,7 @@ properties:
   - name: leaseRenewInterval
     uid: '@azure/event-processor-host.LeaseManager.leaseRenewInterval'
     package: '@azure/event-processor-host'
-    summary: >-
-      The sleep interval **in seconds** between scans.
-
-
-      Allows a lease manager implementation to specify to PartitionManager how
-      often it should
-
-      scan leases and renew them. In order to redistribute leases in a timely
-      fashion after a host
-
-      ceases operating, we recommend a relatively short interval, such as ten
-      seconds. Obviously it
-
-      should be less than half of the lease length, to prevent accidental
-      expiration.
+    summary: ''
     fullName: leaseRenewInterval
     remarks: ''
     isDeprecated: false
@@ -191,8 +196,8 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function getLease(partitionId: string): Promise<undefined |
-        CompleteLease>
+        function getLease(partitionId: string): Promise<CompleteLease |
+        undefined>
       parameters:
         - id: partitionId
           type: string
@@ -200,8 +205,8 @@ methods:
       return:
         description: Promise<Lease | undefined>
         type: >-
-          Promise&lt;undefined | <xref
-          uid="@azure/event-processor-host.CompleteLease" />&gt;
+          Promise&lt;<xref uid="@azure/event-processor-host.CompleteLease" /> |
+          undefined&gt;
   - name: leaseStoreExists()
     uid: '@azure/event-processor-host.LeaseManager.leaseStoreExists'
     package: '@azure/event-processor-host'

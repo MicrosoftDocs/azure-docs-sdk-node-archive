@@ -21,10 +21,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        type: "#Microsoft.VideoAnalyzer.EncoderSystemPreset" |
-        "#Microsoft.VideoAnalyzer.EncoderCustomPreset"
+        type: "#Microsoft.VideoAnalyzer.EncoderCustomPreset" |
+        "#Microsoft.VideoAnalyzer.EncoderSystemPreset"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.EncoderSystemPreset" />" |
-          "#<xref uid="Microsoft.VideoAnalyzer.EncoderCustomPreset" />"
+          "#<xref uid="Microsoft.VideoAnalyzer.EncoderCustomPreset" />" |
+          "#<xref uid="Microsoft.VideoAnalyzer.EncoderSystemPreset" />"

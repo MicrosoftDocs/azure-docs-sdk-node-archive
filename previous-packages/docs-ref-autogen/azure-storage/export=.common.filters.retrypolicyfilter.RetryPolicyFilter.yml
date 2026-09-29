@@ -35,7 +35,7 @@ properties:
         description: ''
         type: number
 inheritedMethods:
-  - name: handle(RequestOptions, Next)
+  - name: handle(common.RequestOptions, Next)
     uid: >-
       azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter.handle
     package: azure-storage
@@ -43,7 +43,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function handle(requestOptions: RequestOptions, next: Next)'
+      content: 'function handle(requestOptions: common.RequestOptions, next: Next)'
       parameters:
         - id: requestOptions
           type: >-
@@ -65,6 +65,12 @@ methods:
     package: azure-storage
     summary: |+
       Creates a new RetryPolicyFilter instance.
+
+      The RetryPolicyFilter allows you to retry operations,
+      using a custom retry policy. Users are responsible to
+      define the shouldRetry method.
+      To apply a filter to service operations, use `withFilter`
+      and specify the filter to be used when creating a service.
 
       **Example**
 
@@ -107,7 +113,7 @@ methods:
     syntax:
       content: >-
         function shouldRetry(statusCode: number, retryData:
-        IRetryRequestOptions): { retryInterval: number, retryable: boolean }
+        IRetryRequestOptions): { retryable: boolean, retryInterval: number }
       parameters:
         - id: statusCode
           type: number
@@ -120,7 +126,7 @@ methods:
           description: ''
       return:
         description: ''
-        type: '{ retryInterval: number, retryable: boolean }'
+        type: '{ retryable: boolean, retryInterval: number }'
 extends: >-
   <xref uid="azure-storage.export" />=.<xref
   uid="common.filters.retrypolicyfilter.RetryPolicyFilter.IRetryPolicy" />

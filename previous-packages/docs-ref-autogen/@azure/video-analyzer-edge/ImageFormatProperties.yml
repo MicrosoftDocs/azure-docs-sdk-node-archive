@@ -19,14 +19,14 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        @type: "#Microsoft.VideoAnalyzer.ImageFormatRaw" |
+        @type: "#Microsoft.VideoAnalyzer.ImageFormatBmp" |
         "#Microsoft.VideoAnalyzer.ImageFormatJpeg" |
-        "#Microsoft.VideoAnalyzer.ImageFormatBmp" |
-        "#Microsoft.VideoAnalyzer.ImageFormatPng"
+        "#Microsoft.VideoAnalyzer.ImageFormatPng" |
+        "#Microsoft.VideoAnalyzer.ImageFormatRaw"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.ImageFormatRaw" />" | "#<xref
+          "#<xref uid="Microsoft.VideoAnalyzer.ImageFormatBmp" />" | "#<xref
           uid="Microsoft.VideoAnalyzer.ImageFormatJpeg" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.ImageFormatBmp" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.ImageFormatPng" />"
+          uid="Microsoft.VideoAnalyzer.ImageFormatPng" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.ImageFormatRaw" />"

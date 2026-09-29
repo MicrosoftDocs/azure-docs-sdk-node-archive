@@ -2,7 +2,7 @@
 name: Logger
 uid: '@azure/functions.Logger'
 package: '@azure/functions'
-summary: ''
+summary: Allows you to write streaming function logs.
 fullName: Logger
 remarks: ''
 isDeprecated: false

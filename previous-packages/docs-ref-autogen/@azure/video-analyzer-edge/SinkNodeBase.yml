@@ -19,14 +19,14 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        @type: "#Microsoft.VideoAnalyzer.IotHubMessageSink" |
-        "#Microsoft.VideoAnalyzer.FileSink" |
+        @type: "#Microsoft.VideoAnalyzer.FileSink" |
+        "#Microsoft.VideoAnalyzer.IotHubMessageSink" |
         "#Microsoft.VideoAnalyzer.VideoSink"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.IotHubMessageSink" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.FileSink" />" | "#<xref
+          "#<xref uid="Microsoft.VideoAnalyzer.FileSink" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.IotHubMessageSink" />" | "#<xref
           uid="Microsoft.VideoAnalyzer.VideoSink" />"
   - name: inputs
     uid: '@azure/video-analyzer-edge.SinkNodeBase.inputs'

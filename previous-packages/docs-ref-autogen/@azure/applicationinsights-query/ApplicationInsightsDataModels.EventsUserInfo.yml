@@ -2,7 +2,9 @@
 name: EventsUserInfo
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.EventsUserInfo'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsUserInfo.
+  User info for an event result
 fullName: EventsUserInfo
 remarks: ''
 isDeprecated: false

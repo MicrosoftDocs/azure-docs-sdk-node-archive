@@ -666,7 +666,7 @@ functions:
         description: ''
         type: <xref uid="@azure/storage-blob.SASQueryParameters" />
   - name: >-
-      uploadBrowserDataToBlockBlob(Aborter, Blob | ArrayBuffer |
+      uploadBrowserDataToBlockBlob(Aborter, ArrayBuffer | Blob |
       ArrayBufferView, BlockBlobURL, IUploadToBlockBlobOptions)
     uid: '@azure/storage-blob.uploadBrowserDataToBlockBlob'
     package: '@azure/storage-blob'
@@ -690,7 +690,7 @@ functions:
     syntax:
       content: >-
         function uploadBrowserDataToBlockBlob(aborter: Aborter, browserData:
-        Blob | ArrayBuffer | ArrayBufferView, blockBlobURL: BlockBlobURL,
+        ArrayBuffer | Blob | ArrayBufferView, blockBlobURL: BlockBlobURL,
         options?: IUploadToBlockBlobOptions): Promise<BlobUploadCommonResponse>
       parameters:
         - id: aborter
@@ -700,7 +700,7 @@ functions:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: browserData
-          type: Blob | ArrayBuffer | ArrayBufferView
+          type: ArrayBuffer | Blob | ArrayBufferView
           description: Blob, File, ArrayBuffer or ArrayBufferView
         - id: blockBlobURL
           type: <xref uid="@azure/storage-blob.BlockBlobURL" />

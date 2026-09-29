@@ -19,25 +19,25 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        @type: "#Microsoft.VideoAnalyzer.MotionDetectionProcessor" |
-        "#Microsoft.VideoAnalyzer.ObjectTrackingProcessor" |
-        "#Microsoft.VideoAnalyzer.LineCrossingProcessor" |
+        @type: "#Microsoft.VideoAnalyzer.CognitiveServicesVisionProcessor" |
         "#Microsoft.VideoAnalyzer.ExtensionProcessorBase" |
         "#Microsoft.VideoAnalyzer.GrpcExtension" |
         "#Microsoft.VideoAnalyzer.HttpExtension" |
-        "#Microsoft.VideoAnalyzer.SignalGateProcessor" |
-        "#Microsoft.VideoAnalyzer.CognitiveServicesVisionProcessor"
+        "#Microsoft.VideoAnalyzer.MotionDetectionProcessor" |
+        "#Microsoft.VideoAnalyzer.ObjectTrackingProcessor" |
+        "#Microsoft.VideoAnalyzer.LineCrossingProcessor" |
+        "#Microsoft.VideoAnalyzer.SignalGateProcessor"
       return:
         description: ''
         type: >-
-          "#<xref uid="Microsoft.VideoAnalyzer.MotionDetectionProcessor" />" |
-          "#<xref uid="Microsoft.VideoAnalyzer.ObjectTrackingProcessor" />" |
-          "#<xref uid="Microsoft.VideoAnalyzer.LineCrossingProcessor" />" |
-          "#<xref uid="Microsoft.VideoAnalyzer.ExtensionProcessorBase" />" |
-          "#<xref uid="Microsoft.VideoAnalyzer.GrpcExtension" />" | "#<xref
+          "#<xref uid="Microsoft.VideoAnalyzer.CognitiveServicesVisionProcessor"
+          />" | "#<xref uid="Microsoft.VideoAnalyzer.ExtensionProcessorBase" />"
+          | "#<xref uid="Microsoft.VideoAnalyzer.GrpcExtension" />" | "#<xref
           uid="Microsoft.VideoAnalyzer.HttpExtension" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.SignalGateProcessor" />" | "#<xref
-          uid="Microsoft.VideoAnalyzer.CognitiveServicesVisionProcessor" />"
+          uid="Microsoft.VideoAnalyzer.MotionDetectionProcessor" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.ObjectTrackingProcessor" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.LineCrossingProcessor" />" | "#<xref
+          uid="Microsoft.VideoAnalyzer.SignalGateProcessor" />"
   - name: inputs
     uid: '@azure/video-analyzer-edge.ProcessorNodeBase.inputs'
     package: '@azure/video-analyzer-edge'

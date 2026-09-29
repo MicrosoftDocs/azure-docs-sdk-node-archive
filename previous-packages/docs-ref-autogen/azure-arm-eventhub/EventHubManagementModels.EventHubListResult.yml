@@ -49,30 +49,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@229
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.at
-    package: azure-arm-eventhub
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | Eventhub'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref
-          uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((Eventhub | ConcatArray<Eventhub>)[])
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.concat_1
     package: azure-arm-eventhub
@@ -162,10 +144,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, Eventhub]>'
+      content: 'function entries(): ArrayIterator<[number, Eventhub]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, Eventhub]&gt;
+        type: ArrayIterator&lt;[number, Eventhub]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: 'every((value: Eventhub, index: number, array: Eventhub[]) => unknown, any)'
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.every_1
@@ -201,8 +183,8 @@ inheritedMethods:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
-      every<S>((value: Eventhub, index: number, array: Eventhub[]) => value,
-      any)
+      every<S>((value: Eventhub, index: number, array: Eventhub[]) => value is
+      S, any)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.every
     package: azure-arm-eventhub
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -211,10 +193,10 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: Eventhub, index: number, array:
-        Eventhub[]) => value, thisArg?: any): this
+        Eventhub[]) => value is S, thisArg?: any): this is S[]
       parameters:
         - id: predicate
-          type: '(value: Eventhub, index: number, array: Eventhub[]) =&gt; value'
+          type: '(value: Eventhub, index: number, array: Eventhub[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -233,7 +215,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(Eventhub, number, number)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.fill
@@ -303,8 +285,8 @@ inheritedMethods:
         type: <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />[]
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
-      filter<S>((value: Eventhub, index: number, array: Eventhub[]) => value,
-      any)
+      filter<S>((value: Eventhub, index: number, array: Eventhub[]) => value is
+      S, any)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.filter
     package: azure-arm-eventhub
     summary: >-
@@ -315,10 +297,10 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: Eventhub, index: number, array:
-        Eventhub[]) => value, thisArg?: any): S[]
+        Eventhub[]) => value is S, thisArg?: any): S[]
       parameters:
         - id: predicate
-          type: '(value: Eventhub, index: number, array: Eventhub[]) =&gt; value'
+          type: '(value: Eventhub, index: number, array: Eventhub[]) =&gt; value is S'
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -341,7 +323,7 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: Eventhub, index: number, obj:
-        Eventhub[]) => unknown, thisArg?: any): undefined | Eventhub
+        Eventhub[]) => unknown, thisArg?: any): Eventhub | undefined
       parameters:
         - id: predicate
           type: '(value: Eventhub, index: number, obj: Eventhub[]) =&gt; unknown'
@@ -352,10 +334,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />
+          <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
-  - name: 'find<S>((value: Eventhub, index: number, obj: Eventhub[]) => value, any)'
+  - name: >-
+      find<S>((value: Eventhub, index: number, obj: Eventhub[]) => value is S,
+      any)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.find
     package: azure-arm-eventhub
     summary: >-
@@ -368,10 +352,10 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: Eventhub, index: number, obj:
-        Eventhub[]) => value, thisArg?: any): undefined | S
+        Eventhub[]) => value is S, thisArg?: any): S | undefined
       parameters:
         - id: predicate
-          type: '(value: Eventhub, index: number, obj: Eventhub[]) =&gt; value'
+          type: '(value: Eventhub, index: number, obj: Eventhub[]) =&gt; value is S'
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -390,7 +374,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       findIndex((value: Eventhub, index: number, obj: Eventhub[]) => unknown,
@@ -590,10 +574,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(Eventhub, number)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.lastIndexOf
@@ -659,12 +643,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | Eventhub'
+      content: 'function pop(): Eventhub | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />
+          <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(Eventhub[])
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.push
@@ -895,12 +879,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | Eventhub'
+      content: 'function shift(): Eventhub | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />
+          <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: azure-arm-eventhub.EventHubManagementModels.EventHubListResult.slice
@@ -990,7 +974,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -1022,7 +1006,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />[]
@@ -1047,7 +1039,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: >-
             <xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub"
@@ -1068,6 +1067,30 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: >-
+      azure-arm-eventhub.EventHubManagementModels.EventHubListResult.toLocaleString_1
+    package: azure-arm-eventhub
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1111,11 +1134,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<Eventhub>'
+      content: 'function values(): ArrayIterator<Eventhub>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
   - name: '[iterator]()'
@@ -1125,13 +1148,13 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<Eventhub>'
+      content: 'function [iterator](): ArrayIterator<Eventhub>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="azure-arm-eventhub.EventHubManagementModels.Eventhub" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@227
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: >-
   Array&lt;<xref uid="azure-arm-eventhub.EventHubManagementModels.Eventhub"
   />&gt;

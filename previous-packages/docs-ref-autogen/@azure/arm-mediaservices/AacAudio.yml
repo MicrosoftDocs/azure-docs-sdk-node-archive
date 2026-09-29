@@ -47,7 +47,7 @@ inheritedProperties:
       return:
         description: ''
         type: number
-    inheritanceDescription: <b>Inherited From</b> [Audio_2.bitrate](xref:Audio_2.bitrate)
+    inheritanceDescription: <b>Inherited From</b> Audio_2.bitrate
   - name: channels
     uid: '@azure/arm-mediaservices.AacAudio.channels'
     package: '@azure/arm-mediaservices'
@@ -60,7 +60,7 @@ inheritedProperties:
       return:
         description: ''
         type: number
-    inheritanceDescription: <b>Inherited From</b> [Audio_2.channels](xref:Audio_2.channels)
+    inheritanceDescription: <b>Inherited From</b> Audio_2.channels
   - name: label
     uid: '@azure/arm-mediaservices.AacAudio.label'
     package: '@azure/arm-mediaservices'
@@ -75,7 +75,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
-    inheritanceDescription: <b>Inherited From</b> [Audio_2.label](xref:Audio_2.label)
+    inheritanceDescription: <b>Inherited From</b> Audio_2.label
   - name: samplingRate
     uid: '@azure/arm-mediaservices.AacAudio.samplingRate'
     package: '@azure/arm-mediaservices'
@@ -88,5 +88,5 @@ inheritedProperties:
       return:
         description: ''
         type: number
-    inheritanceDescription: <b>Inherited From</b> [Audio_2.samplingRate](xref:Audio_2.samplingRate)
+    inheritanceDescription: <b>Inherited From</b> Audio_2.samplingRate
 extends: <xref uid="@azure/arm-mediaservices.Audio" />

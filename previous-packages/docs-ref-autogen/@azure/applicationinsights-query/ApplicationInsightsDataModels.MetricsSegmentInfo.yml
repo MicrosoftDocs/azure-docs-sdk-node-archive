@@ -3,7 +3,9 @@ name: MetricsSegmentInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.MetricsSegmentInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing MetricsSegmentInfo.
+  A metric segment
 fullName: MetricsSegmentInfo
 remarks: ''
 isDeprecated: false

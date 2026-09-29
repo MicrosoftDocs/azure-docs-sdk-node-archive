@@ -367,7 +367,7 @@ functions:
         description: ''
         type: <xref uid="@azure/storage-file.SASQueryParameters" />
   - name: >-
-      uploadBrowserDataToAzureFile(Aborter, Blob | ArrayBuffer |
+      uploadBrowserDataToAzureFile(Aborter, ArrayBuffer | Blob |
       ArrayBufferView, FileURL, IUploadToAzureFileOptions)
     uid: '@azure/storage-file.uploadBrowserDataToAzureFile'
     package: '@azure/storage-file'
@@ -382,7 +382,7 @@ functions:
     syntax:
       content: >-
         function uploadBrowserDataToAzureFile(aborter: Aborter, browserData:
-        Blob | ArrayBuffer | ArrayBufferView, fileURL: FileURL, options?:
+        ArrayBuffer | Blob | ArrayBufferView, fileURL: FileURL, options?:
         IUploadToAzureFileOptions): Promise<void>
       parameters:
         - id: aborter
@@ -392,7 +392,7 @@ functions:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: browserData
-          type: Blob | ArrayBuffer | ArrayBufferView
+          type: ArrayBuffer | Blob | ArrayBufferView
           description: Blob, File, ArrayBuffer or ArrayBufferView
         - id: fileURL
           type: <xref uid="@azure/storage-file.FileURL" />

@@ -3,7 +3,9 @@ name: EventsPageViewResult
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsPageViewResult
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsPageViewResult.
+  A page view result
 fullName: EventsPageViewResult
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,7 @@
 name: IoTSpacesClientOptions
 uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesClientOptions'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: An interface representing IoTSpacesClientOptions.
 fullName: IoTSpacesClientOptions
 remarks: ''
 isDeprecated: false
@@ -24,9 +24,7 @@ inheritedProperties:
   - name: acceptLanguage
     uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesClientOptions.acceptLanguage'
     package: '@azure/arm-iotspaces'
-    summary: >-
-      Gets or sets the preferred language for the response. Default value is:
-      "en-US".
+    summary: ''
     fullName: acceptLanguage
     remarks: ''
     isDeprecated: false
@@ -137,9 +135,7 @@ inheritedProperties:
     uid: >-
       @azure/arm-iotspaces.IoTSpacesModels.IoTSpacesClientOptions.longRunningOperationRetryTimeout
     package: '@azure/arm-iotspaces'
-    summary: |-
-      Gets or sets the retry timeout in seconds for
-      Long Running Operations. Default value is 30.
+    summary: ''
     fullName: longRunningOperationRetryTimeout
     remarks: ''
     isDeprecated: false

@@ -3,7 +3,9 @@ name: EventsResultDataCustomDimensions
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsResultDataCustomDimensions
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsResultDataCustomDimensions.
+  Custom dimensions of the event
 fullName: EventsResultDataCustomDimensions
 remarks: ''
 isDeprecated: false

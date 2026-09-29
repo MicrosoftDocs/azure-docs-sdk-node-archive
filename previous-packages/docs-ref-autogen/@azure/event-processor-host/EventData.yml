@@ -11,7 +11,7 @@ properties:
   - name: annotations
     uid: '@azure/event-processor-host.EventData.annotations'
     package: '@azure/event-processor-host'
-    summary: The amqp message attributes.
+    summary: ''
     fullName: annotations
     remarks: ''
     isDeprecated: false
@@ -23,7 +23,7 @@ properties:
   - name: applicationProperties
     uid: '@azure/event-processor-host.EventData.applicationProperties'
     package: '@azure/event-processor-host'
-    summary: The application specific properties.
+    summary: ''
     fullName: applicationProperties
     remarks: ''
     isDeprecated: false
@@ -35,7 +35,7 @@ properties:
   - name: body
     uid: '@azure/event-processor-host.EventData.body'
     package: '@azure/event-processor-host'
-    summary: The message body that needs to be sent or is received.
+    summary: ''
     fullName: body
     remarks: ''
     isDeprecated: false
@@ -47,7 +47,7 @@ properties:
   - name: enqueuedTimeUtc
     uid: '@azure/event-processor-host.EventData.enqueuedTimeUtc'
     package: '@azure/event-processor-host'
-    summary: The enqueued time of the event.
+    summary: ''
     fullName: enqueuedTimeUtc
     remarks: ''
     isDeprecated: false
@@ -59,7 +59,7 @@ properties:
   - name: header
     uid: '@azure/event-processor-host.EventData.header'
     package: '@azure/event-processor-host'
-    summary: The message headers.
+    summary: ''
     fullName: header
     remarks: ''
     isDeprecated: false
@@ -71,7 +71,7 @@ properties:
   - name: lastEnqueuedOffset
     uid: '@azure/event-processor-host.EventData.lastEnqueuedOffset'
     package: '@azure/event-processor-host'
-    summary: The offset of the last enqueued event.
+    summary: ''
     fullName: lastEnqueuedOffset
     remarks: ''
     isDeprecated: false
@@ -83,7 +83,7 @@ properties:
   - name: lastEnqueuedTime
     uid: '@azure/event-processor-host.EventData.lastEnqueuedTime'
     package: '@azure/event-processor-host'
-    summary: The enqueued UTC time of the last event.
+    summary: ''
     fullName: lastEnqueuedTime
     remarks: ''
     isDeprecated: false
@@ -95,9 +95,7 @@ properties:
   - name: lastSequenceNumber
     uid: '@azure/event-processor-host.EventData.lastSequenceNumber'
     package: '@azure/event-processor-host'
-    summary: >-
-      The last sequence number of the event within the partition stream of the
-      Event Hub.
+    summary: ''
     fullName: lastSequenceNumber
     remarks: ''
     isDeprecated: false
@@ -109,7 +107,7 @@ properties:
   - name: offset
     uid: '@azure/event-processor-host.EventData.offset'
     package: '@azure/event-processor-host'
-    summary: The offset of the event.
+    summary: ''
     fullName: offset
     remarks: ''
     isDeprecated: false
@@ -121,25 +119,19 @@ properties:
   - name: partitionKey
     uid: '@azure/event-processor-host.EventData.partitionKey'
     package: '@azure/event-processor-host'
-    summary: >-
-      If specified EventHub will hash this to a partitionId.
-
-      It guarantees that messages end up in a specific partition on the event
-      hub.
+    summary: ''
     fullName: partitionKey
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'partitionKey?: null | string'
+      content: 'partitionKey?: string | null'
       return:
         description: ''
-        type: null | string
+        type: string | null
   - name: properties
     uid: '@azure/event-processor-host.EventData.properties'
     package: '@azure/event-processor-host'
-    summary: >-
-      The predefined AMQP properties like message_id, correlation_id, reply_to,
-      etc.
+    summary: ''
     fullName: properties
     remarks: ''
     isDeprecated: false
@@ -151,7 +143,7 @@ properties:
   - name: retrievalTime
     uid: '@azure/event-processor-host.EventData.retrievalTime'
     package: '@azure/event-processor-host'
-    summary: The time when the runtime info was retrieved
+    summary: ''
     fullName: retrievalTime
     remarks: ''
     isDeprecated: false
@@ -163,7 +155,7 @@ properties:
   - name: sequenceNumber
     uid: '@azure/event-processor-host.EventData.sequenceNumber'
     package: '@azure/event-processor-host'
-    summary: The sequence number of the event.
+    summary: ''
     fullName: sequenceNumber
     remarks: ''
     isDeprecated: false

@@ -2,7 +2,7 @@
 name: ServicePrincipalListResult
 uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult'
 package: '@azure/graph'
-summary: ''
+summary: Server response for get tenant service principals API call.
 fullName: ServicePrincipalListResult
 remarks: ''
 isDeprecated: false
@@ -48,30 +48,12 @@ inheritedProperties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[unscopables]: { [unscopables]?: boolean, length?: boolean }'
+      content: '[unscopables]: {[key: number]: boolean | undefined}'
       return:
         description: ''
-        type: '{ [unscopables]?: boolean, length?: boolean }'
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@734
+        type: '{[key: number]: boolean | undefined}'
+    inheritanceDescription: <b>Inherited From</b> Array.[unscopables]
 inheritedMethods:
-  - name: at(number)
-    uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.at'
-    package: '@azure/graph'
-    summary: ''
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number): undefined | ServicePrincipal'
-      parameters:
-        - id: index
-          type: number
-          description: ''
-      return:
-        description: ''
-        type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
-    inheritanceDescription: <b>Inherited From</b> Array.at
   - name: concat((ServicePrincipal | ConcatArray<ServicePrincipal>)[])
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.concat_1'
     package: '@azure/graph'
@@ -172,10 +154,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function entries(): IterableIterator<[number, ServicePrincipal]>'
+      content: 'function entries(): ArrayIterator<[number, ServicePrincipal]>'
       return:
         description: ''
-        type: IterableIterator&lt;[number, ServicePrincipal]&gt;
+        type: ArrayIterator&lt;[number, ServicePrincipal]&gt;
     inheritanceDescription: <b>Inherited From</b> Array.entries
   - name: >-
       every((value: ServicePrincipal, index: number, array: ServicePrincipal[])
@@ -216,7 +198,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
       every<S>((value: ServicePrincipal, index: number, array:
-      ServicePrincipal[]) => value, any)
+      ServicePrincipal[]) => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.every'
     package: '@azure/graph'
     summary: Determines whether all the members of an array satisfy the specified test.
@@ -225,12 +207,12 @@ inheritedMethods:
     syntax:
       content: >-
         function every<S>(predicate: (value: ServicePrincipal, index: number,
-        array: ServicePrincipal[]) => value, thisArg?: any): this
+        array: ServicePrincipal[]) => value is S, thisArg?: any): this is S[]
       parameters:
         - id: predicate
           type: >-
             (value: ServicePrincipal, index: number, array: ServicePrincipal[])
-            =&gt; value
+            =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The every method
             calls
@@ -249,7 +231,7 @@ inheritedMethods:
             If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
-        type: this
+        type: this is S[]
     inheritanceDescription: <b>Inherited From</b> Array.every
   - name: fill(ServicePrincipal, number, number)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.fill'
@@ -327,7 +309,7 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: ServicePrincipal, index: number, array:
-      ServicePrincipal[]) => value, any)
+      ServicePrincipal[]) => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.filter'
     package: '@azure/graph'
     summary: >-
@@ -338,12 +320,12 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(predicate: (value: ServicePrincipal, index: number,
-        array: ServicePrincipal[]) => value, thisArg?: any): S[]
+        array: ServicePrincipal[]) => value is S, thisArg?: any): S[]
       parameters:
         - id: predicate
           type: >-
             (value: ServicePrincipal, index: number, array: ServicePrincipal[])
-            =&gt; value
+            =&gt; value is S
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the predicate function one time for each element in the array.
@@ -368,8 +350,8 @@ inheritedMethods:
     syntax:
       content: >-
         function find(predicate: (value: ServicePrincipal, index: number, obj:
-        ServicePrincipal[]) => unknown, thisArg?: any): undefined |
-        ServicePrincipal
+        ServicePrincipal[]) => unknown, thisArg?: any): ServicePrincipal |
+        undefined
       parameters:
         - id: predicate
           type: >-
@@ -382,12 +364,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       find<S>((value: ServicePrincipal, index: number, obj: ServicePrincipal[])
-      => value, any)
+      => value is S, any)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.find'
     package: '@azure/graph'
     summary: >-
@@ -400,12 +382,12 @@ inheritedMethods:
     syntax:
       content: >-
         function find<S>(predicate: (value: ServicePrincipal, index: number,
-        obj: ServicePrincipal[]) => value, thisArg?: any): undefined | S
+        obj: ServicePrincipal[]) => value is S, thisArg?: any): S | undefined
       parameters:
         - id: predicate
           type: >-
             (value: ServicePrincipal, index: number, obj: ServicePrincipal[])
-            =&gt; value
+            =&gt; value is S
           description: >-
             find calls predicate once for each element of the array, in
             ascending
@@ -424,7 +406,7 @@ inheritedMethods:
             predicate. If it is not provided, undefined is used instead.
       return:
         description: ''
-        type: undefined | S
+        type: S | undefined
     inheritanceDescription: <b>Inherited From</b> Array.find
   - name: >-
       findIndex((value: ServicePrincipal, index: number, obj:
@@ -640,10 +622,10 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function keys(): IterableIterator<number>'
+      content: 'function keys(): ArrayIterator<number>'
       return:
         description: ''
-        type: IterableIterator&lt;number&gt;
+        type: ArrayIterator&lt;number&gt;
     inheritanceDescription: <b>Inherited From</b> Array.keys
   - name: lastIndexOf(ServicePrincipal, number)
     uid: >-
@@ -716,12 +698,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function pop(): undefined | ServicePrincipal'
+      content: 'function pop(): ServicePrincipal | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          | undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: push(ServicePrincipal[])
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.push'
@@ -968,12 +950,12 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function shift(): undefined | ServicePrincipal'
+      content: 'function shift(): ServicePrincipal | undefined'
       return:
         description: ''
         type: >-
-          undefined | <xref
-          uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          <xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />
+          | undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: slice(number, number)
     uid: '@azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.slice'
@@ -1069,7 +1051,7 @@ inheritedMethods:
             argument, zero if they're equal, and a positive
 
             value otherwise. If omitted, the elements are sorted in ascending,
-            ASCII character order.
+            UTF-16 code unit order.
 
             ```ts
 
@@ -1101,7 +1083,15 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. Omitting this argument will remove
+            all elements from the start
+
+            paramater location to end of the array. If value of this argument is
+            either a negative number, zero, undefined, or a type
+
+            that cannot be converted to an integer, the function will evaluate
+            the argument as zero and not remove any elements.
       return:
         description: An array containing the elements that were deleted.
         type: >-
@@ -1128,7 +1118,14 @@ inheritedMethods:
             elements.
         - id: deleteCount
           type: number
-          description: The number of elements to remove.
+          description: >-
+            The number of elements to remove. If value of this argument is
+            either a negative number, zero,
+
+            undefined, or a type that cannot be converted to an integer, the
+            function will evaluate the argument as zero and
+
+            not remove any elements.
         - id: items
           type: >-
             <xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal"
@@ -1151,6 +1148,30 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: 'function toLocaleString(): string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
+  - name: >-
+      toLocaleString(string | string[], NumberFormatOptions &
+      DateTimeFormatOptions)
+    uid: >-
+      @azure/graph.GraphRbacManagementModels.ServicePrincipalListResult.toLocaleString_1
+    package: '@azure/graph'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toLocaleString(locales: string | string[], options?:
+        NumberFormatOptions & DateTimeFormatOptions): string
+      parameters:
+        - id: locales
+          type: string | string[]
+          description: ''
+        - id: options
+          type: NumberFormatOptions & DateTimeFormatOptions
+          description: ''
       return:
         description: ''
         type: string
@@ -1194,11 +1215,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function values(): IterableIterator<ServicePrincipal>'
+      content: 'function values(): ArrayIterator<ServicePrincipal>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />&gt;
     inheritanceDescription: <b>Inherited From</b> Array.values
   - name: '[iterator]()'
@@ -1209,13 +1230,13 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): IterableIterator<ServicePrincipal>'
+      content: 'function [iterator](): ArrayIterator<ServicePrincipal>'
       return:
         description: ''
         type: >-
-          IterableIterator&lt;<xref
+          ArrayIterator&lt;<xref
           uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@732
+    inheritanceDescription: <b>Inherited From</b> Array.[iterator]
 extends: >-
   Array&lt;<xref uid="@azure/graph.GraphRbacManagementModels.ServicePrincipal"
   />&gt;

@@ -2,7 +2,9 @@
 name: ErrorDetails
 uid: '@azure/arm-iotspaces.IoTSpacesModels.ErrorDetails'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing ErrorDetails.
+  Error details.
 fullName: ErrorDetails
 remarks: ''
 isDeprecated: false

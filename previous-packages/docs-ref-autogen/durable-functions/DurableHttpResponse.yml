@@ -75,11 +75,11 @@ methods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function getHeader(name: string): undefined | string'
+      content: 'function getHeader(name: string): string | undefined'
       parameters:
         - id: name
           type: string
           description: ''
       return:
         description: ''
-        type: undefined | string
+        type: string | undefined

@@ -5,6 +5,8 @@ summary: ''
 type: module
 interfaces:
   - azure-storage.export=.services.file.FileService
+  - azure-storage.export=.services.file.FileService
+  - azure-storage.export=.services.file.FileService
 package: azure-storage
 variables:
   - name: FileService

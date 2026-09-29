@@ -3,7 +3,7 @@ name: ApplicationInsightsDataClientOptions
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.ApplicationInsightsDataClientOptions
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing ApplicationInsightsDataClientOptions.
 fullName: ApplicationInsightsDataClientOptions
 remarks: ''
 isDeprecated: false

@@ -5,4 +5,5 @@ summary: ''
 type: module
 interfaces:
   - azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter
+  - azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter
 package: azure-storage

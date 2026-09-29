@@ -2,7 +2,9 @@
 name: MessagesClearHeaders
 uid: '@azure/storage-queue.Models.MessagesClearHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing MessagesClearHeaders.
+  Defines headers for Clear operation.
 fullName: MessagesClearHeaders
 remarks: ''
 isDeprecated: false

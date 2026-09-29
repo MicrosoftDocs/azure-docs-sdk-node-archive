@@ -25,7 +25,7 @@ properties:
     uid: >-
       @azure-rest/purview-catalog.EntityGetSampleBusinessMetadataTemplate200Response.status
     package: '@azure-rest/purview-catalog'
-    summary: ''
+    summary: The HTTP status code of the response.
     fullName: status
     remarks: ''
     isDeprecated: false

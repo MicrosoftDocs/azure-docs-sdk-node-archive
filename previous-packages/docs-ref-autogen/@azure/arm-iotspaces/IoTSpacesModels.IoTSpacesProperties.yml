@@ -2,7 +2,9 @@
 name: IoTSpacesProperties
 uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesProperties'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing IoTSpacesProperties.
+  The properties of an IoTSpaces instance.
 fullName: IoTSpacesProperties
 remarks: ''
 isDeprecated: false

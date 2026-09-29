@@ -64,7 +64,7 @@ inheritedProperties:
         type: <xref uid="azure-storage.export" />=.AccessConditions
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.accessConditions](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.accessConditions)
+      [ConditionalRequestOption.accessConditions](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.accessConditions)
   - name: clientRequestId
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.clientRequestId
@@ -82,7 +82,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.clientRequestId](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.clientRequestId)
+      [ConditionalRequestOption.clientRequestId](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.clientRequestId)
   - name: clientRequestTimeoutInMs
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.clientRequestTimeoutInMs
@@ -100,7 +100,7 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.clientRequestTimeoutInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.clientRequestTimeoutInMs)
+      [ConditionalRequestOption.clientRequestTimeoutInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.clientRequestTimeoutInMs)
   - name: leaseId
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.leaseId
@@ -136,7 +136,7 @@ inheritedProperties:
           uid="common.util.storageutilities.LocationMode" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.locationMode](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.locationMode)
+      [ConditionalRequestOption.locationMode](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.locationMode)
   - name: maximumExecutionTimeInMs
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.maximumExecutionTimeInMs
@@ -154,7 +154,7 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.maximumExecutionTimeInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.maximumExecutionTimeInMs)
+      [ConditionalRequestOption.maximumExecutionTimeInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.maximumExecutionTimeInMs)
   - name: snapshotId
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.snapshotId
@@ -188,7 +188,7 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.timeoutIntervalInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.timeoutIntervalInMs)
+      [ConditionalRequestOption.timeoutIntervalInMs](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.timeoutIntervalInMs)
   - name: useNagleAlgorithm
     uid: >-
       azure-storage.export=.services.blob.blobservice.BlobService.AppendBlobRequestOptions.useNagleAlgorithm
@@ -206,7 +206,7 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BlobRequestOptions.useNagleAlgorithm](xref:azure-storage.export=.services.blob.blobservice.BlobService.BlobRequestOptions.useNagleAlgorithm)
+      [ConditionalRequestOption.useNagleAlgorithm](xref:azure-storage.export=.services.blob.blobservice.BlobService.ConditionalRequestOption.useNagleAlgorithm)
 extends: >-
   <xref uid="azure-storage.export" />=.<xref
   uid="services.blob.blobservice.BlobService.ConditionalRequestOption" />,<xref

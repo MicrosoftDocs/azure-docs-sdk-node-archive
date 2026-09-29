@@ -4,21 +4,16 @@ name: azure-storage
 summary: ''
 type: package
 interfaces:
-  - azure-storage.export=.AccessConditions
-  - azure-storage.export=.common.AccessPolicy
-  - azure-storage.export=.common.ContentSettingsHeaders
-  - azure-storage.export=.common.ContinuationToken
-  - azure-storage.export=.common.filters.IFilter
-  - azure-storage.export=.common.filters.Next
-  - azure-storage.export=.common.filters.Post
-  - azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter
   - >-
     azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter.IRetryContext
   - >-
     azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter.IRetryPolicy
   - >-
     azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter.IRetryRequestOptions
-  - azure-storage.export=.common.models.AccountProperties
+  - azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter
+  - azure-storage.export=.common.filters.IFilter
+  - azure-storage.export=.common.filters.Next
+  - azure-storage.export=.common.filters.Post
   - >-
     azure-storage.export=.common.models.ServicePropertiesResult.BlobServiceProperties
   - azure-storage.export=.common.models.ServicePropertiesResult.CorsRule
@@ -33,17 +28,17 @@ interfaces:
     azure-storage.export=.common.models.ServicePropertiesResult.ServiceProperties
   - >-
     azure-storage.export=.common.models.ServicePropertiesResult.StaticWebsiteProperties
+  - azure-storage.export=.common.models.AccountProperties
   - azure-storage.export=.common.models.ServiceStats
+  - azure-storage.export=.common.services.storageserviceclient.Proxy
+  - azure-storage.export=.common.streams.speedsummary.SpeedSummary
+  - azure-storage.export=.common.AccessPolicy
+  - azure-storage.export=.common.ContentSettingsHeaders
+  - azure-storage.export=.common.ContinuationToken
   - azure-storage.export=.common.Range
   - azure-storage.export=.common.RangeDiff
   - azure-storage.export=.common.RequestOptions
-  - azure-storage.export=.common.services.storageserviceclient.Proxy
   - azure-storage.export=.common.SharedAccessPolicy
-  - azure-storage.export=.common.streams.speedsummary.SpeedSummary
-  - azure-storage.export=.ErrorOrResponse
-  - azure-storage.export=.ErrorOrResult
-  - azure-storage.export=.ServiceResponse
-  - azure-storage.export=.ServiceResult
   - >-
     azure-storage.export=.services.blob.blobservice.BlobService.AcquireLeaseRequestOptions
   - >-
@@ -102,7 +97,6 @@ interfaces:
     azure-storage.export=.services.blob.blobservice.BlobService.PutBlockListRequest
   - >-
     azure-storage.export=.services.blob.blobservice.BlobService.SetBlobPropertiesRequestOptions
-  - azure-storage.export=.services.file.FileService
   - azure-storage.export=.services.file.FileService.CopyFileRequestOptions
   - >-
     azure-storage.export=.services.file.FileService.CreateDirectoryRequestOptions
@@ -126,7 +120,7 @@ interfaces:
   - azure-storage.export=.services.file.FileService.ShareAclResult
   - azure-storage.export=.services.file.FileService.ShareProperties
   - azure-storage.export=.services.file.FileService.ShareResult
-  - azure-storage.export=.services.queue.QueueMessageEncoder
+  - azure-storage.export=.services.file.FileService
   - >-
     azure-storage.export=.services.queue.QueueService.CreateMessageRequestOptions
   - azure-storage.export=.services.queue.QueueService.CreateQueueRequestOptions
@@ -139,10 +133,7 @@ interfaces:
   - azure-storage.export=.services.queue.QueueService.QueueResult
   - >-
     azure-storage.export=.services.queue.QueueService.UpdateMessageRequestOptions
-  - azure-storage.export=.services.table.TableBatch
-  - azure-storage.export=.services.table.TableOperation
-  - azure-storage.export=.services.table.TableQuery
-  - azure-storage.export=.services.table.TableService
+  - azure-storage.export=.services.queue.QueueMessageEncoder
   - azure-storage.export=.services.table.TableService.BatchResponse
   - azure-storage.export=.services.table.TableService.BatchResult
   - azure-storage.export=.services.table.TableService.EntityMetadata
@@ -160,6 +151,15 @@ interfaces:
   - azure-storage.export=.services.table.TableService.TableEntityRequestOptions
   - azure-storage.export=.services.table.TableService.TableResult
   - azure-storage.export=.services.table.TableService.TableSharedAccessPolicy
+  - azure-storage.export=.services.table.TableBatch
+  - azure-storage.export=.services.table.TableOperation
+  - azure-storage.export=.services.table.TableQuery
+  - azure-storage.export=.services.table.TableService
+  - azure-storage.export=.AccessConditions
+  - azure-storage.export=.ErrorOrResponse
+  - azure-storage.export=.ErrorOrResult
+  - azure-storage.export=.ServiceResponse
+  - azure-storage.export=.ServiceResult
   - azure-storage.export=.StorageError
   - azure-storage.export=.StorageHost
   - azure-storage.AccessConditions
@@ -196,6 +196,7 @@ enums:
   - azure-storage.export=.common.util.constants.RequestLocationMode
   - azure-storage.export=.common.util.constants.StorageLocation
   - azure-storage.export=.common.util.storageutilities.LocationMode
+  - azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions
   - azure-storage.export=.services.table.TableUtilities.EdmType
   - azure-storage.export=.services.table.TableUtilities.PayloadFormat
   - azure-storage.export=.services.table.TableUtilities.QueryComparisons

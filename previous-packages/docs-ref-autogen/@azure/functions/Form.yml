@@ -28,11 +28,11 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function [iterator](): Iterator<[string, FormPart], any, undefined>'
+      content: 'function [iterator](): Iterator<[string, FormPart], any, any>'
       return:
         description: ''
-        type: Iterator&lt;[string, FormPart], any, undefined&gt;
-    inheritanceDescription: <b>Inherited From</b> Iterable.__@iterator@103
+        type: Iterator&lt;[string, FormPart], any, any&gt;
+    inheritanceDescription: <b>Inherited From</b> Iterable.[iterator]
 methods:
   - name: get(string)
     uid: '@azure/functions.Form.get'
@@ -43,14 +43,14 @@ methods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function get(name: string): null | FormPart'
+      content: 'function get(name: string): FormPart | null'
       parameters:
         - id: name
           type: string
           description: ''
       return:
         description: ''
-        type: null | <xref uid="@azure/functions.FormPart" />
+        type: <xref uid="@azure/functions.FormPart" /> | null
   - name: getAll(string)
     uid: '@azure/functions.Form.getAll'
     package: '@azure/functions'

@@ -80,12 +80,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'siteProvisioningState?: {[propertyName: string]: SiteProvisioningState}'
+      content: 'siteProvisioningState?: {[propertyName: string]: string}'
       return:
         description: ''
-        type: >-
-          {[propertyName: string]: <xref
-          uid="@azure/arm-mobilenetwork.SiteProvisioningState" />}
+        type: '{[propertyName: string]: string}'
   - name: sliceConfigurations
     uid: '@azure/arm-mobilenetwork.SimPolicy.sliceConfigurations'
     package: '@azure/arm-mobilenetwork'

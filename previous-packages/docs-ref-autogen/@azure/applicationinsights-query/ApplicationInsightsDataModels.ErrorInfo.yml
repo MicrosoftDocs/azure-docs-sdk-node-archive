@@ -2,7 +2,7 @@
 name: ErrorInfo
 uid: '@azure/applicationinsights-query.ApplicationInsightsDataModels.ErrorInfo'
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: An interface representing ErrorInfo.
 fullName: ErrorInfo
 remarks: ''
 isDeprecated: false

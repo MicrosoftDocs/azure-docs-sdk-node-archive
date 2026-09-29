@@ -196,7 +196,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function addListener(event: string, listener: Function): FileService'
+      content: 'function addListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -206,9 +206,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.file.FileService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.addListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.addListener)
@@ -258,7 +256,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function on(event: string, listener: Function): FileService'
+      content: 'function on(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -268,9 +266,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.file.FileService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.on](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.on)
@@ -281,7 +277,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function once(event: string, listener: Function): FileService'
+      content: 'function once(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -291,9 +287,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.file.FileService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.once](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.once)
@@ -304,16 +298,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeAllListeners(event?: string): FileService'
+      content: 'function removeAllListeners(event?: string): this'
       parameters:
         - id: event
           type: string
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.file.FileService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeAllListeners](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeAllListeners)
@@ -324,7 +316,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeListener(event: string, listener: Function): FileService'
+      content: 'function removeListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -334,9 +326,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="services.file.FileService" />
+        type: this
     inheritanceDescription: >-
       <b>Inherited From</b>
       [StorageServiceClient.removeListener](xref:azure-storage.export=.common.services.storageserviceclient.StorageServiceClient.removeListener)
@@ -358,7 +348,10 @@ inheritedMethods:
   - name: setProxy(Proxy)
     uid: azure-storage.export=.services.file.FileService.setProxy
     package: azure-storage
-    summary: Sets proxy object specified by caller.
+    summary: |-
+      Sets proxy object specified by caller.
+
+       StorageServiceClient#setProxy
     remarks: ''
     isDeprecated: false
     syntax:
@@ -1000,8 +993,9 @@ methods:
           <xref uid="azure-storage.export" />=.<xref
           uid="common.streams.speedsummary.SpeedSummary" />
   - name: >-
-      createFileFromText(string, string, string, string | Buffer,
-      CreateFileRequestOptions, ErrorOrResult<FileResult>)
+      createFileFromText(string, string, string, string |
+      Buffer<ArrayBufferLike>, CreateFileRequestOptions,
+      ErrorOrResult<FileResult>)
     uid: azure-storage.export=.services.file.FileService.createFileFromText
     package: azure-storage
     summary: Uploads a file from a text string.
@@ -1010,8 +1004,8 @@ methods:
     syntax:
       content: >-
         function createFileFromText(share: string, directory: string, file:
-        string, text: string | Buffer, options?: CreateFileRequestOptions,
-        callback: ErrorOrResult<FileResult>)
+        string, text: string | Buffer<ArrayBufferLike>, options?:
+        CreateFileRequestOptions, callback: ErrorOrResult<FileResult>)
       parameters:
         - id: share
           type: string
@@ -1025,7 +1019,7 @@ methods:
             The file name. File names may not start or end with the delimiter
             '/'.
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: The file text, as a string or in a Buffer.
         - id: options
           type: >-
@@ -1042,8 +1036,8 @@ methods:
                                                                                       if an error occurs; `result` will contain the file information.
                                                                                       `response` will contain information related to this operation.
   - name: >-
-      createFileFromText(string, string, string, string | Buffer,
-      ErrorOrResult<FileResult>)
+      createFileFromText(string, string, string, string |
+      Buffer<ArrayBufferLike>, ErrorOrResult<FileResult>)
     uid: azure-storage.export=.services.file.FileService.createFileFromText_1
     package: azure-storage
     summary: ''
@@ -1052,7 +1046,8 @@ methods:
     syntax:
       content: >-
         function createFileFromText(share: string, directory: string, file:
-        string, text: string | Buffer, callback: ErrorOrResult<FileResult>)
+        string, text: string | Buffer<ArrayBufferLike>, callback:
+        ErrorOrResult<FileResult>)
       parameters:
         - id: share
           type: string
@@ -1064,7 +1059,7 @@ methods:
           type: string
           description: ''
         - id: text
-          type: string | Buffer
+          type: string | Buffer&lt;ArrayBufferLike&gt;
           description: ''
         - id: callback
           type: >-
@@ -3670,7 +3665,7 @@ methods:
                                                                                  if an error occurs; otherwise, `response`
                                                                                  will contain information related to this operation.
   - name: >-
-      setShareAcl(string, {[key: string]: common.AccessPolicy},
+      setShareAcl(string, {[key: string]: AccessPolicy},
       ErrorOrResult<ShareAclResult>)
     uid: azure-storage.export=.services.file.FileService.setShareAcl_1
     package: azure-storage
@@ -3680,7 +3675,7 @@ methods:
     syntax:
       content: >-
         function setShareAcl(share: string, signedIdentifiers: {[key: string]:
-        common.AccessPolicy}, callback: ErrorOrResult<ShareAclResult>)
+        AccessPolicy}, callback: ErrorOrResult<ShareAclResult>)
       parameters:
         - id: share
           type: string
@@ -3697,7 +3692,7 @@ methods:
             uid="services.file.FileService.ShareAclResult" />&gt;
           description: ''
   - name: >-
-      setShareAcl(string, {[key: string]: common.AccessPolicy}, RequestOptions,
+      setShareAcl(string, {[key: string]: AccessPolicy}, RequestOptions,
       ErrorOrResult<ShareAclResult>)
     uid: azure-storage.export=.services.file.FileService.setShareAcl
     package: azure-storage
@@ -3707,7 +3702,7 @@ methods:
     syntax:
       content: >-
         function setShareAcl(share: string, signedIdentifiers: {[key: string]:
-        common.AccessPolicy}, options?: RequestOptions, callback:
+        AccessPolicy}, options?: RequestOptions, callback:
         ErrorOrResult<ShareAclResult>)
       parameters:
         - id: share
@@ -3961,6 +3956,8 @@ methods:
       to end
 
       up the service invocation.
+
+       FileService#withFilter
     remarks: ''
     isDeprecated: false
     syntax:

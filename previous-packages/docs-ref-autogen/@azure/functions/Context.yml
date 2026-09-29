@@ -149,7 +149,7 @@ properties:
         description: ''
         type: <xref uid="@azure/functions.TraceContext" />
 methods:
-  - name: done(null | string | Error, any)
+  - name: done(string | Error | null, any)
     uid: '@azure/functions.Context.done'
     package: '@azure/functions'
     summary: >-
@@ -169,10 +169,10 @@ methods:
       See the docs here for more information:
       https://aka.ms/functions-js-async-await
     syntax:
-      content: 'function done(err?: null | string | Error, result?: any)'
+      content: 'function done(err?: string | Error | null, result?: any)'
       parameters:
         - id: err
-          type: null | string | Error
+          type: string | Error | null
           description: >-
             A user-defined error to pass back to the runtime. If present, your
             function execution will fail.

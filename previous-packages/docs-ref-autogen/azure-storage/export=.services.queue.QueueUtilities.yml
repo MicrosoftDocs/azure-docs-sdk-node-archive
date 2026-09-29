@@ -1,0 +1,10 @@
+### YamlMime:TSPackage
+uid: azure-storage.export=.services.queue.QueueUtilities
+name: QueueUtilities
+summary: |-
+  Defines enums for use with the Queue service.
+   QueueUtilities
+type: module
+enums:
+  - azure-storage.export=.services.queue.QueueUtilities.SharedAccessPermissions
+package: azure-storage

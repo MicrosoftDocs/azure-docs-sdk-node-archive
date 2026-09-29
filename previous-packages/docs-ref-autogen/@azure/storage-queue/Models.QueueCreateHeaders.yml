@@ -2,7 +2,9 @@
 name: QueueCreateHeaders
 uid: '@azure/storage-queue.Models.QueueCreateHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueCreateHeaders.
+  Defines headers for Create operation.
 fullName: QueueCreateHeaders
 remarks: ''
 isDeprecated: false

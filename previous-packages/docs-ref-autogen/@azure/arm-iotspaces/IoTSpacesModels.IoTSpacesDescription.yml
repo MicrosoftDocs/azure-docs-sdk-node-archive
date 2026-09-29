@@ -2,7 +2,9 @@
 name: IoTSpacesDescription
 uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesDescription'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing IoTSpacesDescription.
+  The description of the IoTSpaces service.
 fullName: IoTSpacesDescription
 remarks: ''
 isDeprecated: false

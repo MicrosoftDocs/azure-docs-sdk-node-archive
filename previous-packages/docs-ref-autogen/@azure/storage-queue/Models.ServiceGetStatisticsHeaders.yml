@@ -2,7 +2,9 @@
 name: ServiceGetStatisticsHeaders
 uid: '@azure/storage-queue.Models.ServiceGetStatisticsHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing ServiceGetStatisticsHeaders.
+  Defines headers for GetStatistics operation.
 fullName: ServiceGetStatisticsHeaders
 remarks: ''
 isDeprecated: false

@@ -3,7 +3,9 @@ name: EventsApplicationInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsApplicationInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsApplicationInfo.
+  Application info for an event result
 fullName: EventsApplicationInfo
 remarks: ''
 isDeprecated: false

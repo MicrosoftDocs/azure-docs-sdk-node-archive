@@ -131,10 +131,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'onabort: null | (this: AbortSignalLike, ev: any) => any'
+      content: 'onabort: (this: AbortSignalLike, ev: any) => any | null'
       return:
         description: ''
-        type: 'null | (this: AbortSignalLike, ev: any) =&gt; any'
+        type: '(this: AbortSignalLike, ev: any) =&gt; any | null'
 methods:
   - name: abort()
     uid: '@azure/storage-file.Aborter.abort'
@@ -196,15 +196,15 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function getValue(key: string): undefined | null | string | number |
-        boolean
+        function getValue(key: string): string | number | boolean | null |
+        undefined
       parameters:
         - id: key
           type: string
           description: ''
       return:
         description: ''
-        type: undefined | null | string | number | boolean
+        type: string | number | boolean | null | undefined
   - name: 'removeEventListener("abort", (this: AbortSignalLike, ev: any) => any)'
     uid: '@azure/storage-file.Aborter.removeEventListener'
     package: '@azure/storage-file'
@@ -268,7 +268,7 @@ methods:
       return:
         description: The new Aborter instance created.
         type: <xref uid="@azure/storage-file.Aborter" />
-  - name: withValue(string, null | string | number | boolean)
+  - name: withValue(string, string | number | boolean | null)
     uid: '@azure/storage-file.Aborter.withValue'
     package: '@azure/storage-file'
     summary: >-
@@ -293,14 +293,14 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function withValue(key: string, value?: null | string | number |
-        boolean): Aborter
+        function withValue(key: string, value?: string | number | boolean |
+        null): Aborter
       parameters:
         - id: key
           type: string
           description: ''
         - id: value
-          type: null | string | number | boolean
+          type: string | number | boolean | null
           description: ''
       return:
         description: ''

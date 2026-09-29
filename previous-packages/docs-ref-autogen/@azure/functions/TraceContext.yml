@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'attributes: undefined | null | {[k: string]: string}'
+      content: 'attributes: {[k: string]: string} | null | undefined'
       return:
         description: ''
-        type: 'undefined | null | {[k: string]: string}'
+        type: '{[k: string]: string} | null | undefined'
   - name: traceparent
     uid: '@azure/functions.TraceContext.traceparent'
     package: '@azure/functions'
@@ -30,10 +30,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'traceparent: undefined | null | string'
+      content: 'traceparent: string | null | undefined'
       return:
         description: ''
-        type: undefined | null | string
+        type: string | null | undefined
   - name: tracestate
     uid: '@azure/functions.TraceContext.tracestate'
     package: '@azure/functions'
@@ -42,7 +42,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'tracestate: undefined | null | string'
+      content: 'tracestate: string | null | undefined'
       return:
         description: ''
-        type: undefined | null | string
+        type: string | null | undefined

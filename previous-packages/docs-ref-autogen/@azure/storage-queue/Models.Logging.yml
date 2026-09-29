@@ -2,7 +2,9 @@
 name: Logging
 uid: '@azure/storage-queue.Models.Logging'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing Logging.
+  Azure Analytics Logging settings.
 fullName: Logging
 remarks: ''
 isDeprecated: false

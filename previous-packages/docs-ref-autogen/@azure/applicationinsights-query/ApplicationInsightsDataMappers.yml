@@ -25,21 +25,22 @@ variables:
     isDeprecated: false
     syntax:
       content: >-
-        discriminators: { EventsResultData.availabilityResult:
-        msRest.CompositeMapper, EventsResultData.browserTiming:
-        msRest.CompositeMapper, EventsResultData.customEvent:
-        msRest.CompositeMapper, EventsResultData.customMetric:
-        msRest.CompositeMapper, EventsResultData.dependency:
-        msRest.CompositeMapper, EventsResultData.exception:
-        msRest.CompositeMapper, EventsResultData.pageView:
-        msRest.CompositeMapper, EventsResultData.performanceCounter:
-        msRest.CompositeMapper, EventsResultData.request:
-        msRest.CompositeMapper, EventsResultData.trace: msRest.CompositeMapper,
-        eventsResultData: msRest.CompositeMapper }
+        discriminators: { eventsResultData: msRest.CompositeMapper,
+        EventsResultData.availabilityResult: msRest.CompositeMapper,
+        EventsResultData.browserTiming: msRest.CompositeMapper,
+        EventsResultData.customEvent: msRest.CompositeMapper,
+        EventsResultData.customMetric: msRest.CompositeMapper,
+        EventsResultData.dependency: msRest.CompositeMapper,
+        EventsResultData.exception: msRest.CompositeMapper,
+        EventsResultData.pageView: msRest.CompositeMapper,
+        EventsResultData.performanceCounter: msRest.CompositeMapper,
+        EventsResultData.request: msRest.CompositeMapper,
+        EventsResultData.trace: msRest.CompositeMapper }
       return:
         description: ''
         type: >-
-          { <xref uid="EventsResultData.availabilityResult" />: <xref
+          { eventsResultData: <xref uid="msRest.CompositeMapper" />, <xref
+          uid="EventsResultData.availabilityResult" />: <xref
           uid="msRest.CompositeMapper" />, <xref
           uid="EventsResultData.browserTiming" />: <xref
           uid="msRest.CompositeMapper" />, <xref
@@ -55,8 +56,8 @@ variables:
           uid="EventsResultData.performanceCounter" />: <xref
           uid="msRest.CompositeMapper" />, <xref uid="EventsResultData.request"
           />: <xref uid="msRest.CompositeMapper" />, <xref
-          uid="EventsResultData.trace" />: <xref uid="msRest.CompositeMapper"
-          />, eventsResultData: <xref uid="msRest.CompositeMapper" /> }
+          uid="EventsResultData.trace" />: <xref uid="msRest.CompositeMapper" />
+          }
   - name: ErrorDetail
     uid: >-
       @azure/applicationinsights-query.ApplicationInsightsDataMappers.ErrorDetail

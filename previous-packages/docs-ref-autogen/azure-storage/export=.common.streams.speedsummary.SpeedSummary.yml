@@ -53,7 +53,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function addListener(event: string, listener: Function): SpeedSummary'
+      content: 'function addListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -63,9 +63,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.streams.speedsummary.SpeedSummary" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.addListener
   - name: emit(string, any[])
     uid: azure-storage.export=.common.streams.speedsummary.SpeedSummary.emit
@@ -109,7 +107,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function on(event: string, listener: Function): SpeedSummary'
+      content: 'function on(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -119,9 +117,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.streams.speedsummary.SpeedSummary" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.on
   - name: once(string, Function)
     uid: azure-storage.export=.common.streams.speedsummary.SpeedSummary.once
@@ -130,7 +126,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function once(event: string, listener: Function): SpeedSummary'
+      content: 'function once(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -140,9 +136,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.streams.speedsummary.SpeedSummary" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.once
   - name: removeAllListeners(string)
     uid: >-
@@ -152,16 +146,14 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeAllListeners(event?: string): SpeedSummary'
+      content: 'function removeAllListeners(event?: string): this'
       parameters:
         - id: event
           type: string
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.streams.speedsummary.SpeedSummary" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.removeAllListeners
   - name: removeListener(string, Function)
     uid: >-
@@ -171,7 +163,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function removeListener(event: string, listener: Function): SpeedSummary'
+      content: 'function removeListener(event: string, listener: Function): this'
       parameters:
         - id: event
           type: string
@@ -181,9 +173,7 @@ inheritedMethods:
           description: ''
       return:
         description: ''
-        type: >-
-          <xref uid="azure-storage.export" />=.<xref
-          uid="common.streams.speedsummary.SpeedSummary" />
+        type: this
     inheritanceDescription: <b>Inherited From</b> events.EventEmitter.removeListener
   - name: setMaxListeners(number)
     uid: >-

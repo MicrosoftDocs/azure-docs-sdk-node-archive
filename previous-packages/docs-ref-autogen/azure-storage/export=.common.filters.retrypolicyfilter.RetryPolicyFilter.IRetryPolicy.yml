@@ -23,7 +23,7 @@ properties:
         description: ''
         type: number
 inheritedMethods:
-  - name: handle(RequestOptions, Next)
+  - name: handle(common.RequestOptions, Next)
     uid: >-
       azure-storage.export=.common.filters.retrypolicyfilter.RetryPolicyFilter.IRetryPolicy.handle
     package: azure-storage
@@ -31,7 +31,7 @@ inheritedMethods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function handle(requestOptions: RequestOptions, next: Next)'
+      content: 'function handle(requestOptions: common.RequestOptions, next: Next)'
       parameters:
         - id: requestOptions
           type: >-
@@ -57,7 +57,7 @@ methods:
     syntax:
       content: >-
         function shouldRetry(statusCode: number, retryData:
-        IRetryRequestOptions): { retryInterval: number, retryable: boolean }
+        IRetryRequestOptions): { retryable: boolean, retryInterval: number }
       parameters:
         - id: statusCode
           type: number
@@ -70,5 +70,5 @@ methods:
           description: ''
       return:
         description: ''
-        type: '{ retryInterval: number, retryable: boolean }'
+        type: '{ retryable: boolean, retryInterval: number }'
 extends: <xref uid="azure-storage.export" />=.<xref uid="common.filters.IFilter" />

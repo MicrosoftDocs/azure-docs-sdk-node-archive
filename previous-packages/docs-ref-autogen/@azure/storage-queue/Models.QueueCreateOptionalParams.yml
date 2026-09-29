@@ -2,7 +2,9 @@
 name: QueueCreateOptionalParams
 uid: '@azure/storage-queue.Models.QueueCreateOptionalParams'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing QueueCreateOptionalParams.
+  Optional Parameters.
 fullName: QueueCreateOptionalParams
 remarks: ''
 isDeprecated: false
@@ -61,9 +63,7 @@ inheritedProperties:
   - name: customHeaders
     uid: '@azure/storage-queue.Models.QueueCreateOptionalParams.customHeaders'
     package: '@azure/storage-queue'
-    summary: |-
-      User defined custom request headers that
-      will be applied before the request is sent.
+    summary: ''
     fullName: customHeaders
     remarks: ''
     isDeprecated: false

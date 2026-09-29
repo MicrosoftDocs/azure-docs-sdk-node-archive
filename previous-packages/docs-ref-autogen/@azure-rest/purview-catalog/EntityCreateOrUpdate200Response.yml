@@ -18,7 +18,7 @@ properties:
   - name: body
     uid: '@azure-rest/purview-catalog.EntityCreateOrUpdate200Response.body'
     package: '@azure-rest/purview-catalog'
-    summary: ''
+    summary: Parsed body
     fullName: body
     remarks: ''
     isDeprecated: false
@@ -32,7 +32,7 @@ properties:
   - name: status
     uid: '@azure-rest/purview-catalog.EntityCreateOrUpdate200Response.status'
     package: '@azure-rest/purview-catalog'
-    summary: ''
+    summary: The HTTP status code of the response.
     fullName: status
     remarks: ''
     isDeprecated: false

@@ -62,10 +62,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'method: null | HttpMethod'
+      content: 'method: HttpMethod | null'
       return:
         description: ''
-        type: null | <xref uid="@azure/functions.HttpMethod" />
+        type: <xref uid="@azure/functions.HttpMethod" /> | null
   - name: params
     uid: '@azure/functions.HttpRequest.params'
     package: '@azure/functions'
@@ -131,10 +131,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'user: null | HttpRequestUser'
+      content: 'user: HttpRequestUser | null'
       return:
         description: ''
-        type: null | <xref uid="@azure/functions.HttpRequestUser" />
+        type: <xref uid="@azure/functions.HttpRequestUser" /> | null
 methods:
   - name: get(string)
     uid: '@azure/functions.HttpRequest.get'
@@ -143,14 +143,14 @@ methods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function get(field: string): undefined | string'
+      content: 'function get(field: string): string | undefined'
       parameters:
         - id: field
           type: string
           description: ''
       return:
         description: ''
-        type: undefined | string
+        type: string | undefined
   - name: parseFormBody()
     uid: '@azure/functions.HttpRequest.parseFormBody'
     package: '@azure/functions'

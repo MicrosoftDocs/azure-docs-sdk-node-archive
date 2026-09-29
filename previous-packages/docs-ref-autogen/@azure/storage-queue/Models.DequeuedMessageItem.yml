@@ -2,7 +2,10 @@
 name: DequeuedMessageItem
 uid: '@azure/storage-queue.Models.DequeuedMessageItem'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing DequeuedMessageItem.
+  The object returned in the QueueMessageList array when calling Get Messages
+  on a Queue.
 fullName: DequeuedMessageItem
 remarks: ''
 isDeprecated: false

@@ -2,7 +2,9 @@
 name: MessageIdDeleteHeaders
 uid: '@azure/storage-queue.Models.MessageIdDeleteHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing MessageIdDeleteHeaders.
+  Defines headers for Delete operation.
 fullName: MessageIdDeleteHeaders
 remarks: ''
 isDeprecated: false

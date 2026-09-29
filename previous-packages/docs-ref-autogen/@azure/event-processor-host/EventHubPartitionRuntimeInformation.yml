@@ -12,7 +12,7 @@ properties:
     uid: >-
       @azure/event-processor-host.EventHubPartitionRuntimeInformation.beginningSequenceNumber
     package: '@azure/event-processor-host'
-    summary: The starting sequence number of the partition's message log.
+    summary: ''
     fullName: beginningSequenceNumber
     remarks: ''
     isDeprecated: false
@@ -24,7 +24,7 @@ properties:
   - name: hubPath
     uid: '@azure/event-processor-host.EventHubPartitionRuntimeInformation.hubPath'
     package: '@azure/event-processor-host'
-    summary: The name of the eventhub.
+    summary: ''
     fullName: hubPath
     remarks: ''
     isDeprecated: false
@@ -37,7 +37,7 @@ properties:
     uid: >-
       @azure/event-processor-host.EventHubPartitionRuntimeInformation.lastEnqueuedOffset
     package: '@azure/event-processor-host'
-    summary: The offset of the last enqueued message in the partition's message log.
+    summary: ''
     fullName: lastEnqueuedOffset
     remarks: ''
     isDeprecated: false
@@ -50,9 +50,7 @@ properties:
     uid: >-
       @azure/event-processor-host.EventHubPartitionRuntimeInformation.lastEnqueuedTimeUtc
     package: '@azure/event-processor-host'
-    summary: >-
-      The time of the last enqueued message in the partition's message log in
-      UTC.
+    summary: ''
     fullName: lastEnqueuedTimeUtc
     remarks: ''
     isDeprecated: false
@@ -65,7 +63,7 @@ properties:
     uid: >-
       @azure/event-processor-host.EventHubPartitionRuntimeInformation.lastSequenceNumber
     package: '@azure/event-processor-host'
-    summary: The last sequence number of the partition's message log.
+    summary: ''
     fullName: lastSequenceNumber
     remarks: ''
     isDeprecated: false
@@ -78,7 +76,7 @@ properties:
     uid: >-
       @azure/event-processor-host.EventHubPartitionRuntimeInformation.partitionId
     package: '@azure/event-processor-host'
-    summary: Identifier of the partition within the eventhub.
+    summary: ''
     fullName: partitionId
     remarks: ''
     isDeprecated: false
@@ -90,7 +88,7 @@ properties:
   - name: type
     uid: '@azure/event-processor-host.EventHubPartitionRuntimeInformation.type'
     package: '@azure/event-processor-host'
-    summary: The type of entity.
+    summary: ''
     fullName: type
     remarks: ''
     isDeprecated: false

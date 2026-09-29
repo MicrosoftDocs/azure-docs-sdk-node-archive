@@ -78,7 +78,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'signedIdentifiers: {[key: string]: common.AccessPolicy}'
+      content: 'signedIdentifiers: {[key: string]: AccessPolicy}'
       return:
         description: ''
         type: >-

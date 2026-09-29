@@ -107,12 +107,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'siteProvisioningState?: {[propertyName: string]: SiteProvisioningState}'
+      content: 'siteProvisioningState?: {[propertyName: string]: string}'
       return:
         description: ''
-        type: >-
-          {[propertyName: string]: <xref
-          uid="@azure/arm-mobilenetwork.SiteProvisioningState" />}
+        type: '{[propertyName: string]: string}'
   - name: staticIpConfiguration
     uid: '@azure/arm-mobilenetwork.CommonSimPropertiesFormat.staticIpConfiguration'
     package: '@azure/arm-mobilenetwork'

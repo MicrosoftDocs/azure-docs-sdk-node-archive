@@ -2,7 +2,7 @@
 name: ErrorDetail
 uid: '@azure/loganalytics.LogAnalyticsModels.ErrorDetail'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing ErrorDetail.
 fullName: ErrorDetail
 remarks: ''
 isDeprecated: false

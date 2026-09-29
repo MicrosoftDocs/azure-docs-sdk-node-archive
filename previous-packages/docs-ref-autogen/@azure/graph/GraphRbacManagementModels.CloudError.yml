@@ -2,7 +2,9 @@
 name: CloudError
 uid: '@azure/graph.GraphRbacManagementModels.CloudError'
 package: '@azure/graph'
-summary: ''
+summary: >-
+  Provides additional information about an http error response returned from a
+  Microsoft Azure service.
 fullName: CloudError
 remarks: ''
 isDeprecated: false
@@ -11,7 +13,7 @@ properties:
   - name: additionalInfo
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.additionalInfo'
     package: '@azure/graph'
-    summary: The additional error information
+    summary: ''
     fullName: additionalInfo
     remarks: ''
     isDeprecated: false
@@ -23,7 +25,7 @@ properties:
   - name: code
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.code'
     package: '@azure/graph'
-    summary: The error code parsed from the body of the http error response.
+    summary: ''
     fullName: code
     remarks: ''
     isDeprecated: false
@@ -35,7 +37,7 @@ properties:
   - name: details
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.details'
     package: '@azure/graph'
-    summary: An array of CloudError objects specifying the details.
+    summary: ''
     fullName: details
     remarks: ''
     isDeprecated: false
@@ -47,7 +49,7 @@ properties:
   - name: innerError
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.innerError'
     package: '@azure/graph'
-    summary: The inner error parsed from the body of the http error response
+    summary: ''
     fullName: innerError
     remarks: ''
     isDeprecated: false
@@ -59,7 +61,7 @@ properties:
   - name: message
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.message'
     package: '@azure/graph'
-    summary: The error message parsed from the body of the http error response.
+    summary: ''
     fullName: message
     remarks: ''
     isDeprecated: false
@@ -71,7 +73,7 @@ properties:
   - name: target
     uid: '@azure/graph.GraphRbacManagementModels.CloudError.target'
     package: '@azure/graph'
-    summary: The target of the error.
+    summary: ''
     fullName: target
     remarks: ''
     isDeprecated: false

@@ -28,10 +28,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'error: Error | StorageError'
+      content: 'error: StorageError | Error'
       return:
         description: ''
-        type: Error | <xref uid="azure-storage.export" />=.StorageError
+        type: <xref uid="azure-storage.export" />=.StorageError | Error
   - name: length
     uid: azure-storage.ServiceResult.length
     package: azure-storage

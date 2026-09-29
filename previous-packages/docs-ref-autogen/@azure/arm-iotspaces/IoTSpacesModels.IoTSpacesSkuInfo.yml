@@ -2,7 +2,9 @@
 name: IoTSpacesSkuInfo
 uid: '@azure/arm-iotspaces.IoTSpacesModels.IoTSpacesSkuInfo'
 package: '@azure/arm-iotspaces'
-summary: ''
+summary: |-
+  An interface representing IoTSpacesSkuInfo.
+  Information about the SKU of the IoTSpaces instance.
 fullName: IoTSpacesSkuInfo
 remarks: ''
 isDeprecated: false

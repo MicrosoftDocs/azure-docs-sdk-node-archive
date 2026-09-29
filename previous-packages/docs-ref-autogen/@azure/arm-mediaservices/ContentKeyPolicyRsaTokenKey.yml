@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'exponent: null | Uint8Array'
+      content: 'exponent: Uint8Array | null'
       return:
         description: ''
-        type: null | Uint8Array
+        type: Uint8Array | null
   - name: modulus
     uid: '@azure/arm-mediaservices.ContentKeyPolicyRsaTokenKey.modulus'
     package: '@azure/arm-mediaservices'
@@ -28,10 +28,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'modulus: null | Uint8Array'
+      content: 'modulus: Uint8Array | null'
       return:
         description: ''
-        type: null | Uint8Array
+        type: Uint8Array | null
   - name: odataType
     uid: '@azure/arm-mediaservices.ContentKeyPolicyRsaTokenKey.odataType'
     package: '@azure/arm-mediaservices'

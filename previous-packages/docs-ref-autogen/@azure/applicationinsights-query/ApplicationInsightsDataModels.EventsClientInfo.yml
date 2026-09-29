@@ -3,7 +3,9 @@ name: EventsClientInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsClientInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsClientInfo.
+  Client info for an event result
 fullName: EventsClientInfo
 remarks: ''
 isDeprecated: false

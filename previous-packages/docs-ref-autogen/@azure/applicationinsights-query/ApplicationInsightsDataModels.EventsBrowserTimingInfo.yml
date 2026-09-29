@@ -3,7 +3,9 @@ name: EventsBrowserTimingInfo
 uid: >-
   @azure/applicationinsights-query.ApplicationInsightsDataModels.EventsBrowserTimingInfo
 package: '@azure/applicationinsights-query'
-summary: ''
+summary: |-
+  An interface representing EventsBrowserTimingInfo.
+  The browser timing information
 fullName: EventsBrowserTimingInfo
 remarks: ''
 isDeprecated: false

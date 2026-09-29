@@ -16,6 +16,11 @@ constructors:
     summary: |+
       Creates a new LinearRetryPolicyFilter instance.
 
+      The LinearRetryPolicyFilter allows you to retry operations,
+      using an linear back-off interval between retries.
+      To apply a filter to service operations, use `withFilter`
+      and specify the filter to be used when creating a service.
+
       **Example**
 
       ```ts
@@ -89,7 +94,7 @@ properties:
         description: ''
         type: number
 methods:
-  - name: handle(RequestOptions, Next)
+  - name: handle(common.RequestOptions, Next)
     uid: >-
       azure-storage.export=.common.filters.linearretrypolicyfilter.LinearRetryPolicyFilter.handle
     package: azure-storage
@@ -97,7 +102,7 @@ methods:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function handle(requestOptions: RequestOptions, next: Next)'
+      content: 'function handle(requestOptions: common.RequestOptions, next: Next)'
       parameters:
         - id: requestOptions
           type: >-
@@ -123,7 +128,7 @@ methods:
     syntax:
       content: >-
         function shouldRetry(statusCode: number, retryData:
-        IRetryRequestOptions): { retryInterval: number, retryable: boolean }
+        IRetryRequestOptions): { retryable: boolean, retryInterval: number }
       parameters:
         - id: statusCode
           type: number
@@ -142,4 +147,4 @@ methods:
         description: >-
           Information about whether the operation qualifies for a retry and the
           retryInterval.
-        type: '{ retryInterval: number, retryable: boolean }'
+        type: '{ retryable: boolean, retryInterval: number }'

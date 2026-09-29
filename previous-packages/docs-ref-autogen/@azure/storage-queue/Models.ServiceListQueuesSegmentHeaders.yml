@@ -2,7 +2,9 @@
 name: ServiceListQueuesSegmentHeaders
 uid: '@azure/storage-queue.Models.ServiceListQueuesSegmentHeaders'
 package: '@azure/storage-queue'
-summary: ''
+summary: |-
+  An interface representing ServiceListQueuesSegmentHeaders.
+  Defines headers for ListQueuesSegment operation.
 fullName: ServiceListQueuesSegmentHeaders
 remarks: ''
 isDeprecated: false

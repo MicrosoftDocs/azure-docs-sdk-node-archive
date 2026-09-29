@@ -2,7 +2,7 @@
 name: ErrorResponse
 uid: '@azure/loganalytics.LogAnalyticsModels.ErrorResponse'
 package: '@azure/loganalytics'
-summary: ''
+summary: An interface representing ErrorResponse.
 fullName: ErrorResponse
 remarks: ''
 isDeprecated: false

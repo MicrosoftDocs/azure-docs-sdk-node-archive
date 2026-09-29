@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'direction: undefined | "in" | "out" | "inout"'
+      content: 'direction: "in" | "out" | "inout" | undefined'
       return:
         description: ''
-        type: undefined | "in" | "out" | "inout"
+        type: '"in" | "out" | "inout" | undefined'
   - name: name
     uid: '@azure/functions.BindingDefinition.name'
     package: '@azure/functions'
