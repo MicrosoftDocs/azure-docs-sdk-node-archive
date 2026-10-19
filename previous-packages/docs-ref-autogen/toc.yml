@@ -1,3 +1,510 @@
+- name: '@azure-rest/ai-anomaly-detector'
+  no-loc:
+    - '@azure-rest/ai-anomaly-detector'
+  items:
+    - name: Overview
+      uid: '@azure-rest/ai-anomaly-detector'
+    - uid: '@azure-rest/ai-anomaly-detector.AlignPolicy'
+      name: AlignPolicy
+      no-loc:
+        - AlignPolicy
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AlignPolicyOutput'
+      name: AlignPolicyOutput
+      no-loc:
+        - AlignPolicyOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyDetectionModelOutput'
+      name: AnomalyDetectionModelOutput
+      no-loc:
+        - AnomalyDetectionModelOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyDetectorErrorOutput'
+      name: AnomalyDetectorErrorOutput
+      no-loc:
+        - AnomalyDetectorErrorOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyDetectorRestClient'
+      name: AnomalyDetectorRestClient
+      no-loc:
+        - AnomalyDetectorRestClient
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyDetectorRestClientOptions'
+      name: AnomalyDetectorRestClientOptions
+      no-loc:
+        - AnomalyDetectorRestClientOptions
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyInterpretationOutput'
+      name: AnomalyInterpretationOutput
+      no-loc:
+        - AnomalyInterpretationOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyStateOutput'
+      name: AnomalyStateOutput
+      no-loc:
+        - AnomalyStateOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.AnomalyValueOutput'
+      name: AnomalyValueOutput
+      no-loc:
+        - AnomalyValueOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.CorrelationChangesOutput'
+      name: CorrelationChangesOutput
+      no-loc:
+        - CorrelationChangesOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DeleteMultivariateModel'
+      name: DeleteMultivariateModel
+      no-loc:
+        - DeleteMultivariateModel
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DeleteMultivariateModel204Response'
+      name: DeleteMultivariateModel204Response
+      no-loc:
+        - DeleteMultivariateModel204Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DeleteMultivariateModelDefaultHeaders'
+      name: DeleteMultivariateModelDefaultHeaders
+      no-loc:
+        - DeleteMultivariateModelDefaultHeaders
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DeleteMultivariateModelDefaultResponse'
+      name: DeleteMultivariateModelDefaultResponse
+      no-loc:
+        - DeleteMultivariateModelDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DeleteMultivariateModelParameters'
+      name: DeleteMultivariateModelParameters
+      no-loc:
+        - DeleteMultivariateModelParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomaly'
+      name: DetectMultivariateBatchAnomaly
+      no-loc:
+        - DetectMultivariateBatchAnomaly
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomaly202Headers'
+      name: DetectMultivariateBatchAnomaly202Headers
+      no-loc:
+        - DetectMultivariateBatchAnomaly202Headers
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomaly202Response
+      name: DetectMultivariateBatchAnomaly202Response
+      no-loc:
+        - DetectMultivariateBatchAnomaly202Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomalyBodyParam'
+      name: DetectMultivariateBatchAnomalyBodyParam
+      no-loc:
+        - DetectMultivariateBatchAnomalyBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomalyDefaultHeaders
+      name: DetectMultivariateBatchAnomalyDefaultHeaders
+      no-loc:
+        - DetectMultivariateBatchAnomalyDefaultHeaders
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomalyDefaultResponse
+      name: DetectMultivariateBatchAnomalyDefaultResponse
+      no-loc:
+        - DetectMultivariateBatchAnomalyDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateBatchAnomalyParameters'
+      name: DetectMultivariateBatchAnomalyParameters
+      no-loc:
+        - DetectMultivariateBatchAnomalyParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomaly'
+      name: DetectMultivariateLastAnomaly
+      no-loc:
+        - DetectMultivariateLastAnomaly
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomaly200Response'
+      name: DetectMultivariateLastAnomaly200Response
+      no-loc:
+        - DetectMultivariateLastAnomaly200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomalyBodyParam'
+      name: DetectMultivariateLastAnomalyBodyParam
+      no-loc:
+        - DetectMultivariateLastAnomalyBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomalyDefaultHeaders
+      name: DetectMultivariateLastAnomalyDefaultHeaders
+      no-loc:
+        - DetectMultivariateLastAnomalyDefaultHeaders
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomalyDefaultResponse
+      name: DetectMultivariateLastAnomalyDefaultResponse
+      no-loc:
+        - DetectMultivariateLastAnomalyDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectMultivariateLastAnomalyParameters'
+      name: DetectMultivariateLastAnomalyParameters
+      no-loc:
+        - DetectMultivariateLastAnomalyParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateChangePoint'
+      name: DetectUnivariateChangePoint
+      no-loc:
+        - DetectUnivariateChangePoint
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateChangePoint200Response'
+      name: DetectUnivariateChangePoint200Response
+      no-loc:
+        - DetectUnivariateChangePoint200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateChangePointBodyParam'
+      name: DetectUnivariateChangePointBodyParam
+      no-loc:
+        - DetectUnivariateChangePointBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectUnivariateChangePointDefaultHeaders
+      name: DetectUnivariateChangePointDefaultHeaders
+      no-loc:
+        - DetectUnivariateChangePointDefaultHeaders
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectUnivariateChangePointDefaultResponse
+      name: DetectUnivariateChangePointDefaultResponse
+      no-loc:
+        - DetectUnivariateChangePointDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateChangePointParameters'
+      name: DetectUnivariateChangePointParameters
+      no-loc:
+        - DetectUnivariateChangePointParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeries'
+      name: DetectUnivariateEntireSeries
+      no-loc:
+        - DetectUnivariateEntireSeries
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeries200Response'
+      name: DetectUnivariateEntireSeries200Response
+      no-loc:
+        - DetectUnivariateEntireSeries200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeriesBodyParam'
+      name: DetectUnivariateEntireSeriesBodyParam
+      no-loc:
+        - DetectUnivariateEntireSeriesBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeriesDefaultHeaders
+      name: DetectUnivariateEntireSeriesDefaultHeaders
+      no-loc:
+        - DetectUnivariateEntireSeriesDefaultHeaders
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeriesDefaultResponse
+      name: DetectUnivariateEntireSeriesDefaultResponse
+      no-loc:
+        - DetectUnivariateEntireSeriesDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateEntireSeriesParameters'
+      name: DetectUnivariateEntireSeriesParameters
+      no-loc:
+        - DetectUnivariateEntireSeriesParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPoint'
+      name: DetectUnivariateLastPoint
+      no-loc:
+        - DetectUnivariateLastPoint
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPoint200Response'
+      name: DetectUnivariateLastPoint200Response
+      no-loc:
+        - DetectUnivariateLastPoint200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPointBodyParam'
+      name: DetectUnivariateLastPointBodyParam
+      no-loc:
+        - DetectUnivariateLastPointBodyParam
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPointDefaultHeaders'
+      name: DetectUnivariateLastPointDefaultHeaders
+      no-loc:
+        - DetectUnivariateLastPointDefaultHeaders
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPointDefaultResponse'
+      name: DetectUnivariateLastPointDefaultResponse
+      no-loc:
+        - DetectUnivariateLastPointDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DetectUnivariateLastPointParameters'
+      name: DetectUnivariateLastPointParameters
+      no-loc:
+        - DetectUnivariateLastPointParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DiagnosticsInfo'
+      name: DiagnosticsInfo
+      no-loc:
+        - DiagnosticsInfo
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.DiagnosticsInfoOutput'
+      name: DiagnosticsInfoOutput
+      no-loc:
+        - DiagnosticsInfoOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ErrorResponseOutput'
+      name: ErrorResponseOutput
+      no-loc:
+        - ErrorResponseOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetArrayType'
+      name: GetArrayType
+      no-loc:
+        - GetArrayType
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetMultivariateBatchDetectionResult'
+      name: GetMultivariateBatchDetectionResult
+      no-loc:
+        - GetMultivariateBatchDetectionResult
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.GetMultivariateBatchDetectionResult200Response
+      name: GetMultivariateBatchDetectionResult200Response
+      no-loc:
+        - GetMultivariateBatchDetectionResult200Response
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.GetMultivariateBatchDetectionResultDefaultHeaders
+      name: GetMultivariateBatchDetectionResultDefaultHeaders
+      no-loc:
+        - GetMultivariateBatchDetectionResultDefaultHeaders
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.GetMultivariateBatchDetectionResultDefaultResponse
+      name: GetMultivariateBatchDetectionResultDefaultResponse
+      no-loc:
+        - GetMultivariateBatchDetectionResultDefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.GetMultivariateBatchDetectionResultParameters
+      name: GetMultivariateBatchDetectionResultParameters
+      no-loc:
+        - GetMultivariateBatchDetectionResultParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetMultivariateModel200Response'
+      name: GetMultivariateModel200Response
+      no-loc:
+        - GetMultivariateModel200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetMultivariateModelDefaultHeaders'
+      name: GetMultivariateModelDefaultHeaders
+      no-loc:
+        - GetMultivariateModelDefaultHeaders
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetMultivariateModelDefaultResponse'
+      name: GetMultivariateModelDefaultResponse
+      no-loc:
+        - GetMultivariateModelDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetMultivariateModelParameters'
+      name: GetMultivariateModelParameters
+      no-loc:
+        - GetMultivariateModelParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.GetPage'
+      name: GetPage
+      no-loc:
+        - GetPage
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ListMultivariateModels200Response'
+      name: ListMultivariateModels200Response
+      no-loc:
+        - ListMultivariateModels200Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ListMultivariateModelsDefaultHeaders'
+      name: ListMultivariateModelsDefaultHeaders
+      no-loc:
+        - ListMultivariateModelsDefaultHeaders
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ListMultivariateModelsDefaultResponse'
+      name: ListMultivariateModelsDefaultResponse
+      no-loc:
+        - ListMultivariateModelsDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ListMultivariateModelsParameters'
+      name: ListMultivariateModelsParameters
+      no-loc:
+        - ListMultivariateModelsParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ListMultivariateModelsQueryParam'
+      name: ListMultivariateModelsQueryParam
+      no-loc:
+        - ListMultivariateModelsQueryParam
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.ListMultivariateModelsQueryParamProperties
+      name: ListMultivariateModelsQueryParamProperties
+      no-loc:
+        - ListMultivariateModelsQueryParamProperties
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ModelInfo'
+      name: ModelInfo
+      no-loc:
+        - ModelInfo
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ModelInfoOutput'
+      name: ModelInfoOutput
+      no-loc:
+        - ModelInfoOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ModelListOutput'
+      name: ModelListOutput
+      no-loc:
+        - ModelListOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ModelState'
+      name: ModelState
+      no-loc:
+        - ModelState
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.ModelStateOutput'
+      name: ModelStateOutput
+      no-loc:
+        - ModelStateOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.MultivariateBatchDetectionOptions'
+      name: MultivariateBatchDetectionOptions
+      no-loc:
+        - MultivariateBatchDetectionOptions
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.MultivariateBatchDetectionOptionsOutput'
+      name: MultivariateBatchDetectionOptionsOutput
+      no-loc:
+        - MultivariateBatchDetectionOptionsOutput
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.MultivariateBatchDetectionResultSummaryOutput
+      name: MultivariateBatchDetectionResultSummaryOutput
+      no-loc:
+        - MultivariateBatchDetectionResultSummaryOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.MultivariateDetectionResultOutput'
+      name: MultivariateDetectionResultOutput
+      no-loc:
+        - MultivariateDetectionResultOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.MultivariateLastDetectionOptions'
+      name: MultivariateLastDetectionOptions
+      no-loc:
+        - MultivariateLastDetectionOptions
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.MultivariateLastDetectionResultOutput'
+      name: MultivariateLastDetectionResultOutput
+      no-loc:
+        - MultivariateLastDetectionResultOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.PaginateReturn'
+      name: PaginateReturn
+      no-loc:
+        - PaginateReturn
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.PagingOptions'
+      name: PagingOptions
+      no-loc:
+        - PagingOptions
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.Routes'
+      name: Routes
+      no-loc:
+        - Routes
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TimeSeriesPoint'
+      name: TimeSeriesPoint
+      no-loc:
+        - TimeSeriesPoint
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModel'
+      name: TrainMultivariateModel
+      no-loc:
+        - TrainMultivariateModel
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModel201Headers'
+      name: TrainMultivariateModel201Headers
+      no-loc:
+        - TrainMultivariateModel201Headers
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModel201Response'
+      name: TrainMultivariateModel201Response
+      no-loc:
+        - TrainMultivariateModel201Response
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModelBodyParam'
+      name: TrainMultivariateModelBodyParam
+      no-loc:
+        - TrainMultivariateModelBodyParam
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModelDefaultHeaders'
+      name: TrainMultivariateModelDefaultHeaders
+      no-loc:
+        - TrainMultivariateModelDefaultHeaders
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModelDefaultResponse'
+      name: TrainMultivariateModelDefaultResponse
+      no-loc:
+        - TrainMultivariateModelDefaultResponse
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.TrainMultivariateModelParameters'
+      name: TrainMultivariateModelParameters
+      no-loc:
+        - TrainMultivariateModelParameters
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.UnivariateChangePointDetectionOptions'
+      name: UnivariateChangePointDetectionOptions
+      no-loc:
+        - UnivariateChangePointDetectionOptions
+      items: []
+    - uid: >-
+        @azure-rest/ai-anomaly-detector.UnivariateChangePointDetectionResultOutput
+      name: UnivariateChangePointDetectionResultOutput
+      no-loc:
+        - UnivariateChangePointDetectionResultOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.UnivariateDetectionOptions'
+      name: UnivariateDetectionOptions
+      no-loc:
+        - UnivariateDetectionOptions
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.UnivariateEntireDetectionResultOutput'
+      name: UnivariateEntireDetectionResultOutput
+      no-loc:
+        - UnivariateEntireDetectionResultOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.UnivariateLastDetectionResultOutput'
+      name: UnivariateLastDetectionResultOutput
+      no-loc:
+        - UnivariateLastDetectionResultOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.VariableState'
+      name: VariableState
+      no-loc:
+        - VariableState
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.VariableStateOutput'
+      name: VariableStateOutput
+      no-loc:
+        - VariableStateOutput
+      items: []
+    - uid: '@azure-rest/ai-anomaly-detector.VariableValues'
+      name: VariableValues
+      no-loc:
+        - VariableValues
+      items: []
 - name: '@azure-rest/purview-account'
   no-loc:
     - '@azure-rest/purview-account'

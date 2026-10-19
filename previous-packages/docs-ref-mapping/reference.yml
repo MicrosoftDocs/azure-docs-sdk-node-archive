@@ -64,6 +64,12 @@
       children:
       - '@azure/cognitiveservices-textanalytics'
       landingPageType: Service
+    - name: Management
+      items:
+      - name: Anomaly Detector - RLC (deprecated)
+        href: ~/docs-ref-services/legacy/ai-anomaly-detector-rest-readme.md
+        children:
+        - '@azure-rest/ai-anomaly-detector'
   - name: Communication
     href: ~/docs-ref-services/legacy/communication.md
     landingPageType: Service
