@@ -142,6 +142,16 @@
         href: ~/docs-ref-services/{moniker}/arm-appconfiguration-readme.md
         children:
         - '@azure/arm-appconfiguration'
+  - name: App Network
+    href: ~/docs-ref-services/{moniker}/app-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - App Network
+        href: ~/docs-ref-services/{moniker}/arm-appnetwork-readme.md
+        children:
+        - '@azure/arm-appnetwork'
   - name: App Platform
     href: ~/docs-ref-services/{moniker}/app-platform.md
     landingPageType: Service
@@ -566,7 +576,7 @@
       - '@azure/ai-voicelive'
     - name: Management
       items:
-      - name: Anomaly Detector - RLC
+      - name: Anomaly Detector - RLC (deprecated)
         href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-rest-readme.md
         children:
         - '@azure-rest/ai-anomaly-detector'
@@ -1196,7 +1206,7 @@
         href: ~/docs-ref-services/{moniker}/arm-discovery-readme.md
         children:
         - '@azure/arm-discovery'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1818,6 +1828,10 @@
         href: ~/docs-ref-services/{moniker}/arm-keyvault-profile-2020-09-01-hybrid-readme.md
         children:
         - '@azure/arm-keyvault-profile-2020-09-01-hybrid'
+      - name: Provisioning - Key Vault
+        href: ~/docs-ref-services/{moniker}/provisioning-keyvault-readme.md
+        children:
+        - '@azure/provisioning-keyvault'
       - name: Resource Management - Key Vault (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-keyvault-readme.md
         children:
@@ -2934,6 +2948,16 @@
         href: ~/docs-ref-services/{moniker}/arm-resourcehealth-readme.md
         children:
         - '@azure/arm-resourcehealth'
+  - name: Resource Manager
+    href: ~/docs-ref-services/{moniker}/resource-manager.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Provisioning
+        href: ~/docs-ref-services/{moniker}/provisioning-core-readme.md
+        children:
+        - '@azure/provisioning-core'
   - name: Resource Mover
     href: ~/docs-ref-services/{moniker}/resource-mover.md
     landingPageType: Service
@@ -3425,7 +3449,13 @@
   - name: Template Specs
     href: ~/docs-ref-services/{moniker}/template-specs.md
     landingPageType: Service
-    items: []
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Template Specs
+        href: ~/docs-ref-services/{moniker}/arm-templatespecs-readme.md
+        children:
+        - '@azure/arm-templatespecs'
   - name: Tenant Activity Log Alerts
     href: ~/docs-ref-services/{moniker}/tenant-activity-log-alerts.md
     landingPageType: Service
@@ -3487,6 +3517,10 @@
     landingPageType: Service
     items:
     - name: unknown
+      href: ~/docs-ref-services/{moniker}/ai-content-safety-readme.md
+      children:
+      - '@azure/ai-content-safety'
+    - name: unknown
       href: ~/docs-ref-services/{moniker}/ai-discovery-readme.md
       children:
       - '@azure/ai-discovery'
@@ -3502,6 +3536,20 @@
       href: ~/docs-ref-services/{moniker}/web-pubsub-chat-readme.md
       children:
       - '@azure/web-pubsub-chat'
+    - name: Management
+      items:
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/arm-computeworkloadmanager-readme.md
+        children:
+        - '@azure/arm-computeworkloadmanager'
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/arm-platformvalidation-readme.md
+        children:
+        - '@azure/arm-platformvalidation'
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/arm-secretsstoreextension-readme.md
+        children:
+        - '@azure/arm-secretsstoreextension'
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
