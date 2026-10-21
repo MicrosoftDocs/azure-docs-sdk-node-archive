@@ -60,6 +60,14 @@
       children:
       - '@azure/cognitiveservices-formrecognizer'
       landingPageType: Service
+    - name: Personalizer (deprecated)
+      href: ~/docs-ref-services/legacy/ai-personalizer-rest-readme.md
+      children:
+      - '@azure-rest/ai-personalizer'
+    - name: Personalizer (deprecated)
+      children:
+      - '@azure/cognitiveservices-personalizer'
+      landingPageType: Service
     - name: Text Analytics (deprecated)
       children:
       - '@azure/cognitiveservices-textanalytics'
