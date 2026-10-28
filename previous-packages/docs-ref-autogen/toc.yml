@@ -10044,6 +10044,266 @@
       no-loc:
         - WarUploadedUserSourceInfo
       items: []
+- name: '@azure/arm-arizeaiobservabilityeval'
+  no-loc:
+    - '@azure/arm-arizeaiobservabilityeval'
+  items:
+    - name: Overview
+      uid: '@azure/arm-arizeaiobservabilityeval'
+    - uid: '@azure/arm-arizeaiobservabilityeval.ActionType'
+      name: ActionType
+      no-loc:
+        - ActionType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ContinuablePage'
+      name: ContinuablePage
+      no-loc:
+        - ContinuablePage
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.CreatedByType'
+      name: CreatedByType
+      no-loc:
+        - CreatedByType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      no-loc:
+        - ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ErrorDetail'
+      name: ErrorDetail
+      no-loc:
+        - ErrorDetail
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ErrorResponse'
+      name: ErrorResponse
+      no-loc:
+        - ErrorResponse
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownActionType'
+      name: KnownActionType
+      no-loc:
+        - KnownActionType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownCreatedByType'
+      name: KnownCreatedByType
+      no-loc:
+        - KnownCreatedByType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownManagedServiceIdentityType'
+      name: KnownManagedServiceIdentityType
+      no-loc:
+        - KnownManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownMarketplaceSubscriptionStatus'
+      name: KnownMarketplaceSubscriptionStatus
+      no-loc:
+        - KnownMarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownOrigin'
+      name: KnownOrigin
+      no-loc:
+        - KnownOrigin
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownResourceProvisioningState'
+      name: KnownResourceProvisioningState
+      no-loc:
+        - KnownResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownSingleSignOnStates'
+      name: KnownSingleSignOnStates
+      no-loc:
+        - KnownSingleSignOnStates
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownSingleSignOnType'
+      name: KnownSingleSignOnType
+      no-loc:
+        - KnownSingleSignOnType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.KnownVersions'
+      name: KnownVersions
+      no-loc:
+        - KnownVersions
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ManagedServiceIdentity'
+      name: ManagedServiceIdentity
+      no-loc:
+        - ManagedServiceIdentity
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ManagedServiceIdentityType'
+      name: ManagedServiceIdentityType
+      no-loc:
+        - ManagedServiceIdentityType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.MarketplaceDetails'
+      name: MarketplaceDetails
+      no-loc:
+        - MarketplaceDetails
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.MarketplaceSubscriptionStatus'
+      name: MarketplaceSubscriptionStatus
+      no-loc:
+        - MarketplaceSubscriptionStatus
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ObservabilityEvalClient'
+      name: ObservabilityEvalClient
+      no-loc:
+        - ObservabilityEvalClient
+      items: []
+    - uid: >-
+        @azure/arm-arizeaiobservabilityeval.ObservabilityEvalClientOptionalParams
+      name: ObservabilityEvalClientOptionalParams
+      no-loc:
+        - ObservabilityEvalClientOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OfferDetails'
+      name: OfferDetails
+      no-loc:
+        - OfferDetails
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.Operation'
+      name: Operation
+      no-loc:
+        - Operation
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OperationDisplay'
+      name: OperationDisplay
+      no-loc:
+        - OperationDisplay
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      no-loc:
+        - OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OperationsOperations'
+      name: OperationsOperations
+      no-loc:
+        - OperationsOperations
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationProperties'
+      name: OrganizationProperties
+      no-loc:
+        - OrganizationProperties
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationResource'
+      name: OrganizationResource
+      no-loc:
+        - OrganizationResource
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationResourceUpdate'
+      name: OrganizationResourceUpdate
+      no-loc:
+        - OrganizationResourceUpdate
+      items: []
+    - uid: >-
+        @azure/arm-arizeaiobservabilityeval.OrganizationsCreateOrUpdateOptionalParams
+      name: OrganizationsCreateOrUpdateOptionalParams
+      no-loc:
+        - OrganizationsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationsDeleteOptionalParams'
+      name: OrganizationsDeleteOptionalParams
+      no-loc:
+        - OrganizationsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationsGetOptionalParams'
+      name: OrganizationsGetOptionalParams
+      no-loc:
+        - OrganizationsGetOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-arizeaiobservabilityeval.OrganizationsListByResourceGroupOptionalParams
+      name: OrganizationsListByResourceGroupOptionalParams
+      no-loc:
+        - OrganizationsListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-arizeaiobservabilityeval.OrganizationsListBySubscriptionOptionalParams
+      name: OrganizationsListBySubscriptionOptionalParams
+      no-loc:
+        - OrganizationsListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationsOperations'
+      name: OrganizationsOperations
+      no-loc:
+        - OrganizationsOperations
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.OrganizationsUpdateOptionalParams'
+      name: OrganizationsUpdateOptionalParams
+      no-loc:
+        - OrganizationsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.Origin'
+      name: Origin
+      no-loc:
+        - Origin
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.PagedAsyncIterableIterator'
+      name: PagedAsyncIterableIterator
+      no-loc:
+        - PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.PageSettings'
+      name: PageSettings
+      no-loc:
+        - PageSettings
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.PartnerProperties'
+      name: PartnerProperties
+      no-loc:
+        - PartnerProperties
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.Resource'
+      name: Resource
+      no-loc:
+        - Resource
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.ResourceProvisioningState'
+      name: ResourceProvisioningState
+      no-loc:
+        - ResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.RestorePollerOptions'
+      name: RestorePollerOptions
+      no-loc:
+        - RestorePollerOptions
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.SingleSignOnPropertiesV2'
+      name: SingleSignOnPropertiesV2
+      no-loc:
+        - SingleSignOnPropertiesV2
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.SingleSignOnStates'
+      name: SingleSignOnStates
+      no-loc:
+        - SingleSignOnStates
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.SingleSignOnType'
+      name: SingleSignOnType
+      no-loc:
+        - SingleSignOnType
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.SystemData'
+      name: SystemData
+      no-loc:
+        - SystemData
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.TrackedResource'
+      name: TrackedResource
+      no-loc:
+        - TrackedResource
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      no-loc:
+        - UserAssignedIdentity
+      items: []
+    - uid: '@azure/arm-arizeaiobservabilityeval.UserDetails'
+      name: UserDetails
+      no-loc:
+        - UserDetails
+      items: []
 - name: '@azure/arm-astro'
   no-loc:
     - '@azure/arm-astro'

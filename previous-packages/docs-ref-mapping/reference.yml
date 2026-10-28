@@ -34,6 +34,16 @@
         children:
         - azure-arm-appinsights
         landingPageType: Service
+  - name: Arize AI
+    href: ~/docs-ref-services/legacy/arize-ai.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Arize AI Observability Eval (deprecated)
+        href: ~/docs-ref-services/legacy/arm-arizeaiobservabilityeval-readme.md
+        children:
+        - '@azure/arm-arizeaiobservabilityeval'
   - name: Astro
     href: ~/docs-ref-services/legacy/astro.md
     landingPageType: Service
